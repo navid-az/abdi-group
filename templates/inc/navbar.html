@@ -1,0 +1,128 @@
+{% load static %} {% load i18n %} {% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block more_css %}
+        <link rel="stylesheet" href="{% static 'css/navbar.css' %}" />
+      {% if LANGUAGE_CODE == 'fa' %}
+        <link rel="stylesheet" href="{% static 'css/navbar-fa.css' %}">
+      {% endif %}
+    {% endblock more_css %}
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="navbar">
+      <img
+        onclick="NavListClickHandler()"
+        id="nav-list-cross-btn"
+        src="{% static 'svgs/menu-X.svg' %}"
+        alt="cross"
+      />
+      <ul>
+        <li>
+          <img src="{% static 'svgs/navbar-hexa.svg' %}" alt="navbar hexagon icon" />
+          <a href=" {% url 'capabilities:capabilities' %} ">{% trans "Capabilities" %}</a>
+        </li>
+        <li>
+          <img src="{% static 'svgs/navbar-hexa.svg' %}" alt="navbar hexagon icon" />
+          <p onclick="NavListClickHandler()">{% trans "Products and Services" %}</p>
+        </li>
+        <li>
+          <img src="{% static 'svgs/navbar-hexa.svg' %}" alt="navbar hexagon icon" />
+          <a href="/">{% trans "About Us" %}</a>
+        </li>
+      </ul>
+      <div id="navlist">
+
+        {% if LANGUAGE_CODE == 'fa' %}
+           <img
+          id="desktop-nav-list-hexa"
+          class='desktop-nav-list-hexa-fa'
+          src="{% static 'svgs/desktop-navlist-hexa-fa.svg' %}"
+          alt=""
+        />
+        {% endif %}
+        {% if LANGUAGE_CODE == 'en' %}
+        <img
+          id="desktop-nav-list-hexa"
+          src="{% static 'svgs/desktop-navlist-hexa.svg' %}"
+          alt=""
+        />
+        {% endif %}
+        <ul id="desktop-nav-list-ul">
+          <li class="desktop-nav-list-li">
+            <img
+              src="{% static 'svgs/settings-icon.svg' %}"
+              alt="settings icon"
+            />
+            <h2 onclick="openDesktopNavList(0)">{% trans "Oil and Gas Pipelines" %}</h2>
+          </li>
+          <li class="desktop-nav-list-li">
+            <img
+              src="{% static 'svgs/settings-icon.svg' %}"
+              alt="settings icon"
+            />
+            <h2 onclick="openDesktopNavList(1)">{% trans "Process Units" %}</h2>
+          </li>
+          <li class="desktop-nav-list-li">
+            <img
+              src="{% static 'svgs/settings-icon.svg' %}"
+              alt="settings icon"
+            />
+            <h2 onclick="openDesktopNavList(2)">{% trans "Civil Projects" %}</h2>
+          </li>
+          <li class="desktop-nav-list-li">
+            <img
+              src="{% static 'svgs/settings-icon.svg' %}"
+              alt="settings icon"
+            />
+            <h2 onclick="openDesktopNavList(3)">{% trans "Industrial Technology" %}</h2>
+          </li>
+          <li class="desktop-nav-list-li">
+            <img
+              src="{% static 'svgs/settings-icon.svg' %}"
+              alt="settings icon"
+            />
+            <h2 onclick="openDesktopNavList(4)">{% trans "Management Systems" %}</h2>
+          </li>
+        </ul>
+        <div class="desktop-nav-list-options-wrapper">
+          <div class="desktop-nav-list-options"><a href="{% url 'product-and-services:inline-inspection' %}">{% trans "Inline Inspection" %}</a></div>
+          <div class="desktop-nav-list-options"><a href="{% url 'product-and-services:unpigable-pipelines' %}">{% trans "Unpigable Pipelines" %}</a></div>
+          <div class="desktop-nav-list-options"><a href="{% url 'product-and-services:under-water-inspection' %}">{% trans "Under Water Inspection-ROV" %}</a></div>
+          <div class="desktop-nav-list-options"><a href="{% url 'product-and-services:cleaning-pigs' %}">{% trans "Cleaning Pigs" %}</a></div>
+          <div class="desktop-nav-list-options">Repairing</div>
+          <div class="desktop-nav-list-options">Valve Clinic</div>
+          <div class="desktop-nav-list-options"><a href="{% url 'product-and-services:cathodic-protection' %}">{% trans "Coating and Cathodic Protection" %}</a></div>
+          <div class="desktop-nav-list-options">{% trans "Inspection(Fixed Equipment and Instruments)" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Fitness For Services(FFS) and Fitness For Purpose(FFP)" %}</div>
+          <div class="desktop-nav-list-options">
+            {% trans "Leak Detection" %} <br> <span style='font-size:10px;'>{% trans "(FID, Laser, Mobile/Vehicle , Satellite Images)" %}</span>
+          </div>
+          <div class="desktop-nav-list-options">{% trans "Consultant and Project Management" %}</div>
+        </div>
+        <div class="desktop-nav-list-options-wrapper">
+          <div class="desktop-nav-list-options">{% trans "Remediation of Polluted Soil by oil or industrial waste" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Pipeline Chemical Cleaning" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Special Tools" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Leak Detection by Satellite Images" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Technology Transfer" %}</div>
+        </div>
+        <div class="desktop-nav-list-options-wrapper">
+          <div class="desktop-nav-list-options">{% trans "Pipeline Integrity Management System" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Asset Integrity Management" %}</div>
+          <div class="desktop-nav-list-options">{% trans "Risk Management" %}</div>
+        </div>
+      </div>
+    </div>
+    {% block more_js %}
+    <script src="{% static 'js/navbar.js' %}"></script>
+    {% if LANGUAGE_CODE == 'fa' %}
+            <script src="{% static 'js/navbar-fa.js' %}"></script>
+      {% endif %}
+    {% endblock more_js %}
+  </body>
+</html>

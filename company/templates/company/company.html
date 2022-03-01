@@ -1,0 +1,198 @@
+{% extends 'base.html' %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block more_css %}
+    <link rel="stylesheet" href="{% static 'company/css/company.css' %}" />
+    {% endblock more_css %}
+    <title>{% block title %}Company{% endblock title %}</title>
+  </head>
+  <body>
+    {% block content %}
+    <div class="container">
+      <div class="founder-card">
+        <div class="founder-card-img">
+          <img src="{% static 'images/mahdi-bargah.png' %}" alt="" />
+        </div>
+        <div class="founder-card-title">
+          <img
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
+          />
+          <h3>Mahdi Bargah Soleymani</h3>
+          <p>Managing Director and Chairman of the Board</p>
+        </div>
+        <div class="founder-card-body">
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>MSc. Chemical Eng. Tehran University</p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>6 years experience in oil field operation</p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              More than 15 years experience in oil and gas process , including
+              design, execution, commissioning and project management of oil,
+              gas and petrochemical process.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="founder-card">
+        <div class="founder-card-img">
+          <img src="{% static 'images/mahnaz-azimi.png' %}" alt="" />
+        </div>
+        <div class="founder-card-title">
+          <img
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
+          />
+          <h3>Mahnaz Azimi Khasraghi</h3>
+          <p>Vice president of the Board</p>
+        </div>
+        <div class="founder-card-body">
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              MSc of Industrial Management- Financial Science and Research
+              Branch of AZAD University
+            </p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>Experience: More than 10 years Iranian Private Bank (PARSIAN)</p>
+          </div>
+        </div>
+      </div>
+      <div class="founder-card">
+        <div class="founder-card-img">
+          <img src="{% static 'images/behzad-abdi.png' %}" alt="" />
+        </div>
+        <div class="founder-card-title">
+          <img
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
+          />
+          <h3>Behzad Abdi</h3>
+          <p>Member of the Board</p>
+        </div>
+        <div class="founder-card-body">
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              Master In Structure Engineering Iran University of Science &
+              Technology/TEHRAN
+            </p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              Engineer license Grade Senior (designing& Supervising &
+              Construction) Organization for Engineering Order of Building –
+              Ministry of Roads and City Planning- 1997 – Contd.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="founder-card">
+        <div class="founder-card-img">
+          <img src="{% static 'images/hossein-abdi.png' %}" alt="" />
+        </div>
+        <div class="founder-card-title">
+          <img
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
+          />
+          <h3>Hossein Abdi</h3>
+          <p>Founder and Share holder</p>
+        </div>
+        <div class="founder-card-body">
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              Chemical Eng. Tehran University, Law shiraz University, LLM of oil
+              and Gas Law Tehran University
+            </p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>
+              Engineer license Grade 2 (Supervising) Organization for
+              Engineering Order of Building – Ministry of Roads and City
+              Planning- 2003 – Contd.
+            </p>
+          </div>
+          <div class="card-body-info">
+            <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+            <p>More than 20 years of experience in Gas industry</p>
+          </div>
+        </div>
+      </div>
+      <div class="history">
+        <div class="history-title">
+          <img src="{% static 'svgs/green-history-rec.svg' %}" alt="" />
+          <h2>History</h2>
+        </div>
+        <p>
+          ABDI-GROUP is led by managers with more than 20 years of experience in
+          the oil, gas and construction industry. The managers of construction
+          have more than half a century of experience in the field of
+          construction.
+        </p>
+      </div>
+      <div class="partner-companies">
+        <div class="partners-title">
+          <img src="{% static 'svgs/green-history-rec.svg' %}" alt="" />
+          <h2>Partner Companies</h2>
+        </div>
+        <div>
+          ABDI-GROUP is proud to offer various industrial solutions to solve the
+          problems of Operators of different industries, relying on the power of
+          local knowledge-based companies.
+        </div>
+      </div>
+      <div class="contact-us">
+        <img
+          class="contact-us-hexa"
+          src="{% static 'svgs/contact-us-right-hexa.svg' %}"
+          alt=""
+        />
+        <img
+          class="contact-us-hexa"
+          src="{% static 'svgs/contact-us-left-hexa.svg' %}"
+          alt=""
+        />
+        <div class="contact-us-header">Contact Us</div>
+        <div class="address">
+          <img src="{% static 'svgs/address.svg' %}" alt="" />
+          <div>
+            <h4>Main Office:</h4>
+            <p>
+              Unit 11, No. 30, Kariman Ded end, Kerman St., Majidie Zone,
+              Tehran, Iran
+            </p>
+          </div>
+        </div>
+        <div class="address">
+          <img src="{% static 'svgs/phone.svg' %}" alt="" />
+          <p>021-226 387 34</p>
+        </div>
+        <div class="email">
+          <img src="{% static 'svgs/mail.svg' %}" alt="" />
+          <a href="">info@abdi-group.com</a>
+        </div>
+      </div>
+    </div>
+    {% endblock content %}
+  </body>
+</html>

@@ -1,0 +1,176 @@
+.title,
+.coating-rehabilitation-projects-title,
+.body-paragraph,
+.body-paragraph-text {
+  flex-direction: row-reverse;
+}
+.title-number > img {
+  margin-left: 0;
+  margin-right: -1.2rem;
+}
+.title-number > h3 {
+  left: 0;
+  right: -0.1rem;
+}
+.coating-rehabilitation-projects-title-number > h3 {
+  left: 0;
+  right: -0.3rem;
+}
+.body-paragraph-text > P {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}
+.coating-rehabilitation-projects-title > h3 {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+.coating-rehabilitation-projects-title-number > img {
+  margin-right: -1.4rem;
+}
+.coating-rehabilitation-projects-body {
+  align-self: flex-end;
+}
+.maintenance-repair-body > .body-paragraph img,
+.coating-rehabilitation-projects-body > .body-paragraph img {
+  margin-top: 1.2rem;
+  margin-right: -0.5rem;
+}
+.maintenance-repair-body > .body-paragraph p,
+.coating-rehabilitation-projects-body > .body-paragraph p {
+  margin-right: 1rem;
+  margin-left: 1.3rem;
+}
+#maintenance-repair-img-1 {
+  bottom: -4.5rem;
+  left: 12rem;
+}
+#maintenance-repair-img-2 {
+  bottom: -4.5rem;
+  left: 3.8rem;
+}
+#maintenance-repair-img-3 {
+  bottom: 2.6rem;
+  left: -0.4rem;
+}
+
+/* media  */
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+  .body {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* .title {
+    padding: 0.8rem 0;
+  } */
+  .title-number > img {
+    width: 64px;
+    height: 64px;
+    margin-right: -2rem;
+  }
+  .title-number > h3 {
+    right: auto;
+    left: 1.6rem;
+  }
+  .title > h3 {
+    font-size: 18px;
+  }
+  .title > h3 > span {
+    font-size: 16px !important;
+  }
+  br {
+    display: none;
+  }
+  .maintenance-repair-wrapper {
+    border-radius: 8px 8px 8px 180px;
+  }
+  .maintenance-repair-title {
+    padding: 20px 18px;
+    margin-top: -1.5rem;
+  }
+  .maintenance-repair-title > h3 {
+    font-size: 20px;
+  }
+
+  /* coating rehabilitation projects images FA  */
+  #coating-rehabilitation-projects-img-1 {
+    top: 5rem;
+    right: 0;
+    left: -4.5rem;
+  }
+  #coating-rehabilitation-projects-img-2 {
+    top: 12.2rem;
+    right: 0;
+    left: -0.4rem;
+  }
+  #coating-rehabilitation-projects-img-3 {
+    top: 5rem;
+    right: 0;
+    left: 3.8rem;
+  }
+  #coating-rehabilitation-projects-img-4 {
+    bottom: -4.5rem;
+    left: 0;
+    right: -1rem;
+    display: none !important;
+  }
+  #coating-rehabilitation-projects-img-5 {
+    bottom: -4.5rem;
+    left: 0;
+    left: 7.1rem;
+    display: none !important;
+  }
+}
+@media screen and (min-width: 992px) {
+}
+@media screen and (min-width: 1200px) {
+  .maintenance-repair-wrapper {
+    border-radius: 8px 8px 8px 240px;
+  }
+  /* maintenance repair images  */
+  #maintenance-repair-img-1 {
+    bottom: -5.5rem;
+    right: 0;
+    left: 15.5rem;
+  }
+  #maintenance-repair-img-2 {
+    bottom: -5.5rem;
+    right: 0;
+    left: 4.8rem;
+  }
+  #maintenance-repair-img-3 {
+    bottom: 3.6rem;
+    right: 0;
+    left: -0.4rem;
+  }
+  /* coating rehabilitation projects images  */
+  #coating-rehabilitation-projects-img-1 {
+    top: 6rem;
+    left: -5.6rem;
+  }
+  #coating-rehabilitation-projects-img-2 {
+    top: 15.1rem;
+    left: -0.4rem;
+  }
+  #coating-rehabilitation-projects-img-3 {
+    top: 6rem;
+    left: 4.8rem;
+  }
+  #coating-rehabilitation-projects-img-4 {
+    bottom: -6.5rem;
+    right: -0.5rem;
+    left: auto;
+    display: block !important;
+  }
+  #coating-rehabilitation-projects-img-5 {
+    bottom: -6.5rem;
+    right: 10.1rem;
+    left: auto;
+    display: block !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+}

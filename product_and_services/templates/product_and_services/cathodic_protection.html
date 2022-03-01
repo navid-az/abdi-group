@@ -1,0 +1,394 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %}
+{% block translateFa %}{% url 'product-and-services:cathodic-protection' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'product-and-services:cathodic-protection' %}{% endblock translateEn %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block more_css %}
+    <link
+      rel="stylesheet"
+      href=" {% static 'product_and_services/cathodic-protection/css/cathodic-protection.css' %} "
+    />
+    {% if LANGUAGE_CODE == 'fa' %}
+      <link rel="stylesheet" href="{% static 'product_and_services/cathodic-protection/css/cathodic-protection-fa.css' %}">
+    {% endif %}
+    {% endblock more_css %}
+    <title>
+      {% block 'title' %} {% trans "Coating and Cathodic Protection" %} {% endblock 'title' %}
+    </title>
+  </head>
+  <body>
+    {% block content %} {% include 'inc/hero.html' with img='product_and_services/cathodic-protection/images/cathodic-protection-hero.jpg' %}
+    <div class="mobile-curved-bg">
+      <div class="container">
+        <div class="page-title">
+          <img
+            src="{% static 'svgs/mobile-page-title.svg' %}"
+            alt="page title"
+          />
+          <h4>
+            {% trans "Coating and Cathodic" %} <br> {% trans "Protection" %}
+          </h4>
+        </div>
+        <div class="title">
+          <div class="title-number">
+            <img
+              src="{% static 'product_and_services/cathodic-protection/svg/title-green-hexa.svg' %}"
+              alt="title green hexagon"
+            />
+            <h3>{% trans "1" %}</h3>
+          </div>
+          <h3>{% trans "Design of cathodic protection systems:" %}</h3>
+        </div>
+        <div class="body">
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Design of cathodic protection systems of buried structures (oil, gas, petrochemical and water pipelines, power lines and metal gas supply networks, tanks, valves, etc.) with impressed current methods, sacrificial anodes systems, closed anodes ground beds and cathodic protection hybrid systems and preparation of basic design documents and detail design documents, based on the provisions of valid references and standards." %}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="title">
+          <div class="title-number">
+            <img
+              src="{% static 'product_and_services/cathodic-protection/svg/title-green-hexa.svg' %}"
+              alt="title green hexagon"
+            />
+            <h3>{% trans "2" %}</h3>
+          </div>
+          <h3>
+            {% trans "Supply of cathodic protection items (procurement):" %} 
+          </h3>
+        </div>
+        <div class="body">
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+              {% trans "Supply of all equipment required for cathodic protection systems from reliable internal and external supplier." %}
+              </p>
+            </div>
+            <img
+              class='body-paragraph-img'
+              src="{% static 'product_and_services/cathodic-protection/images/equipment.jpg' %}"
+              alt="cathodic protection equipment"
+            />
+          </div>
+        </div>
+        <div class="title">
+          <div class="title-number">
+            <img
+              src="{% static 'product_and_services/cathodic-protection/svg/title-green-hexa.svg' %}"
+              alt="title green hexagon"
+            />
+            <h3>{% trans "3" %}</h3>
+          </div>
+          <h3>{% trans "Construction of cathodic protection systems:" %}</h3>
+        </div>
+        <div class="body">
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Construction of cathodic protection stations in accordance with  IPS standard drawings and relevant design documents" %}
+              </p>
+            </div>
+            <img
+              class='body-paragraph-img'
+              src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-station.jpg' %}"
+              alt="cathodic protection station"
+            />
+          </div>
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Construction control and monitoring equipment of cathodic  protection systems on pipelines and stations (potential test  points, connection points, corrosion coupons, ...), in accordance  with IPS standard drawings and relevant design documents." %}
+              </p>
+            </div>
+            <img
+              class='body-paragraph-img'
+              src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-station-2.jpg' %}"
+              alt="cathodic protection station 2"
+            />
+          </div>
+        </div>
+        <div class="title">
+          <div class="title-number">
+            <img
+              src="{% static 'product_and_services/cathodic-protection/svg/title-green-hexa.svg' %}"
+              alt="title green hexagon"
+            />
+            <h3>{% trans "1" %}</h3>
+          </div>
+          <h3>{% trans "Inspection of cathodic protection systems equipment" %}</h3>
+        </div>
+        <div class="body">
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Preparation of inspection Test Plan (ITP) for cathodic protection equipment" %}
+              </p>
+            </div>
+          </div>
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/equipment-inspection.jpg' %}"
+            alt="equipment inspection"
+          />
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/equipment-inspection-2.jpg' %}"
+            alt="equipment inspection 2"
+          />
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Inspection of cathodic protection equipment in accordance with inspection procedures (ITP) and relevant standards (sampling, making samples, supervision on tests according to test methods and getting results)" %}
+              </p>
+            </div>
+          </div>
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Preparation of inspection report in accordance with EN 10204 and analysis of results based on the criteria characterized in the relevant standards" %}
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- coating rehabilitation projects -->
+        <div class="coating-rehabilitation-projects-wrapper">
+          <div class="coating-rehabilitation-projects-title">
+            <div class="title-number coating-rehabilitation-projects-title-number">
+              <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="title green hexagon"
+              />
+              <h3>{% trans "2" %}</h3>
+            </div>
+            <h3>{% trans "Inspection and supervision of coating rehabilitation projects:" %}</h3>
+          </div>
+          <div class="coating-rehabilitation-projects-body">
+            <div class="body-paragraph">
+             <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+              />
+              <p>
+                {% trans "Inspection and supervision of the process of coating rehabilitation projects in accordance with the provisions of the contract documents" %}
+              </p>
+             </div>
+            </div>
+            <div class="body-paragraph">
+             <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+              />
+              <p>
+                {% trans "Inspection of coating material, in accordance with the Coating Inspection procedure (ITP) and relevant standards (sampling, making sample, supervision on tests in accordance with test methods and preparation of inspection report in accordance with EN 10204 and analysis of the results)" %}
+              </p>
+             </div>
+            </div>
+            <div class="body-paragraph">
+             <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+              />
+              <p>
+                {% trans "Performing all quality control tests at the site and preparing inspection report" %}
+              </p>
+             </div>
+            </div>
+          </div>
+           <img
+            id="coating-rehabilitation-projects-img-1"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-coating-rehabilitation-projects-img-1.png' %}"
+            alt=""
+          />
+          <img
+            id="coating-rehabilitation-projects-img-2"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-coating-rehabilitation-projects-img-2.png' %}"
+            alt=""
+          />
+          <img
+            id="coating-rehabilitation-projects-img-3"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-coating-rehabilitation-projects-img-3.png' %}"
+            alt=""
+          />
+          <img
+            id="coating-rehabilitation-projects-img-4"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-coating-rehabilitation-projects-img-4.png' %}"
+            alt=""
+          />
+          <img
+            id="coating-rehabilitation-projects-img-5"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-coating-rehabilitation-projects-img-5.png' %}"
+            alt=""
+          />
+        </div>
+        <div class="title">
+          <div class="title-number">
+            <img
+              src="{% static 'product_and_services/cathodic-protection/svg/title-green-hexa.svg' %}"
+              alt="title green hexagon"
+            />
+            <h3>{% trans "3" %}</h3>
+          </div>
+          <h3>
+           {% trans "Inspection and supervision of construction projects of cathodic protection systems" %}
+          </h3>
+        </div>
+        <div class="body">
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Inspection and supervision of the construction of cathodic protection stations and equipment for control and monitoring of cathodic protection systems on pipelines and stations in accordance with IPS standard drawings and relevant design documents." %}
+              </p>
+            </div>
+          </div>
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-system.jpg' %}"
+            alt="equipment inspection"
+          />
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-system-2.jpg' %}"
+            alt="equipment inspection 2"
+          />
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Analyzing the results of pipe to soil potential readings and cathodic protection stations data" %}
+              </p>
+            </div>
+          </div>
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>
+                {% trans "Inspection of factory coatings and under construction weld coatings of pipelines and stations and preparing inspection report" %}
+              </p>
+            </div>
+          </div>
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>{% trans "Inspection of painting of above ground piping" %}</p>
+            </div>
+          </div>
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-system-3.jpg' %}"
+            alt="equipment inspection 2"
+          />
+          <img
+            class='body-paragraph-img'
+            src="{% static 'product_and_services/cathodic-protection/images/cathodic-protection-system-4.jpg' %}"
+            alt="equipment inspection 2"
+          />
+          <div class="body-paragraph">
+            <div class="body-paragraph-text">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon"/>
+              <p>{% trans "inspecting of corrosion defects reported by ILI and preparing inspection report (pit gauge and 3D scan)" %}</p>
+            </div>
+          </div>
+        </div>
+        <!-- maintenance repair card -->
+        <div class="maintenance-repair-wrapper">
+          <div class="maintenance-repair-title">
+            <h3>
+              {% trans "Operation, maintenance and repair of cathodic protection systems" %}
+            </h3>
+          </div>
+          <div class="maintenance-repair-body">
+            <div class="body-paragraph">
+              <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+                />
+                <p>
+                  {% trans "Measurement and adjustment of drain point potential, voltage and current of transformer rectifiers" %}
+                </p>
+              </div>
+            </div>
+            <div class="body-paragraph">
+              <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+                />
+                <p>
+                  {% trans "Measurement of pipe to soil potential of pipelines and piping" %}
+                </p>
+              </div>
+            </div>
+            <div class="body-paragraph">
+              <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+                />
+                <p>
+                  {% trans "Repair and Maintenance of cathodic protection systems( cathodic protection systems and control and monitoring of cathodic protection systems on pipelines and stations)" %}
+                </p>
+              </div>
+            </div>
+            <div class="body-paragraph">
+              <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+                />
+                <p>
+                  {% trans "Supplying all parts of transformer rectifiers and repairing." %}
+                </p>
+              </div>
+            </div>
+            <div class="body-paragraph">
+              <div class="body-paragraph-text">
+                <img
+                src="{% static 'svgs/s-hexa-border.svg' %}"
+                alt="3hexaIcon"
+                />
+                <p>{% trans "Rehabilitate of Anode ground beds" %}</p>
+              </div>
+            </div>
+          </div>
+        <!-- maintenance repair hexagon images --> 
+          <img
+            id="maintenance-repair-img-1"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-operation-1.png' %}"
+            alt=""
+          />
+          <img
+            id="maintenance-repair-img-2"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-operation-2.png' %}"
+            alt=""
+          />
+          <img
+            id="maintenance-repair-img-3"
+            src="{% static 'product_and_services/cathodic-protection/images/hexa-operation-3.png' %}"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    {% endblock content %}
+  </body>
+</html>

@@ -1,0 +1,16 @@
+#navbar > ul {
+  flex-direction: row-reverse;
+}
+#navlist {
+  flex-direction: row-reverse;
+}
+.desktop-nav-list-li > h2 {
+  text-align: start;
+  font-size: 20px;
+}
+.desktop-nav-list-li > h2:hover {
+  transform: translateX(-3%) !important;
+}
+.desktop-nav-list-options > a {
+  font-size: 14px;
+}

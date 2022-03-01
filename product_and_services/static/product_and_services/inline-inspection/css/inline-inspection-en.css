@@ -1,0 +1,29 @@
+.pig-info {
+  flex-direction: row-reverse;
+}
+
+.inline-inspect-intro > ul > li > img {
+  padding-right: 0;
+  padding-left: 0.5rem;
+}
+
+.card-body > p {
+  direction: ltr !important;
+}
+
+.ut-advantages-title,
+.ut-disadvantages-title {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  direction: ltr;
+}
+.ut-advantages-disadvantages-wrapper,
+.ut-advantages-body-option,
+.ut-disadvantages-body-option {
+  flex-direction: row-reverse;
+}
+.ut-advantages-title > h3,
+.ut-disadvantages-title > h3 {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,525 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %}
+{% block translateFa %}{% url 'product-and-services:inline-inspection' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'product-and-services:inline-inspection' %}{% endblock translateEn %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block more_css %}
+      <link
+        rel="stylesheet"
+        href=" {% static 'product_and_services/inline-inspection/css/inline-inspection.css' %} "
+        
+        />
+        {% if LANGUAGE_CODE == 'fa' %}
+          <link rel="stylesheet" href="{% static 'product_and_services/inline-inspection/css/inline-inspection-en.css' %}">
+        {% endif %}
+    {% endblock more_css %}
+    <title>{% block title %} Inline Inspection {% endblock title %}</title>
+  </head>
+  <body>
+    {% block content %} {% include 'inc/hero.html' with img='product_and_services/inline-inspection/images/inline-inspection-hero.jpg' %}
+    <div class="mobile-curved-bg">
+      <div class="container">
+        <div class="page-title">
+          <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+          <h4> {% trans "Inline Inspection" %} </h4>
+        </div>
+        <div class="inline-inspect-intro">
+          <p>
+            {% trans "There are various methods to identify defects in oil and gas pipelines. Pipeline operators choose a method or a combination of the according to the several parameters included:" %}
+          </p>
+          <ul>
+            <li>
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              {% trans "capabilities of these methods" %}
+            </li>
+            <li>
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              {% trans "pipeline conditions" %}
+            </li>
+            <li>
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              {% trans "costs" %}
+            </li>
+          </ul>
+          {% if LANGUAGE_CODE == 'fa' %}
+          <p>یک روش یا ترکیبی از آنها را انتخاب می کنند.</p>
+          <br>
+          {% endif %}
+          <p>
+           {% trans "According to the experiences of large pipeline operators, various criteria for selecting these methods can be enumerated. Each smart pig has the ability to detect a wide range of defects." %}
+          </p>
+          <br /><br />
+          <p>{% trans "Types of smart pigs are:" %}</p>
+        </div>
+        <div class="pig-wrapper">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h3>{% trans "EGP (Electronic Geometry Pig)" %}</h3>
+          </div>
+          <div class="pig-info">
+            <p>
+              {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
+            </p>
+            <img
+              src="{% static 'product_and_services/inline-inspection/images/egp-pig.png' %}"
+              alt="egp pig"
+            />
+          </div>
+        </div>
+        <div class="pig-wrapper">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h3>{% trans "MFL (Magnetic Flux Leakage)" %}</h3>
+          </div>
+          <div class="pig-info">
+              <p>{% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}  </p>
+            <img
+              src="{% static 'product_and_services/inline-inspection/images/mfl-pig.png' %}"
+              alt="mfl pig"
+            />
+            <p>
+              {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %} <br /><br /> {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
+            </p>
+
+            <div class="magnetization-card">
+              <div class="card-title">
+                <svg
+                  width="13"
+                  height="31"
+                  viewBox="0 0 13 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
+                    fill="#2fa3ee"
+                  />
+                </svg>
+                <h3>{% trans "Axial magnetization" %}</h3>
+              </div>
+              <div class="card-body">
+                <img
+                  src="{% static 'product_and_services/inline-inspection/images/axial.png' %}"
+                  alt="axial magnetization"
+                />
+                <p>
+                  {% trans "MFL are intended to detect, locate and size general corrosion, pitting corrosion, circumferential cracks, grith weld anomalies, pipeline construction features, other anomalies of circumferential orientation." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pig-wrapper">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h3>{% trans "TFI (Transverse Field Inspection)" %}</h3>
+          </div>
+          <div class="pig-info">
+            <p>
+              {% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}
+            </p>
+            <img
+              src="{% static 'product_and_services/inline-inspection/images/tfi-pig.png' %}"
+              alt="tfi pig"
+            />
+            <div class="magnetization-card">
+              <div class="card-title">
+                <svg
+                  width="13"
+                  height="31"
+                  viewBox="0 0 13 31"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
+                    fill="#2fa3ee"
+                  />
+                </svg>
+                <h3>{% trans "Transverse magnetization" %}</h3>
+              </div>
+              <div class="card-body">
+                <img
+                  src="{% static 'product_and_services/inline-inspection/images/transverse.png' %}"
+                  alt="card title icon"
+                />
+                <p>
+                  {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="flux"
+          src="{% static 'product_and_services/inline-inspection/images/flux-mobile.jpg' %}"
+          alt=""
+        />
+      </div>
+      <div class="mfl-tfi-comparison">
+        <img
+          class="curved-req"
+          src="{% static 'product_and_services/inline-inspection/images/curved-req.png' %}"
+          alt=""
+        />
+
+        <div class="blue-fade-layer"></div>
+        <div class="container">
+          <div class="mfl-tfi-comparison-images">
+            <div>
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>MFL</p>
+              <img
+                src="{% static 'product_and_services/inline-inspection/images/blue-rectangle.png' %}"
+                alt=""
+              />
+            </div>
+            <div>
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <p>TFI</p>
+              <img
+                src="{% static 'product_and_services/inline-inspection/images/blue-rectangle2.png' %}"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <img
+          class="curved-req"
+          src="{% static 'product_and_services/inline-inspection/images/curved-req.png' %}"
+          alt=""
+        />
+      </div>
+      <div class="container">
+        <div class="chart-wrapper">
+          <p>
+            {% trans "According to a 10-year study of smart pigging reports by Russian Gazprom, only 1% of the defects are cracks that MFL pigs are not able to detect, but in terms of the high risk of these defects (the effect of pipe stress on rupture), operating companies also put TFI pigs on their scope of work In addition, driving the TFI pig with MFL creates a more accurate combination report. On the other hand, the increase in the cost of adding a TFI pig compared to the whole project is acceptable and justifiable." %}
+          </p>
+          <img
+            class="defect-chart-img"
+            src="{% static 'product_and_services/inline-inspection/images/chart.png' %}"
+            alt="defect chart"
+          />
+          <section class="chart-options-wrapper">
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#6C9DD5"
+                  />
+                </svg>
+                <p>{% trans "General corrosion" %}</p>
+              </div>
+              <h3>{% trans "53%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#DA756E"
+                  />
+                </svg>
+                <p>{% trans "Grooves" %}</p>
+              </div>
+
+              <h3>{% trans "31%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#AF9BCA"
+                  />
+                </svg>
+                <p>{% trans "Girth weld anomalies" %}</p>
+              </div>
+              <h3>{% trans "6%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#C5DF92"
+                  />
+                </svg>
+                <p>{% trans "Pitting" %}</p>
+              </div>
+              <h3>{% trans "6%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#BED6FB"
+                  />
+                </svg>
+                <p>{% trans "SCC and Cracks" %}</p>
+              </div>
+              <h3>{% trans "1%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#9ADEF6"
+                  />
+                </svg>
+                <p>{% trans "Mill defects" %}</p>
+              </div>
+              <h3>{% trans "2%" %}</h3>
+            </div>
+            <div class="chart-options">
+              <div class="chart-options-title">
+                <svg
+                  width="10"
+                  height="11"
+                  viewBox="0 0 10 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    class="chart-s-hexa"
+                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
+                    fill="#F5BC88"
+                  />
+                </svg>
+                <p>{% trans "Dents" %}</p>
+              </div>
+              <h3>{% trans "1%" %}</h3>
+            </div>
+          </section>
+        </div>
+      </div>
+      <div class="container">
+        <div class="pig-wrapper">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h3>{% trans "UT (U ltrasonic tool)" %}</h3>
+          </div>
+          <div class="pig-info">
+            <p>
+              {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
+            </p>
+            <img
+              src="{% static 'product_and_services/inline-inspection/images/ut-pig.png' %}"
+              alt="ut pig"
+            />
+          </div>
+        </div>
+        <div class="ut-advantages-disadvantages-wrapper">
+          <div class="ut-advantages-wrapper">
+            <div class="ut-advantages-title">
+              <!--plus icon-->
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0.57735C12.6188 0.220084 13.3812 0.220085 14 0.57735L23.2583 5.92265C23.8771 6.27992 24.2583 6.94017 24.2583 7.6547V18.3453C24.2583 19.0598 23.8771 19.7201 23.2583 20.0774L14 25.4226C13.3812 25.7799 12.6188 25.7799 12 25.4226L2.74167 20.0774C2.12287 19.7201 1.74167 19.0598 1.74167 18.3453V7.6547C1.74167 6.94017 2.12287 6.27992 2.74167 5.92265L12 0.57735Z"
+                  fill="#89C958"
+                />
+                <path
+                  d="M13 8.9165V17.0832"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M8.91699 13H17.0837"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <h3>{% trans "Advantages" %}</h3>
+            </div>
+            <div class="ut-advantages-body">
+              <div class="ut-advantages-body-option">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="13" cy="13" r="3" fill="#89C958" />
+                </svg>
+                <p>{% trans "Accurate and reliable measurement of pipe wall thickness" %}</p>
+              </div>
+              <div class="ut-advantages-body-option">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="13" cy="13" r="3" fill="#89C958" />
+                </svg>
+                <p>{% trans "No restrictions on measuring high thicknesses" %}</p>
+              </div>
+              <div class="ut-advantages-body-option">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="13" cy="13" r="3" fill="#89C958" />
+                </svg>
+                <p>{% trans "MFL is more sensitive in detecting high number of defects" %}</p>
+              </div>
+              <div class="ut-advantages-body-option">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="13" cy="13" r="3" fill="#89C958" />
+                </svg>
+                <p>{% trans "Lamination detection" %}</p>
+              </div>
+            </div>
+          </div>
+          <div class="ut-disadvantages-wrapper">
+            <div class="ut-disadvantages-title">
+              <svg
+                width="26"
+                height="26"
+                viewBox="0 0 26 26"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 0.57735C12.6188 0.220084 13.3812 0.220085 14 0.57735L23.2583 5.92265C23.8771 6.27992 24.2583 6.94017 24.2583 7.6547V18.3453C24.2583 19.0598 23.8771 19.7201 23.2583 20.0774L14 25.4226C13.3812 25.7799 12.6188 25.7799 12 25.4226L2.74167 20.0774C2.12287 19.7201 1.74167 19.0598 1.74167 18.3453V7.6547C1.74167 6.94017 2.12287 6.27992 2.74167 5.92265L12 0.57735Z"
+                  fill="#CF5048"
+                />
+                <path
+                  d="M8.91699 13H17.0837"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+
+              <h3>{% trans "Disadvantages" %}</h3>
+            </div>
+            <div class="ut-disadvantages-body">
+              <div class="ut-disadvantages-body-option">
+                <svg
+                  width="26"
+                  height="26"
+                  viewBox="0 0 26 26"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle cx="13" cy="13" r="3" fill="#CF5048" />
+                </svg>
+                <p>
+                  {% trans "Due to the need for liquid fluid to transmit and receive sound waves, this pig has only the ability to inspect the lines carrying liquid fluid and can not be used in gas transmission lines." %}
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pig-wrapper">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h3>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h3>
+          </div>
+          <div class="pig-info">
+            <p>
+              {% trans "Whenever a conductive material conducting electricity is near the surface of a metal, and is placed in a magnetic field, electromagnetic force enters the metal surface according to Laurentz's law. This induced force on the metal, depending on the direction of the magnetic field as well as the electric current of the wire, can cause shear, longitudinal or surface waves in the metal. This method eliminates the need for an intermediate material to create an ultrasonic wave, and lines containing gas can also be inspected by this method." %}
+            </p>
+            <img
+              src="{% static 'product_and_services/inline-inspection/images/emat.png' %}"
+              alt="emat"
+            />
+            <p>
+              {% trans "In this method, the coil and the permanent magnet are located near the metal surface. forced by radio waves (RF) and produce eddy currents. These waves are in constant magnetic contact." %}
+              <br /><br />
+              {% trans "They cause mechanical strain, so they emit sound waves in the pipe." %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endblock content %}
+  </body>
+</html>

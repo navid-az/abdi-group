@@ -1,0 +1,640 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-01 21:02+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\templates\product_and_services\cathodic_protection.html:20
+msgid "Coating and Cathodic Protection"
+msgstr "پوشش و حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:33
+msgid "Coating and Cathodic"
+msgstr "پوشش و حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:33
+msgid "Protection"
+msgstr "."
+
+#: .\templates\product_and_services\cathodic_protection.html:42
+#: .\templates\product_and_services\cathodic_protection.html:127
+msgid "1"
+msgstr "۱"
+
+#: .\templates\product_and_services\cathodic_protection.html:44
+msgid "Design of cathodic protection systems:"
+msgstr "طراحی سیستم های حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:51
+msgid ""
+"Design of cathodic protection systems of buried structures (oil, gas, "
+"petrochemical and water pipelines, power lines and metal gas supply "
+"networks, tanks, valves, etc.) with impressed current methods, sacrificial "
+"anodes systems, closed anodes ground beds and cathodic protection hybrid "
+"systems and preparation of basic design documents and detail design "
+"documents, based on the provisions of valid references and standards."
+msgstr ""
+"طراحی سیستم های حفاظت کاتدی سازه های مدفون( خطوط لوله در صنایع نفت، گاز، "
+"پتروشیمی و آب، خطوط تغذیه و شبکه های فلزی گاز رسانی، مخازن، شیرآلات و ...) "
+"با روشهای جریان اعمالی، سیستم های فدا شونده، بسترهای آندی نزدیک و سیستم های "
+"تلفیقی( هیبریدی) و تهیه مدارک طراحی اولیه(Basic Design Documents) و مدارک "
+"طراحی نهایی(Detail Design Documents)، بر اساس مفاد مندرج در مراجع و "
+"استاندارد های معتبر"
+
+#: .\templates\product_and_services\cathodic_protection.html:62
+#: .\templates\product_and_services\cathodic_protection.html:176
+msgid "2"
+msgstr "۲"
+
+#: .\templates\product_and_services\cathodic_protection.html:65
+#, fuzzy
+#| msgid "Supply of cathodic protection items"
+msgid "Supply of cathodic protection items (procurement):"
+msgstr "تامین و تهیه اقلام حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:73
+msgid ""
+"Supply of all equipment required for cathodic protection systems from "
+"reliable internal and external supplier."
+msgstr ""
+"تامین اقلام و تجهیزات مورد نیاز سیستم های حفاظت کاتدی از منابع معتبر داخلی و "
+"خارجی"
+
+#: .\templates\product_and_services\cathodic_protection.html:89
+#: .\templates\product_and_services\cathodic_protection.html:247
+msgid "3"
+msgstr "۳"
+
+#: .\templates\product_and_services\cathodic_protection.html:91
+msgid "Construction of cathodic protection systems:"
+msgstr "اجرا و احداث سیستم های حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:98
+msgid ""
+"Construction of cathodic protection stations in accordance with  IPS "
+"standard drawings and relevant design documents"
+msgstr ""
+"احداث ایستگاه های حفاظت کاتدی مطابق نقشه های استاندارد IPS و مدارک طراحی "
+"مربوطه"
+
+#: .\templates\product_and_services\cathodic_protection.html:111
+msgid ""
+"Construction control and monitoring equipment of cathodic  protection "
+"systems on pipelines and stations (potential test  points, connection "
+"points, corrosion coupons, ...), in accordance  with IPS standard drawings "
+"and relevant design documents."
+msgstr ""
+"اجرای تجهیزات کنترل و پایش سیستم های حفاظت کاتدی در خطوط لوله و "
+"تاسیسات( نقاط اندازه گیری پتانسیل، نقاط اتصال، کوپن های اندازه گیری، ...) ، "
+"مطابق نقشه های استاندارد IPS و مدارک طراحی مربوطه"
+
+#: .\templates\product_and_services\cathodic_protection.html:129
+msgid "Inspection of cathodic protection systems equipment"
+msgstr "بازرسی از اقلام و تجهیزات سیستم های حفاظت کاتدی:"
+
+#: .\templates\product_and_services\cathodic_protection.html:136
+msgid ""
+"Preparation of inspection Test Plan (ITP) for cathodic protection equipment"
+msgstr "تهیه دستورالعمل های بازرسی( ITP ) اقلام حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:154
+msgid ""
+"Inspection of cathodic protection equipment in accordance with inspection "
+"procedures (ITP) and relevant standards (sampling, making samples, "
+"supervision on tests according to test methods and getting results)"
+msgstr ""
+"انجام بازرسی از اقلام حفاظت کاتدی، مطابق دستورالعمل های بازرسی( ITP ) و "
+"استاندارد های مربوطه( نمونه گیری، نمونه سازی، نظارت بر انجام آزمایشات مطابق "
+"روش ها و اخذ نتایج حاصله)"
+
+#: .\templates\product_and_services\cathodic_protection.html:162
+msgid ""
+"Preparation of inspection report in accordance with EN 10204 and analysis of "
+"results based on the criteria characterized in the relevant standards"
+msgstr ""
+"تهیه گزارش بازرسی مطابق EN 10204 و تحلیل نتایج حاصله در تطابق با معیار های "
+"مندرج در استاندارد های مربوطه"
+
+#: .\templates\product_and_services\cathodic_protection.html:178
+msgid "Inspection and supervision of coating rehabilitation projects:"
+msgstr "بازرسی و نظارت بر پروژه های احداث سیستم های حفاظت کاتدی:"
+
+#: .\templates\product_and_services\cathodic_protection.html:188
+msgid ""
+"Inspection and supervision of the process of coating rehabilitation projects "
+"in accordance with the provisions of the contract documents"
+msgstr "بازرسی و نظارت بر فرآیند تعویض پوشش مطابق مفاد مندرج در شرح پیمان"
+
+#: .\templates\product_and_services\cathodic_protection.html:199
+msgid ""
+"Inspection of coating material, in accordance with the Coating Inspection "
+"procedure (ITP) and relevant standards (sampling, making sample, supervision "
+"on tests in accordance with test methods and preparation of inspection "
+"report in accordance with EN 10204 and analysis of the results)"
+msgstr ""
+"انجام بازرسی از اقلام پوششی، مطابق دستورالعمل های بازرسی پوشش( ITP ) و "
+"استاندارد های مربوطه( نمونه گیری، نمونه سازی، نظارت بر انجام آزمایشات مطابق "
+"روش ها و تهیه گزارش بازرسی مطابق EN 10204 و تحلیل نتایج حاصله) "
+
+#: .\templates\product_and_services\cathodic_protection.html:210
+msgid ""
+"Performing all quality control tests at the site and preparing inspection "
+"report"
+msgstr "انجام کلیه آزمایشات کنترل کیفی در محل سایت و تهیه گزارش بازرسی "
+
+#: .\templates\product_and_services\cathodic_protection.html:250
+msgid ""
+"Inspection and supervision of construction projects of cathodic protection "
+"systems"
+msgstr "بازرسی و نظارت بر پروژه های احداث سیستم های حفاظت کاتدی:"
+
+#: .\templates\product_and_services\cathodic_protection.html:258
+msgid ""
+"Inspection and supervision of the construction of cathodic protection "
+"stations and equipment for control and monitoring of cathodic protection "
+"systems on pipelines and stations in accordance with IPS standard drawings "
+"and relevant design documents."
+msgstr ""
+"بازرسی و نظارت بر عملیات احداث ایستگاه های حفاظت کاتدی و تجهیزات کنترل و "
+"پایش سیستم های حفاظت کاتدی در خطوط لوله و تاسیسات مطابق نقشه های استاندارد "
+"IPS و مدارک طراحی مربوطه"
+
+#: .\templates\product_and_services\cathodic_protection.html:276
+msgid ""
+"Analyzing the results of pipe to soil potential readings and cathodic "
+"protection stations data"
+msgstr ""
+"تحلیل و بررسی نتایج ارقام پتانسیل لوله نسبت به خاک و ارقام ایستگاههای حفاظت "
+"کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:284
+msgid ""
+"Inspection of factory coatings and under construction weld coatings of "
+"pipelines and stations and preparing inspection report"
+msgstr ""
+"بازرسی پوشش کارخانه ای و پوشش سرجوش های خطوط لوله و تاسیسات در حال احداث و "
+"تهیه گزارش"
+
+#: .\templates\product_and_services\cathodic_protection.html:291
+msgid "Inspection of painting of above ground piping"
+msgstr "- بازرسی از رنگ آمیزی لوله های رو زمینی"
+
+#: .\templates\product_and_services\cathodic_protection.html:307
+msgid ""
+"inspecting of corrosion defects reported by ILI and preparing inspection "
+"report (pit gauge and 3D scan)"
+msgstr "بازرسی از نقاط خوردگی حاصل از نتایج پیگرانی هوشمند و ارائه گزارش"
+
+#: .\templates\product_and_services\cathodic_protection.html:315
+msgid "Operation, maintenance and repair of cathodic protection systems"
+msgstr "بهره برداری و نگهداری و تعمیرات سیستم های حفاظت کاتدی"
+
+#: .\templates\product_and_services\cathodic_protection.html:326
+msgid ""
+"Measurement and adjustment of drain point potential, voltage and current of "
+"transformer rectifiers"
+msgstr ""
+"اندازه گیری و تنظیم پتانسیل نقطه تزریق، ولتاژ و جریان ترانس های رکتیفایر "
+
+#: .\templates\product_and_services\cathodic_protection.html:337
+msgid "Measurement of pipe to soil potential of pipelines and piping"
+msgstr "اندازه گیری پتانسیل لوله نسبت به خاک در خطوط لوله و تاسیسات"
+
+#: .\templates\product_and_services\cathodic_protection.html:348
+msgid ""
+"Repair and Maintenance of cathodic protection systems( cathodic protection "
+"systems and control and monitoring of cathodic protection systems on "
+"pipelines and stations)"
+msgstr ""
+"نگهداری و تعمیرات سیستم های حفاظت کاتدی( ایستگاه های حفاظت کاتدی و تجهیزات "
+"کنترل و پایش در خطوط لوله و تاسیسات)"
+
+#: .\templates\product_and_services\cathodic_protection.html:359
+msgid "Supplying all parts of transformer rectifiers and repairing."
+msgstr "تامین قطعات و تعمیر ترانس های رکتیفایر"
+
+#: .\templates\product_and_services\cathodic_protection.html:369
+msgid "Rehabilitate of Anode ground beds"
+msgstr "احیا بستر های آندی"
+
+#: .\templates\product_and_services\cleaning_pigs.html:26
+msgid "Cleaning Pigs"
+msgstr ""
+
+#: .\templates\product_and_services\cleaning_pigs.html:34
+msgid "Cleaning Pigs:"
+msgstr ""
+
+#: .\templates\product_and_services\cleaning_pigs.html:49
+msgid "They also use magnetic cleaning pigs for cleaning."
+msgstr ""
+
+#: .\templates\product_and_services\cleaning_pigs.html:81
+msgid "Testing and supervising the manufacture of cleaning pigs"
+msgstr ""
+
+#: .\templates\product_and_services\cleaning_pigs.html:90
+msgid ""
+"Providing appropriate technology to evaluate the performance of cleaning "
+"pigs and measure their effectiveness and efficiency"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:28
+msgid "Inline Inspection"
+msgstr "پیگرانی هوشمند "
+
+#: .\templates\product_and_services\inline_inspection.html:32
+msgid ""
+"There are various methods to identify defects in oil and gas pipelines. "
+"Pipeline operators choose a method or a combination of the according to the "
+"several parameters included:"
+msgstr ""
+"برای شناسایی عیوب خطوط لوله نفت و گاز روشهای متنوعی موجود است بهره برداران "
+"خطوط لوله با توجه به : "
+
+#: .\templates\product_and_services\inline_inspection.html:37
+msgid "capabilities of these methods"
+msgstr "قابلیتهای این روشها"
+
+#: .\templates\product_and_services\inline_inspection.html:41
+msgid "pipeline conditions"
+msgstr "شرایط خط لوله "
+
+#: .\templates\product_and_services\inline_inspection.html:45
+msgid "costs"
+msgstr "هزینه های اجرایی"
+
+#: .\templates\product_and_services\inline_inspection.html:53
+msgid ""
+"According to the experiences of large pipeline operators, various criteria "
+"for selecting these methods can be enumerated. Each smart pig has the "
+"ability to detect a wide range of defects."
+msgstr ""
+"با توجه به تجربیات بهره برداران بزرگ خطوط لوله معیارهای متنوعی برای انتخاب "
+"این روشها می توان برشمرد.هر پیگ هوشمند قابلیت شناسایی رنج وسیعی از عیوب را "
+"دارا می باشد."
+
+#: .\templates\product_and_services\inline_inspection.html:56
+msgid "Types of smart pigs are:"
+msgstr "انواع پیگهای هوشمند عبارتند از :"
+
+#: .\templates\product_and_services\inline_inspection.html:64
+msgid "EGP (Electronic Geometry Pig)"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:68
+#: .\templates\product_and_services\inline_inspection.html:365
+msgid ""
+"It is used to check the roundness of the pipe cross section and is available "
+"in both mechanical and electronic forms."
+msgstr ""
+"برای بررسی گرد بودن مقطع لوله بکار می رود و به دو صورت مکانیکی و الکترونیکی "
+"موجود می باشد."
+
+#: .\templates\product_and_services\inline_inspection.html:82
+msgid "MFL (Magnetic Flux Leakage)"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:85
+#: .\templates\product_and_services\inline_inspection.html:132
+msgid ""
+"This tool uses the principles of magnetic flux leakage. The magnetic flux "
+"density in a metal leak, where its thickness has decreased due to corrosion. "
+"By measuring this magnetic leakage by Hall sensors that directly measure the "
+"magnetic flux, the location of the corrosion is detected."
+msgstr ""
+"این دستگاه از اصول نشت شار مغناطیسی استفاده می کند . دانسیته شار مغناطیسی در "
+"فلز در جایی که ضخامت آن بعلت خوردگی کاهش یافته است نشت می نماید با اندازه "
+"گیری این نشت مغناطیسی توسط سنسورهایHall  که مستقیماً شار مغناطیسی را اندازه "
+"گیری می کنند محل خوردگی شناسایی می گردد."
+
+#: .\templates\product_and_services\inline_inspection.html:91
+msgid ""
+"Of course, this device has disadvantages, including the similar effect of "
+"different phenomena, because the sensors measure and record any kind of flux "
+"change, and the difference between them must be determined by the "
+"interpreter."
+msgstr ""
+"البته این دستگاه نیز دارای معایبی است از جمله اثر مشابه پدیده های مختلف است "
+"زیرا سنسورها هر نوع تغییر شاری را اندازه گیری و ثبت می نمایند و بایستی تفاوت "
+"بین آنها توسط مفسرین مشخص گردد . "
+
+#: .\templates\product_and_services\inline_inspection.html:91
+msgid ""
+"Other disadvantages of this tool include the inability to detect SCC in the "
+"early stages of its development. While using this method is more expensive "
+"than other methods."
+msgstr ""
+"از جمله معایب دیگر این تجهیزات عدم توانایی تشخیص SCC در زمانهای اولیه ایجاد "
+"آن می باشد . ضمن اینکه استفاده از این روش نسبت به روشهای دیگر هزینه بسیار "
+"زیادی دارد."
+
+#: .\templates\product_and_services\inline_inspection.html:108
+msgid "Axial magnetization"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:116
+msgid ""
+"MFL are intended to detect, locate and size general corrosion, pitting "
+"corrosion, circumferential cracks, grith weld anomalies, pipeline "
+"construction features, other anomalies of circumferential orientation."
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:128
+#, fuzzy
+#| msgid "Inline Inspection"
+msgid "TFI (Transverse Field Inspection)"
+msgstr "پیگرانی هوشمند "
+
+#: .\templates\product_and_services\inline_inspection.html:152
+msgid "Transverse magnetization"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:160
+msgid ""
+"TFI tools are intended to detect, locate and size all anomalies of axial "
+"orientation, including stress corrosion cracking, axial cracks, longitudinal "
+"weld anomalies, pipeline construction features, etc.."
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:209
+#, python-format
+msgid ""
+"According to a 10-year study of smart pigging reports by Russian Gazprom, "
+"only 1%% of the defects are cracks that MFL pigs are not able to detect, but "
+"in terms of the high risk of these defects (the effect of pipe stress on "
+"rupture), operating companies also put TFI pigs on their scope of work In "
+"addition, driving the TFI pig with MFL creates a more accurate combination "
+"report. On the other hand, the increase in the cost of adding a TFI pig "
+"compared to the whole project is acceptable and justifiable."
+msgstr ""
+"طی بررسی بعمل آمده در یک بازه 10 ساله در گزارشات پیگ رانی هوشمند شرکت گاز "
+"پروم روسیه تنها 1 درصد ازعیوب را عیوب ترک که پیگهای MFL قادر به شناسایی آنها "
+"نیستند تشکیل می دهد اما به لحاظ ریسک بالای این عیوب ( تاثیر تنش لوله در "
+"گسستن آنها) شرکتهای بهره بردار، پیگ TFI  را نیز در شرح کار خود قرار می "
+"دهندعلاوه بر این راندن پیگ TFI به همراه MFL گزارش ترکیبی دقیق تری را ایجاد "
+"می کند. از طرف دیگر افزایش هزینه افزودن پیگ TFI در مقایسه با کل پروژه قابل "
+"قبول و توجیه پذیر می باشد."
+
+#: .\templates\product_and_services\inline_inspection.html:232
+msgid "General corrosion"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:234
+#, python-format
+msgid "53%%"
+msgstr "۵۳٪"
+
+#: .\templates\product_and_services\inline_inspection.html:251
+msgid "Grooves"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:254
+#, python-format
+msgid "31%%"
+msgstr "۳۱٪"
+
+#: .\templates\product_and_services\inline_inspection.html:271
+msgid "Girth weld anomalies"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:273
+#: .\templates\product_and_services\inline_inspection.html:292
+#, python-format
+msgid "6%%"
+msgstr "۶٪"
+
+#: .\templates\product_and_services\inline_inspection.html:290
+msgid "Pitting"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:309
+msgid "SCC and Cracks"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:311
+#: .\templates\product_and_services\inline_inspection.html:349
+#, python-format
+msgid "1%%"
+msgstr "۱٪"
+
+#: .\templates\product_and_services\inline_inspection.html:328
+msgid "Mill defects"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:330
+#, python-format
+msgid "2%%"
+msgstr "۲٪"
+
+#: .\templates\product_and_services\inline_inspection.html:347
+msgid "Dents"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:361
+msgid "UT (U ltrasonic tool)"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:403
+msgid "Advantages"
+msgstr "مزایا"
+
+#: .\templates\product_and_services\inline_inspection.html:416
+msgid "Accurate and reliable measurement of pipe wall thickness"
+msgstr "اندازه گيري دقيق و قابل اطمينان ضخامت ديواره لوله"
+
+#: .\templates\product_and_services\inline_inspection.html:428
+msgid "No restrictions on measuring high thicknesses"
+msgstr "عدم محدوديت در اندازه گيري ضخامتهاي بالا"
+
+#: .\templates\product_and_services\inline_inspection.html:440
+msgid "MFL is more sensitive in detecting high number of defects"
+msgstr "در شناسايي تعداد بالاي عيوب از پيگ MFL  حساستر است."
+
+#: .\templates\product_and_services\inline_inspection.html:452
+msgid "Lamination detection"
+msgstr "عیوب لایه شدن را تشخیص می دهد."
+
+#: .\templates\product_and_services\inline_inspection.html:478
+msgid "Disadvantages"
+msgstr "معایب"
+
+#: .\templates\product_and_services\inline_inspection.html:492
+msgid ""
+"Due to the need for liquid fluid to transmit and receive sound waves, this "
+"pig has only the ability to inspect the lines carrying liquid fluid and can "
+"not be used in gas transmission lines."
+msgstr ""
+"بدلیل لزوم وجود سیال مایع برای انتقال و دریافت امواج صوتی، اين پيگ تنها "
+"قابليت بازرسي خطوط حامل سيال مايع را دارا ميباشد و امكان استفاده در خطوط "
+"انتقال گاز وجود ندارد."
+
+#: .\templates\product_and_services\inline_inspection.html:504
+msgid "EMAT"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:504
+msgid "(Electromagnetic Acoustic Transducer)"
+msgstr ""
+
+#: .\templates\product_and_services\inline_inspection.html:508
+msgid ""
+"Whenever a conductive material conducting electricity is near the surface of "
+"a metal, and is placed in a magnetic field, electromagnetic force enters the "
+"metal surface according to Laurentz's law. This induced force on the metal, "
+"depending on the direction of the magnetic field as well as the electric "
+"current of the wire, can cause shear, longitudinal or surface waves in the "
+"metal. This method eliminates the need for an intermediate material to "
+"create an ultrasonic wave, and lines containing gas can also be inspected by "
+"this method."
+msgstr ""
+"هر گاه يك ماده رساناي حامل جريان الكتريسيته در نزديكي سطح يك فلز قرار داشته، "
+"و در يك ميدان مغناطيسي قرار گيرد، بر اساس قانون لورانتز به سطح فلز نيروي "
+"الكترومغناطيس وارد ميشود. اين نيروي القا شده به فلز بسته به جهت ميدان "
+"مغناطيسي و نيز جهت جريان الكتريكي سيم، مي تواند باعث بوجود آمدن امواج برشي، "
+"طولي و يا ورقي در فلز شود. با اين روش در واقع لزوم وجود ماده واسط براي ايجاد "
+"موج التراسونيك از بين مي رود و خطوط حاوي گاز نيز بدين روش  قابل  بازرسي هستند"
+
+#: .\templates\product_and_services\inline_inspection.html:515
+msgid ""
+"In this method, the coil and the permanent magnet are located near the metal "
+"surface. forced by radio waves (RF) and produce eddy currents. These waves "
+"are in constant magnetic contact."
+msgstr ""
+"در اين روش سيم پيچ و مگنت دايم در نزديكي سطح فلز قرار دارند . سيم پيچ توسط "
+"امواج راديويي(RF)تحريك ميشوند و امواج گردابي (Eddy current) توليد ميكنند "
+
+#: .\templates\product_and_services\inline_inspection.html:517
+msgid "They cause mechanical strain, so they emit sound waves in the pipe."
+msgstr ""
+"اين امواج در تماس مغناطيس دايمكرنش مكانيكي را سبب ميشوند بنابراين در لوله  "
+"امواج صوتي صادر ميگردند."
+
+#: .\templates\product_and_services\under_water_inspection.html:28
+#, fuzzy
+#| msgid "Inline Inspection"
+msgid "Under Water Inspection-ROV"
+msgstr "پیگرانی هوشمند "
+
+#: .\templates\product_and_services\under_water_inspection.html:32
+msgid ""
+"Measurement of magnetic distortion of buried lines up to 10 times the "
+"diameter of the pipe is possible. obtained results in the inspection of "
+"buried pipelines have been satisfactory for the operators."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:36
+msgid ""
+"Offshore pipeline inspection can be operated by scuba diver or mounted on a "
+"ROV."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:46
+#: .\templates\product_and_services\under_water_inspection.html:63
+#: .\templates\product_and_services\under_water_inspection.html:85
+#: .\templates\product_and_services\under_water_inspection.html:98
+#: .\templates\product_and_services\under_water_inspection.html:113
+#: .\templates\product_and_services\under_water_inspection.html:128
+msgid "STAGE"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:47
+msgid "I"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:55
+msgid "Preparation :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:57
+msgid ""
+"Collecting and analysis of all necessary information about the pipeline and "
+"preparing the equipment."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:63
+msgid "II"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:70
+msgid "Field :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:74
+msgid "Visual survey of trace with photo-video-recording"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:79
+msgid "Contactless magnetometric inspection with KMD-02R."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:85
+msgid "III"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:92
+msgid "Express-Analysis :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:93
+msgid "Express analysis of the magnetometric."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:98
+#: .\templates\product_and_services\under_water_inspection.html:128
+msgid "VI"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:105
+msgid "AFDT :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:107
+msgid ""
+"By the request of the Customer Additional Flaw Detect Tests by non-"
+"destructive(NDT) contact methods can be executed - measuring of the "
+"thickness and hardness etc."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:113
+msgid "V"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:120
+msgid "Data Processing :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:122
+msgid ""
+"The processing and interpretation of the received data is held in the "
+"Analytic Center."
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:135
+msgid "Report :"
+msgstr ""
+
+#: .\templates\product_and_services\under_water_inspection.html:137
+msgid ""
+"The report and the final condition conclusion on the technical state of the "
+"pipeline including the digital maps of the detected anomalies is made."
+msgstr ""
+
+#, fuzzy
+#~| msgid "(procurement)"
+#~ msgid "(procurement):"
+#~ msgstr "."

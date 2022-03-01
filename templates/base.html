@@ -1,0 +1,254 @@
+{% load i18n %} {% load static %} {% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" />
+    {% if LANGUAGE_CODE == 'fa' %}
+      <link rel="stylesheet" href="{% static 'css/base-en.css' %}">
+    {% endif %}
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts end -->
+    <!-- more css -->
+
+    {% block more_css %} {% endblock %}
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body>
+    <!-- header & navbar  -->
+
+    <header>
+         {% if LANGUAGE_CODE == 'fa' %}
+              {% language 'en' %}
+                <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>{{LANGUAGE_CODE}}</h3></a>
+              {% endlanguage %}
+            {% else %}
+              {% language 'fa' %}
+              <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>{{LANGUAGE_CODE}}</h3></a>
+              {% endlanguage %}
+            {% endif %}
+      <section id="mobile-menu">
+        <div id="menu__btns">
+          <img
+            onclick="goBackBtnF()"
+            id="go-back-btn"
+            src="{% static 'svgs/go-back-btn.svg' %}"
+            alt="cross"
+          />
+          <img
+            id="close-menu-btn"
+            src="{% static 'svgs/menu-X.svg' %}"
+            alt="cross"
+          />
+        </div>
+        <ul id="menu-list">
+          <li>
+            <a href="{% url 'capabilities:capabilities' %}">
+              <p>Capabilities</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+          <li id="products">
+            <a>
+              <p>Products and Services</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+
+          <li>
+            <a href="{% url 'company:company' %}">
+              <p>Company</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="{% url 'capabilities:capabilities' %}">
+              <p>Oil And Gas News</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+        </ul>
+        <ul id="menu-sub-list">
+          <li onclick="openSubMenuSub(0)">
+            <p>Oil and Gas Pipelines</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(1)">
+            <p>Civil Projects</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(2)">
+            <p>Process</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(3)">
+            <p>Industrial technolocgy</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(4)">
+            <p>Management Systems</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+        </ul>
+        <ul id="menu-sub-list-sub">
+          <ul>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+
+              <a href="{% url 'product-and-services:inline-inspection' %}">Inline inspection</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:unpigable-pipelines' %}">Unpigable Pipelines</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:under-water-inspection' %}">Under Water Inspection-ROV</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:cleaning-pigs' %}">Cleaning Pigs</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Repairing</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>valve clinic</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:cathodic-protection' %}">Coating and Cathodic Protection</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Inspection(Fixed Equipment and Instruments)</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Fitness For Services(FFS) and Fitness For Purpose(FFP)</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px !important"
+              />
+              <a href=''>Leak Detection</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Consultant and Project Management</a>
+            </li>
+          </ul>
+          <ul>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+          </ul>
+        </ul>
+        <div onclick="changeSubMenu()" id="sub-menu-btn">
+          <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+        </div>
+      </section>
+      <!-- -->
+      <nav>
+        <img src="{% static 'svgs/l-name.svg' %}" alt="">
+        <img
+          id="logo"
+          src=" {% static 'images/logo.png' %} "
+          alt="abdi-group"
+        />
+        <div class="img__btns">
+           <img
+          id="logo"
+          src=" {% static 'images/logo.png' %} "
+          alt="abdi-group"
+        />
+          <img
+            id="mobile-menu-btn"
+            src=" {% static 'svgs/menu.svg' %} "
+            alt=""
+          />
+
+          {% comment %}
+          <div class="header-btns">
+            <button class="signIn-btn">Sign In</button>
+            <button class="language-btn">EN</button>
+          </div>
+          {% endcomment %}
+        </div>
+        
+      {% include 'inc/navbar.html' %}
+
+        
+      
+      </nav>
+    </header>
+    
+
+    <!---->
+    {% block content %}
+    <!---->
+    {% endblock %}
+    <!-- GSAP animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <!-- js files -->
+    <!-- more js -->
+    <script src=" {% static 'js/base.js' %} "></script>
+    {% block more_js %}{% endblock more_js %}
+  </body>
+</html>

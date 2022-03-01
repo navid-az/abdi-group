@@ -1,0 +1,260 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa%}{% url 'capabilities:capabilities' %}{% endblock translateFa %}
+{% block translateEn %}{% url 'capabilities:capabilities' %}{% endblock translateEn %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% block more_css %}
+    <link
+      rel="stylesheet"
+      href=" {% static 'capabilities/css/capabilities.css' %} "
+    />
+    {% if LANGUAGE_CODE == 'fa' %}
+      <link rel="stylesheet" href="{% static 'capabilities/css/capabilities-fa.css' %}">
+    {% endif %}
+    {% endblock more_css %}
+    <title>{% block title %} Capabilities {% endblock title %}</title>
+  </head>
+  <body>
+    {% block content %}
+    <!-- hero  -->
+    {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.jpg' %}
+    <!-- capabilities items -->
+    <div class="mobile-curved-bg">
+      <div class="container">
+        <div class="capabilities-items-wrapper">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Oil and Gas Pipelines" %}</h2>
+            </div>
+            <p>
+              {% trans "In order to accompany and cooperate with the pipeline operators in providing safe and reliable energy, ABDI-GROUP provides various services in the field of repair, maintenance and inspection of pipelines." %}
+            </p>
+          </div>
+          <div class="item-img">
+            <img
+              id="item-img-1"
+              src=" {% static 'capabilities/images/pipelines.png' %} "
+              alt="oil and pipelines images"
+            />
+          </div>
+        </div>
+        <!-- various services -->
+
+        <div class="oil-gas-services">
+          <h1 class="services-title">{% trans "These various services include:" %}</h1>
+
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "1" %}</span>
+            <p>{% trans "providing intelligent Inline-Inspection services" %}</p>
+          </div>
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "2" %}</span>
+            <p>
+              {% trans "non-Pigable pipeline and piping Inspection by non-contact methods" %}
+            </p>
+          </div>
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "3" %}</span>
+            <p>{% trans "inspection of off-shore pipelines" %}</p>
+          </div>
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "4" %}</span>
+            <p>
+              {% trans "cleaning pigs (supply of special pigs and Gel-pigs according to requirements), repairs, Valve clinic" %}
+            </p>
+          </div>
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "5" %}</span>
+            <p>
+              {% trans "inspection services" %} <span>{% trans "(Different groups including electrical and mechanical and instrumentation and cathodic protection, etc.)" %}</span>
+            </p>
+          </div>
+          <div class="service-card">
+            <img src=" {% static 'svgs/s-hexa-border.svg' %} " alt="" />
+            <span>{% trans "6" %}</span>
+            <p>
+              {% trans "Defect assessment using the latest technology of laser scanning and leak detection of pipelines (smart pigs, manual, vehicle, satellite images)" %}
+            </p>
+          </div>
+        </div>
+        <!-- various services END -->
+        <div class="capabilities-items-wrapper">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Process Units" %}</h2>
+            </div>
+            <p>
+              {% trans "ABDI-GROUP Relying on the knowledge of its founders in the field of oil, gas and petrochemical processes, conducting feasibility studies for Mini-Plants, also provides design, construction and commissioning services for these units." %}
+              <br />
+              <br />
+              {% trans "The company is also providing project executive managing by highly skilled experts in this field" %}
+            </p>
+          </div>
+          <div class="item-img">
+            <img
+              id="item-img-2"
+              src=" {% static 'capabilities/images/process.png' %} "
+              alt="process images"
+            />
+          </div>
+        </div>
+        <div class="capabilities-items-wrapper">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Civil Projects" %}</h2>
+            </div>
+            <p>
+              {% trans "ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management." %}
+            </p>
+          </div>
+          <div class="item-img">
+            <img
+              id="item-img-3"
+              src=" {% static 'capabilities/images/civil-projects.png' %} "
+              alt="civil projects images"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- Industrial Technology blue div -->
+      <div class="industrial-tech-wrapper">
+        <div class="container">
+          <div class="title">
+            <img
+              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+              alt="3hexaIcon"
+            />
+            <h2 style="color: white">{% trans "Industrial Technology" %}</h2>
+          </div>
+          <br>
+          <p>
+            {% trans "ABDI-GROUP, relying on the knowledge, experience and expertise of partner groups, offers specific solutions to any industrial problem. At present, this company provides the following services, using the services of Iranian knowledge-based and also foreign companies:" %}
+          </p>
+          <div class="industrial-tech-opt-wrapper">
+            <div class="industrial-tech-opt">
+              <img
+                src=" {% static 'svgs/s-green-hexa.svg' %} "
+                alt="3hexaIcon"
+              />
+              <p>{% trans "Remediation of polluted soil" %}</p>
+            </div>
+            <div class="industrial-tech-opt">
+              <img
+                src=" {% static 'svgs/s-green-hexa.svg' %} "
+                alt="3hexaIcon"
+              />
+              <p>{% trans "Pipeline chemical cleaning" %}</p>
+            </div>
+            <div class="industrial-tech-opt">
+              <img
+                src=" {% static 'svgs/s-green-hexa.svg' %} "
+                alt="3hexaIcon"
+              />
+              <p>
+                {% trans "Manufacturing and supplying equipment (non-intrusive pig-signaler, Repairing Intelligent marker, sensors for monitoring operating conditions, Cathodic protection sensors…)" %}
+              </p>
+            </div>
+            <div class="industrial-tech-opt">
+              <img
+                src=" {% static 'svgs/s-green-hexa.svg' %} "
+                alt="3hexaIcon"
+              />
+              <p>{% trans "Leak detection by satellite images" %}</p>
+            </div>
+          </div>
+          <p>
+            {% trans "The company is also ready to cooperate in identifying technology owner companies, conducting negotiations, making contracts and supervising technology transfer, in the relevant field. Meanwhile, the company identifies knowledge-based companies in the field of oil and gas and uses the maximum local capacity for the development of new technologies, at the request of investors." %}
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="capabilities-items-wrapper">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Management Systems" %}</h2>
+            </div>
+            <div>
+              <p>
+                {% trans "Managing a wide network of pipelines to ensure maximum safety at the reasonable cost is impossible without the use of an integrated management system and in the form of various organizational departments." %}
+              </p>
+              <br />
+              <div class="management-systems-mobile">
+                <p>
+                  {% trans "Today, various standards have been developed to implement a system of physical asset management and integrated management and address the operators’ issues." %}
+                </p>
+                <br />
+                <p>
+                  {% trans "On the other hand, development of information technology has facilitated operators' job, In such a way that the world's major operators have implemented management systems in the form of software." %}
+                </p>
+                <br />
+                <p>
+                  {% trans "oil and gas industries will face a large number of long-lived facilities over the next few years." %}
+                </p>
+                <br />
+                <p>
+                  {% trans "Of course, optimal economic management of this volume of depreciated facilities is impossible without the use of management system, and operators are forced to implement a system of physical asset management and integrated management in order to maintain these assets." %}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item-img">
+            <img
+              id="item-img-4"
+              src=" {% static 'capabilities/images/management-systems.png' %} "
+              alt="management systems images"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="management-systems-desktop">
+          <p>
+            {% trans "Managing a wide network of pipelines to ensure maximum safety at the reasonable cost is impossible without the use of an integrated management system and in the form of various organizational departments." %}
+          </p>
+          <br>
+          <p>
+            {% trans "Today, various standards have been developed to implement a system of physical asset management and integrated management and address the operators’ issues." %}
+          </p>
+          <br />
+          <p>
+            {% trans "On the other hand, development of information technology has facilitated operators' job, In such a way that the world's major operators have implemented management systems in the form of software." %}
+          </p>
+          <br />
+          <p>
+            {% trans "oil and gas industries will face a large number of long-lived facilities over the next few years." %}
+          </p>
+          <br />
+          <p>
+            {% trans "Of course, optimal economic management of this volume of depreciated facilities is impossible without the use of management system, and operators are forced to implement a system of physical asset management and integrated management in order to maintain these assets." %}
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endblock content %}
+  </body>
+</html>
