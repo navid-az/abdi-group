@@ -10,15 +10,15 @@
 
     <link
       rel="stylesheet"
-      href="{% static 'product_and_services/cleaning-pigs/css/cleaning-pigs.css' %}"
+      href="{% static 'product_and_services/oil_and_gas/cleaning-pigs/css/cleaning-pigs.css' %}"
     />
      {% if LANGUAGE_CODE == 'fa' %}
-        <link rel="stylesheet" href="{% static 'product_and_services/inline-inspection/css/cleaning-pigs-fa.css' %}">
+        <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/cleaning-pigs-fa.css' %}">
   {% endif %}
     {% endblock more_css %}
   </head>
   <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/under-water-inspection/images/under-water-inspection-hero.jpg' %}
+    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/under-water-inspection/images/under-water-inspection-hero.jpg' %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -43,7 +43,7 @@
             names, have much more cleaning effectivness than the old and common
             cleaning pigs." %}
           </p>
-          <img src="{% static 'product_and_services/cleaning-pigs/images/cleaning-pig-1.jpg' %}" alt="cleaning pig 1">
+          <img src="{% static 'product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pig-1.jpg' %}" alt="cleaning pig 1">
         </div>
         <div class="cleaning-sevices-wrapper">
           <p>{% trans "They also use magnetic cleaning pigs for cleaning." %}</p>

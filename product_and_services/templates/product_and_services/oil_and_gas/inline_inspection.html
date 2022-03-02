@@ -10,17 +10,17 @@
     {% block more_css %}
       <link
         rel="stylesheet"
-        href=" {% static 'product_and_services/inline-inspection/css/inline-inspection.css' %} "
+        href=" {% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection.css' %} "
         
         />
         {% if LANGUAGE_CODE == 'fa' %}
-          <link rel="stylesheet" href="{% static 'product_and_services/inline-inspection/css/inline-inspection-en.css' %}">
+          <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection-en.css' %}">
         {% endif %}
     {% endblock more_css %}
     <title>{% block title %} Inline Inspection {% endblock title %}</title>
   </head>
   <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/inline-inspection/images/inline-inspection-hero.jpg' %}
+    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -68,7 +68,7 @@
               {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
             </p>
             <img
-              src="{% static 'product_and_services/inline-inspection/images/egp-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp-pig.png' %}"
               alt="egp pig"
             />
           </div>
@@ -84,7 +84,7 @@
           <div class="pig-info">
               <p>{% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}  </p>
             <img
-              src="{% static 'product_and_services/inline-inspection/images/mfl-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-pig.png' %}"
               alt="mfl pig"
             />
             <p>
@@ -109,7 +109,7 @@
               </div>
               <div class="card-body">
                 <img
-                  src="{% static 'product_and_services/inline-inspection/images/axial.png' %}"
+                  src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial.png' %}"
                   alt="axial magnetization"
                 />
                 <p>
@@ -132,7 +132,7 @@
               {% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}
             </p>
             <img
-              src="{% static 'product_and_services/inline-inspection/images/tfi-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/tfi-pig.png' %}"
               alt="tfi pig"
             />
             <div class="magnetization-card">
@@ -153,7 +153,7 @@
               </div>
               <div class="card-body">
                 <img
-                  src="{% static 'product_and_services/inline-inspection/images/transverse.png' %}"
+                  src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse.png' %}"
                   alt="card title icon"
                 />
                 <p>
@@ -165,14 +165,14 @@
         </div>
         <img
           class="flux"
-          src="{% static 'product_and_services/inline-inspection/images/flux-mobile.jpg' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/flux-mobile.jpg' %}"
           alt=""
         />
       </div>
       <div class="mfl-tfi-comparison">
         <img
           class="curved-req"
-          src="{% static 'product_and_services/inline-inspection/images/curved-req.png' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/curved-req.png' %}"
           alt=""
         />
 
@@ -183,7 +183,7 @@
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
               <p>MFL</p>
               <img
-                src="{% static 'product_and_services/inline-inspection/images/blue-rectangle.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle.png' %}"
                 alt=""
               />
             </div>
@@ -191,7 +191,7 @@
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
               <p>TFI</p>
               <img
-                src="{% static 'product_and_services/inline-inspection/images/blue-rectangle2.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle2.png' %}"
                 alt=""
               />
             </div>
@@ -199,7 +199,7 @@
         </div>
         <img
           class="curved-req"
-          src="{% static 'product_and_services/inline-inspection/images/curved-req.png' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/curved-req.png' %}"
           alt=""
         />
       </div>
@@ -210,7 +210,7 @@
           </p>
           <img
             class="defect-chart-img"
-            src="{% static 'product_and_services/inline-inspection/images/chart.png' %}"
+            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/chart.png' %}"
             alt="defect chart"
           />
           <section class="chart-options-wrapper">
@@ -365,7 +365,7 @@
               {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
             </p>
             <img
-              src="{% static 'product_and_services/inline-inspection/images/ut-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/ut-pig.png' %}"
               alt="ut pig"
             />
           </div>
@@ -508,7 +508,7 @@
               {% trans "Whenever a conductive material conducting electricity is near the surface of a metal, and is placed in a magnetic field, electromagnetic force enters the metal surface according to Laurentz's law. This induced force on the metal, depending on the direction of the magnetic field as well as the electric current of the wire, can cause shear, longitudinal or surface waves in the metal. This method eliminates the need for an intermediate material to create an ultrasonic wave, and lines containing gas can also be inspected by this method." %}
             </p>
             <img
-              src="{% static 'product_and_services/inline-inspection/images/emat.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/emat.png' %}"
               alt="emat"
             />
             <p>

@@ -6,9 +6,9 @@ from .views import inline_inspections, cathodic_protection, under_water_inspecti
 app_name = 'product-and-services'
 
 urlpatterns = [
-    path('inline-inspection/', inline_inspections, name='inline-inspection'),
-    path('cathodic-protection/', cathodic_protection, name='cathodic-protection'),
-    path('under-water-inspection/', under_water_inspection, name='under-water-inspection'),
-    path('cleaning-pigs/', cleaning_pigs, name='cleaning-pigs'),
-    path('unpigable-pipelines/', unpigable_pipelines, name='unpigable-pipelines'),
+    path('oil-and-gas-pipelines/inline-inspection/', inline_inspections, name='inline-inspection'),
+    path('oil-and-gas-pipelines/cathodic-protection/', cathodic_protection, name='cathodic-protection'),
+    path('oil-and-gas-pipelines/under-water-inspection/', under_water_inspection, name='under-water-inspection'),
+    path('oil-and-gas-pipelines/cleaning-pigs/', cleaning_pigs, name='cleaning-pigs'),
+    path('oil-and-gas-pipelines/unpigable-pipelines/', unpigable_pipelines, name='unpigable-pipelines'),
 ]
