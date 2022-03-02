@@ -1,0 +1,158 @@
+.founder-card {
+  position: relative;
+  width: 100%;
+  /* height: 255px; */
+  z-index: -1;
+  border-radius: 8px;
+  margin-top: 7rem;
+  background: #ffffff;
+  border: 3px solid #00006a;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.246);
+}
+.title-green-rec {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+.founder-card-img {
+  position: absolute;
+  z-index: 0;
+  right: -1rem;
+  top: -3.4rem;
+}
+.founder-card-img {
+  width: 133px;
+  height: 133px;
+}
+.founder-card-title {
+  position: absolute;
+  z-index: -1;
+  top: -1rem;
+  left: -0.5rem;
+  width: 85%;
+  height: 54px;
+  background: var(--darkBlue);
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem;
+  line-height: 1.2rem;
+}
+.founder-card-title h3 {
+  font-size: 16px;
+  padding-left: 0.4rem;
+}
+.founder-card-title p {
+  font-size: 10px;
+  padding-left: 0.4rem;
+}
+
+.founder-card-body {
+  width: 90%;
+  margin: 1.2rem auto;
+  margin-top: 4rem;
+
+  color: #454545;
+}
+.card-body-info {
+  display: flex;
+  padding: 0.75rem 0;
+  line-height: 1.3rem;
+}
+.card-body-info img {
+  padding-right: 0.45rem;
+  align-self: flex-start;
+  margin-top: 0.2rem;
+}
+/* history */
+.history,
+.partner-companies {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+.history p {
+  font-weight: 600;
+}
+.history-title,
+.partners-title {
+  display: flex;
+  align-items: center;
+  margin: 5rem 0 2rem 0;
+}
+.history-title h2,
+.partners-title h2 {
+  color: var(--darkBlue);
+  padding-left: 0.5rem;
+  font-size: 18px;
+  font-weight: 900;
+}
+.history-title img,
+.partners-title img {
+  position: absolute;
+  left: 0rem;
+}
+/* contact div  */
+.contact-us {
+  position: relative;
+  background: var(--darkBlue);
+  width: 100%;
+  border-radius: 8px;
+  margin: 5rem 0 2rem 0;
+  padding: 1.5rem;
+}
+.contact-us-hexa:nth-child(1) {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.contact-us-hexa:nth-child(2) {
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
+  z-index: 0;
+}
+.contact-us p {
+  z-index: 2;
+  color: white;
+  line-height: 1.5rem;
+}
+.contact-us-header {
+  position: absolute;
+  color: var(--darkBlue);
+  background: var(--green);
+  width: 40%;
+  border-radius: 8px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px 15px;
+  left: 1.5rem;
+  top: -0.5rem;
+}
+.address,
+.phone,
+.email {
+  margin-top: 2rem;
+  display: flex;
+}
+.address img,
+.phone img,
+.email img {
+  align-self: flex-start;
+  margin-top: 0.2rem;
+}
+.address p,
+.phone p,
+.email a {
+  padding-left: 0.8rem;
+  z-index: 5;
+}
+.email {
+  margin-bottom: 0.5rem;
+}
+.address > div > h4 {
+  color: white;
+  padding-left: 0.8rem;
+  margin-bottom: 0.5rem;
+}

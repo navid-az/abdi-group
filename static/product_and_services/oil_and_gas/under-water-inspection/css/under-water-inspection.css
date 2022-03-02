@@ -1,0 +1,136 @@
+.main-img {
+  position: absolute;
+  object-fit: cover;
+  width: 100%;
+  top: 5%;
+  bottom: 0%;
+}
+
+.under-water-inspection-intro {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.under-water-inspection-intro > img {
+  width: 100%;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+/* stages  */
+
+.inspection-stages-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.inspection-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stage-title {
+  width: 70px;
+  position: relative;
+  text-align: center;
+}
+.stage-title > img {
+  width: 100%;
+}
+.stage-title > h3 {
+  position: absolute;
+  top: 88%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  height: 100px;
+  width: 100px;
+  font-size: 16px;
+  color: white;
+}
+.stage-body {
+  width: 100%;
+  margin: 1rem 0 5rem 0;
+}
+.stage-body > div {
+  display: flex;
+  gap: 0.5rem;
+}
+.stage-body > h3 {
+  padding-bottom: 1rem;
+}
+
+/* media  */
+
+@media screen and (min-width: 576px) {
+  .under-water-inspection-intro > img {
+    width: 50%;
+  }
+  .inspection-stage {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  .stage-title {
+    width: 80px;
+  }
+  .stage-title > h3 {
+    top: 85%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    font-size: 16px;
+  }
+  .stage-body {
+    width: 75%;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .stage-title {
+    width: 90px;
+  }
+  .stage-title > h3 {
+    top: 82%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    font-size: 16px;
+  }
+  .stage-body {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .inspection-stage {
+    margin: 4rem 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .inspection-stages-wrapper {
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .inspection-stage {
+    width: 49%;
+    justify-content: flex-start;
+    gap: 1.5rem;
+  }
+  .stage-title {
+    width: 100px;
+  }
+  .stage-title > h3 {
+    top: 79%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    font-size: 16px;
+  }
+  .stage-body {
+    width: 75%;
+  }
+}
+@media screen and (min-width: 1400px) {
+}
