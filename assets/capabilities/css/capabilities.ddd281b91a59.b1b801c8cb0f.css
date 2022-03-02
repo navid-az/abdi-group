@@ -1,0 +1,277 @@
+:root {
+  --darkBlue: #00006a;
+  --lightBlue: #2fa3ee;
+}
+
+/* .container {
+  width: 90%;
+  margin: 0 auto;
+} */
+.navbar > ul > li:nth-child(1) > img {
+  transform: scale(1);
+}
+
+/* capabilities items */
+
+.capabilities-items-wrapper,
+.capabilities-item-wrapper {
+  /* height: 800px; */
+  padding: 2rem 0 2rem 0;
+
+  /* margin: 6rem 0; */
+  display: flex;
+  flex-direction: column; /* this should change for desktop to row */
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.item-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-img > img {
+  width: 300px;
+}
+#item-img-2 {
+  width: 370px;
+}
+#item-img-3 {
+  width: 370px;
+}
+#item-img-4 {
+  width: 370px;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.title > h2 {
+  font-weight: 700;
+  padding-left: 0.5rem;
+}
+.item-text {
+  width: 100%;
+}
+.item-text > div {
+  line-height: 1.5rem;
+}
+.item-text > p {
+  margin-top: 2rem;
+}
+.industrial-tech-wrapper > .container > p:last-of-type {
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+}
+/* oil and gas services */
+.oil-gas-services {
+  padding: 2rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.services-title {
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: var(--lightBlue);
+}
+.service-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background: #eeeeee;
+  color: #6d6d6d;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 100px;
+  padding: 1.5rem 1rem;
+}
+.service-card > img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: 50px;
+}
+.service-card > span {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+}
+.service-card > p {
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+/* industrial tech blue box  */
+
+.industrial-tech-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-image: url("../images/connectwork.0283f1526fca.0283f1526fca.png");
+  background-repeat: repeat;
+  background-size: 70vw;
+  background-position: right top;
+  color: white;
+}
+.industrial-tech-wrapper .industrial-tech-opt > p,
+.industrial-tech-wrapper > .container > p {
+  color: white !important;
+}
+.industrial-tech-wrapper .item-text {
+  padding: 2rem 0;
+  margin: 0 auto;
+  width: 80%;
+}
+.industrial-tech-wrapper {
+  margin-top: 2rem;
+  background-image: url("../images/connectwork.0283f1526fca.0283f1526fca.png");
+  background-size: 30%;
+}
+.industrial-tech-opt-wrapper {
+  padding: 3rem 0;
+}
+.industrial-tech-opt {
+  width: 100%;
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.industrial-tech-opt > img {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  width: 10px;
+}
+.industrial-tech-opt > p {
+  font-size: 14px;
+  padding-left: 0.5rem;
+}
+.management-systems-desktop {
+  display: none;
+  line-height: 1.5rem;
+}
+
+/* responsiveness  */
+
+@media screen and (min-width: 576px) {
+  h3 {
+    font-size: 20px;
+  }
+  .industrial-tech-wrapper {
+    background-size: 40vw;
+  }
+  .service-card > p {
+    font-size: 14px;
+  }
+
+  .industrial-tech-opt > p {
+    font-size: 14px;
+  }
+  .hero {
+    width: 100%;
+    height: 420px;
+    position: relative;
+  }
+  .main-img-hexagons-right {
+    width: 300px;
+    right: 0;
+    bottom: -5rem;
+  }
+  .main-img-hexagons-left {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .services-title {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+  }
+  .service-card {
+    margin-top: 1rem;
+  }
+  .title img {
+    width: 20px;
+  }
+  .hero {
+    width: 100%;
+    height: 500px;
+    position: relative;
+  }
+  .main-img-hexagons-right {
+    width: 350px;
+    right: 0;
+    bottom: -5rem;
+  }
+  .main-img-hexagons-left {
+    width: 200px;
+  }
+  .oil-gas-services {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .capabilities-items-wrapper {
+    flex-direction: row;
+    padding: 5rem 0;
+  }
+  .item-text {
+    width: 50%;
+  }
+  .item-img {
+    width: 45%;
+  }
+  #item-img-2 {
+    margin-left: -4rem;
+  }
+  .capabilities-items-wrapper:nth-child(3) {
+    flex-direction: row-reverse;
+  }
+  .management-systems-desktop {
+    display: block;
+  }
+  .management-systems-mobile {
+    display: none;
+  }
+  .service-card {
+    width: 48%;
+  }
+  .title > h2 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #item-img-1,
+  #item-img-3,
+  #item-img-4 {
+    margin-right: -8rem;
+  }
+  #item-img-2 {
+    margin-left: -8rem;
+  }
+  .hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+@media screen and (min-width: 1400px) {
+}
