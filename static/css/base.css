@@ -82,9 +82,10 @@ h2 {
   margin: 2rem 0;
   display: flex;
   align-items: center;
+  width: 100%;
 }
-.title > h3 {
-  padding-left: 0.3rem;
+.title > h2 {
+  padding-left: 0.5rem;
 }
 header {
   position: relative;
@@ -268,7 +269,7 @@ nav > .img__btns {
   margin-top: -2.5rem;
   width: 100%;
   background: #ffffff;
-  border-radius: 18px 18px 0px 0px;
+  border-radius: 18px;
 }
 
 .blue-fade-layer {
@@ -280,6 +281,16 @@ nav > .img__btns {
   z-index: -1;
 }
 
+.curved-req {
+  position: absolute;
+  width: 100%;
+}
+.curved-req:last-of-type {
+  bottom: 0;
+}
+.curved-req:last-of-type {
+  transform: rotate(180deg);
+}
 /* media  */
 
 @media screen and (max-width: 576px) {

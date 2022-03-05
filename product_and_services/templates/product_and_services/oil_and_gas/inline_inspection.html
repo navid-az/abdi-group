@@ -34,15 +34,15 @@
           <ul>
             <li>
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
-              {% trans "capabilities of these methods" %}
+              <p>{% trans "capabilities of these methods" %}</p>
             </li>
             <li>
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
-              {% trans "pipeline conditions" %}
+              <p>{% trans "pipeline conditions" %}</p>
             </li>
             <li>
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
-              {% trans "costs" %}
+              <p>{% trans "costs" %}</p>
             </li>
           </ul>
           {% if LANGUAGE_CODE == 'fa' %}
@@ -61,7 +61,7 @@
               src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
               alt="3hexaIcon"
             />
-            <h3>{% trans "EGP (Electronic Geometry Pig)" %}</h3>
+            <h2>{% trans "EGP (Electronic Geometry Pig)" %}</h2>
           </div>
           <div class="pig-info">
             <p>
@@ -79,7 +79,7 @@
               src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
               alt="3hexaIcon"
             />
-            <h3>{% trans "MFL (Magnetic Flux Leakage)" %}</h3>
+            <h2>{% trans "MFL (Magnetic Flux Leakage)" %}</h2>
           </div>
           <div class="pig-info">
               <p>{% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}  </p>
@@ -105,7 +105,7 @@
                     fill="#2fa3ee"
                   />
                 </svg>
-                <h3>{% trans "Axial magnetization" %}</h3>
+                <h3>Axial magnetization</h3>
               </div>
               <div class="card-body">
                 <img
@@ -125,7 +125,7 @@
               src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
               alt="3hexaIcon"
             />
-            <h3>{% trans "TFI (Transverse Field Inspection)" %}</h3>
+            <h2>{% trans "TFI (Transverse Field Inspection)" %}</h2>
           </div>
           <div class="pig-info">
             <p>
@@ -149,7 +149,7 @@
                     fill="#2fa3ee"
                   />
                 </svg>
-                <h3>{% trans "Transverse magnetization" %}</h3>
+                <h3>Transverse magnetization</h3>
               </div>
               <div class="card-body">
                 <img
@@ -169,14 +169,14 @@
           alt=""
         />
       </div>
+    </div>
       <div class="mfl-tfi-comparison">
         <img
           class="curved-req"
-          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/curved-req.png' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/curved-req.svg' %}"
           alt=""
         />
 
-        <div class="blue-fade-layer"></div>
         <div class="container">
           <div class="mfl-tfi-comparison-images">
             <div>
@@ -197,9 +197,9 @@
             </div>
           </div>
         </div>
-        <img
+         <img
           class="curved-req"
-          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/curved-req.png' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/curved-req.svg' %}"
           alt=""
         />
       </div>
@@ -358,7 +358,7 @@
               src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
               alt="3hexaIcon"
             />
-            <h3>{% trans "UT (U ltrasonic tool)" %}</h3>
+            <h2>{% trans "UT (Ultrasonic tool)" %}</h2>
           </div>
           <div class="pig-info">
             <p>
@@ -501,7 +501,7 @@
               src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
               alt="3hexaIcon"
             />
-            <h3>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h3>
+            <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
           </div>
           <div class="pig-info">
             <p>
@@ -519,7 +519,6 @@
           </div>
         </div>
       </div>
-    </div>
     {% endblock content %}
   </body>
 </html>

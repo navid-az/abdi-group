@@ -1,0 +1,49 @@
+@font-face {
+  font-family: V;
+  src: url(../fonts/Vazir.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vthin;
+  src: url(../fonts/Vazir-Thin.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vlight;
+  src: url(../fonts/Vazir-Light.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vmedium;
+  src: url(../fonts/Vazir-Medium.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Vbold;
+  src: url(../fonts/Vazir-Bold.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.title {
+  flex-direction: row-reverse;
+}
+.title > h2 {
+  padding-left: 0;
+  padding-right: 0.3rem;
+}
+
+p,
+h4,
+h3,
+h2,
+h1,
+li,
+a,
+span {
+  direction: rtl;
+  font-family: Vmedium, sans-serif;
+}

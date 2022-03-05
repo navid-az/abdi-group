@@ -16,14 +16,16 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
     SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir','127.0.0.1']
+ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    # whitenoise enable in development 
+    "whitenoise.runserver_nostatic",
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,7 +46,6 @@ MIDDLEWARE = [
     'django.contrib.sessions.middleware.SessionMiddleware',
     # translation
     'django.middleware.locale.LocaleMiddleware',
-    #
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -130,7 +131,6 @@ STATICFILES_DIRS = [
     BASE_DIR / 'static'
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # https settings
 SESSION_COOKIE_SECURE = True

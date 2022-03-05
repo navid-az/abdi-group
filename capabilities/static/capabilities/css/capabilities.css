@@ -43,14 +43,14 @@
 #item-img-4 {
   width: 370px;
 }
-.title {
+/* .title {
   display: flex;
   align-items: center;
 }
 .title > h2 {
   font-weight: 700;
   padding-left: 0.5rem;
-}
+} */
 .item-text {
   width: 100%;
 }

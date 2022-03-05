@@ -123,11 +123,11 @@
 .mfl-tfi-comparison {
   position: relative;
   background-image: url(../images/connectwork.png);
+  /* background-size: 30%; */
   margin: 2.5rem 0;
 }
-.curved-req {
+/* .curved-req {
   position: absolute;
-  z-index: 2;
   width: 100%;
 }
 .curved-req:last-of-type {
@@ -135,7 +135,7 @@
 }
 .curved-req:last-of-type {
   transform: rotate(180deg);
-}
+} */
 .mfl-tfi-comparison-images {
   width: 100%;
   position: relative;
