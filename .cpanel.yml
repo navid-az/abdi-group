@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/abdigrou/public_html/
-    - /bin/cp -R assets $DEPLOYPATH
+    - export DEPLOYPATH=/home2/navararl/public_html/
+    - /bin/cp -R * $DEPLOYPATH
