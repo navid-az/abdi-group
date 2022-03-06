@@ -44,9 +44,13 @@ closeMenuBtn.addEventListener("click", menuCloseBtnClickHandle);
 products.addEventListener("click", productsMenuOpen);
 
 function menuBtnClickHandle() {
-  mobileMenu.style.right = "0px";
-  mobileMenu.style.position = "fixed";
+  mobileMenu.style.display = "flex";
+  setTimeout(() => {
+    mobileMenu.style.right = "0px";
+    mobileMenu.style.position = "fixed";
+  }, 200);
   hamburgerBtn.style.opacity = "0";
+
   setTimeout(() => {
     closeMenuBtn.style.opacity = "1";
   }, 300);
@@ -54,7 +58,7 @@ function menuBtnClickHandle() {
     opacity: 0,
     x: "-200%",
     stagger: 0.08,
-    delay: 0.08,
+    delay: 0.4,
   });
   menuList.style.display = "flex";
 }
@@ -87,6 +91,9 @@ function menuCloseBtnClickHandle() {
   menuSubListSubOptsUl.forEach((i) => {
     i.style.display = "none";
   });
+  setTimeout(() => {
+    mobileMenu.style.display = "none";
+  }, 300);
 }
 
 // products and services list will open up
