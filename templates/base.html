@@ -30,16 +30,16 @@
     <!-- header & navbar  -->
 
     <header>
-         {% if LANGUAGE_CODE == 'fa' %}
-              {% language 'en' %}
-                <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>{{LANGUAGE_CODE}}</h3></a>
-              {% endlanguage %}
-            {% else %}
-              {% language 'fa' %}
-              <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>{{LANGUAGE_CODE}}</h3></a>
-              {% endlanguage %}
-            {% endif %}
-      <section id="mobile-menu">
+          {% if LANGUAGE_CODE == 'fa' %}
+            {% language 'en' %}
+              <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
+            {% endlanguage %}
+          {% else %}
+            {% language 'fa' %}
+              <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>EN</h3></a>
+            {% endlanguage %}
+          {% endif %}
+      <div id="mobile-menu">
         <div id="menu__btns">
           <img
             onclick="goBackBtnF()"
@@ -203,7 +203,7 @@
         <div onclick="changeSubMenu()" id="sub-menu-btn">
           <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
         </div>
-      </section>
+      </div>
       <!-- -->
       <nav>
         <img src="{% static 'svgs/l-name.svg' %}" alt="">
@@ -213,7 +213,16 @@
           alt="abdi-group"
         />
         <div class="img__btns">
-           <img
+          {% if LANGUAGE_CODE == 'fa' %}
+            {% language 'en' %}
+              <a class='lan-changer-mobile' href="{% block translateFaMobile %}{% endblock translateFaMobile %}"><img src="{% static 'svgs/mobile-globe.svg' %}" alt="globe icon"></a>
+            {% endlanguage %}
+          {% else %}
+            {% language 'fa' %}
+              <a class='lan-changer-mobile' href="{% block translateEnMobile %}{% endblock translateEnMobile %}"><img src="{% static 'svgs/mobile-globe.svg' %}" alt="globe icon"></a>
+            {% endlanguage %}
+          {% endif %}
+              <img
           id="logo"
           src=" {% static 'images/logo.png' %} "
           alt="abdi-group"
@@ -223,7 +232,7 @@
             src=" {% static 'svgs/menu.svg' %} "
             alt=""
           />
-
+          
           {% comment %}
           <div class="header-btns">
             <button class="signIn-btn">Sign In</button>
