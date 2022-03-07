@@ -1,0 +1,182 @@
+{% load static %} {% load i18n %} {% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block more_css %}
+        <link rel="stylesheet" href="{% static 'css/mobile-navbar.css' %}" />
+      {% if LANGUAGE_CODE == 'fa' %}
+        <link rel="stylesheet" href="{% static 'css/mobile-navbar-fa.css' %}">
+      {% endif %}
+    {% endblock more_css %}
+    <title>Document</title>
+</head>
+<body>
+     <div id="mobile-menu">
+        <div id="menu__btns">
+          <img
+            onclick="goBackBtnF()"
+            id="go-back-btn"
+            src="{% static 'svgs/go-back-btn.svg' %}"
+            alt="cross"
+          />
+          <img
+            id="close-menu-btn"
+            src="{% static 'svgs/menu-X.svg' %}"
+            alt="cross"
+          />
+        </div>
+        <ul id="menu-list">
+          <li>
+            <a href="{% url 'capabilities:capabilities' %}">
+              <p>{% trans "Capabilities" %}</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+          <li id="products">
+            <a>
+              <p>{% trans "Products and Services" %}</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="{% url 'company:company' %}">
+              <p>{% trans "About Us" %}</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="{% url 'capabilities:capabilities' %}">
+              <p>{% trans "Oil And Gas News" %}</p>
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            </a>
+          </li>
+        </ul>
+        <ul id="menu-sub-list">
+          <li onclick="openSubMenuSub(0)">
+            <p>{% trans "Oil and Gas Pipelines" %}</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(1)">
+            <p>{% trans "Civil Projects" %}</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(2)">
+            <p>{% trans "Process Units" %}</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(3)">
+            <p>{% trans "Industrial Technology" %}</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+          <li onclick="openSubMenuSub(4)">
+            <p>{% trans "Management Systems" %}</p>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          </li>
+        </ul>
+        <ul id="menu-sub-list-sub">
+          <ul>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+
+              <a href="{% url 'product-and-services:inline-inspection' %}">{% trans "Inline Inspection" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:unpigable-pipelines' %}">{% trans "Unpigable Pipelines" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:under-water-inspection' %}">{% trans "Under Water Inspection-ROV" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:cleaning-pigs' %}">{% trans "Cleaning Pigs" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>{% trans "Repairing" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>{% trans "Valve Clinic" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href="{% url 'product-and-services:cathodic-protection' %}">Coating and Cathodic Protection</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>{% trans "Inspection(Fixed Equipment and Instruments)" %}</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Fitness For Services(FFS) and Fitness For Purpose(FFP)</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px !important"
+              />
+              <a href=''>Leak Detection</a>
+            </li>
+            <li>
+              <img
+                src="{% static 'svgs/small-list-dot.svg' %}"
+                alt="small-list-dot"
+                width="8px"
+              />
+              <a href=''>Consultant and Project Management</a>
+            </li>
+          </ul>
+          <ul>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+          </ul>
+        </ul>
+        <div onclick="changeSubMenu()" id="sub-menu-btn">
+          <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+        </div>
+      </div>
+</body>
+</html>

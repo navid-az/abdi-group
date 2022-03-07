@@ -1,6 +1,8 @@
 {% extends 'base.html' %} {% load i18n %} {% load static %}
 {% block translateFa %}{% url 'product-and-services:inline-inspection' %}{% endblock translateFa %} 
 {% block translateEn %}{% url 'product-and-services:inline-inspection' %}{% endblock translateEn %}
+{% block translateEnMobile %}{% url 'product-and-services:inline-inspection' %}{% endblock translateEnMobile %}
+{% block translateFaMobile %}{% url 'product-and-services:inline-inspection' %}{% endblock translateFaMobile %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +16,7 @@
         
         />
         {% if LANGUAGE_CODE == 'fa' %}
-          <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection-en.css' %}">
+          <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection-fa.css' %}">
         {% endif %}
     {% endblock more_css %}
     <title>{% block title %} Inline Inspection {% endblock title %}</title>

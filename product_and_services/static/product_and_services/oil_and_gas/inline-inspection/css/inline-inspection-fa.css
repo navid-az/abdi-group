@@ -1,6 +1,6 @@
-.pig-info {
+/* .pig-info {
   flex-direction: row-reverse;
-}
+} */
 
 .inline-inspect-intro > ul > li > img {
   padding-right: 0;
@@ -26,4 +26,20 @@
 .ut-disadvantages-title > h3 {
   padding-left: 0;
   padding-right: 0.5rem;
+}
+
+/* media  */
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .pig-info {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
 }

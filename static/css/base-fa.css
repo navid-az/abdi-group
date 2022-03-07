@@ -47,3 +47,6 @@ span {
   direction: rtl;
   font-family: Vmedium, sans-serif;
 }
+h2 {
+  font-family: Vbold, sans-serif;
+}
