@@ -30,8 +30,6 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-self: center; */
-  /* align-items: center; */
 }
 .pig-wrapper > .title {
   align-self: flex-start;
@@ -44,6 +42,9 @@
 .pig-wrapper > .title > h3 > span {
   font-size: 12px;
   padding-left: 0.2rem;
+}
+.item-img > img {
+  width: 100%;
 }
 .pig-info {
   display: flex;
@@ -80,18 +81,6 @@
 .card-body > img {
   width: 100%;
 }
-/* .axial {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.axial > img {
-  width: 50%;
-}
-.axial > p {
-  font-size: 14px;
-  background: red;
-} */
 .tfi-mfl-comparison {
   position: relative;
   width: 100%;
@@ -185,11 +174,9 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-
 .chart-options > h3 {
   font-size: 14px;
 }
-
 .chart-options-title {
   display: flex;
   align-items: center;
@@ -239,10 +226,6 @@
   font-size: 13px;
   width: 93%;
 }
-/* .ut-advantages-body-option > svg,
-.ut-disadvantages-body-option > svg {
-  width: 7%;
-} */
 
 @media screen and (min-width: 576px) {
 }
@@ -276,6 +259,10 @@
   .magnetization-card .card-body > p {
     width: 50%;
     margin-top: 0;
+  }
+  .ut-disadvantages-title > h3,
+  .ut-advantages-title > h3 {
+    font-size: 24px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -320,6 +307,11 @@
   }
 
   /* pigs  */
+  .pig-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
   .pig-info {
     flex-wrap: wrap;
     flex-direction: row;

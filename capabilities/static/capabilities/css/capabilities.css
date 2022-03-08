@@ -41,9 +41,6 @@
 .item-text > div {
   line-height: 1.5rem;
 }
-.item-text > p {
-  margin-top: 2rem;
-}
 .industrial-tech-wrapper > .container > p:last-of-type {
   margin-bottom: 2.5rem;
   margin-top: 0;
@@ -213,9 +210,6 @@
   .capabilities-items-wrapper {
     flex-direction: row;
     padding: 5rem 0;
-  }
-  .item-text {
-    width: 50%;
   }
   .item-img {
     width: 45%;

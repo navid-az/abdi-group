@@ -271,6 +271,9 @@ nav > .img__btns {
   .title > h2 {
     font-size: 30px !important;
   }
+  .item-text {
+    width: 50%;
+  }
 }
 @media screen and (min-width: 1200px) {
 }

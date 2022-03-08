@@ -58,17 +58,19 @@
           <p>{% trans "Types of smart pigs are:" %}</p>
         </div>
         <div class="pig-wrapper">
-          <div class="title">
-            <img
-              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "EGP (Electronic Geometry Pig)" %}</h2>
-          </div>
-          <div class="pig-info">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "EGP (Electronic Geometry Pig)" %}</h2>
+            </div>
             <p>
               {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
             </p>
+          </div>
+          <div class="item-img">
             <img
               src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp-pig.png' %}"
               alt="egp pig"
@@ -76,93 +78,97 @@
           </div>
         </div>
         <div class="pig-wrapper">
-          <div class="title">
-            <img
-              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "MFL (Magnetic Flux Leakage)" %}</h2>
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "MFL (Magnetic Flux Leakage)" %}</h2>
+            </div>
+            <p>{% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}</p>
           </div>
-          <div class="pig-info">
-              <p>{% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}  </p>
+          <div class="item-img">
             <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-pig.png' %}"
-              alt="mfl pig"
+            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-pig.png' %}"
+            alt="mfl pig"
+            />
+          </div>
+        </div>
+        <br><br><br>
+        <p>
+          {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %} <br /><br /> {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
+        </p>
+        <div class="magnetization-card">
+          <div class="card-title">
+            <svg
+              width="13"
+              height="31"
+              viewBox="0 0 13 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
+                fill="#2fa3ee"
+              />
+            </svg>
+            <h3>Axial magnetization</h3>
+          </div>
+          <div class="card-body">
+            <img
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial.png' %}"
+              alt="axial magnetization"
             />
             <p>
-              {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %} <br /><br /> {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
+              {% trans "MFL are intended to detect, locate and size general corrosion, pitting corrosion, circumferential cracks, grith weld anomalies, pipeline construction features, other anomalies of circumferential orientation." %}
             </p>
-
-            <div class="magnetization-card">
-              <div class="card-title">
-                <svg
-                  width="13"
-                  height="31"
-                  viewBox="0 0 13 31"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
-                    fill="#2fa3ee"
-                  />
-                </svg>
-                <h3>Axial magnetization</h3>
-              </div>
-              <div class="card-body">
-                <img
-                  src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial.png' %}"
-                  alt="axial magnetization"
-                />
-                <p>
-                  {% trans "MFL are intended to detect, locate and size general corrosion, pitting corrosion, circumferential cracks, grith weld anomalies, pipeline construction features, other anomalies of circumferential orientation." %}
-                </p>
-              </div>
-            </div>
           </div>
         </div>
         <div class="pig-wrapper">
-          <div class="title">
-            <img
-              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "TFI (Transverse Field Inspection)" %}</h2>
-          </div>
-          <div class="pig-info">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "TFI (Transverse Field Inspection)" %}</h2>
+            </div>
             <p>
               {% trans "This tool uses the principles of magnetic flux leakage. The magnetic flux density in a metal leak, where its thickness has decreased due to corrosion. By measuring this magnetic leakage by Hall sensors that directly measure the magnetic flux, the location of the corrosion is detected." %}
             </p>
+          </div>
+          <div class="item-img">
             <img
               src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/tfi-pig.png' %}"
               alt="tfi pig"
             />
-            <div class="magnetization-card">
-              <div class="card-title">
-                <svg
-                  width="13"
-                  height="31"
-                  viewBox="0 0 13 31"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
-                    fill="#2fa3ee"
-                  />
-                </svg>
-                <h3>Transverse magnetization</h3>
-              </div>
-              <div class="card-body">
-                <img
-                  src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse.png' %}"
-                  alt="card title icon"
-                />
-                <p>
-                  {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
-                </p>
-              </div>
-            </div>
+          </div>
+        </div>
+        <div class="magnetization-card">
+          <div class="card-title">
+            <svg
+              width="13"
+              height="31"
+              viewBox="0 0 13 31"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
+                fill="#2fa3ee"
+              />
+            </svg>
+            <h3>Transverse magnetization</h3>
+          </div>
+          <div class="card-body">
+            <img
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse.png' %}"
+              alt="card title icon"
+            />
+            <p>
+              {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
+            </p>
           </div>
         </div>
         <img
@@ -178,7 +184,6 @@
           src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/curved-req.svg' %}"
           alt=""
         />
-
         <div class="container">
           <div class="mfl-tfi-comparison-images">
             <div>
@@ -233,7 +238,7 @@
                 </svg>
                 <p>{% trans "General corrosion" %}</p>
               </div>
-              <h3>{% trans "53%" %}</h3>
+              <h3>53%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -253,7 +258,7 @@
                 <p>{% trans "Grooves" %}</p>
               </div>
 
-              <h3>{% trans "31%" %}</h3>
+              <h3>31</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -272,7 +277,7 @@
                 </svg>
                 <p>{% trans "Girth weld anomalies" %}</p>
               </div>
-              <h3>{% trans "6%" %}</h3>
+              <h3>6%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -291,7 +296,7 @@
                 </svg>
                 <p>{% trans "Pitting" %}</p>
               </div>
-              <h3>{% trans "6%" %}</h3>
+              <h3>6%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -310,7 +315,7 @@
                 </svg>
                 <p>{% trans "SCC and Cracks" %}</p>
               </div>
-              <h3>{% trans "1%" %}</h3>
+              <h3>1%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -329,7 +334,7 @@
                 </svg>
                 <p>{% trans "Mill defects" %}</p>
               </div>
-              <h3>{% trans "2%" %}</h3>
+              <h3>2%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
@@ -348,24 +353,26 @@
                 </svg>
                 <p>{% trans "Dents" %}</p>
               </div>
-              <h3>{% trans "1%" %}</h3>
+              <h3>1%</h3>
             </div>
           </section>
         </div>
       </div>
       <div class="container">
         <div class="pig-wrapper">
-          <div class="title">
-            <img
-              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "UT (Ultrasonic tool)" %}</h2>
-          </div>
-          <div class="pig-info">
+          <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "UT (Ultrasonic tool)" %}</h2>
+            </div>
             <p>
               {% trans "It is used to check the roundness of the pipe cross section and is available in both mechanical and electronic forms." %}
             </p>
+          </div>
+          <div class="item-img">
             <img
               src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/ut-pig.png' %}"
               alt="ut pig"
@@ -498,13 +505,15 @@
           </div>
         </div>
         <div class="pig-wrapper">
-          <div class="title">
-            <img
-              src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
-          </div>
+          <div class="item-text">
+              <div class="title">
+                <img
+                  src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                  alt="3hexaIcon"
+                />
+                <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
+            </div>
+         </div>
           <div class="pig-info">
             <p>
               {% trans "Whenever a conductive material conducting electricity is near the surface of a metal, and is placed in a magnetic field, electromagnetic force enters the metal surface according to Laurentz's law. This induced force on the metal, depending on the direction of the magnetic field as well as the electric current of the wire, can cause shear, longitudinal or surface waves in the metal. This method eliminates the need for an intermediate material to create an ultrasonic wave, and lines containing gas can also be inspected by this method." %}
