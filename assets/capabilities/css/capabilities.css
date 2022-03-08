@@ -2,11 +2,6 @@
   --darkBlue: #00006a;
   --lightBlue: #2fa3ee;
 }
-
-/* .container {
-  width: 90%;
-  margin: 0 auto;
-} */
 .navbar > ul > li:nth-child(1) > img {
   transform: scale(1);
 }
@@ -15,12 +10,9 @@
 
 .capabilities-items-wrapper,
 .capabilities-item-wrapper {
-  /* height: 800px; */
   padding: 2rem 0 2rem 0;
-
-  /* margin: 6rem 0; */
   display: flex;
-  flex-direction: column; /* this should change for desktop to row */
+  flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
   align-items: center;
@@ -43,22 +35,11 @@
 #item-img-4 {
   width: 370px;
 }
-/* .title {
-  display: flex;
-  align-items: center;
-}
-.title > h2 {
-  font-weight: 700;
-  padding-left: 0.5rem;
-} */
 .item-text {
   width: 100%;
 }
 .item-text > div {
   line-height: 1.5rem;
-}
-.item-text > p {
-  margin-top: 2rem;
 }
 .industrial-tech-wrapper > .container > p:last-of-type {
   margin-bottom: 2.5rem;
@@ -205,9 +186,6 @@
   .service-card {
     margin-top: 1rem;
   }
-  .title img {
-    width: 20px;
-  }
   .hero {
     width: 100%;
     height: 500px;
@@ -233,9 +211,6 @@
     flex-direction: row;
     padding: 5rem 0;
   }
-  .item-text {
-    width: 50%;
-  }
   .item-img {
     width: 45%;
   }
@@ -253,9 +228,6 @@
   }
   .service-card {
     width: 48%;
-  }
-  .title > h2 {
-    font-size: 30px !important;
   }
 }
 @media screen and (min-width: 1200px) {

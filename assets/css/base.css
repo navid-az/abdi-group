@@ -84,9 +84,11 @@ h2 {
   align-items: center;
   width: 100%;
 }
+/* title with three hexagon icons  */
 .title > h2 {
   padding-left: 0.5rem;
 }
+
 header {
   position: relative;
   z-index: 1;
@@ -227,6 +229,9 @@ nav > .img__btns {
   a {
     font-size: 16px;
   }
+  .title > img {
+    width: 20px;
+  }
 }
 @media screen and (min-width: 992px) {
   .container {
@@ -262,6 +267,12 @@ nav > .img__btns {
   }
   .lan-changer {
     display: flex;
+  }
+  .title > h2 {
+    font-size: 30px !important;
+  }
+  .item-text {
+    width: 50%;
   }
 }
 @media screen and (min-width: 1200px) {

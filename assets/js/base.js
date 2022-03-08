@@ -79,7 +79,6 @@ function menuCloseBtnClickHandle() {
     stagger: 0.08,
     delay: 0.1,
   });
-
   menuListOpts.forEach((i) => {
     i.style.display = "flex";
   });
@@ -130,8 +129,8 @@ function productsMenuOpen() {
     goBack = false;
   }
   goTo = "go to mainMenu";
-  console.log(goBack);
 }
+// changes oil and gas pipelines options list
 function changeSubMenu() {
   var child = 0;
   while (true) {
@@ -144,7 +143,7 @@ function changeSubMenu() {
   }
 }
 
-// This will open subMenuSub
+//opens product and services subMenuSub
 function openSubMenuSub(x) {
   gsap.to("#menu-sub-list li ", {
     opacity: 0,
@@ -174,12 +173,6 @@ function openSubMenuSub(x) {
     delay: 0.25,
     stagger: 0.05,
   });
-  // gsap.to("#menu-sub-list-sub ul > li", {
-  //   opacity: 1,
-  //   x: "0%",
-  //   delay: 0.25,
-  //   stagger: 0.05,
-  // });
   menuSubListSubOptsUl.forEach((i) => {
     i.style.display = "none";
   });
@@ -193,10 +186,7 @@ function openSubMenuSub(x) {
     goBack = false;
     console.log("this is working");
   }
-  goTo = "go to subMenu";
-  console.log(goTo);
 }
-
 function goBackBtnF() {
   goBack = true;
   if (goTo == "go to mainMenu") {
@@ -222,7 +212,6 @@ function goBackBtnF() {
     });
   } else if (goTo == "go to subMenu") {
     console.log("this should be the sub menu");
-
     gsap.to("#menu-sub-list li ", {
       opacity: 1,
       x: "0%",
@@ -242,9 +231,5 @@ function goBackBtnF() {
       stagger: 0.08,
       delay: 0.1,
     });
-    goTo = "go to mainMenu";
   }
-
-  console.log(goBack);
-  console.log(goTo);
 }
