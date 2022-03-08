@@ -31,9 +31,10 @@
 .title {
   flex-direction: row-reverse;
 }
+/* title with three hexagon icons  */
 .title > h2 {
   padding-left: 0;
-  padding-right: 0.3rem;
+  padding-right: 0.5rem;
 }
 
 p,

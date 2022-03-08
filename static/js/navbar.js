@@ -56,7 +56,6 @@ function openDesktopNavList(navListNum) {
   });
   navListBtns[navListNum].style.color = "#89c958";
   navListBtns[navListNum].style.transform = "translateX(3%)";
-
   desktopNavListOptionsWrapper.forEach((i) => {
     gsap.to(i, {
       opacity: 0,
@@ -79,11 +78,9 @@ function openDesktopNavList(navListNum) {
 
 window.onscroll = function () {
   myFunction();
-  console.log("tjos is working");
 };
 
 var navbar = document.getElementById("navbar");
-
 var sticky = navbar.offsetTop;
 
 function myFunction() {

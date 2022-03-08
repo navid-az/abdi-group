@@ -24,7 +24,6 @@
   align-items: center;
 }
 .inline-inspect-intro > ul > li > img {
-  padding-top: 0.2rem;
   padding-right: 0.5rem;
 }
 .pig-wrapper {
@@ -248,6 +247,9 @@
 @media screen and (min-width: 576px) {
 }
 @media screen and (min-width: 768px) {
+  .title img {
+    width: 20px;
+  }
   .pig-info > img {
     width: 50%;
   }
@@ -279,6 +281,9 @@
 @media screen and (min-width: 992px) {
   .magnetization-card {
     width: 100%;
+  }
+  .title > h2 {
+    font-size: 30px !important;
   }
   /* chart  */
 

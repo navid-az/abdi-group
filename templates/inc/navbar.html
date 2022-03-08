@@ -117,9 +117,9 @@
       </div>
     </div>
     {% block more_js %}
-    <script src="{% static 'js/navbar.js' %}"></script>
-    {% if LANGUAGE_CODE == 'fa' %}
-            <script src="{% static 'js/navbar-fa.js' %}"></script>
+      <script src="{% static 'js/navbar.js' %}"></script>
+      {% if LANGUAGE_CODE == 'fa' %}
+        <script src="{% static 'js/navbar-fa.js' %}"></script>
       {% endif %}
     {% endblock more_js %}
   </body>
