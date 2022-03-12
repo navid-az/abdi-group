@@ -3,6 +3,10 @@
   --lightBlue: #2fa3ee;
   --green: #89c958;
 }
+.light-green {
+  filter: invert(96%) sepia(69%) saturate(1055%) hue-rotate(32deg)
+    brightness(93%) contrast(67%);
+}
 * {
   padding: 0;
   margin: 0;
@@ -204,10 +208,10 @@ nav > .img__btns {
 
 .curved-req {
   position: absolute;
-  width: 100%;
+  width: 100.5%;
 }
 .curved-req:last-of-type {
-  bottom: 0;
+  bottom: -1rem;
 }
 .curved-req:last-of-type {
   transform: rotate(180deg);
@@ -234,9 +238,6 @@ nav > .img__btns {
   }
 }
 @media screen and (min-width: 992px) {
-  .container {
-    width: 73%;
-  }
   p,
   a {
     font-size: 17px;
@@ -276,6 +277,9 @@ nav > .img__btns {
   }
 }
 @media screen and (min-width: 1200px) {
+  .container {
+    width: 75%;
+  }
 }
 @media screen and (min-width: 1400px) {
 }

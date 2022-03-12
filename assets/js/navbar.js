@@ -76,19 +76,21 @@ function openDesktopNavList(navListNum) {
 
 // stick navbar to the top of the screen
 
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
 window.onscroll = function () {
   myFunction();
 };
 
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
+    navbar.style.width = "85%";
   } else {
     navbar.classList.remove("sticky");
     navbar.style.background = "#00006A";
     navlist.style.background = "#00006A";
+    navbar.style.width = "94%";
   }
 }
