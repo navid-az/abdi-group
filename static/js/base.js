@@ -5,11 +5,9 @@ var closeMenuBtn = document.getElementById("close-menu-btn");
 var goBackBtn = document.getElementById("go-back-btn");
 var mobileMenu = document.getElementById("mobile-menu");
 var menuBtns = document.getElementById("menu__btns");
-
 var menuList = document.getElementById("menu-list");
 var menuSubList = document.getElementById("menu-sub-list"); //this menu is under menu list
 var menuSubListSub = document.getElementById("menu-sub-list-sub"); // this menu is under sub list
-
 var menuListOpts = document.querySelectorAll("#menu-list li");
 var menuSubListOpts = document.querySelectorAll("#menu-sub-list li");
 var menuSubListSubOptsUl = document.querySelectorAll("#menu-sub-list-sub ul");
@@ -19,11 +17,8 @@ var menuSubListSubOptsLi = document.querySelectorAll(
 var child = 0;
 let goBack = false;
 let goTo = "go to mainMenu";
-
 var products = document.getElementById("products");
-
 const timeline = gsap.timeline({ defaults: { duration: 0.4 } });
-
 for (var i = 0; i < navOptions.length; i++) {
   navOptions[i].addEventListener("mouseover", navOptionHoverOn);
   navOptions[i].addEventListener("mouseout", navOptionHoverOff);
@@ -36,13 +31,10 @@ function navOptionHoverOff() {
   this.children[0].style.transform = "scale(0)";
   this.children[1].style.color = "#FFFFFF";
 }
-
 // hamburger btn and mobile menu
-
 hamburgerBtn.addEventListener("click", menuBtnClickHandle);
 closeMenuBtn.addEventListener("click", menuCloseBtnClickHandle);
 products.addEventListener("click", productsMenuOpen);
-
 function menuBtnClickHandle() {
   mobileMenu.style.display = "flex";
   setTimeout(() => {
@@ -50,7 +42,6 @@ function menuBtnClickHandle() {
     mobileMenu.style.position = "fixed";
   }, 200);
   hamburgerBtn.style.opacity = "0";
-
   setTimeout(() => {
     closeMenuBtn.style.opacity = "1";
   }, 300);
@@ -68,7 +59,6 @@ function menuCloseBtnClickHandle() {
   hamburgerBtn.style.opacity = "1";
   closeMenuBtn.style.opacity = "0";
   goBackBtn.style.opacity = "0";
-
   timeline.to("#menu-list li ", {
     opacity: 1,
     x: "0%",
@@ -79,6 +69,7 @@ function menuCloseBtnClickHandle() {
     stagger: 0.08,
     delay: 0.1,
   });
+
   menuListOpts.forEach((i) => {
     i.style.display = "flex";
   });
@@ -94,7 +85,6 @@ function menuCloseBtnClickHandle() {
     mobileMenu.style.display = "none";
   }, 300);
 }
-
 // products and services list will open up
 function productsMenuOpen() {
   goBackBtn.style.display = "flex";
@@ -129,6 +119,7 @@ function productsMenuOpen() {
     goBack = false;
   }
   goTo = "go to mainMenu";
+  console.log(goBack);
 }
 // changes oil and gas pipelines options list
 function changeSubMenu() {
@@ -143,6 +134,7 @@ function changeSubMenu() {
   }
 }
 
+// This will open subMenuSub
 //opens product and services subMenuSub
 function openSubMenuSub(x) {
   gsap.to("#menu-sub-list li ", {
@@ -173,6 +165,12 @@ function openSubMenuSub(x) {
     delay: 0.25,
     stagger: 0.05,
   });
+  // gsap.to("#menu-sub-list-sub ul > li", {
+  //   opacity: 1,
+  //   x: "0%",
+  //   delay: 0.25,
+  //   stagger: 0.05,
+  // });
   menuSubListSubOptsUl.forEach((i) => {
     i.style.display = "none";
   });
@@ -186,7 +184,10 @@ function openSubMenuSub(x) {
     goBack = false;
     console.log("this is working");
   }
+  goTo = "go to subMenu";
+  console.log(goTo);
 }
+
 function goBackBtnF() {
   goBack = true;
   if (goTo == "go to mainMenu") {
@@ -212,6 +213,7 @@ function goBackBtnF() {
     });
   } else if (goTo == "go to subMenu") {
     console.log("this should be the sub menu");
+
     gsap.to("#menu-sub-list li ", {
       opacity: 1,
       x: "0%",
@@ -231,5 +233,9 @@ function goBackBtnF() {
       stagger: 0.08,
       delay: 0.1,
     });
+    goTo = "go to mainMenu";
   }
+
+  console.log(goBack);
+  console.log(goTo);
 }

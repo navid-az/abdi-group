@@ -20,6 +20,21 @@
   height: 100%;
   z-index: -1;
 }
+.page-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rem;
+  width: 350px;
+  height: 330px;
+  position: absolute;
+  bottom: 5.9rem;
+  left: 4.5rem;
+}
+.page-name > h1 {
+  color: white;
+  font-size: 2.5rem;
+}
 .fade-layer {
   position: absolute;
   z-index: 2;

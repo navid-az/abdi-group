@@ -1,46 +1,30 @@
-{% load static %}
-{% block more_css %}
-    <link rel="stylesheet" href="{% static 'css/hero.css' %}">
+{% load static %} {% block more_css %}
+<link rel="stylesheet" href="{% static 'css/hero.css' %}" />
 {% endblock more_css %}
 
-<section class="hero">    
-    <div class='main-img-wrapper'>
-      <div class="img">
-       <div class="fade-layer"></div>
-        <img
-        class="main-img"
-        src='{% static img %}'
-        alt="hero-img"
-      />
-     </div>
+<section class="hero">
+  <div class="main-img-wrapper">
+    <div class="img">
+      <div class="fade-layer"></div>
+      <img class="main-img" src="{% static img %}" alt="hero-img" />
     </div>
-      {% comment %}
-      <img
-        class="main-img-hexagons"
-        src="{% static 'capabilities/svgs/blue-hexa.svg' %}"
-        alt=""
-      />
-
-      {% endcomment %} {% comment %}
-      <img
-        class="main-img-hexagons"
-        src="{% static 'capabilities/svgs/blue-hexa-mobile.svg' %}"
-        alt=""
-      />
-      {% endcomment %}
-      <img
-        class="desktop-hero-hexa"
-        src="{% static 'svgs/desktop-hero-hexa.svg' %}"
-        alt=""
-      />
-      <img
-        class="main-img-hexagons-right"
-        src="{% static 'svgs/mobile-hero-hexas-right.svg' %}"
-        alt=""
-      />
-      <img
-        class="main-img-hexagons-left"
-        src="{% static 'svgs/mobile-hero-hexas-left.svg' %}"
-        alt=""
-      />
+  </div>
+  <img
+    class="desktop-hero-hexa"
+    src="{% static 'svgs/desktop-hero-hexa.svg' %}"
+    alt="green hexagons"
+  />
+  <img
+    class="main-img-hexagons-right"
+    src="{% static 'svgs/mobile-hero-hexas-right.svg' %}"
+    alt="mobile green hexagons"
+  />
+  <img
+    class="main-img-hexagons-left"
+    src="{% static 'svgs/mobile-hero-hexas-left.svg' %}"
+    alt="mobile green hexagons"
+  />
+  {% comment %} <div class="page-name">
+    <h1>Inline Inspection</h1>
+  </div> {% endcomment %}
 </section>

@@ -1,7 +1,3 @@
-/* .pig-info {
-  flex-direction: row-reverse;
-} */
-
 .inline-inspect-intro > ul > li > img {
   padding-right: 0;
   padding-left: 0.5rem;
@@ -9,6 +5,9 @@
 
 .card-body > p {
   direction: ltr !important;
+}
+.title > h2 {
+  font-size: 24px;
 }
 
 .ut-advantages-title,
@@ -36,6 +35,9 @@
 }
 @media screen and (min-width: 992px) {
   .pig-info {
+    flex-direction: row-reverse;
+  }
+  .pig-wrapper {
     flex-direction: row-reverse;
   }
 }

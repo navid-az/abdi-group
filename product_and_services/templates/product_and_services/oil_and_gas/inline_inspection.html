@@ -13,7 +13,6 @@
       <link
         rel="stylesheet"
         href=" {% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection.css' %} "
-        
         />
         {% if LANGUAGE_CODE == 'fa' %}
           <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection-fa.css' %}">
@@ -35,15 +34,15 @@
           </p>
           <ul>
             <li>
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <img class='light-green' src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>{% trans "capabilities of these methods" %}</p>
             </li>
             <li>
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <img class='light-green' src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>{% trans "pipeline conditions" %}</p>
             </li>
             <li>
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <img class='light-green' src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>{% trans "costs" %}</p>
             </li>
           </ul>
@@ -72,7 +71,8 @@
           </div>
           <div class="item-img">
             <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp-pig.png' %}"
+              style='width:85%;'
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp.png' %}"
               alt="egp pig"
             />
           </div>
@@ -95,7 +95,6 @@
             />
           </div>
         </div>
-        <br><br><br>
         <p>
           {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %} <br /><br /> {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
         </p>
@@ -113,7 +112,7 @@
                 fill="#2fa3ee"
               />
             </svg>
-            <h3>Axial magnetization</h3>
+            <h2>Axial magnetization</h2>
           </div>
           <div class="card-body">
             <img
@@ -148,6 +147,7 @@
         <div class="magnetization-card">
           <div class="card-title">
             <svg
+            style='margin-left:-0.1rem;'
               width="13"
               height="31"
               viewBox="0 0 13 31"
@@ -159,7 +159,7 @@
                 fill="#2fa3ee"
               />
             </svg>
-            <h3>Transverse magnetization</h3>
+            <h2>Transverse magnetization</h2>
           </div>
           <div class="card-body">
             <img
@@ -173,12 +173,13 @@
         </div>
         <img
           class="flux"
-          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/flux-mobile.jpg' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-tfi.png' %}"
           alt=""
         />
       </div>
     </div>
-      <div class="mfl-tfi-comparison">
+    <!--this needs a fix-->
+      <!--<div class="mfl-tfi-comparison">
         <img
           class="curved-req"
           src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/curved-req.svg' %}"
@@ -187,7 +188,7 @@
         <div class="container">
           <div class="mfl-tfi-comparison-images">
             <div>
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <img src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>MFL</p>
               <img
                 src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle.png' %}"
@@ -195,7 +196,7 @@
               />
             </div>
             <div>
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="3hexaIcon" />
+              <img src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>TFI</p>
               <img
                 src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle2.png' %}"
@@ -209,7 +210,7 @@
           src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/curved-req.svg' %}"
           alt=""
         />
-      </div>
+      </div>-->
       <div class="container">
         <div class="chart-wrapper">
           <p>
@@ -223,134 +224,50 @@
           <section class="chart-options-wrapper">
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#6C9DD5"
-                  />
-                </svg>
+                <img style='filter:invert(81%) sepia(39%) saturate(4559%) hue-rotate(184deg) brightness(88%) contrast(88%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "General corrosion" %}</p>
               </div>
               <h3>53%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#DA756E"
-                  />
-                </svg>
+                <img style='filter:invert(56%) sepia(29%) saturate(926%) hue-rotate(315deg) brightness(93%) contrast(82%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "Grooves" %}</p>
               </div>
 
-              <h3>31</h3>
+              <h3>31%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#AF9BCA"
-                  />
-                </svg>
+                <img style='filter:invert(78%) sepia(8%) saturate(1300%) hue-rotate(220deg) brightness(83%) contrast(89%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "Girth weld anomalies" %}</p>
               </div>
               <h3>6%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#C5DF92"
-                  />
-                </svg>
+                <img style='filter:invert(97%) sepia(6%) saturate(2247%) hue-rotate(22deg) brightness(96%) contrast(83%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "Pitting" %}</p>
               </div>
               <h3>6%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#BED6FB"
-                  />
-                </svg>
+                <img style='filter:invert(77%) sepia(16%) saturate(656%) hue-rotate(185deg) brightness(106%) contrast(97%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "SCC and Cracks" %}</p>
               </div>
               <h3>1%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#9ADEF6"
-                  />
-                </svg>
+                <img style='filter:invert(96%) sepia(16%) saturate(6762%) hue-rotate(167deg) brightness(92%) contrast(111%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "Mill defects" %}</p>
               </div>
               <h3>2%</h3>
             </div>
             <div class="chart-options">
               <div class="chart-options-title">
-                <svg
-                  width="10"
-                  height="11"
-                  viewBox="0 0 10 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    class="chart-s-hexa"
-                    d="M5.22974 0L9.78099 2.59544L9.82534 7.78631L5.31843 10.3817L0.767184 7.78631L0.722839 2.59544L5.22974 0Z"
-                    fill="#F5BC88"
-                  />
-                </svg>
+                <img style='filter:invert(82%) sepia(97%) saturate(7439%) hue-rotate(301deg) brightness(105%) contrast(92%);' src="/static/svgs/s-hexa.svg" alt="small hexagon">
                 <p>{% trans "Dents" %}</p>
               </div>
               <h3>1%</h3>
@@ -505,29 +422,29 @@
           </div>
         </div>
         <div class="pig-wrapper">
-          <div class="item-text">
-              <div class="title">
-                <img
-                  src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-                  alt="3hexaIcon"
-                />
-                <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
+          <div class="item-text" style='width:100%;'>
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
             </div>
-         </div>
-          <div class="pig-info">
             <p>
               {% trans "Whenever a conductive material conducting electricity is near the surface of a metal, and is placed in a magnetic field, electromagnetic force enters the metal surface according to Laurentz's law. This induced force on the metal, depending on the direction of the magnetic field as well as the electric current of the wire, can cause shear, longitudinal or surface waves in the metal. This method eliminates the need for an intermediate material to create an ultrasonic wave, and lines containing gas can also be inspected by this method." %}
             </p>
+          </div>
+          <div class="item-img">
             <img
               src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/emat.png' %}"
               alt="emat"
             />
-            <p>
-              {% trans "In this method, the coil and the permanent magnet are located near the metal surface. forced by radio waves (RF) and produce eddy currents. These waves are in constant magnetic contact." %}
-              <br /><br />
-              {% trans "They cause mechanical strain, so they emit sound waves in the pipe." %}
-            </p>
           </div>
+          <p>
+            {% trans "In this method, the coil and the permanent magnet are located near the metal surface. forced by radio waves (RF) and produce eddy currents. These waves are in constant magnetic contact." %}
+            <br /><br />
+            {% trans "They cause mechanical strain, so they emit sound waves in the pipe." %}
+          </p>
         </div>
       </div>
     {% endblock content %}
