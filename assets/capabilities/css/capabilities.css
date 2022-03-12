@@ -35,9 +35,7 @@
 #item-img-4 {
   width: 370px;
 }
-.item-text {
-  width: 100%;
-}
+
 .item-text > div {
   line-height: 1.5rem;
 }
