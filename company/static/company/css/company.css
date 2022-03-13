@@ -2,7 +2,6 @@
   position: relative;
   width: 100%;
   /* height: 255px; */
-  z-index: -1;
   border-radius: 8px;
   margin-top: 7rem;
   background: #ffffff;
@@ -12,11 +11,10 @@
 .title-green-rec {
   position: absolute;
   left: 0;
-  z-index: 2;
 }
 .founder-card-img {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   right: -1rem;
   top: -3.4rem;
 }
@@ -26,7 +24,6 @@
 }
 .founder-card-title {
   position: absolute;
-  z-index: -1;
   top: -1rem;
   left: -0.5rem;
   width: 85%;
@@ -38,10 +35,12 @@
   line-height: 1.2rem;
 }
 .founder-card-title h3 {
+  color: white;
   font-size: 16px;
   padding-left: 0.4rem;
 }
 .founder-card-title p {
+  color: white;
   font-size: 10px;
   padding-left: 0.4rem;
 }
@@ -71,22 +70,22 @@
   margin-top: 2rem;
   line-height: 1.5rem;
 }
-.history p {
+/* .history p {
   font-weight: 600;
-}
+} */
 .history-title,
 .partners-title {
   display: flex;
   align-items: center;
   margin: 5rem 0 2rem 0;
 }
-.history-title h2,
+/* .history-title h2,
 .partners-title h2 {
   color: var(--darkBlue);
   padding-left: 0.5rem;
   font-size: 18px;
   font-weight: 900;
-}
+} */
 .history-title img,
 .partners-title img {
   position: absolute;
@@ -95,7 +94,8 @@
 /* contact div  */
 .contact-us {
   position: relative;
-  background: var(--darkBlue);
+  background-image: url(../images/connectwork.png);
+  background-size: 70%;
   width: 100%;
   border-radius: 8px;
   margin: 5rem 0 2rem 0;
@@ -122,13 +122,15 @@
   position: absolute;
   color: var(--darkBlue);
   background: var(--green);
-  width: 40%;
+  width: 50%;
   border-radius: 8px;
   font-weight: bolder;
   text-align: center;
   padding: 10px 15px;
-  left: 1.5rem;
-  top: -0.5rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -1rem;
 }
 .address,
 .phone,
