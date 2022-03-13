@@ -1,0 +1,43 @@
+.card-body-info,
+.address,
+.phone,
+.email,
+.fax,
+.history-title,
+.partners-title {
+  flex-direction: row-reverse;
+}
+.card-body-info > img {
+  padding-right: 0;
+  padding-left: 0.45rem;
+}
+.founder-card-title {
+  left: unset;
+  right: -0.5rem;
+}
+.founder-card-title h3,
+p {
+  padding-left: 0;
+  padding-right: 0.4rem;
+}
+.title-green-rec {
+  right: -0.05rem;
+  left: unset;
+  transform: rotate(180deg);
+}
+.founder-card-img {
+  left: -1rem;
+  right: 0;
+}
+.history-title img,
+.partners-title img {
+  right: -0.5rem;
+  left: unset;
+}
+.address > div > h4,
+.phone > p,
+.email > a,
+.fax p {
+  padding-left: 0;
+  padding-right: 0.8rem;
+}

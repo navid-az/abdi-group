@@ -10,7 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block more_css %}
-    <link rel="stylesheet" href="{% static 'company/css/company.css' %}" />
+      <link rel="stylesheet" href="{% static 'company/css/company.css' %}" />
+        {% if LANGUAGE_CODE == 'fa' %}
+                <link rel="stylesheet" href="{% static 'company/css/company-fa.css' %}" />
+        {% endif %}
     {% endblock more_css %}
     <title>{% block title %} {% trans "About Us" %} {% endblock title %}</title>
   </head>
@@ -23,18 +26,18 @@
           <h4> {% trans "About Us" %} </h4>
         </div>
         <div class="founder-card">
-          <div class="founder-card-img">
-            <img src="{% static 'images/mahdi-bargah.png' %}" alt="" />
-          </div>
           <div class="founder-card-title">
             <img
               class="title-green-rec"
               src="{% static 'svgs/green-rec.svg' %}"
               alt=""
-            />
-            <h3>{% trans "Mahdi Bargah Soleymani" %}</h3>
-            <p>{% trans "Managing Director and Chairman of the Board" %}</p>
-          </div>
+              />
+              <h3>{% trans "Mahdi Bargah Soleymani" %}</h3>
+              <p>{% trans "Managing Director and Chairman of the Board" %}</p>
+            </div>
+            <div class="founder-card-img">
+              <img src="{% static 'images/mahdi-bargah.png' %}" alt="" />
+            </div>
           <div class="founder-card-body">
             <div class="card-body-info">
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
@@ -53,17 +56,17 @@
           </div>
         </div>
         <div class="founder-card">
-          <div class="founder-card-img">
-            <img src="{% static 'images/mahnaz-azimi.png' %}" alt="" />
-          </div>
           <div class="founder-card-title">
             <img
-              class="title-green-rec"
-              src="{% static 'svgs/green-rec.svg' %}"
-              alt=""
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
             />
             <h3>{% trans "Mahnaz Azimi Khasraghi" %}</h3>
             <p>{% trans "Vice president of the Board" %}</p>
+          </div>
+          <div class="founder-card-img">
+            <img src="{% static 'images/mahnaz-azimi.png' %}" alt="" />
           </div>
           <div class="founder-card-body">
             <div class="card-body-info">
@@ -79,9 +82,6 @@
           </div>
         </div>
         <div class="founder-card">
-          <div class="founder-card-img">
-            <img src="{% static 'images/behzad-abdi.png' %}" alt="" />
-          </div>
           <div class="founder-card-title">
             <img
               class="title-green-rec"
@@ -90,6 +90,9 @@
             />
             <h3>{% trans "Behzad Abdi" %}</h3>
             <p>{% trans "Member of the Board" %}</p>
+          </div>
+          <div class="founder-card-img">
+            <img src="{% static 'images/behzad-abdi.png' %}" alt="" />
           </div>
           <div class="founder-card-body">
             <div class="card-body-info">
@@ -101,23 +104,32 @@
             <div class="card-body-info">
               <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
               <p>
-                {% trans "Engineer license Grade Senior (designing& Supervising & Construction) Organization for Engineering Order of Building – Ministry of Roads and City Planning- 1997 – Contd." %}
+                {% trans "Engineer license Grade Senior (designing& Supervising & Construction) Organization for Engineering Order of Building – Ministry of Roads and City Planning- 1997 – Contd. More than 25 years of experience in designing, executing, supervising and managing construction projects" %}
               </p>
             </div>
+           {% if LANGUAGE_CODE == 'fa' %}
+            <div class="card-body-info">
+              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+              <p>
+                همکاری با مهندسین مشاور انرژی و دکتر زاهدی در تهیه نشریه 369 سازمان مدیریت و برنامه ریزی کشور با موضوع ضوابط احداث تونل مشترک تاسیسات شهری
+همکاری با شهرداری تهران و سازمان نظام مهندسی تهران بعنوان کنترل مضاغف سازه
+              </p>
+            </div>
+           {% endif %}
           </div>
         </div>
         <div class="founder-card">
-          <div class="founder-card-img">
-            <img src="{% static 'images/hossein-abdi.png' %}" alt="" />
-          </div>
           <div class="founder-card-title">
             <img
-              class="title-green-rec"
-              src="{% static 'svgs/green-rec.svg' %}"
-              alt=""
+            class="title-green-rec"
+            src="{% static 'svgs/green-rec.svg' %}"
+            alt=""
             />
             <h3>{% trans "Hossein Abdi" %}</h3>
             <p>{% trans "Founder and Share holder" %}</p>
+          </div>
+          <div class="founder-card-img">
+            <img src="{% static 'images/hossein-abdi.png' %}" alt="" />
           </div>
           <div class="founder-card-body">
             <div class="card-body-info">
@@ -139,18 +151,24 @@
           </div>
         </div>
         <div class="history">
-          <div class="history-title">
-            <img src="{% static 'svgs/green-history-rec.svg' %}" alt="" />
-            <h2>{% trans "History" %}</h2>
+          <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "History" %}</h2>
           </div>
           <p>
             {% trans "ABDI-GROUP is led by managers with more than 20 years of experience in the oil, gas and construction industry. The managers of construction have more than half a century of experience in the field of construction." %}
           </p>
         </div>
         <div class="partner-companies">
-          <div class="partners-title">
-            <img src="{% static 'svgs/green-history-rec.svg' %}" alt="" />
-            <h2>{% trans "Partner Companies" %}</h2>
+          <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Partner Companies" %}</h2>
           </div>
           <p>
             {% trans "ABDI-GROUP is proud to offer various industrial solutions to solve the problems of Operators of different industries, relying on the power of local knowledge-based companies." %}
@@ -177,12 +195,16 @@
               </p>
             </div>
           </div>
-          <div class="address">
-            <img src="{% static 'svgs/phone.svg' %}" alt="" />
+          <div class="phone">
+            <img src="{% static 'svgs/phone.svg' %}" alt="phone icon" />
             <p>{% trans "+98-021-22006761" %}</p>
           </div>
+          <div class="fax">
+            <img src="{% static 'svgs/fax.svg' %}" alt="fax icon" />
+            <p>{% trans "+98-021-22638734" %}</p>
+          </div>
           <div class="email">
-            <img src="{% static 'svgs/mail.svg' %}" alt="" />
+            <img src="{% static 'svgs/mail.svg' %}" alt="mail icon" />
             <a href="">{% trans "info@abdi-group.com" %}</a>
           </div>
         </div>

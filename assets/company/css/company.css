@@ -14,7 +14,6 @@
 }
 .founder-card-img {
   position: absolute;
-  z-index: 1;
   right: -1rem;
   top: -3.4rem;
 }
@@ -63,6 +62,9 @@
   margin-top: 0.2rem;
 }
 /* history */
+.title {
+  margin-top: 8rem;
+}
 .history,
 .partner-companies {
   width: 90%;
@@ -97,8 +99,9 @@
   background-image: url(../images/connectwork.png);
   background-size: 70%;
   width: 100%;
+  max-width: 800px;
   border-radius: 8px;
-  margin: 5rem 0 2rem 0;
+  margin: 8rem auto;
   padding: 1.5rem;
 }
 .contact-us-hexa:nth-child(1) {
@@ -134,19 +137,22 @@
 }
 .address,
 .phone,
-.email {
+.email,
+.fax {
   margin-top: 2rem;
   display: flex;
 }
 .address img,
 .phone img,
-.email img {
+.email img,
+.fax img {
   align-self: flex-start;
   margin-top: 0.2rem;
 }
 .address p,
 .phone p,
-.email a {
+.email a,
+.fax p {
   padding-left: 0.8rem;
   z-index: 5;
 }

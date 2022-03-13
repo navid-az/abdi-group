@@ -7,8 +7,6 @@
 #navbar {
   position: absolute;
   background: var(--darkBlue);
-  /* display: flex; */
-  /* for mobile */
   display: none;
   justify-content: center;
   align-items: center;
@@ -20,7 +18,7 @@
   right: 0;
   margin: 0 auto;
   border-radius: 0.75rem;
-  z-index: 2;
+  z-index: 100;
 }
 #navbar > ul {
   display: flex;
@@ -145,9 +143,6 @@
   background: var(--lightBlue);
   transform: scale(1.05);
 }
-.desktop-nav-list-options > a {
-}
-
 /* media  */
 
 @media screen and (max-width: 576px) {
