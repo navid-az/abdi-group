@@ -1,26 +1,22 @@
-.stage-body > div {
-  flex-direction: row-reverse;
+/* p,
+h4,
+h3,
+h2,
+h1,
+li,
+a,
+span {
+  direction: ltr;
 }
-
 /* media  */
 
 @media screen and (min-width: 576px) {
-  .inspection-stage {
-    flex-direction: row-reverse;
-    margin: 2rem 0;
-  }
 }
 @media screen and (min-width: 768px) {
 }
 @media screen and (min-width: 992px) {
-  .inspection-stage {
-    margin: 4rem 0;
-  }
 }
 @media screen and (min-width: 1200px) {
-  .inspection-stages-wrapper {
-    flex-direction: row-reverse;
-  }
 }
 @media screen and (min-width: 1400px) {
 }

@@ -6,20 +6,7 @@
   bottom: 0%;
 }
 
-.under-water-inspection-intro {
-  display: flex;
-  flex-direction: column;
-  padding: 3rem 0;
-}
-.under-water-inspection-intro > img {
-  width: 100%;
-  border-radius: 4px;
-  margin: 0 auto;
-  margin-top: 2rem;
-}
-
 /* stages  */
-
 .inspection-stages-wrapper {
   display: flex;
   flex-direction: column;
@@ -64,9 +51,6 @@
 /* media  */
 
 @media screen and (min-width: 576px) {
-  .under-water-inspection-intro > img {
-    width: 50%;
-  }
   .inspection-stage {
     flex-direction: row;
     justify-content: space-between;

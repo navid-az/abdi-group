@@ -30,7 +30,7 @@
 }
 @font-face {
   font-family: nastaliq;
-  src: url(../fonts/IranNastaliq.ttf) format("ttf");
+  src: url(../fonts/IranNastaliq.ttf);
   font-weight: normal;
   font-style: normal;
 }
@@ -42,6 +42,36 @@
   padding-left: 0;
   padding-right: 0.5rem;
 }
+#company-name {
+  position: absolute;
+  right: -0.8rem;
+  left: unset;
+  bottom: 3.5rem;
+  display: none;
+}
+.company-fa-name {
+  font-family: nastaliq;
+  position: absolute;
+  color: black;
+  display: none;
+}
+.company-fa-name:nth-child(1) {
+  right: 9rem;
+  top: 2.5rem;
+  font-size: 26px;
+}
+.company-fa-name:nth-child(2) {
+  right: 9rem;
+  top: 5.5rem;
+  font-size: 16px;
+}
+#logo {
+  position: absolute;
+  left: 4rem;
+  right: unset;
+  bottom: 0rem;
+  width: 260px;
+}
 
 p,
 h4,
@@ -52,8 +82,42 @@ li,
 a,
 span {
   direction: rtl;
-  font-family: nastaliq, Vmedium, sans-serif;
+  font-family: Vmedium, sans-serif;
 }
 h2 {
   font-family: Vbold, sans-serif;
+}
+
+/* advantages & disadvantages  */
+.dis-advantages-title {
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  direction: ltr;
+}
+.advantages-disadvantages-wrapper,
+.dis-advantages-body-option {
+  flex-direction: row-reverse;
+}
+.dis-advantages-title > h3 {
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
+
+/* media  */
+
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .company-fa-name,
+  #company-name {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
 }
