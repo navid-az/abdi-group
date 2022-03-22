@@ -17,3 +17,6 @@ def cleaning_pigs(request):
 
 def unpigable_pipelines(request):
     return render(request, 'product_and_services/oil_and_gas/unpigable_pipelines.html')
+    
+def repairing(request):
+    return render(request, 'product_and_services/oil_and_gas/repairing.html')

@@ -28,6 +28,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: nastaliq;
+  src: url(../fonts/IranNastaliq.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 .title {
   flex-direction: row-reverse;
 }
@@ -46,7 +52,7 @@ li,
 a,
 span {
   direction: rtl;
-  font-family: Vmedium, sans-serif;
+  font-family: nastaliq, Vmedium, sans-serif;
 }
 h2 {
   font-family: Vbold, sans-serif;

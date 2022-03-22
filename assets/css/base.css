@@ -144,31 +144,6 @@ nav > img:nth-child(1) {
   width: 260px;
   display: none;
 }
-
-/* #menu-sub-list {
-  width: 76%;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: -3rem;
-  color: white;
-  font-weight: 600;
-}
-#menu-sub-list > ul {
-  display: none;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  text-decoration: none;
-  gap: 2rem;
-}
-#menu-sub-list > ul > li {
-  font-size: 16px;
-  font-weight: 500;
-} */
-
 nav > .img__btns {
   width: 80%;
   display: flex;

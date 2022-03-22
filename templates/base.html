@@ -40,12 +40,23 @@
       {% endif %}
       {% include 'inc/mobile-navbar.html' %}
       <nav>
-        <img src="{% static 'svgs/l-name.svg' %}" alt="">
-        <img
+        {% if LANGUAGE_CODE == 'fa' %}
+        <h3 class='company-fa-name'>گروه خدمات مهندسی نفت گاز پتروشیمی عبدی</h3>
+        <h5 class='company-fa-name'>(سهامی خاص)</h5>
+          <img id='company-name' src="{% static 'svgs/fa-name.svg' %}" alt="">
+          <img
+          id="logo"
+          src=" {% static 'images/logo.png' %} "
+          alt="abdi-group"
+          />
+        {% else %}
+          <img id='company-name' src="{% static 'svgs/l-name.svg' %}" alt="">
+          <img
           id="logo"
           src=" {% static 'images/logo.png' %} "
           alt="abdi-group"
         />
+        {% endif %}
         <!--language changer & mobile menu button-->
         <div class="img__btns">
           {% if LANGUAGE_CODE == 'fa' %}

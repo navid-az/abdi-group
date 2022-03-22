@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %}
+{% block translateFa %}{% url 'product-and-services:repairing' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'product-and-services:repairing' %}{% endblock translateEn %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %} Under Water Inspection {% endblock title %}</title>
+    {% block more_css %}
+
+    <link
+      rel="stylesheet"
+      href="{% static 'product_and_services/oil_and_gas/under-water-inspection/css/under-water-inspection.css' %}"
+    />
+     {% if LANGUAGE_CODE == 'fa' %}
+        <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/under-water-inspection/css/under-water-inspection-fa.css' %}">
+  {% endif %}
+    {% endblock more_css %}
+  </head>
+  <body>
+    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cathodic-protection/images/cathodic-protection-hero.jpg' %}
+    <div class="mobile-curved-bg">
+        <div class="container">
+            <div class="page-title">
+              <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+              <h4>{% trans "Repairing" %}</h4>
+            </div>
+            <p>Metal and non-Metal(Composite) repairing of pipelines and vessels and reservoirs</p>
+        </div>
+    </div>
+    {% endblock content %}
+  </body>
+</html>

@@ -18,7 +18,7 @@
           <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/inline-inspection-fa.css' %}">
         {% endif %}
     {% endblock more_css %}
-    <title>{% block title %} Inline Inspection {% endblock title %}</title>
+    <title>{% block title %}{% trans "Inline Inspection" %}{% endblock title %}</title>
   </head>
   <body>
     {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' %}
@@ -28,7 +28,7 @@
           <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
           <h4> {% trans "Inline Inspection" %} </h4>
         </div>
-        <div class="inline-inspect-intro">
+        <div class="intro">
           <p>
             {% trans "There are various methods to identify defects in oil and gas pipelines. Pipeline operators choose a method or a combination of the according to the several parameters included:" %}
           </p>
@@ -296,9 +296,9 @@
             />
           </div>
         </div>
-        <div class="ut-advantages-disadvantages-wrapper">
-          <div class="ut-advantages-wrapper">
-            <div class="ut-advantages-title">
+        <div class="advantages-disadvantages-wrapper">
+          <div class="dis-advantages-wrapper ">
+            <div class="advantages-title dis-advantages-title">
               <!--plus icon-->
               <svg
                 width="26"
@@ -328,8 +328,8 @@
               </svg>
               <h3>{% trans "Advantages" %}</h3>
             </div>
-            <div class="ut-advantages-body">
-              <div class="ut-advantages-body-option">
+            <div class="dis-advantages-body">
+              <div class="dis-advantages-body-option">
                 <svg
                   width="26"
                   height="26"
@@ -341,7 +341,7 @@
                 </svg>
                 <p>{% trans "Accurate and reliable measurement of pipe wall thickness" %}</p>
               </div>
-              <div class="ut-advantages-body-option">
+              <div class="dis-advantages-body-option">
                 <svg
                   width="26"
                   height="26"
@@ -353,7 +353,7 @@
                 </svg>
                 <p>{% trans "No restrictions on measuring high thicknesses" %}</p>
               </div>
-              <div class="ut-advantages-body-option">
+              <div class="dis-advantages-body-option">
                 <svg
                   width="26"
                   height="26"
@@ -363,9 +363,9 @@
                 >
                   <circle cx="13" cy="13" r="3" fill="#89C958" />
                 </svg>
-                <p>{% trans "MFL is more sensitive in detecting high number of defects" %}</p>
+                <p>{% trans "In conditions which there are many defects,Ut is more sensitive than mfl" %}</p>
               </div>
-              <div class="ut-advantages-body-option">
+              <div class="dis-advantages-body-option">
                 <svg
                   width="26"
                   height="26"
@@ -379,8 +379,8 @@
               </div>
             </div>
           </div>
-          <div class="ut-disadvantages-wrapper">
-            <div class="ut-disadvantages-title">
+          <div class="dis-advantages-wrapper ">
+            <div class="dis-advantages-title">
               <svg
                 width="26"
                 height="26"
@@ -403,8 +403,8 @@
 
               <h3>{% trans "Disadvantages" %}</h3>
             </div>
-            <div class="ut-disadvantages-body">
-              <div class="ut-disadvantages-body-option">
+            <div class="dis-advantages-body">
+              <div class="dis-advantages-body-option">
                 <svg
                   width="26"
                   height="26"

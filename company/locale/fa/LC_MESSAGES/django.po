@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-13 23:46+0330\n"
+"POT-Creation-Date: 2022-03-17 18:18+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,27 +18,28 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\templates\company\company.html:18 .\templates\company\company.html:26
+#: .\company\templates\company\company.html:18
+#: .\company\templates\company\company.html:26
 msgid "About Us"
 msgstr "درباره ما"
 
-#: .\templates\company\company.html:35
+#: .\company\templates\company\company.html:35
 msgid "Mahdi Bargah Soleymani"
 msgstr "مهدی بارگاه سلیمانی"
 
-#: .\templates\company\company.html:36
+#: .\company\templates\company\company.html:36
 msgid "Managing Director and Chairman of the Board"
 msgstr "مدیر عامل و رییس هیات مدیره"
 
-#: .\templates\company\company.html:44
+#: .\company\templates\company\company.html:44
 msgid "MSc. Chemical Eng. Tehran University"
 msgstr "کارشناس ارشد مهندسی شیمی دانشگاه تهران"
 
-#: .\templates\company\company.html:48
+#: .\company\templates\company\company.html:48
 msgid "6 years experience in oil field operation"
 msgstr "6 سال تجربه در میادین نفتی"
 
-#: .\templates\company\company.html:53
+#: .\company\templates\company\company.html:53
 msgid ""
 "More than 15 years experience in oil and gas process , including design, "
 "execution, commissioning and project management of oil, gas and "
@@ -47,55 +48,57 @@ msgstr ""
 "بیش از 15 سال تجربه در بخشهای مختلف فرآیندی شامل طراحی، اجرا، مدیریت طرح "
 "واحدهای فرآیندی نفت ، گاز و پتروشیمی"
 
-#: .\templates\company\company.html:65
+#: .\company\templates\company\company.html:65
 msgid "Mahnaz Azimi Khasraghi"
 msgstr "مهناز عظیمی خسرقی"
 
-#: .\templates\company\company.html:66
+#: .\company\templates\company\company.html:66
 msgid "Vice president of the Board"
 msgstr "نایب رییس هیات مدیره"
 
-#: .\templates\company\company.html:75
+#: .\company\templates\company\company.html:75
 msgid ""
 "MSc of Industrial Management- Financial Science and Research Branch of AZAD "
 "University"
 msgstr "کارشناس ارشد مدیریت صنعتی- مالی دانشگاه علوم و تحقیقات"
 
-#: .\templates\company\company.html:80
+#: .\company\templates\company\company.html:80
 msgid "Experience: More than 10 years Iranian Private Bank (PARSIAN)"
 msgstr "بیش از 10 سال تجربه در امور بانکی"
 
-#: .\templates\company\company.html:91
+#: .\company\templates\company\company.html:91
 msgid "Behzad Abdi"
 msgstr "بهزاد عبدی"
 
-#: .\templates\company\company.html:92
+#: .\company\templates\company\company.html:92
 msgid "Member of the Board"
 msgstr "عضو هیات مدیره"
 
-#: .\templates\company\company.html:101
+#: .\company\templates\company\company.html:101
 msgid ""
 "Master In Structure Engineering Iran University of Science & Technology/"
 "TEHRAN"
 msgstr "کارشناس ارشد عمران سازه دانشگاه علم و صنعت ایران"
 
-#: .\templates\company\company.html:107
+#: .\company\templates\company\company.html:107
 msgid ""
 "Engineer license Grade Senior (designing& Supervising & Construction) "
 "Organization for Engineering Order of Building – Ministry of Roads and City "
 "Planning- 1997 – Contd. More than 25 years of experience in designing, "
 "executing, supervising and managing construction projects"
-msgstr "رتبه ارشد نظام مهندسی با بیش از 25 سال سابقه طراحی، اجرا، نظارت و مدیریت پروژه های ساختمانی"
+msgstr ""
+"رتبه ارشد نظام مهندسی با بیش از 25 سال سابقه طراحی، اجرا، نظارت و مدیریت "
+"پروژه های ساختمانی"
 
-#: .\templates\company\company.html:128
+#: .\company\templates\company\company.html:128
 msgid "Hossein Abdi"
 msgstr "حسین عبدی"
 
-#: .\templates\company\company.html:129
+#: .\company\templates\company\company.html:129
 msgid "Founder and Share holder"
 msgstr "موسس و سهام دار"
 
-#: .\templates\company\company.html:138
+#: .\company\templates\company\company.html:138
 msgid ""
 "Chemical Eng. Tehran University, Law shiraz University, LLM of oil and Gas "
 "Law Tehran University"
@@ -103,21 +106,21 @@ msgstr ""
 "مهندس شیمی دانشگاه تهران، کارشناس حقوق و کارشناس ارشد حقوق نفت و گاز دانشگاه "
 "تهران "
 
-#: .\templates\company\company.html:144
+#: .\company\templates\company\company.html:144
 msgid ""
 "Engineer license Grade 2 (Supervising) Organization for Engineering Order of "
 "Building – Ministry of Roads and City Planning- 2003 – Contd."
 msgstr "رتبه 2 سازمان نظام مهندسی"
 
-#: .\templates\company\company.html:149
+#: .\company\templates\company\company.html:149
 msgid "More than 20 years of experience in Gas industry"
 msgstr "با بیش از 20 سال سابقه در صنعت گاز کشور"
 
-#: .\templates\company\company.html:156
+#: .\company\templates\company\company.html:159
 msgid "History"
 msgstr "تاریخچه"
 
-#: .\templates\company\company.html:159
+#: .\company\templates\company\company.html:162
 msgid ""
 "ABDI-GROUP is led by managers with more than 20 years of experience in the "
 "oil, gas and construction industry. The managers of construction have more "
@@ -127,11 +130,11 @@ msgstr ""
 "هدایت می کنند، مدیران بخش ساختمانی دارای بیش از نیم قرن پشتوانه در حوزه "
 "ساختمان می باشد."
 
-#: .\templates\company\company.html:165
+#: .\company\templates\company\company.html:171
 msgid "Partner Companies"
 msgstr "شرکتهای همکار"
 
-#: .\templates\company\company.html:168
+#: .\company\templates\company\company.html:174
 msgid ""
 "ABDI-GROUP is proud to offer various industrial solutions to solve the "
 "problems of Operators of different industries, relying on the power of local "
@@ -140,27 +143,27 @@ msgstr ""
 "گروه عبدی افتخار دارد با تکیه بر توان شرکتهای دانش بنیان راهکارهای صنعتی "
 "متنوعی را برای حل مشکلات بهره برداران صنایع مختلف ارایه می نماید"
 
-#: .\templates\company\company.html:183
+#: .\company\templates\company\company.html:189
 msgid "Contact Us"
 msgstr "تماس با ما "
 
-#: .\templates\company\company.html:187
+#: .\company\templates\company\company.html:193
 msgid "Main Office:"
 msgstr "دفتر مرکزی:"
 
-#: .\templates\company\company.html:189
+#: .\company\templates\company\company.html:195
 msgid ""
 "Un.5 No-1 Rokni Dead End, Khorosh St, Varaste St, Dolat St, Pasdaran, Tehran"
 msgstr "پاسداران،خیابان دولت،خیابان وارسته،کوچه خروش،بن بست رکنی،پلاک ۱،واحد ۵"
 
-#: .\templates\company\company.html:195
+#: .\company\templates\company\company.html:201
 msgid "+98-021-22006761"
 msgstr "۰۲۱-۲۲۰۰۶۷۶۱"
 
-#: .\templates\company\company.html:199
+#: .\company\templates\company\company.html:205
 msgid "+98-021-22638734"
-msgstr "۰۲۱-۲۲۰۰۶۷۶۱"
+msgstr "۰۲۱-۲۲۶۳۸۷۳۴"
 
-#: .\templates\company\company.html:203
+#: .\company\templates\company\company.html:209
 msgid "info@abdi-group.com"
 msgstr "info@abdi-group.com"

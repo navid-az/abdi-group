@@ -1,0 +1,41 @@
+.dis-advantages-title {
+  justify-content: flex-start;
+  direction: rtl;
+}
+.advantages-disadvantages-wrapper,
+.dis-advantages-body-option {
+  flex-direction: row;
+}
+.dis-advantages-title > h3 {
+  padding-left: 0.5rem;
+  padding-right: 0;
+}
+
+.item-text > p {
+  direction: rtl !important;
+}
+.title-1 {
+  flex-direction: row;
+}
+.title-1 > h2 {
+  padding-left: 0.5rem;
+  padding-right: unset;
+  text-align: center;
+}
+
+/* media  */
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  /* capabilities items */
+  .buried-pipeline-wrapper {
+    flex-direction: row-reverse;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}

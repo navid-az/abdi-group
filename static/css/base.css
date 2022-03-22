@@ -3,14 +3,27 @@
   --lightBlue: #2fa3ee;
   --green: #89c958;
 }
+/* fot small hexagon main color  */
 .light-green {
   filter: invert(96%) sepia(69%) saturate(1055%) hue-rotate(32deg)
     brightness(93%) contrast(67%);
+}
+.stay-ltr p,
+h2,
+h3 {
+  direction: ltr;
+}
+.stay-ltr h3 {
+  direction: ltr;
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+/* mobile viewport display none  */
+.md-none {
+  display: none;
 }
 html {
   font-family: "Varela Round", sans-serif;
@@ -63,7 +76,6 @@ h2 {
 }
 
 /* mobile page titles  */
-
 .page-title {
   position: relative;
   display: flex;
@@ -79,8 +91,31 @@ h2 {
   text-align: center;
 }
 
-/* mobile page titles END  */
+/* page intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 0;
+}
+.intro > ul {
+  margin: 2rem 0;
+  line-height: 2rem;
+}
+.intro > ul > li {
+  display: flex;
+  align-items: center;
+}
+.intro > ul > li > img {
+  padding-right: 0.5rem;
+}
+.intro > img {
+  width: 100%;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
 
+/* title with three hexagon icons  */
 .title {
   color: #040452;
   margin: 2rem 0;
@@ -88,7 +123,6 @@ h2 {
   align-items: center;
   width: 100%;
 }
-/* title with three hexagon icons  */
 .title > h2 {
   padding-left: 0.5rem;
 }
@@ -102,6 +136,7 @@ header {
   height: 10vh;
   background: var(--darkBlue);
 }
+
 /* change language btn  */
 .lan-changer {
   position: absolute;
@@ -116,7 +151,7 @@ header {
   padding: 0 0.3rem;
   font-family: "Roboto", sans-serif;
 }
-/* change language btn END  */
+
 nav {
   position: relative;
   display: flex;
@@ -129,14 +164,15 @@ nav {
   border-radius: 0.75rem;
   box-shadow: 0px 4px 20px 20px rgba(66, 66, 66, 0.23);
 }
-/* company name  */
 
-nav > img:nth-child(1) {
+/* company name  */
+#company-name {
   position: absolute;
   left: -0.8rem;
   bottom: 3.5rem;
   display: none;
 }
+
 #logo {
   position: absolute;
   right: 4rem;
@@ -144,31 +180,6 @@ nav > img:nth-child(1) {
   width: 260px;
   display: none;
 }
-
-/* #menu-sub-list {
-  width: 76%;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: -3rem;
-  color: white;
-  font-weight: 600;
-}
-#menu-sub-list > ul {
-  display: none;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  text-decoration: none;
-  gap: 2rem;
-}
-#menu-sub-list > ul > li {
-  font-size: 16px;
-  font-weight: 500;
-} */
-
 nav > .img__btns {
   width: 80%;
   display: flex;
@@ -216,6 +227,39 @@ nav > .img__btns {
 .curved-req:last-of-type {
   transform: rotate(180deg);
 }
+
+/* advantages & disadvantages  */
+.dis-advantages-wrapper {
+  margin: 2.5rem 0;
+}
+.dis-advantages-title,
+.dis-advantages-body {
+  display: flex;
+  align-items: center;
+}
+.dis-advantages-title > h3 {
+  padding-left: 0.5rem;
+  color: #cf5048;
+}
+.advantages-title > h3 {
+  padding-left: 0.5rem;
+  color: var(--green);
+}
+.dis-advantages-body {
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.dis-advantages-body-option {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.5rem 0;
+}
+.dis-advantages-body-option > p {
+  font-size: 13px;
+  width: 93%;
+}
+
 /* media  */
 
 @media screen and (max-width: 576px) {
@@ -223,6 +267,10 @@ nav > .img__btns {
 @media screen and (min-width: 576px) {
   .container {
     width: 80%;
+  }
+
+  .intro > img {
+    width: 50%;
   }
 }
 @media screen and (min-width: 768px) {
@@ -236,8 +284,16 @@ nav > .img__btns {
   .title > img {
     width: 20px;
   }
+
+  /* advantages & disadvantages  */
+  .dis-advantages-title > h3 {
+    font-size: 24px;
+  }
 }
 @media screen and (min-width: 992px) {
+  .md-none {
+    display: block;
+  }
   p,
   a {
     font-size: 17px;
@@ -253,7 +309,8 @@ nav > .img__btns {
     height: 176px;
     margin-top: 3rem;
   }
-  nav > img:nth-child(1),
+  #company-name,
+  #company-name-fa,
   #logo {
     display: block;
   }
@@ -273,6 +330,14 @@ nav > .img__btns {
     font-size: 30px !important;
   }
   .item-text {
+    width: 50%;
+  }
+
+  /* advantages & disadvantages  */
+  .advantages-disadvantages-wrapper {
+    display: flex;
+  }
+  .dis-advantages-wrapper {
     width: 50%;
   }
 }

@@ -101,7 +101,6 @@
   cursor: pointer;
 }
 .desktop-nav-list-li > h2 {
-  font-size: 22px;
   transition: 0.25s ease-in-out;
   width: 100%;
   padding-top: 1.5rem;
@@ -134,7 +133,6 @@
   background: rgba(47, 163, 238, 0.14);
   text-align: center;
   border-radius: 6px;
-  padding: 1rem;
   width: 32.5%;
   height: 23%;
   transition: 0.25s ease-in-out;
@@ -142,6 +140,18 @@
 .desktop-nav-list-options:hover {
   background: var(--lightBlue);
   transform: scale(1.05);
+}
+.desktop-nav-list-options > a {
+  width: 100%;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.desktop-nav-list-options > a > span {
+  font-size: 10px;
 }
 /* media  */
 
@@ -173,10 +183,6 @@
     width: 94%;
     height: 176px;
     margin-top: 3rem;
-  }
-  nav > img:nth-child(1),
-  #logo {
-    display: block;
   }
   #navbar {
     display: flex;

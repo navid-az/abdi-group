@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-07 15:35+0330\n"
+"POT-Creation-Date: 2022-03-17 18:18+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,69 +26,83 @@ msgstr ""
 msgid "English"
 msgstr ""
 
-#: .\templates\inc\navbar.html:27
+#: .\templates\inc\mobile-navbar.html:34 .\templates\inc\navbar.html:27
 msgid "Capabilities"
 msgstr "توانمندی ها"
 
-#: .\templates\inc\navbar.html:31
+#: .\templates\inc\mobile-navbar.html:40 .\templates\inc\navbar.html:31
 msgid "Products and Services"
 msgstr "محصولات و خدمات"
 
-#: .\templates\inc\navbar.html:35
+#: .\templates\inc\mobile-navbar.html:46 .\templates\inc\navbar.html:35
 msgid "About Us"
 msgstr "درباره ما"
 
-#: .\templates\inc\navbar.html:61
+#: .\templates\inc\mobile-navbar.html:52
+#, fuzzy
+#| msgid "Oil and Gas Pipelines"
+msgid "Oil And Gas News"
+msgstr "خطوط انتقال نفت و گاز"
+
+#: .\templates\inc\mobile-navbar.html:59 .\templates\inc\navbar.html:61
 msgid "Oil and Gas Pipelines"
 msgstr "خطوط انتقال نفت و گاز"
 
-#: .\templates\inc\navbar.html:68
-msgid "Process Units"
-msgstr "واحدهای فرآیندی"
-
-#: .\templates\inc\navbar.html:75
+#: .\templates\inc\mobile-navbar.html:63 .\templates\inc\navbar.html:75
 msgid "Civil Projects"
 msgstr "پروژه های ساختمانی"
 
-#: .\templates\inc\navbar.html:82
+#: .\templates\inc\mobile-navbar.html:67 .\templates\inc\navbar.html:68
+msgid "Process Units"
+msgstr "واحدهای فرآیندی"
+
+#: .\templates\inc\mobile-navbar.html:71 .\templates\inc\navbar.html:82
 msgid "Industrial Technology"
 msgstr "تکنولوژیهای صنعتی"
 
-#: .\templates\inc\navbar.html:89
+#: .\templates\inc\mobile-navbar.html:75 .\templates\inc\navbar.html:89
 msgid "Management Systems"
 msgstr "پیاده سازی سیستمهای مدیریتی"
 
-#: .\templates\inc\navbar.html:93
+#: .\templates\inc\mobile-navbar.html:88 .\templates\inc\navbar.html:93
 msgid "Inline Inspection"
 msgstr "پیگرانی هوشمند"
 
-#: .\templates\inc\navbar.html:94
+#: .\templates\inc\mobile-navbar.html:96 .\templates\inc\navbar.html:94
 msgid "Unpigable Pipelines"
-msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی با روشهای غیر تماسی"
+msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
 
-#: .\templates\inc\navbar.html:95
+#: .\templates\inc\mobile-navbar.html:104 .\templates\inc\navbar.html:95
 msgid "Under Water Inspection-ROV"
 msgstr "بازرسی خطوط لوله زیر دریایی "
 
-#: .\templates\inc\navbar.html:96
+#: .\templates\inc\mobile-navbar.html:112 .\templates\inc\navbar.html:96
 msgid "Cleaning Pigs"
-msgstr "پیگرانی تمییز کننده ( تامین ژل پیگها و پیگهای ویژه بر حسب نیازمندیها )"
+msgstr "پیگرانی تمییز کننده"
 
-#: .\templates\inc\navbar.html:97
+#: .\templates\inc\mobile-navbar.html:120 .\templates\inc\navbar.html:97
 msgid "Repairing"
 msgstr "تعمیرات"
 
-#: .\templates\inc\navbar.html:98
+#: .\templates\inc\mobile-navbar.html:128 .\templates\inc\navbar.html:98
 msgid "Valve Clinic"
 msgstr "کلینیک تخصصی ولو"
+
+#: .\templates\inc\mobile-navbar.html:144
+msgid "Inspection(Fixed Equipment and Instruments)"
+msgstr "بازرسی (مکانیک، برق و ابزاردقیق)"
 
 #: .\templates\inc\navbar.html:99
 msgid "Coating and Cathodic Protection"
 msgstr "پوشش و حفاظت کاتدی"
 
 #: .\templates\inc\navbar.html:100
-msgid "Inspection(Fixed Equipment and Instruments)"
-msgstr "بازرسی (مکانیک، برق و ابزاردقیق)"
+msgid "Inspection"
+msgstr "بازرسی"
+
+#: .\templates\inc\navbar.html:100
+msgid "(Fixed Equipment and Instruments)"
+msgstr "(مکانیک، برق و ابزاردقیق)"
 
 #: .\templates\inc\navbar.html:101
 msgid "Fitness For Services(FFS) and Fitness For Purpose(FFP)"
@@ -101,10 +115,6 @@ msgstr "نشت یابی"
 #: .\templates\inc\navbar.html:102
 msgid "(FID, Laser, Mobile/Vehicle , Satellite Images)"
 msgstr "(دستی، خودرویی، تصاویر ماهواره)"
-
-#: .\templates\inc\navbar.html:103
-msgid "Consultant and Project Management  "
-msgstr "مشاور و مدیریت پروژه"
 
 #: .\templates\inc\navbar.html:103
 msgid "Consultant and Project Management"
@@ -1601,3 +1611,6 @@ msgstr ""
 #: .\venv\Lib\site-packages\~jango\views\templates\default_urlconf.html:249
 msgid "Connect, get help, or contribute"
 msgstr ""
+
+#~ msgid "Consultant and Project Management  "
+#~ msgstr "مشاور و مدیریت پروژه"
