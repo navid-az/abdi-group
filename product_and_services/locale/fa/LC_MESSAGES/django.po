@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 18:09+0430\n"
+"POT-Creation-Date: 2022-03-22 18:16+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -547,7 +547,10 @@ msgstr "پیگرانی هوشمند "
 msgid ""
 "Offshore pipeline inspection can be operated by scuba diver or mounted on a "
 "ROV."
-msgstr "روش اندازه گیری اعوجاج مغناطیسی در خطوط زیر دریایی قابل اجرا می باشد و نتایج بدست آمده در بازرسی خطوط لوله زیر دریایی، از نظر بهره برداران رضایتبخش بوده است. این بازرسی توسط تیم غواصی و یا دستگاه ROV صورت می گیرد."
+msgstr ""
+"روش اندازه گیری اعوجاج مغناطیسی در خطوط زیر دریایی قابل اجرا می باشد و نتایج "
+"بدست آمده در بازرسی خطوط لوله زیر دریایی، از نظر بهره برداران رضایتبخش بوده "
+"است. این بازرسی توسط تیم غواصی و یا دستگاه ROV صورت می گیرد."
 
 #: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:43
 #: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:60
@@ -663,6 +666,10 @@ msgstr ""
 "دسته بندی عیوب را جهت پیاده سازی برنامه های پایش و تعمیرات داشته باشند. این "
 "شرکت با بررسی روشهای موجود، دو روش HATs(Hybrid Acoustic Technology System) و "
 "روش اندازه گیری اعوجاجهای مغناطیسی اطراف عیوب را توصیه می کند."
+
+#: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:279
+msgid "Buried Pipeline Inspection"
+msgstr "بازرسی خط لوله مدفون"
 
 #: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:282
 msgid ""
