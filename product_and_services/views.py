@@ -20,3 +20,15 @@ def unpigable_pipelines(request):
     
 def repairing(request):
     return render(request, 'product_and_services/oil_and_gas/repairing.html')
+
+def ffs_ftp(request):
+    return render(request, 'product_and_services/oil_and_gas/ffs_ftp.html')
+
+def leak_detection(request):
+    return render(request, 'product_and_services/oil_and_gas/leak_detection.html')
+
+def valve_clinic(request):
+    return render(request, 'product_and_services/oil_and_gas/valve_clinic.html')
+
+def inspection(request):
+    return render(request, 'product_and_services/oil_and_gas/inspection.html')

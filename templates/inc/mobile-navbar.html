@@ -36,10 +36,8 @@
             </a>
           </li>
           <li id="products">
-            <a>
               <p>{% trans "Products and Services" %}</p>
               <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
-            </a>
           </li>
           <li>
             <a href="{% url 'company:company' %}">
@@ -117,7 +115,7 @@
                 alt="small-list-dot"
                 width="8px"
               />
-              <a href=''>{% trans "Repairing" %}</a>
+              <a href="{% url 'product-and-services:repairing' %}">{% trans "Repairing" %}</a>
             </li>
             <li>
               <img
@@ -125,7 +123,7 @@
                 alt="small-list-dot"
                 width="8px"
               />
-              <a href=''>{% trans "Valve Clinic" %}</a>
+              <a href="{% url 'product-and-services:valve-clinic' %}">{% trans "Valve Clinic" %}</a>
             </li>
             <li>
               <img
@@ -141,7 +139,7 @@
                 alt="small-list-dot"
                 width="8px"
               />
-              <a href=''>{% trans "Inspection(Fixed Equipment and Instruments)" %}</a>
+              <a href="{% url 'product-and-services:cathodic-protection' %}>{% trans "Inspection(Fixed Equipment and Instruments)" %}</a>
             </li>
             <li>
               <img
@@ -149,7 +147,7 @@
                 alt="small-list-dot"
                 width="8px"
               />
-              <a href=''>Fitness For Services(FFS) and Fitness For Purpose(FFP)</a>
+              <a href="{% url 'product-and-services:ffs-ftp' %}">Fitness For Services(FFS) and Fitness For Purpose(FFP)</a>
             </li>
             <li>
               <img
@@ -157,7 +155,7 @@
                 alt="small-list-dot"
                 width="8px !important"
               />
-              <a href=''>Leak Detection</a>
+              <a href="{% url 'product-and-services:leak-detection' %}">Leak Detection</a>
             </li>
             <li>
               <img
@@ -165,7 +163,7 @@
                 alt="small-list-dot"
                 width="8px"
               />
-              <a href=''>Consultant and Project Management</a>
+              <a href='{% url 'product-and-services:leak-detection' %}'>Consultant and Project Management</a>
             </li>
           </ul>
           <ul>

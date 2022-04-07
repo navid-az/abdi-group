@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-22 18:16+0430\n"
+"POT-Creation-Date: 2022-04-07 15:56+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,6 +32,7 @@ msgstr "."
 
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:42
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:127
+#: .\templates\product_and_services\oil_and_gas\inspection.html:58
 msgid "1"
 msgstr "۱"
 
@@ -57,6 +58,7 @@ msgstr ""
 
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:62
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:176
+#: .\templates\product_and_services\oil_and_gas\inspection.html:68
 msgid "2"
 msgstr "۲"
 
@@ -74,6 +76,7 @@ msgstr ""
 
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:89
 #: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:247
+#: .\templates\product_and_services\oil_and_gas\inspection.html:78
 msgid "3"
 msgstr "۳"
 
@@ -299,6 +302,30 @@ msgstr ""
 "ارایه تکنولوژی مناسب جهت ارزيابي عملكرد توپك هاي پاكسازي و سنجش ميزان "
 "اثرپذيري و كارايي آنها"
 
+#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:21
+msgid "Fitness for Service & Fitness for Purpose"
+msgstr ""
+
+#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:29
+msgid "FFS and FTP"
+msgstr ""
+
+#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:39
+msgid "Fitness For Services(FFS) and Fitness For Purpose(FFP)"
+msgstr ""
+
+#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:41
+msgid ""
+"Performing fitness for service assessment of pipelines using laser scan "
+"dimensions. Defect assessment software has been developed by Iranian experts."
+msgstr ""
+"انجام ارزیابی فشار پذیری خطوط لوله با استفاده از ابعاد برداری لیزر اسکن. نرم "
+"افزار ارزیابی عیوب توسط متخصصین ایرانی توسعه یافته است."
+
+#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:43
+msgid "In addition, it is possible to feed information to external software."
+msgstr "ضمن اینکه امکان تغذیه اطلاعات به نرم افزارهای خارجی نیز وجود دارد."
+
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:21
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:29
 msgid "Inline Inspection"
@@ -457,7 +484,7 @@ msgstr ""
 
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:286
 msgid "UT (Ultrasonic tool)"
-msgstr ""
+msgstr "پیگ هوشمند (UT):"
 
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:329
 msgid "Advantages"
@@ -496,7 +523,7 @@ msgstr ""
 
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:431
 msgid "EMAT"
-msgstr ""
+msgstr "پیگ هوشمند (EMAT):"
 
 #: .\templates\product_and_services\oil_and_gas\inline_inspection.html:431
 msgid "(Electromagnetic Acoustic Transducer)"
@@ -535,9 +562,266 @@ msgstr ""
 "اين امواج در تماس مغناطيس دايمكرنش مكانيكي را سبب ميشوند بنابراين در لوله  "
 "امواج صوتي صادر ميگردند."
 
-#: .\templates\product_and_services\oil_and_gas\repairing.html:28
-msgid "Repairing"
+#: .\templates\product_and_services\oil_and_gas\inspection.html:21
+#: .\templates\product_and_services\oil_and_gas\inspection.html:29
+#: .\templates\product_and_services\oil_and_gas\inspection.html:38
+msgid "Inspection"
+msgstr "پیگرانی هوشمند "
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:39
+#, fuzzy
+#| msgid " Fixed Equipment and Instruments "
+msgid "(Fixed Equipment and Instruments)"
+msgstr "(مکانیک، برق و ابزاردقیق)"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:41
+msgid ""
+"Our company uses experienced, qualified personnel to inspect all types of "
+"equipment in accordance with international standards and procedures."
 msgstr ""
+"این شرکت با استفاده از نیروهای مجرب بازرسی انواع تجهیزات را بر اساس "
+"استانداردها و دستورالعمل های بین المللی انجام می دهد."
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:60
+msgid ""
+"Inspection of Electrical and Instrument Equipments in Accordance with ITP"
+msgstr ""
+"بازرسي سيستم زمين (بازرسي چشمي، اندازه گيري مقاومت اتصالات، اندازه گيري "
+"مقاومت زمين ، همبندي)"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:70
+msgid ""
+"Inspection of The Earthing System (Visual Inspection, Resistance Tests "
+"Across Joints, Measurement of Electrode System Resistance to Earth, Checking "
+"The Integrity of the Bonding)"
+msgstr "بازرسي از نحوه ي همبندي بين سيستم زمين فشار قوي و سيستم زمين فشار ضعيف"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:80
+msgid ""
+"Inspection of The Bonding Between High Voltage Earthing System and Low "
+"Voltage Earthing System"
+msgstr "بازرسي سيستم حفاظت در مقابل صاعقه (حين بهره برداري و حين خريد تجهيزات)"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:88
+msgid "4"
+msgstr "۴"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:90
+msgid ""
+"Inspection of The Lightning Protection System During Purchase and Operation"
+msgstr "بازرسی از اقلام و تجهیزات سیستم های حفاظت کاتدی:"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:98
+msgid "5"
+msgstr "۵"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:100
+msgid "Inspection of The Power Transformer during purchase and operation"
+msgstr ""
+"بازرسي از ترانسفورماتورهاي يكسوساز سيستم حفاظت كاتدي حين خريد و بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:108
+msgid "6"
+msgstr "۶"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:110
+msgid ""
+"Inspection of The Rectifier Transformer for Cathodic Protection System "
+"During Purchase and Operation"
+msgstr "بازرسي از كفپوش عايق الكتريكي حين خريد و بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:118
+msgid "7"
+msgstr "۷"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:120
+msgid ""
+"Inspection of The Electrical Insulating Matting During Purchase and Operation"
+msgstr "بازرسي از رله هاي حفاظتي تك حفاظته و چند حفاظته"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:128
+msgid "8"
+msgstr "۸"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:130
+msgid "Inspection of The Single Function and Multi-Function Protection Relays"
+msgstr "بازرسي از موتورهاي الكتريكي حين خريد و بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:138
+msgid "9"
+msgstr "۹"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:140
+msgid "Inspection of The Electrical Motors During Purchase and Operation"
+msgstr "بازرسي از موتورهاي الكتريكي ضد انفجار حين خريد"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:148
+msgid "10"
+msgstr "۱۰"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:150
+msgid "Inspection of The Explosion Proof Electric Motors During Purchase"
+msgstr "بازرسي از باطري حين خريد و بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:158
+msgid "11"
+msgstr "۱۱"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:160
+msgid "Inspection of The Battery During Purchase and Operation"
+msgstr "ازرسي از كابل ولتاژ پايين و ولتاژ متوسط حين خريد و بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:168
+msgid "12"
+msgstr "۱۲"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:170
+msgid ""
+"Inspection of The High and Low Voltage Cables During Purchase and Operation"
+msgstr "بازرسي از مواد كاهنده مقاومت الكتريكي سيستم زمين"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:178
+msgid "13"
+msgstr "۱۳"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:180
+msgid ""
+"Inspection of The Enhancing Compounds for Reducing the Electrical Resistance "
+"of Earthing System"
+msgstr "بازرسي از رله هاي الكتريكي  كليدهاي هوايي"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:188
+msgid "14"
+msgstr "۱۴"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:190
+msgid "Inspection of The Air Circuit Breakers Protection Relays"
+msgstr "بازرسي از برقگيرهاي ولتاژ متوسط خطوط تغذيه"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:198
+msgid "15"
+msgstr "۱۵"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:200
+msgid ""
+"Inspection of The Metal – Oxide Surge Arresters Without Gaps for Ac System"
+msgstr "بازرسي از دكل هاي مخابراتي حين بهره برداري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:208
+msgid "16"
+msgstr "۱۶"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:210
+msgid "Inspection of The Telecommunication Towers During Operation"
+msgstr ""
+"بازرسي از روغن ترانسفورماتورهاي قدرت حين خريد و بهره برداري (آزمون كيفي)"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:218
+msgid "17"
+msgstr "۱۷"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:220
+msgid ""
+"Inspection of the Mineral insulating oils in electrical equipment During "
+"Purchase and Operation"
+msgstr ""
+"پايش وضعيت و عيب يابي ترانسفورماتورهاي قدرت حين بهره برداري با استفاده از  "
+"آزمون گازكروماتوگرافي روغن"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:228
+msgid "18"
+msgstr "۱۸"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:230
+msgid ""
+"Inspection of The Mineral Oil-Filled Electrical Equipment in Service – "
+"Guidance On the Interpretation of Dissolved and Free Gases Analysis"
+msgstr ""
+"بازرسي از نحوه ي نمونه برداري روغن براي آزمون كنترل كيفي و گازكروماتوگرافي"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:238
+msgid "19"
+msgstr "۱۹"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:240
+msgid ""
+"Inspection of The Method of Sampling Insulating Liquids for Quality Control "
+"and Gas Chromatography Testes"
+msgstr "بازرسي حين خريد از مولدهاي برق اضطراري"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:248
+msgid "20"
+msgstr "۲۰"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:250
+msgid "Inspection of The Emergency Power Generators During Purchase"
+msgstr "بازرسي حين خريد از منابع تغذيه بدون وقفه "
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:258
+msgid "21"
+msgstr "۲۱"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:260
+msgid "Inspection of The Uninterruptible Power Supply During Purchase"
+msgstr "بازرسي از تابلوهاي فشار ضعيف و فشار قوي حين خريد"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:268
+msgid "22"
+msgstr "۲۲"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:270
+msgid ""
+"Inspection of The Low Voltage and High Voltage Switchgear During Purchase "
+msgstr "بازرسي از منابع تغذيه سوئيچينگ سيستم حفاظت كاتدي"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:278
+msgid "23"
+msgstr "۲۳"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:280
+msgid "Inspection of the Switching Power Supplies for Cathodic Protection"
+msgstr "بازرسي از منابع تغذيه سوئيچينگ سيستم حفاظت كاتدي"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:288
+msgid "24"
+msgstr "۲۴"
+
+#: .\templates\product_and_services\oil_and_gas\inspection.html:290
+msgid "Inspection of the Polarization Cell Replacement During Purchase"
+msgstr "بازرسي ازدستگاه سل پلاريزه كننده ( PCR )حين خريد"
+
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:21
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:29
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:38
+msgid "Leak Detection"
+msgstr "نشت یابی"
+
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:43
+msgid "FID and laser leak detection with ATEX certification"
+msgstr "انجام نشت یابی دستی FID و لیزری دارای گواهی نامه ATEX "
+
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:47
+msgid "Car/vehicle leak detection"
+msgstr "انجام نشت یابی خودرویی"
+
+#: .\templates\product_and_services\oil_and_gas\leak_detection.html:51
+msgid "Leak detection of oil and gas pipelines using satellite images"
+msgstr "نشت یابی خطوط لوله نفت و گاز با استفاده از تصاویر ماهواره ای"
+
+#: .\templates\product_and_services\oil_and_gas\repairing.html:12
+#: .\templates\product_and_services\oil_and_gas\repairing.html:29
+#: .\templates\product_and_services\oil_and_gas\repairing.html:38
+msgid "Repairing"
+msgstr "تعمیرات"
+
+#: .\templates\product_and_services\oil_and_gas\repairing.html:40
+msgid ""
+"Metal and non-Metal(Composite) repairing of pipelines and vessels and "
+"reservoirs"
+msgstr ""
+"این شرکت با استفاده از توان متخصصین ایرانی و شرکتهای داخلی نسبت  انجام "
+"تعمیرات مورد نیاز بر روی ولوهای از رده خارج شده با انجام تستهای عملکردی و "
+"بازگشت به سرویس اقدام می نماید."
 
 #: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:28
 msgid "Under Water Inspection-ROV"
@@ -680,3 +964,22 @@ msgstr ""
 "اندازه گیری اعوجاج مغناطیسی خطوط مدفون تا عمق 10 برابر قطر لوله امکان پذیر "
 "می باشد و نتایج بدست آمده در بازرسی خطوط لوله مدفون، از نظر بهره برداران "
 "رضایتبخش بوده است."
+
+#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:12
+#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:29
+#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:38
+msgid "Valve Clinic"
+msgstr "کلینیک تخصصی ولو"
+
+#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:40
+msgid ""
+"This company uses the ability of Iranian specialists and local companies to "
+"perform the required repairs on valves by executing performance tests and "
+"returning to service."
+msgstr ""
+"این شرکت با استفاده از توان متخصصین ایرانی و شرکتهای داخلی نسبت  انجام "
+"تعمیرات مورد نیاز بر روی ولوهای از رده خارج شده با انجام تستهای عملکردی و "
+"بازگشت به سرویس اقدام می نماید."
+
+#~ msgid "Leak detection"
+#~ msgstr "عیوب لایه شدن را تشخیص می دهد."

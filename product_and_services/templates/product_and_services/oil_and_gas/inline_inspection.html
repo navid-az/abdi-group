@@ -428,7 +428,7 @@
                 src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
                 alt="3hexaIcon"
               />
-              <h2>{% trans "EMAT" %} <span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span></h2>
+              <h2>{% trans "EMAT" %} {% if LANGUAGE_CODE == 'en' %}<span>{% trans "(Electromagnetic Acoustic Transducer)" %}</span>{% endif %} </h2>
             </div>
             <p>
               {% trans "Whenever a conductive material conducting electricity is near the surface of a metal, and is placed in a magnetic field, electromagnetic force enters the metal surface according to Laurentz's law. This induced force on the metal, depending on the direction of the magnetic field as well as the electric current of the wire, can cause shear, longitudinal or surface waves in the metal. This method eliminates the need for an intermediate material to create an ultrasonic wave, and lines containing gas can also be inspected by this method." %}

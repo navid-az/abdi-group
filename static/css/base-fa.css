@@ -83,9 +83,13 @@ a,
 span {
   direction: rtl;
   font-family: Vmedium, sans-serif;
+  letter-spacing: normal;
 }
 h2 {
-  font-family: Vbold, sans-serif;
+  font-family: Vmedium, sans-serif;
+}
+p {
+  font-family: Vlight;
 }
 
 /* advantages & disadvantages  */
@@ -101,6 +105,9 @@ h2 {
 .dis-advantages-title > h3 {
   padding-left: 0;
   padding-right: 0.5rem;
+}
+.title > img {
+  width: 25px !important;
 }
 
 /* media  */

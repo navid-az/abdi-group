@@ -1,0 +1,32 @@
+.item,
+.inspection-items-wrapper {
+  flex-direction: row-reverse;
+}
+.title > span {
+  padding-top: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+/* media */
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .ffs-ftp-wrapper {
+    flex-direction: row-reverse;
+    padding: 5rem 0;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+  .item-img {
+    width: 45%;
+    justify-content: flex-start;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}
