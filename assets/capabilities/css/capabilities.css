@@ -1,7 +1,7 @@
-:root {
+/* :root {
   --darkBlue: #00006a;
   --lightBlue: #2fa3ee;
-}
+} */
 .navbar > ul > li:nth-child(1) > img {
   transform: scale(1);
 }
