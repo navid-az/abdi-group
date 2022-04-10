@@ -86,7 +86,7 @@ span {
   letter-spacing: normal;
 }
 h2 {
-  font-family: Vbold, sans-serif;
+  font-family: Vmedium, sans-serif;
   font-weight: 700;
 }
 p {
@@ -110,7 +110,17 @@ p {
 .title > img {
   width: 25px !important;
 }
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */
+  h2 {
+    font-family: Vbold, sans-serif;
+    font-weight: 700;
+  }
+}
 
+/* @supports not (-webkit-touch-callout: none) {
+  /* CSS for other than iOS devices */
+} */
 /* media  */
 
 @media screen and (max-width: 576px) {
