@@ -49,6 +49,7 @@ d-none {
 }
 body {
   position: relative;
+  -webkit-text-size-adjust: 100%;
 }
 a {
   color: white;
