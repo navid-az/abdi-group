@@ -47,6 +47,7 @@
   display: none;
 }
 #menu-list li a p,
+#menu-list li p,
 #menu-sub-list li p,
 #menu-sub-list-sub ul li a {
   font-size: 18px !important;

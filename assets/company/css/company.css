@@ -2,6 +2,15 @@
   position: absolute;
   object-fit: cover;
 }
+.org-values-wrapper {
+  height: 300px;
+  border-radius: 25px;
+}
+.org-values-wrapper > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+}
 .founder-card {
   position: relative;
   width: 100%;
