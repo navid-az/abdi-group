@@ -1,3 +1,39 @@
+#value-1 {
+  left: -5rem;
+  bottom: -9rem;
+}
+#value-2 {
+  left: -10em;
+}
+#value-3 {
+  left: -5rem;
+  top: -9rem;
+}
+#value-4 {
+  left: 5rem;
+  top: -9rem;
+}
+#value-5 {
+  right: -10em;
+}
+#value-6 {
+  right: -5rem;
+  bottom: -9rem;
+}
+.values-wrapper {
+  background-image: url(../images/gas-pipeline-ai-fa.png);
+}
+.values-text > p {
+  font-family: Vbold;
+}
+.values-body {
+  left: 12rem;
+}
+.values-text {
+  left: unset;
+  right: 3rem;
+}
+
 .card-body-info,
 .address,
 .phone,

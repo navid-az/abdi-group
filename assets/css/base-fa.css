@@ -114,13 +114,9 @@ p {
   /* CSS specific to iOS devices */
   h2 {
     font-family: Vbold, sans-serif;
-    font-weight: 700;
+    font-weight: 900;
   }
 }
-
-/* @supports not (-webkit-touch-callout: none) {
-  /* CSS for other than iOS devices */
-} */
 /* media  */
 
 @media screen and (max-width: 576px) {
