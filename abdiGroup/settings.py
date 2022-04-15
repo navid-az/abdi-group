@@ -1,3 +1,4 @@
+from tkinter.tix import Tree
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from pathlib import Path
