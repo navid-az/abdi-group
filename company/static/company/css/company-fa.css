@@ -80,6 +80,10 @@ p {
 .values-body {
   top: -3.3rem;
 }
+#value-1-fa {
+  left: -4rem;
+  bottom: -6.3rem;
+}
 #value-2-fa {
   left: -7.2rem;
 }
@@ -122,6 +126,14 @@ p {
     top: 50%;
     transform: translate(0, -50%);
   }
+  .values-text {
+    left: unset;
+    right: 3rem;
+    width: 43%;
+  }
+  .values-text > p {
+    font-family: Vbold;
+  }
   #value-1-fa {
     left: -6.3rem;
     bottom: -11rem;
@@ -159,7 +171,6 @@ p {
     line-height: 2.5rem;
     margin-bottom: 0rem;
     margin-right: 0rem;
-    font-family: Vbold;
   }
 }
 @media screen and (min-width: 1200px) {
