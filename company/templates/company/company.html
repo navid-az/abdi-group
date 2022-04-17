@@ -3,6 +3,8 @@
 {% block translateEn %}{% url 'company:company' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'company:company' %}{% endblock translateEnMobile %}
 {% block translateFaMobile %}{% url 'company:company' %}{% endblock translateFaMobile %}
+{% block more_js %} <script src="{% static 'company/js/company.js' %}"></script> {% endblock more_js %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,24 +46,26 @@
           </div>
           {% comment %} <img src="{% static 'company/images/gas-pipeline-ai.jpg' %}" alt=""> {% endcomment %}
           <div class="values-body">
-            <img id='values-logo-en' class='' src="{% static 'company/images/values-wrapper-logo-en.png' %}" alt="">
-            <img id='value-1-en' class='values' src="{% static 'company/images/value1-en.png' %}" alt="">
-            <img id='value-2-en' class='values' src="{% static 'company/images/value2-en.png' %}" alt="">
-            <img id='value-3-en' class='values' src="{% static 'company/images/value3-en.png' %}" alt="">
-            <img id='value-4-en' class='values' src="{% static 'company/images/value4-en.png' %}" alt="">
-            <img id='value-5-en' class='values' src="{% static 'company/images/value5-en.png' %}" alt="">
-            <img id='value-6-en' class='values' src="{% static 'company/images/value6-en.png' %}" alt=""> 
+            <img id='values-logo' src="{% static 'company/images/values-wrapper-logo.png' %}" alt="">
             {% if LANGUAGE_CODE == 'fa' %}
-                <img id='values-logo' class='' src="{% static 'company/images/values-wrapper-logo.png' %}" alt="">
-                <img id='value-1' class='values' src="{% static 'company/images/value1.png' %}" alt="">
-                <img id='value-2' class='values' src="{% static 'company/images/value2.png' %}" alt="">
-                <img id='value-3' class='values' src="{% static 'company/images/value3.png' %}" alt="">
-                <img id='value-4' class='values' src="{% static 'company/images/value4.png' %}" alt="">
-                <img id='value-5' class='values' src="{% static 'company/images/value5.png' %}" alt="">
-                <img id='value-6' class='values' src="{% static 'company/images/value6.png' %}" alt=""> 
+              <img id='value-1-fa' class='values' src="{% static 'company/images/value1-fa.png' %}" alt="">
+              <img id='value-2-fa' class='values' src="{% static 'company/images/value2-fa.png' %}" alt="">
+              <img id='value-3-fa' class='values' src="{% static 'company/images/value3-fa.png' %}" alt="">
+              <img id='value-4-fa' class='values' src="{% static 'company/images/value4-fa.png' %}" alt="">
+              <img id='value-5-fa' class='values' src="{% static 'company/images/value5-fa.png' %}" alt="">
+              <img id='value-6-fa' class='values' src="{% static 'company/images/value6-fa.png' %}" alt=""> 
+            {% elif LANGUAGE_CODE == 'en' %}
+              <img id='value-1' class='values' src="{% static 'company/images/value1.png' %}" alt="">
+              <img id='value-2' class='values' src="{% static 'company/images/value2.png' %}" alt="">
+              <img id='value-3' class='values' src="{% static 'company/images/value3.png' %}" alt="">
+              <img id='value-4' class='values' src="{% static 'company/images/value4.png' %}" alt="">
+              <img id='value-5' class='values' src="{% static 'company/images/value5.png' %}" alt="">
+              <img id='value-6' class='values' src="{% static 'company/images/value6.png' %}" alt=""> 
             {% endif %}
           </div>
         </div>
+
+        <!--founder cards--> 
         <div class="founder-card">
           <div class="founder-card-title">
             <img
@@ -92,7 +96,6 @@
             </div>
           </div>
         </div>
-
         <div class="founder-card">
           <div class="founder-card-title">
             <img
@@ -145,14 +148,11 @@
                 {% trans "Engineer license Grade Senior (designing& Supervising & Construction) Organization for Engineering Order of Building – Ministry of Roads and City Planning- 1997 – Contd. More than 25 years of experience in designing, executing, supervising and managing construction projects" %}
               </p>
             </div>
-           {% if LANGUAGE_CODE == 'fa' %}
-            <div class="card-body-info">
-              <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
-              <p>
-                همکاری با مهندسین مشاور انرژی و دکتر زاهدی در تهیه نشریه 369 سازمان مدیریت و برنامه ریزی کشور با موضوع ضوابط احداث تونل مشترک تاسیسات شهری
-همکاری با شهرداری تهران و سازمان نظام مهندسی تهران بعنوان کنترل مضاغف سازه
-              </p>
-            </div>
+            {% if LANGUAGE_CODE == 'fa' %}
+              <div class="card-body-info">
+                <img src="{% static 'svgs/s-green-hexa.svg' %}" alt="" />
+                <p>همکاری با مهندسین مشاور انرژی و دکتر زاهدی در تهیه نشریه 369 سازمان مدیریت و برنامه ریزی کشور با موضوع ضوابط احداث تونل مشترک تاسیسات شهری همکاری با شهرداری تهران و سازمان نظام مهندسی تهران بعنوان کنترل مضاغف سازه</p>
+              </div>
            {% endif %}
           </div>
         </div>
@@ -188,6 +188,8 @@
             </div>
           </div>
         </div>
+
+        <!--histroy, partners, contact us-->
         <div class="history">
           <div class="title">
               <img
@@ -213,16 +215,6 @@
           </p>
         </div>
         <div class="contact-us">
-          {% comment %} <img
-            class="contact-us-hexa"
-            src="{% static 'svgs/contact-us-right-hexa.svg' %}"
-            alt=""
-          />
-          <img
-            class="contact-us-hexa"
-            src="{% static 'svgs/contact-us-left-hexa.svg' %}"
-            alt=""
-          /> {% endcomment %}
           <div class="contact-us-header"><h4>{% trans "Contact Us" %}</h4></div>
           <div class="address">
             <img src="{% static 'svgs/address.svg' %}" alt="" />

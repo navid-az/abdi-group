@@ -31,6 +31,7 @@ function navOptionHoverOff() {
   this.children[0].style.transform = "scale(0)";
   this.children[1].style.color = "#FFFFFF";
 }
+
 // hamburger btn and mobile menu
 hamburgerBtn.addEventListener("click", menuBtnClickHandle);
 closeMenuBtn.addEventListener("click", menuCloseBtnClickHandle);
@@ -121,6 +122,7 @@ function productsMenuOpen() {
   goTo = "go to mainMenu";
   console.log(goBack);
 }
+
 // changes oil and gas pipelines options list
 function changeSubMenu() {
   var child = 0;

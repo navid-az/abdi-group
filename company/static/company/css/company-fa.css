@@ -1,38 +1,33 @@
-#value-1 {
-  left: -5rem;
-  bottom: -9rem;
+/* #value-1-fa {
+  left: -6.3rem;
+  bottom: -11rem;
 }
-#value-2 {
-  left: -10em;
+#value-2-fa {
+  left: -12rem;
 }
-#value-3 {
-  left: -5rem;
-  top: -9rem;
+#value-3-fa {
+  left: -6.3rem;
+  top: -11rem;
 }
-#value-4 {
-  left: 5rem;
-  top: -9rem;
+#value-4-fa {
+  left: 6.5rem;
+  top: -11rem;
 }
-#value-5 {
-  right: -10em;
+#value-5-fa {
+  right: -12em;
 }
-#value-6 {
-  right: -5rem;
-  bottom: -9rem;
-}
-.values-wrapper {
-  background-image: url(../images/gas-pipeline-ai-fa.png);
-}
-.values-text > p {
-  font-family: Vbold;
-}
-.values-body {
-  left: 12rem;
+#value-6-fa {
+  right: -6.3rem;
+  bottom: -11rem;
 }
 .values-text {
   left: unset;
   right: 3rem;
 }
+.values-wrapper {
+  background-image: url(../images/gas-pipeline-ai-fa.png);
+}
+ */
 
 .card-body-info,
 .address,
@@ -76,4 +71,161 @@ p {
 .fax p {
   padding-left: 0;
   padding-right: 0.8rem;
+}
+
+.values-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  border-radius: 25px;
+  margin: 12rem 0;
+  /* margin: 8rem 0; */
+  position: relative;
+  background-image: url(../images/gas-pipeline-ai.png);
+  background-size: cover;
+}
+
+.values-text {
+  right: unset;
+  /* left: 3rem; */
+  /* width: 40%; */
+  color: white;
+  position: absolute;
+  padding: 1rem 0.5rem;
+  bottom: 0;
+  /* top: 50%;
+  transform: translate(0, -50%); */
+}
+.values-text > p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.7rem;
+  margin-bottom: 1.5rem;
+  margin-right: 0.5rem;
+  font-weight: 500;
+  font-family: Vbold;
+}
+.values,
+.values-body,
+#values-logo {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+}
+.values-body {
+  top: -3.3rem;
+  /* right: 12rem;
+  top: 50%;
+  transform: translate(0, -50%); */
+}
+/* img[id^="value"]:not(#values-logo) {
+  opacity: 0;
+} */
+#value-1-fa {
+  left: -4rem;
+  bottom: -6.3rem;
+  /* left: -5rem;
+  bottom: -9rem; */
+}
+#value-2-fa {
+  left: -7.2rem;
+  /* left: -10em; */
+}
+#value-3-fa {
+  left: -4rem;
+  top: -6.3rem;
+  /* left: -5rem;
+  top: -9rem; */
+}
+#value-4-fa {
+  right: -4rem;
+  top: -6.3rem;
+  /* left: 5rem;
+  top: -9rem; */
+}
+#value-5-fa {
+  right: -7.2rem;
+  /* right: -10em; */
+}
+#value-6-fa {
+  right: -4rem;
+  bottom: -6.3rem;
+  /* right: -5rem;
+  bottom: -9rem; */
+}
+
+/* media  */
+
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  .values-wrapper {
+    margin: 8rem 0;
+    background-image: url(../images/gas-pipeline-ai-fa.png);
+  }
+  .values,
+  .values-body,
+  #values-logo {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  .values-body {
+    left: 12rem;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .values-text {
+    left: unset;
+    right: 3rem;
+    width: 43%;
+  }
+  .values-text > p {
+    font-family: Vbold;
+  }
+  #value-1-fa {
+    left: -6.3rem;
+    bottom: -11rem;
+  }
+  #value-2-fa {
+    left: -12rem;
+  }
+  #value-3-fa {
+    left: -6.3rem;
+    top: -11rem;
+  }
+  #value-4-fa {
+    left: 6.5rem;
+    top: -11rem;
+  }
+  #value-5-fa {
+    right: -12em;
+  }
+  #value-6-fa {
+    right: -6.3rem;
+    bottom: -11rem;
+  }
+  .values-text {
+    left: unset;
+    right: 3rem;
+    width: 40%;
+    color: white;
+    width: 43%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .values-text > p {
+    font-size: 22px;
+    line-height: 2.5rem;
+    margin-bottom: 0rem;
+    margin-right: 0rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
 }
