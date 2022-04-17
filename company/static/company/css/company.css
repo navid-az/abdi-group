@@ -11,7 +11,7 @@
   margin: 12rem 0;
   /* margin: 8rem 0; */
   position: relative;
-  background-image: url(../images/gas-pipeline-ai.png);
+  background-image: url(../images/gas-pipeline-ai.webp);
   background-size: cover;
 }
 .values-text {
@@ -48,9 +48,9 @@
   top: 50%;
   transform: translate(0, -50%); */
 }
-/* img[id^="value"]:not(#values-logo) {
+img[id^="value"]:not(#values-logo) {
   opacity: 0;
-} */
+}
 #value-1 {
   left: -4rem;
   bottom: -6.3rem;
@@ -182,7 +182,7 @@
 /* contact div  */
 .contact-us {
   position: relative;
-  background-image: url(../images/connectwork.png);
+  background-image: url(../images/connectwork.webp);
   background-size: 70%;
   width: 100%;
   max-width: 800px;

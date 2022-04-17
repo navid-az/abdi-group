@@ -1,4 +1,5 @@
 #menu-list > li > a > img,
+#menu-list > li > img,
 #menu-sub-list > li > img {
   transform: rotate(180deg);
 }

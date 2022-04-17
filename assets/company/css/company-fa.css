@@ -164,7 +164,7 @@ p {
 @media screen and (min-width: 992px) {
   .values-wrapper {
     margin: 8rem 0;
-    background-image: url(../images/gas-pipeline-ai-fa.png);
+    background-image: url(../images/gas-pipeline-ai-fa.webp);
   }
   .values,
   .values-body,
