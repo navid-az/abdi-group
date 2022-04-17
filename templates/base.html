@@ -17,10 +17,6 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
-      rel="stylesheet"
-    />
     <!-- fonts END -->
     <!-- more css -->
     {% block more_css %} {% endblock %}
@@ -44,10 +40,9 @@
         {% if LANGUAGE_CODE == 'fa' %}
         <h3 class='company-fa-name'>گروه خدمات مهندسی نفت گاز پتروشیمی عبدی</h3>
         <h5 class='company-fa-name'>(سهامی خاص)</h5>
-          <img id='company-name' src="{% static 'svgs/fa-name.svg' %}" alt="">
+          <img id='company-name' src="{% static 'svgs/fa-name.svg' %}" alt="company">
           <a href="{% url 'capabilities:capabilities' %}">
             <img
-              onclick='goToMainPage()'
               id="logo"
               src=" {% static 'images/logo-fa.webp' %} "
               alt="abdi-group"
