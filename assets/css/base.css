@@ -1,5 +1,4 @@
 :root {
-  /* --darkBlue: #081142; */
   --darkBlue: #00006a;
   --lightBlue: #2fa3ee;
   --green: #89c958;
@@ -26,6 +25,7 @@ h3 {
 .md-none {
   display: none;
 }
+
 html {
   font-family: "Varela Round", sans-serif;
   font-family: "Roboto", sans-serif;

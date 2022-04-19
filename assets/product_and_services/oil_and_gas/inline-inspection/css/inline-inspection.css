@@ -52,6 +52,8 @@
   margin: 2.5rem auto;
   width: 90%;
 }
+
+/* magnetization */
 .magnetization-card {
   width: 100%;
   background: var(--darkBlue);
@@ -69,6 +71,9 @@
   color: white;
   padding-left: 0.5rem;
 }
+.card-text > p {
+  color: white;
+}
 .card-body {
   padding: 1.5rem;
   display: flex;
@@ -84,6 +89,7 @@
   margin-bottom: 1.5rem;
   width: 100%;
 }
+
 .tfi-mfl-comparison {
   position: relative;
   width: 100%;
@@ -198,9 +204,13 @@
   .pig-info > img {
     width: 50%;
   }
-  .defect-chart-img {
-    width: 70%;
-    margin: 2.5rem auto;
+
+  /* magnetization */
+  .magnetization-card {
+    width: 100%;
+  }
+  .magnetization-card .card-body > img {
+    width: 50%;
   }
   .card-body {
     flex-direction: row-reverse;
@@ -208,29 +218,55 @@
   .card-title > h3 {
     padding-left: 0.8rem;
   }
-  .magnetization-card .card-body > img {
-    width: 45%;
+  .card-body > img {
+    margin-bottom: 0;
   }
-  .magnetization-card .card-body > p {
+  .card-text {
     width: 50%;
-    margin-top: 0;
   }
+
+  /* chart */
   .chart-options-title > p {
     font-size: 14px;
+  }
+  .defect-chart-img {
+    width: 70%;
+    margin: 2.5rem auto;
   }
   .chart-options > h3 {
     font-size: 16px;
   }
 }
 @media screen and (min-width: 992px) {
+  /* magnetization */
+  .magnetization-wrapper {
+    display: flex;
+    gap: 2rem;
+  }
   .magnetization-card {
+    width: 50%;
+  }
+  .mobile-magnetization-card {
+    display: none;
+  }
+  .card-body {
+    flex-direction: column;
+  }
+  .magnetization-card .card-body > img {
     width: 100%;
   }
+  .card-text {
+    width: 100%;
+  }
+  .card-text > p {
+    color: white;
+  }
+
   .title > h2 {
     font-size: 30px !important;
   }
-  /* chart  */
 
+  /* chart  */
   .chart-wrapper,
   .chart-wrapper > p {
     margin-bottom: 2.5rem;
