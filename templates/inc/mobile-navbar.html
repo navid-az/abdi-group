@@ -177,7 +177,7 @@
         </div>
       </div>
   {% block more_js %}
-      <script src="{% static 'js/mobile-navbar.js' %}"></script>
+      {% comment %} <script src="{% static 'js/mobile-navbar.js' %}"></script> {% endcomment %}
     {% if LANGUAGE_CODE == 'fa' %}
       <script src="{% static 'js/mobile-navbar-fa.js' %}"></script>
     {% endif %}

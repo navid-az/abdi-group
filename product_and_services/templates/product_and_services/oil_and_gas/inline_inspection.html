@@ -95,33 +95,46 @@
             />
           </div>
         </div>
-        <p>
-          {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %} <br /><br /> {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
+        <p style='margin-bottom: 2rem ;'>
+          {% trans "Of course, this device has disadvantages, including the similar effect of different phenomena, because the sensors measure and record any kind of flux change, and the difference between them must be determined by the interpreter." %}
+          <br /><br />
+          {% trans "Other disadvantages of this tool include the inability to detect SCC in the early stages of its development. While using this method is more expensive than other methods." %}
         </p>
-        <div class="magnetization-card">
-          <div class="card-title">
-            <svg
-              width="13"
-              height="31"
-              viewBox="0 0 13 31"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
-                fill="#2fa3ee"
+
+        <div class="magnetization-wrapper">
+          <div class="magnetization-card">
+            <div class="card-title">
+              <img src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/magnetization-title.svg' %}" alt="">
+              <h2>Axial magnetization</h2>
+            </div>
+            <div class="card-body">
+              <img
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial-new.png' %}"
+                alt="axial magnetization"
               />
-            </svg>
-            <h2>Axial magnetization</h2>
+              <div class="card-text">
+                <p>
+                  {% trans "MFL are intended to detect, locate and size general corrosion, pitting corrosion, circumferential cracks, grith weld anomalies, pipeline construction features, other anomalies of circumferential orientation." %}
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial.png' %}"
-              alt="axial magnetization"
-            />
-            <p>
-              {% trans "MFL are intended to detect, locate and size general corrosion, pitting corrosion, circumferential cracks, grith weld anomalies, pipeline construction features, other anomalies of circumferential orientation." %}
-            </p>
+          <div class="magnetization-card md-none">
+            <div class="card-title">
+              <img src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/magnetization-title.svg' %}" alt="">
+              <h2>Transverse magnetization</h2>
+            </div>
+            <div class="card-body">
+              <img
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.png' %}"
+                alt="card title icon"
+              />
+              <div class="card-text">
+                <p>
+                  {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <div class="pig-wrapper">
@@ -144,33 +157,23 @@
             />
           </div>
         </div>
-        <div class="magnetization-card">
-          <div class="card-title">
-            <svg
-            style='margin-left:-0.1rem;'
-              width="13"
-              height="31"
-              viewBox="0 0 13 31"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M-2.95258 1.48272C-1.7393 0.804121 -0.260703 0.80412 0.952574 1.48272L10.809 6.99548C12.0732 7.70259 12.8564 9.03797 12.8564 10.4865V21.2947C12.8564 22.7433 12.0732 24.0787 10.809 24.7858L0.952576 30.2985C-0.260701 30.9771 -1.7393 30.9771 -2.95257 30.2985L-12.809 24.7858C-14.0732 24.0787 -14.8564 22.7433 -14.8564 21.2947V10.4865C-14.8564 9.03797 -14.0732 7.70259 -12.809 6.99548L-2.95258 1.48272Z"
-                fill="#2fa3ee"
+          <div class="magnetization-card mobile-magnetization-card">
+            <div class="card-title">
+              <img src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/magnetization-title.svg' %}" alt="">
+              <h2>Transverse magnetization</h2>
+            </div>
+            <div class="card-body">
+              <img
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.png' %}"
+                alt="card title icon"
               />
-            </svg>
-            <h2>Transverse magnetization</h2>
+              <div class="card-text">
+                <p>
+                  {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="card-body">
-            <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse.png' %}"
-              alt="card title icon"
-            />
-            <p>
-              {% trans "TFI tools are intended to detect, locate and size all anomalies of axial orientation, including stress corrosion cracking, axial cracks, longitudinal weld anomalies, pipeline construction features, etc.." %}
-            </p>
-          </div>
-        </div>
         <img
           class="flux"
           src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-tfi.png' %}"
@@ -212,6 +215,7 @@
         />
       </div>-->
       <div class="container">
+        <!--chart-->
         <div class="chart-wrapper">
           <p>
             {% trans "According to a 10-year study of smart pigging reports by Russian Gazprom, only 1% of the defects are cracks that MFL pigs are not able to detect, but in terms of the high risk of these defects (the effect of pipe stress on rupture), operating companies also put TFI pigs on their scope of work In addition, driving the TFI pig with MFL creates a more accurate combination report. On the other hand, the increase in the cost of adding a TFI pig compared to the whole project is acceptable and justifiable." %}
