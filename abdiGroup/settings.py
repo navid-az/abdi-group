@@ -19,7 +19,7 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
+ALLOWED_HOSTS = ['www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
 # ,'127.0.0.1'
 
 # Application definition
