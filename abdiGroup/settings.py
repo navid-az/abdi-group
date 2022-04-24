@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'capabilities.apps.CapabilitiesConfig',
     'product_and_services.apps.ProductAndServicesConfig',
     'company.apps.CompanyConfig',
+    'mr_dr.apps.MrDrConfig',
 ]
 
 MIDDLEWARE = [
@@ -81,8 +82,11 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE':'django.db.backends.postgresql',
+        'NAME':'abdi-group-database',
+        'USER':'postgres',
+        'PASSWORD':'SQLelephantPoSt25',
+        'HOST':'localhost',
     }
 }
 
