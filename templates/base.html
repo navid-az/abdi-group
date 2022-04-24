@@ -26,6 +26,11 @@
   <body>
     <!-- header & navbar  -->
     <header>
+      <ul class="header-btns">
+        <li>Mr.Dr</li>
+        <li>News</li>
+        <li>EN</li>
+      </ul>
       {% if LANGUAGE_CODE == 'fa' %}
         {% language 'en' %}
           <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
