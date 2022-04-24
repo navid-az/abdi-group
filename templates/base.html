@@ -26,12 +26,15 @@
   <body>
     <!-- header & navbar  -->
     <header>
-      <ul class='header-btns'>
-        <li>Mr.dr</li>
-        <li>News</li>
-        <li>hello</li>
-      </ul>
-      
+      {% if LANGUAGE_CODE == 'fa' %}
+        {% language 'en' %}
+          <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
+        {% endlanguage %}
+      {% else %}
+        {% language 'fa' %}
+          <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>EN</h3></a>
+        {% endlanguage %}
+      {% endif %}
       {% include 'inc/mobile-navbar.html' %}
       <nav>
         {% if LANGUAGE_CODE == 'fa' %}
