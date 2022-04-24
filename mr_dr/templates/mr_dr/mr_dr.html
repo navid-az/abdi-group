@@ -1,3 +1,8 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa%}{% url 'mr-dr:mr-dr' %}{% endblock translateFa %}
+{% block translateEn %}{% url 'mr-dr:mr-dr' %}{% endblock translateEn %}
+{% block translateEnMobile %}{% url 'mr-dr:mr-dr' %}{% endblock translateEnMobile %}
+{% block translateFaMobile %}{% url 'mr-dr:mr-dr' %}{% endblock translateFaMobile %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +12,13 @@
     <title>Document</title>
 </head>
 <body>
-    hello this is mr.dr
-    {% for i in questions %}
-        {{i.name}}
-        <br>
-        {{i.body}}
-    {% endfor %}
+   {% block content %}
+        hello this is mr.dr
+        {% for i in questions %}
+            {{i.name}}
+            <br>
+            {{i.body}}
+        {% endfor %}
+    {% endblock content %}
 </body>
 </html>
