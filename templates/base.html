@@ -26,7 +26,22 @@
   <body>
     <!-- header & navbar  -->
     <header>
-      {% if LANGUAGE_CODE == 'fa' %}
+      <ul class="header-btns .md-none">
+        <li><a href="{% url 'mr-dr:mr-dr' %}"><h4>{% trans "Mr.Dr" %}</h4><img src="{% static 'svgs/help-circle.svg' %}" alt="globe icon"></a></li>
+        {% comment %} <li><a href="{% url 'mr-dr:mr-dr' %}"><h4>News</h4><img src="{% static 'svgs/bell.svg' %}" alt="globe icon"></a></li> {% endcomment %}
+        <li>
+          {% if LANGUAGE_CODE == 'fa' %}
+            {% language 'en' %}
+              <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
+            {% endlanguage %}
+          {% else %}
+            {% language 'fa' %}
+              <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>EN</h3></a>
+            {% endlanguage %}
+          {% endif %}
+        </li>
+      </ul>
+      {% comment %} {% if LANGUAGE_CODE == 'fa' %}
         {% language 'en' %}
           <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
         {% endlanguage %}
@@ -34,7 +49,7 @@
         {% language 'fa' %}
           <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>EN</h3></a>
         {% endlanguage %}
-      {% endif %}
+      {% endif %} {% endcomment %}
       {% include 'inc/mobile-navbar.html' %}
       <nav>
         {% if LANGUAGE_CODE == 'fa' %}
