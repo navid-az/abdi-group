@@ -83,10 +83,9 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE':'django.db.backends.postgresql',
-        'NAME':'abdi-group-database',
-        'USER':'postgres',
+        'NAME':'abdigrou_database',
+        'USER':'abdigrou_navid',
         'PASSWORD':'SQLelephantPoSt25',
-        'HOST':'localhost',
     }
 }
 
