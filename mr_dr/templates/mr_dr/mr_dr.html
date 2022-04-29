@@ -9,16 +9,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    {% block more_css %}
+        <link
+        rel="stylesheet"
+        href="{% static 'mr_dr/css/mr-dr.css' %}"
+        />
+        {% if LANGUAGE_CODE == 'fa' %}
+          <link rel="stylesheet" href="{% static 'mr_dr/css/mr-dr-fa.css' %}">
+        {% endif %}
+    {% endblock more_css %}
+    <title>{% block title %}{% trans "Cleaning Pigs" %}{% endblock title %}</title>
 </head>
 <body>
-   {% block content %}
-        hello this is mr.dr
-        {% for i in questions %}
-            {{i.name}}
-            <br>
-            {{i.body}}
-        {% endfor %}
+    {% block content %}
+    {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+    <div class="mobile-curved-bg">
+        <div class="container">
+            <div class="page-title">
+                <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+                <h4> {% trans "Inline Inspection" %} </h4>
+            </div>
+            <form id='question-form' action="" method="post">
+                {% csrf_token %}
+                <div class="card-title">
+                    <img style='filter: invert(18%) sepia(30%) saturate(5670%) hue-rotate(231deg) brightness(65%) contrast(138%);' src="{% static 'product_and_services/oil_and_gas/inline-inspection/svg/magnetization-title.svg' %}" alt="">
+                    <h2>{% trans "Ask your questions here:" %}</h2>
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-title"><h4>{% trans "Your name:" %}</h4></div>
+                    {{form.name}}
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-title"><h4>{% trans "Email:" %}</h4></div>
+                    {{form.email}}
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-title"><h4>{% trans "Title:" %}</h4></div>
+                    {{form.title}}
+                </div>
+                <div class="input-wrapper">
+                    <div class="input-title"><h4>{% trans "Your Question:" %}</h4></div>
+                    {{form.question}}
+                </div>
+                <input id='submit-btn' type="submit" value='ارسال'>
+            </form>
+
+            <div class="question-wrapper">
+                {% for i in mr_dr %}
+                    <div class="question">
+                        <div class="questioner-name">
+                            <img src="{% static 'mr_dr/svgs/questioner-img.svg' %}" alt="">
+                            <div class="name">
+                                <h2>{{i.name}}</h2>
+                                <h4>{{i.created}}</h4>
+                            </div>
+                        </div>
+                        <div class="question-body">
+                            <h2>{{i.title}}</h2>
+                            <p>{{i.question}}</p>
+                        </div>
+                    </div>
+                    {% if i.answer %}
+                        <div class="answer">
+                            <div class="line"></div>
+                            <div class="abdi-group-name">
+                                <img src="{% static 'mr_dr/svgs/abdi-group-img.png' %}" alt="">
+                                <div class="name">
+                                    <img width='25px' src="{% static 'mr_dr/svgs/vertified.svg' %}" alt="">
+                                    <h2>{% trans "Abdi Group" %}</h2>
+                                    <h4>{{i.created}}</h4>
+                                </div>
+                            </div>
+                            <div class="question-body">
+                                <h2>{{i.title}}</h2>
+                                <p>{{i.answer}}</p>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <!--make this later-->
+            {% comment %} {% for message in messages %}
+                <strong>{{message}}<strong>
+            {% endfor %} {% endcomment %}
+        </div>
+    </div>
     {% endblock content %}
 </body>
 </html>

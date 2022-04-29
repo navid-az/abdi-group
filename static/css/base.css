@@ -30,15 +30,15 @@ html {
   font-family: "Varela Round", sans-serif;
   font-family: "Roboto", sans-serif;
   /* font-family: "Merriweather Sans", sans-serif; */
-  background: #ffffff;
+  background: #f9f9fa;
   overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
-  /* height: 6000px; */
+  height: 6000px;
   margin-bottom: 5rem;
 }
 .container {
-  width: 90%;
+  width: 94%;
   margin: 0 auto;
 }
 .d-flex {
@@ -139,10 +139,9 @@ header {
 }
 .header-btns {
   right: 10rem;
-  /* top: 11.5%; */
   height: 3rem;
   position: absolute;
-  display: flex;
+  display: none;
   gap: 0.5rem;
   justify-content: space-between;
   align-items: center;
@@ -234,7 +233,7 @@ nav > .img__btns {
   position: relative;
   margin-top: -2.5rem;
   width: 100%;
-  background: #ffffff;
+  background: #f9f9fa;
   border-radius: 18px;
 }
 
@@ -323,6 +322,9 @@ nav > .img__btns {
 @media screen and (min-width: 992px) {
   .md-none {
     display: block;
+  }
+  .header-btns {
+    display: flex;
   }
   p,
   a {

@@ -149,3 +149,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
+
+# email 
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'mail.abdi-group.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'mr.dr@abdi-group.com'
+EMAIL_HOST_PASSWORD = 'cjAFwV3pL9SmAqa'

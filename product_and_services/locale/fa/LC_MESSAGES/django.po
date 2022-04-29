@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-17 18:43+0430\n"
+"POT-Creation-Date: 2022-04-29 21:46+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -371,7 +371,7 @@ msgid "EGP (Electronic Geometry Pig)"
 msgstr "پیگ هوشمند (EGP):"
 
 #: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:69
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:289
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:293
 msgid ""
 "It is used to check the roundness of the pipe cross section and is available "
 "in both mechanical and electronic forms."
@@ -384,7 +384,7 @@ msgid "MFL (Magnetic Flux Leakage)"
 msgstr "پیگ هوشمند (MFL):"
 
 #: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:89
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:137
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:150
 msgid ""
 "This tool uses the principles of magnetic flux leakage. The magnetic flux "
 "density in a metal leak, where its thickness has decreased due to corrosion. "
@@ -407,7 +407,7 @@ msgstr ""
 "زیرا سنسورها هر نوع تغییر شاری را اندازه گیری و ثبت می نمایند و بایستی تفاوت "
 "بین آنها توسط مفسرین مشخص گردد . "
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:99
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:101
 msgid ""
 "Other disadvantages of this tool include the inability to detect SCC in the "
 "early stages of its development. While using this method is more expensive "
@@ -417,7 +417,7 @@ msgstr ""
 "آن می باشد . ضمن اینکه استفاده از این روش نسبت به روشهای دیگر هزینه بسیار "
 "زیادی دارد."
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:123
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:117
 msgid ""
 "MFL are intended to detect, locate and size general corrosion, pitting "
 "corrosion, circumferential cracks, grith weld anomalies, pipeline "
@@ -425,17 +425,18 @@ msgid ""
 msgstr ""
 
 #: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:134
-msgid "TFI (Transverse Field Inspection)"
-msgstr "پیگ هوشمند (TFI)"
-
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:170
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:172
 msgid ""
 "TFI tools are intended to detect, locate and size all anomalies of axial "
 "orientation, including stress corrosion cracking, axial cracks, longitudinal "
 "weld anomalies, pipeline construction features, etc.."
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:217
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:147
+msgid "TFI (Transverse Field Inspection)"
+msgstr "پیگ هوشمند (TFI)"
+
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:221
 #, python-format
 msgid ""
 "According to a 10-year study of smart pigging reports by Russian Gazprom, "
@@ -454,64 +455,64 @@ msgstr ""
 "می کند. از طرف دیگر افزایش هزینه افزودن پیگ TFI در مقایسه با کل پروژه قابل "
 "قبول و توجیه پذیر می باشد."
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:228
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:232
 msgid "General corrosion"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:235
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:239
 msgid "Grooves"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:243
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:247
 msgid "Girth weld anomalies"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:250
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:254
 msgid "Pitting"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:257
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:261
 msgid "SCC and Cracks"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:264
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:268
 msgid "Mill defects"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:271
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:275
 msgid "Dents"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:286
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:290
 msgid "UT (Ultrasonic tool)"
 msgstr "پیگ هوشمند (UT):"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:329
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:333
 msgid "Advantages"
 msgstr "مزایا"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:342
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:346
 msgid "Accurate and reliable measurement of pipe wall thickness"
 msgstr "اندازه گيري دقيق و قابل اطمينان ضخامت ديواره لوله"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:354
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:358
 msgid "No restrictions on measuring high thicknesses"
 msgstr "عدم محدوديت در اندازه گيري ضخامتهاي بالا"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:366
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:370
 msgid ""
 "In conditions which there are many defects,Ut is more sensitive than mfl"
 msgstr "در شناسايي تعداد بالاي عيوب از پيگ MFL  حساستر است."
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:378
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:382
 msgid "Lamination detection"
 msgstr "عیوب لایه شدن را تشخیص می دهد."
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:404
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:408
 msgid "Disadvantages"
 msgstr "معایب"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:418
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:422
 msgid ""
 "Due to the need for liquid fluid to transmit and receive sound waves, this "
 "pig has only the ability to inspect the lines carrying liquid fluid and can "
@@ -521,15 +522,15 @@ msgstr ""
 "قابليت بازرسي خطوط حامل سيال مايع را دارا ميباشد و امكان استفاده در خطوط "
 "انتقال گاز وجود ندارد."
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:431
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:435
 msgid "EMAT"
 msgstr "پیگ هوشمند (EMAT):"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:431
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:435
 msgid "(Electromagnetic Acoustic Transducer)"
 msgstr ""
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:434
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:438
 msgid ""
 "Whenever a conductive material conducting electricity is near the surface of "
 "a metal, and is placed in a magnetic field, electromagnetic force enters the "
@@ -547,7 +548,7 @@ msgstr ""
 "طولي و يا ورقي در فلز شود. با اين روش در واقع لزوم وجود ماده واسط براي ايجاد "
 "موج التراسونيك از بين مي رود و خطوط حاوي گاز نيز بدين روش  قابل  بازرسي هستند"
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:444
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:448
 msgid ""
 "In this method, the coil and the permanent magnet are located near the metal "
 "surface. forced by radio waves (RF) and produce eddy currents. These waves "
@@ -556,7 +557,7 @@ msgstr ""
 "در اين روش سيم پيچ و مگنت دايم در نزديكي سطح فلز قرار دارند . سيم پيچ توسط "
 "امواج راديويي(RF)تحريك ميشوند و امواج گردابي (Eddy current) توليد ميكنند "
 
-#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:446
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:450
 msgid "They cause mechanical strain, so they emit sound waves in the pipe."
 msgstr ""
 "اين امواج در تماس مغناطيس دايمكرنش مكانيكي را سبب ميشوند بنابراين در لوله  "
