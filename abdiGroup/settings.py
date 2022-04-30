@@ -86,9 +86,18 @@ DATABASES = {
         'NAME':'abdigrou_database',
         'USER':'abdigrou_navid',
         'PASSWORD':'SQLelephantPoSt25',
+        'HOST':'127.0.0.1',
     }
 }
-
+# DATABASES = {
+#     'default': {
+#         'ENGINE':'django.db.backends.postgresql',
+#         'NAME':'abdi-group-database',
+#         'USER':'postgres',
+#         'PASSWORD':'SQLelephantPoSt25',
+#         'HOST':'localhost',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
