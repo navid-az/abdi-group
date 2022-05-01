@@ -80,16 +80,16 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'HOST':'127.0.0.1',
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'abdigrou_database',
-        'USER':'abdigrou_navid',
-        'PASSWORD':'SQLelephantPoSt25',
-        'HOST':'127.0.0.1',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'HOST':'127.0.0.1',
+#         'ENGINE':'django.db.backends.postgresql',
+#         'NAME':'abdigrou_database',
+#         'USER':'abdigrou_navid',
+#         'PASSWORD':'SQLelephantPoSt25',
+#         'HOST':'127.0.0.1',
+#     }
+# }
 
 # DATABASES = {
 #     'default': {
@@ -100,6 +100,18 @@ DATABASES = {
 #         'HOST':'localhost',
 #     }
 # }
+
+# mySQL database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'abdiGroup',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'MySQL_1380',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
