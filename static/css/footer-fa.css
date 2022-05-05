@@ -1,0 +1,39 @@
+.go-up-btn {
+  right: 0;
+}
+footer > img {
+  position: absolute;
+  right: unset;
+  left: 0;
+}
+.lists-wrapper {
+  flex-direction: row-reverse;
+}
+.footer-list {
+  align-items: flex-end;
+}
+.footer-list > .title > img {
+  margin-left: 0.5rem;
+}
+
+.footer-list > li > img {
+  margin-left: 0.8rem;
+}
+
+.social-media-btns-wrapper {
+  right: unset;
+  left: -0.5rem;
+}
+
+#navid {
+  right: unset;
+  left: 0;
+  margin-left: 0.5rem;
+}
+#navid > a > p {
+  padding-right: 1.2rem;
+}
+#navid > a > img {
+  right: -1.2rem;
+  left: unset;
+}

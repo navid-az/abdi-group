@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-04-29 21:46+0430\n"
+"POT-Creation-Date: 2022-05-04 15:56+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\abdiGroup\settings.py:119
+#: .\abdiGroup\settings.py:141
 msgid "Persian"
 msgstr ""
 
-#: .\abdiGroup\settings.py:120
+#: .\abdiGroup\settings.py:142
 msgid "English"
 msgstr ""
 
@@ -30,59 +30,96 @@ msgstr ""
 msgid "Mr.Dr"
 msgstr "آقای دکتر"
 
-#: .\templates\inc\mobile-navbar.html:34 .\templates\inc\navbar.html:27
+#: .\templates\inc\footer.html:25
+msgid "Useful Links"
+msgstr "لینک های مفید"
+
+#: .\templates\inc\footer.html:29 .\templates\inc\mobile-navbar.html:34
+#: .\templates\inc\navbar.html:27
 msgid "Capabilities"
 msgstr "توانمندی ها"
 
-#: .\templates\inc\mobile-navbar.html:39 .\templates\inc\navbar.html:31
+#: .\templates\inc\footer.html:33 .\templates\inc\mobile-navbar.html:65
+#: .\templates\inc\navbar.html:68
+msgid "Process Units"
+msgstr "واحدهای فرآیندی"
+
+#: .\templates\inc\footer.html:37 .\templates\inc\mobile-navbar.html:61
+#: .\templates\inc\navbar.html:75
+msgid "Civil Projects"
+msgstr "پروژه های ساختمانی"
+
+#: .\templates\inc\footer.html:41 .\templates\inc\mobile-navbar.html:69
+#: .\templates\inc\navbar.html:82
+msgid "Industrial Technology"
+msgstr "تکنولوژیهای صنعتی"
+
+#: .\templates\inc\footer.html:45 .\templates\inc\mobile-navbar.html:73
+#: .\templates\inc\navbar.html:89
+msgid "Management Systems"
+msgstr "پیاده سازی سیستمهای مدیریتی"
+
+#: .\templates\inc\footer.html:51 .\templates\inc\mobile-navbar.html:39
+#: .\templates\inc\navbar.html:31
 msgid "Products and Services"
 msgstr "محصولات و خدمات"
+
+#: .\templates\inc\footer.html:55 .\templates\inc\mobile-navbar.html:86
+#: .\templates\inc\navbar.html:93
+msgid "Inline Inspection"
+msgstr "پیگرانی هوشمند"
+
+#: .\templates\inc\footer.html:59 .\templates\inc\mobile-navbar.html:134
+#: .\templates\inc\navbar.html:99
+msgid "Coating and Cathodic Protection"
+msgstr "پوشش و حفاظت کاتدی"
+
+#: .\templates\inc\footer.html:63 .\templates\inc\mobile-navbar.html:94
+#: .\templates\inc\navbar.html:94
+msgid "Unpigable Pipelines"
+msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
+
+#: .\templates\inc\footer.html:67 .\templates\inc\mobile-navbar.html:110
+#: .\templates\inc\navbar.html:96
+msgid "Cleaning Pigs"
+msgstr "پیگرانی تمییز کننده"
+
+#: .\templates\inc\footer.html:71 .\templates\inc\mobile-navbar.html:102
+#: .\templates\inc\navbar.html:95
+msgid "Under Water Inspection-ROV"
+msgstr "بازرسی خطوط لوله زیر دریایی "
+
+#: .\templates\inc\footer.html:77
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: .\templates\inc\footer.html:81
+msgid "021-22006761"
+msgstr ""
+
+#: .\templates\inc\footer.html:85
+msgid "021-22638734"
+msgstr ""
+
+#: .\templates\inc\footer.html:106
+msgid "Programmed and designed by"
+msgstr "طراحی و برنامه نویسی سایت توسط"
+
+#: .\templates\inc\footer.html:106
+msgid "Navid Azimi"
+msgstr "نوید عظیمی"
 
 #: .\templates\inc\mobile-navbar.html:44 .\templates\inc\navbar.html:35
 msgid "About Us"
 msgstr "درباره ما"
 
 #: .\templates\inc\mobile-navbar.html:50
-#, fuzzy
-#| msgid "Oil and Gas Pipelines"
 msgid "Oil And Gas News"
 msgstr "خطوط انتقال نفت و گاز"
 
 #: .\templates\inc\mobile-navbar.html:57 .\templates\inc\navbar.html:61
 msgid "Oil and Gas Pipelines"
 msgstr "خطوط انتقال نفت و گاز"
-
-#: .\templates\inc\mobile-navbar.html:61 .\templates\inc\navbar.html:75
-msgid "Civil Projects"
-msgstr "پروژه های ساختمانی"
-
-#: .\templates\inc\mobile-navbar.html:65 .\templates\inc\navbar.html:68
-msgid "Process Units"
-msgstr "واحدهای فرآیندی"
-
-#: .\templates\inc\mobile-navbar.html:69 .\templates\inc\navbar.html:82
-msgid "Industrial Technology"
-msgstr "تکنولوژیهای صنعتی"
-
-#: .\templates\inc\mobile-navbar.html:73 .\templates\inc\navbar.html:89
-msgid "Management Systems"
-msgstr "پیاده سازی سیستمهای مدیریتی"
-
-#: .\templates\inc\mobile-navbar.html:86 .\templates\inc\navbar.html:93
-msgid "Inline Inspection"
-msgstr "پیگرانی هوشمند"
-
-#: .\templates\inc\mobile-navbar.html:94 .\templates\inc\navbar.html:94
-msgid "Unpigable Pipelines"
-msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
-
-#: .\templates\inc\mobile-navbar.html:102 .\templates\inc\navbar.html:95
-msgid "Under Water Inspection-ROV"
-msgstr "بازرسی خطوط لوله زیر دریایی "
-
-#: .\templates\inc\mobile-navbar.html:110 .\templates\inc\navbar.html:96
-msgid "Cleaning Pigs"
-msgstr "پیگرانی تمییز کننده"
 
 #: .\templates\inc\mobile-navbar.html:118 .\templates\inc\navbar.html:97
 msgid "Repairing"
@@ -91,10 +128,6 @@ msgstr "تعمیرات"
 #: .\templates\inc\mobile-navbar.html:126 .\templates\inc\navbar.html:98
 msgid "Valve Clinic"
 msgstr "کلینیک تخصصی ولو"
-
-#: .\templates\inc\mobile-navbar.html:134 .\templates\inc\navbar.html:99
-msgid "Coating and Cathodic Protection"
-msgstr "پوشش و حفاظت کاتدی"
 
 #: .\templates\inc\mobile-navbar.html:142
 msgid "Inspection(Fixed Equipment and Instruments)"
