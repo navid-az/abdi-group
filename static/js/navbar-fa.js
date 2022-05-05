@@ -9,6 +9,7 @@ function NavListClickHandler() {
   if (desktopNavListStatus == "close") {
     openDesktopNavList(0);
     desktopNavListHexa.style.display = "block";
+
     gsap.to("#nav-list-cross-btn, #desktop-nav-list-hexa", {
       opacity: 1,
       x: "0%",
@@ -23,7 +24,12 @@ function NavListClickHandler() {
       x: "-20%",
       delay: 0.3,
     });
-    navList.style.height = "30rem";
+    navList.style.display = "flex";
+
+    setTimeout(() => {
+      navList.style.height = "30rem";
+      navList.style.opacity = "1";
+    }, 50);
     desktopNavListStatus = "open";
   } else if (desktopNavListStatus == "open") {
     navListCrossBtn.style.opacity = "0";
@@ -38,6 +44,10 @@ function NavListClickHandler() {
     setTimeout(() => {
       navList.style.height = "0rem";
     }, 500);
+    setTimeout(() => {
+      navList.style.opacity = "0";
+      navList.style.display = "none";
+    }, 1000);
     desktopNavListStatus = "close";
   }
 }

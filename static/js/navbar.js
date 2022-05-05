@@ -2,6 +2,7 @@ var navList = document.getElementById("navlist");
 var desktopNavListUl = document.getElementById("desktop-nav-list-ul");
 var desktopNavListLi = document.getElementById("desktop-nav-list-li");
 var navListCrossBtn = document.getElementById("nav-list-cross-btn");
+
 var desktopNavListHexa = document.getElementById("desktop-nav-list-hexa");
 var desktopNavListStatus = "close";
 

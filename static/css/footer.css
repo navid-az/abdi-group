@@ -191,9 +191,6 @@ footer > .container {
     flex-wrap: nowrap;
     gap: 0;
   }
-  .footer-list:nth-child(3) {
-    margin-top: -1.5rem;
-  }
 }
 @media screen and (min-width: 992px) {
 }

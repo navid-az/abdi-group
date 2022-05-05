@@ -49,6 +49,7 @@
   transition: 0.25s ease-in-out;
 }
 #navlist {
+  opacity: 0;
   position: absolute;
   background: var(--darkBlue);
   display: flex;
