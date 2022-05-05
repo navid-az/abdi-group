@@ -27,7 +27,7 @@
     <!-- header & navbar  -->
     <header>
       <ul class="header-btns .md-none">
-        <li><a href="{% url 'mr-dr:mr-dr' %}"><h4>{% trans "Mr.Dr" %}</h4><img src="{% static 'svgs/help-circle.svg' %}" alt="globe icon"></a></li>
+        <li><a href="{% url 'mr-dr:mr-dr' %}"><img src="{% static 'svgs/help-circle.svg' %}" alt="globe icon"><h4>{% trans "Mr.Dr" %}</h4></a></li>
         {% comment %} <li><a href="{% url 'mr-dr:mr-dr' %}"><h4>News</h4><img src="{% static 'svgs/bell.svg' %}" alt="globe icon"></a></li> {% endcomment %}
         <li>
           {% if LANGUAGE_CODE == 'fa' %}
