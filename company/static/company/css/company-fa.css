@@ -16,7 +16,7 @@
   right: -0.5rem;
 }
 .founder-card-title h3,
-p {
+.founder-card-title p {
   padding-left: 0;
   padding-right: 0.4rem;
 }
@@ -28,6 +28,10 @@ p {
 .founder-card-img {
   left: -1rem;
   right: 0;
+}
+.history > p,
+.partner-companies > p {
+  margin-right: 2rem;
 }
 .history-title img,
 .partners-title img {

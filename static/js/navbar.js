@@ -75,7 +75,6 @@ function openDesktopNavList(navListNum) {
 }
 
 // stick navbar to the top of the screen
-
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 

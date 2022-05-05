@@ -135,6 +135,10 @@ img[id^="value"]:not(#values-logo) {
   margin-top: 2rem;
   line-height: 1.5rem;
 }
+.history > p,
+.partner-companies > p {
+  margin-left: 2rem;
+}
 .history-title,
 .partners-title {
   display: flex;
