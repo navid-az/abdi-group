@@ -363,6 +363,10 @@ nav > .img__btns {
   .item-text {
     width: 50%;
   }
+  .item-text > p,
+  .item-text > div > p {
+    margin-left: 2rem;
+  }
 
   /* advantages & disadvantages  */
   .advantages-disadvantages-wrapper {

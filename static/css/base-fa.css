@@ -131,6 +131,10 @@ p {
   #company-name {
     display: block;
   }
+  .item-text > p,
+  .item-text > div > p {
+    margin-right: 2rem;
+  }
 }
 @media screen and (min-width: 1200px) {
 }
