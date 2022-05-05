@@ -22,7 +22,7 @@
       {% endif %}
       <div class="container">
         <img class='footer-top-icon' src="{% static 'svgs/footer-top-icon.svg' %}" alt="footer icon">
-        <img class='go-up-btn' src="{% static 'svgs/go-up-btn.svg' %}" alt="go up button">
+        <img onclick='goUpFunction()' id='go-up-btn' src="{% static 'svgs/go-up-btn.svg' %}" alt="go up button">
         <div class="lists-wrapper">
           <ul class="footer-list">
             <div class="title">
@@ -114,5 +114,8 @@
         {% comment %} <h3 class='copyright'>{% trans "Copyright © 2021 abdi group. All Rights Reserved" %}</h3> {% endcomment %}
       </div>
     </footer>
+    {% block more_js %}
+      <script src="{% static 'js/footer.js' %}"></script>
+    {% endblock more_js %}
 </body>
 </html>
