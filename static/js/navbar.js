@@ -2,23 +2,16 @@ var navList = document.getElementById("navlist");
 var desktopNavListUl = document.getElementById("desktop-nav-list-ul");
 var desktopNavListLi = document.getElementById("desktop-nav-list-li");
 var navListCrossBtn = document.getElementById("nav-list-cross-btn");
-
 var desktopNavListHexa = document.getElementById("desktop-nav-list-hexa");
 var desktopNavListStatus = "close";
-var url = window.location.toString();
-
-var navList = document.getElementById("navlist");
-var desktopNavListUl = document.getElementById("desktop-nav-list-ul");
-var desktopNavListLi = document.getElementById("desktop-nav-list-li");
-var navListCrossBtn = document.getElementById("nav-list-cross-btn");
-var desktopNavListHexa = document.getElementById("desktop-nav-list-hexa");
-var desktopNavListStatus = "close";
-
-navListBtns = document.querySelectorAll(".desktop-nav-list-li h2");
-desktopNavListOptionsWrapper = document.querySelectorAll(
+var navListBtns = document.querySelectorAll(".desktop-nav-list-li h2");
+var desktopNavListOptionsWrapper = document.querySelectorAll(
   ".desktop-nav-list-options-wrapper"
 );
 
+var url = window.location.toString();
+
+// navbar opening and closing function
 function openDesktopNavList(navListNum) {
   navListBtns.forEach((i) => {
     i.style.transform = "translateX(0%)";
@@ -43,7 +36,6 @@ function openDesktopNavList(navListNum) {
     delay: 0.3,
   });
 }
-
 function NavListClickHandler() {
   if (desktopNavListStatus == "close") {
     openDesktopNavList(0);
