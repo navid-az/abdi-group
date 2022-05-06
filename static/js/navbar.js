@@ -53,7 +53,6 @@ function NavListClickHandler() {
       x: "0%",
       delay: 0.3,
     });
-    //new
     if (url.includes("/en")) {
       gsap.to(".desktop-nav-list-options-wrapper", {
         x: "-5%",
