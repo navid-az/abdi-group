@@ -10,6 +10,42 @@
 .desktop-nav-list-li > h2:hover {
   transform: translateX(-3%) !important;
 }
-/* .desktop-nav-list-options > a {
-  font-size: 14px;
-} */
+
+/* media  */
+
+@media screen and (max-width: 576px) {
+}
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 992px) {
+  #navbar > ul > li > p,
+  #navbar > ul > li > a {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Vlight;
+  }
+
+  #mobile-menu-btn {
+    display: none;
+  }
+  header {
+    height: 110px;
+  }
+  nav {
+    width: 94%;
+    height: 176px;
+    margin-top: 3rem;
+  }
+  #navbar {
+    display: flex;
+  }
+  .img__btns > #logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+@media screen and (min-width: 1400px) {
+}

@@ -241,10 +241,12 @@
   /* magnetization */
   .magnetization-wrapper {
     display: flex;
+    justify-content: space-around;
     gap: 2rem;
   }
   .magnetization-card {
-    width: 50%;
+    /* width: 50%; */
+    width: 31.25rem;
   }
   .mobile-magnetization-card {
     display: none;

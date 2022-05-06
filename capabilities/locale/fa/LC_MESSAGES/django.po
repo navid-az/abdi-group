@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:56+0430\n"
+"POT-Creation-Date: 2022-05-06 19:29+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\capabilities\templates\capabilities\capabilities.html:33
+#: .\templates\capabilities\capabilities.html:33
 msgid "Capabilities"
 msgstr ""
 
-#: .\capabilities\templates\capabilities\capabilities.html:42
+#: .\templates\capabilities\capabilities.html:42
 msgid "Oil and Gas Pipelines"
 msgstr "خطوط انتقال نفت و گاز "
 
-#: .\capabilities\templates\capabilities\capabilities.html:45
+#: .\templates\capabilities\capabilities.html:45
 msgid ""
 "In order to accompany and cooperate with the pipeline operators in providing "
 "safe and reliable energy, ABDI-GROUP provides various services in the field "
@@ -36,39 +36,39 @@ msgstr ""
 "پایدار، گروه عبدی خدمات متنوعی را در زمینه تعمیرات، نگهداری و بازرسی خطوط "
 "لوله ارایه می نماید."
 
-#: .\capabilities\templates\capabilities\capabilities.html:59
-msgid "These various services include:"
-msgstr "این خدمات متنوع شامل:"
+#: .\templates\capabilities\capabilities.html:59
+msgid "These various services include"
+msgstr "این خدمات متنوع شامل"
 
-#: .\capabilities\templates\capabilities\capabilities.html:63
+#: .\templates\capabilities\capabilities.html:63
 msgid "1"
 msgstr "۱"
 
-#: .\capabilities\templates\capabilities\capabilities.html:64
+#: .\templates\capabilities\capabilities.html:64
 msgid "providing intelligent Inline-Inspection services"
 msgstr "ارایه خدمات پیگرانی هوشمند"
 
-#: .\capabilities\templates\capabilities\capabilities.html:68
+#: .\templates\capabilities\capabilities.html:68
 msgid "2"
 msgstr "۲"
 
-#: .\capabilities\templates\capabilities\capabilities.html:70
+#: .\templates\capabilities\capabilities.html:70
 msgid "non-Pigable pipeline and piping Inspection by non-contact methods"
 msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی با روشهای غیر تماسی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:75
+#: .\templates\capabilities\capabilities.html:75
 msgid "3"
 msgstr "۳"
 
-#: .\capabilities\templates\capabilities\capabilities.html:76
+#: .\templates\capabilities\capabilities.html:76
 msgid "inspection of off-shore pipelines"
 msgstr "بازرسی خطوط لوله زیر دریایی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:80
+#: .\templates\capabilities\capabilities.html:80
 msgid "4"
 msgstr "۴"
 
-#: .\capabilities\templates\capabilities\capabilities.html:82
+#: .\templates\capabilities\capabilities.html:82
 msgid ""
 "cleaning pigs (supply of special pigs and Gel-pigs according to "
 "requirements), repairs, Valve clinic"
@@ -76,26 +76,26 @@ msgstr ""
 "پیگرانی تمییز کننده ( تامین ژل پیگها  و پیگهای ویژه بر حسب نیازمندیها )، "
 "تعمیرات، کلینیک تخصصی ولو"
 
-#: .\capabilities\templates\capabilities\capabilities.html:87
+#: .\templates\capabilities\capabilities.html:87
 msgid "5"
 msgstr "۵"
 
-#: .\capabilities\templates\capabilities\capabilities.html:89
+#: .\templates\capabilities\capabilities.html:89
 msgid "inspection services"
 msgstr "بازرسی خطوط لوله زیر دریایی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:89
+#: .\templates\capabilities\capabilities.html:89
 msgid ""
 "(Different groups including electrical and mechanical and instrumentation "
 "and cathodic protection, etc.)"
 msgstr ""
 "بازرسی ( گروههای مختلف شامل برق و مکانیک و ابزار دقیق و حفاظت کاتدی و ...)  "
 
-#: .\capabilities\templates\capabilities\capabilities.html:94
+#: .\templates\capabilities\capabilities.html:94
 msgid "6"
 msgstr "۶"
 
-#: .\capabilities\templates\capabilities\capabilities.html:96
+#: .\templates\capabilities\capabilities.html:96
 msgid ""
 "Defect assessment using the latest technology of laser scanning and leak "
 "detection of pipelines (smart pigs, manual, vehicle, satellite images)"
@@ -103,11 +103,11 @@ msgstr ""
 "ارزیابی عیوب با استفاده از تکنولوژی نوین لیزر اسکن و نشت یابی خطوط "
 "لوله( پیگهای هوشمند، دستی، خودرویی، تصاویر ماهواره)"
 
-#: .\capabilities\templates\capabilities\capabilities.html:108
+#: .\templates\capabilities\capabilities.html:108
 msgid "Process Units"
 msgstr "واحدهای فرآیندی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:111
+#: .\templates\capabilities\capabilities.html:111
 msgid ""
 "ABDI-GROUP Relying on the knowledge of its founders in the field of oil, gas "
 "and petrochemical processes, conducting feasibility studies for Mini-Plants, "
@@ -118,7 +118,7 @@ msgstr ""
 "ضمن انجام مطالعات امکان سنجی واحدهای کوچک ، خدمات طراحی، ساخت و راه اندازی "
 "این واحدها را نیز انجام می دهد."
 
-#: .\capabilities\templates\capabilities\capabilities.html:114
+#: .\templates\capabilities\capabilities.html:114
 msgid ""
 "The company is also providing project executive managing by highly skilled "
 "experts in this field"
@@ -126,11 +126,11 @@ msgstr ""
 "این شرکت با استفاده از کارشناسان توانمند در این حوزه مدیریت پروژه های اجرایی "
 "را نیز عهده دار می گردد."
 
-#: .\capabilities\templates\capabilities\capabilities.html:132
+#: .\templates\capabilities\capabilities.html:132
 msgid "Civil Projects"
 msgstr "پروژه های ساختمانی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:135
+#: .\templates\capabilities\capabilities.html:135
 msgid ""
 "ABDI-GROUP, relying on more than half a century of experience in "
 "construction projects, Provides design and construction services for civil "
@@ -140,11 +140,11 @@ msgstr ""
 "و ساخت پروژه های ساختمانی و همچنین مدیریت پروژه های ساختمانی را ارایه می "
 "نماید."
 
-#: .\capabilities\templates\capabilities\capabilities.html:155
+#: .\templates\capabilities\capabilities.html:155
 msgid "Industrial Technology"
 msgstr "تکنولوژیهای صنعتی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:159
+#: .\templates\capabilities\capabilities.html:159
 msgid ""
 "ABDI-GROUP, relying on the knowledge, experience and expertise of partner "
 "groups, offers specific solutions to any industrial problem. At present, "
@@ -155,15 +155,15 @@ msgstr ""
 "را ارایه می نماید. در حال حاضر این شرکت با استفاده از خدمات شرکتهای دانش "
 "بنیان و شرکتهای خارجی ، خدمات زیر را ارایه می دهد:"
 
-#: .\capabilities\templates\capabilities\capabilities.html:167
+#: .\templates\capabilities\capabilities.html:167
 msgid "Remediation of polluted soil"
 msgstr "فرآوری خاکهای آلوده به مواد نفتی و فاضلابهای صنعتی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:174
+#: .\templates\capabilities\capabilities.html:174
 msgid "Pipeline chemical cleaning"
 msgstr "تامین حلالهای صنعتی برای شستشوی خطوط لوله و تجهیزات فرآیندی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:182
+#: .\templates\capabilities\capabilities.html:182
 msgid ""
 "Manufacturing and supplying equipment (non-intrusive pig-signaler, Repairing "
 "Intelligent marker, sensors for monitoring operating conditions, Cathodic "
@@ -172,11 +172,11 @@ msgstr ""
 "ساخت و تامین تجهیزات ( پیگ سیگنالر غیر تماسی، مارکر هوشمند برای ثبت سوابق "
 "تعمیرات و نگهداری، سنسورهای شرایط عملیاتی و حفاظت کاتدی، ...)"
 
-#: .\capabilities\templates\capabilities\capabilities.html:190
+#: .\templates\capabilities\capabilities.html:190
 msgid "Leak detection by satellite images"
 msgstr "نشت یابی خطوط لوله نفت و گاز با استفاده از تصاویر ماهواره ای"
 
-#: .\capabilities\templates\capabilities\capabilities.html:194
+#: .\templates\capabilities\capabilities.html:194
 msgid ""
 "The company is also ready to cooperate in identifying technology owner "
 "companies, conducting negotiations, making contracts and supervising "
@@ -191,12 +191,12 @@ msgstr ""
 "از حداکثر توان داخلی برای توسعه تکنولوژیهای نوین بنا بر درخواست سرمایه "
 "گذاران اقدام می نماید."
 
-#: .\capabilities\templates\capabilities\capabilities.html:206
+#: .\templates\capabilities\capabilities.html:206
 msgid "Management Systems"
 msgstr "پیاده سازی سیستمهای مدیریتی"
 
-#: .\capabilities\templates\capabilities\capabilities.html:210
-#: .\capabilities\templates\capabilities\capabilities.html:244
+#: .\templates\capabilities\capabilities.html:210
+#: .\templates\capabilities\capabilities.html:244
 msgid ""
 "Managing a wide network of pipelines to ensure maximum safety at the "
 "reasonable cost is impossible without the use of an integrated management "
@@ -206,8 +206,8 @@ msgstr ""
 "استفاده از سیستم مدیریت یکپارچه و در قالب مدیریتهای متنوع سازمان غیر ممکن "
 "است. "
 
-#: .\capabilities\templates\capabilities\capabilities.html:215
-#: .\capabilities\templates\capabilities\capabilities.html:248
+#: .\templates\capabilities\capabilities.html:215
+#: .\templates\capabilities\capabilities.html:248
 msgid ""
 "Today, various standards have been developed to implement a system of "
 "physical asset management and integrated management and address the "
@@ -216,8 +216,8 @@ msgstr ""
 ". امروزه استانداردهای مختلفی برای پیاده سازی سیستم مدیریت داراییهای فیزیکی و "
 "مدیریت یکپارچه سلامت و بر طرف نمودن دغدغه های بهره برداران تدوین شده است."
 
-#: .\capabilities\templates\capabilities\capabilities.html:219
-#: .\capabilities\templates\capabilities\capabilities.html:252
+#: .\templates\capabilities\capabilities.html:219
+#: .\templates\capabilities\capabilities.html:252
 msgid ""
 "On the other hand, development of information technology has facilitated "
 "operators' job, In such a way that the world's major operators have "
@@ -227,8 +227,8 @@ msgstr ""
 "کار بهره برداران را تسهیل نموده است به گونه ای که بهره برداران بزرگ دنیا "
 "سیستمهای مدیریتی را در قالب نرم افزاری نیز اجرا نموده اند."
 
-#: .\capabilities\templates\capabilities\capabilities.html:223
-#: .\capabilities\templates\capabilities\capabilities.html:256
+#: .\templates\capabilities\capabilities.html:223
+#: .\templates\capabilities\capabilities.html:256
 msgid ""
 "oil and gas industries will face a large number of long-lived facilities "
 "over the next few years."
@@ -236,8 +236,8 @@ msgstr ""
 "صنایع نفت و گاز طی چند سال آینده با حجم وسیعی از تاسیسات با طول عمر بالا "
 "مواجه خواهند بود. "
 
-#: .\capabilities\templates\capabilities\capabilities.html:227
-#: .\capabilities\templates\capabilities\capabilities.html:260
+#: .\templates\capabilities\capabilities.html:227
+#: .\templates\capabilities\capabilities.html:260
 msgid ""
 "Of course, optimal economic management of this volume of depreciated "
 "facilities is impossible without the use of management system, and operators "

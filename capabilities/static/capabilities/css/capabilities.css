@@ -6,37 +6,6 @@
   transform: scale(1);
 }
 
-/* capabilities items */
-.capabilities-items-wrapper {
-  padding: 2rem 0 2rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 2rem;
-  align-items: center;
-}
-.item-img {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.item-img > img {
-  width: 300px;
-}
-#item-img-2 {
-  width: 370px;
-}
-#item-img-3 {
-  width: 370px;
-}
-#item-img-4 {
-  width: 370px;
-}
-
-.item-text > div {
-  line-height: 1.5rem;
-}
 .industrial-tech-wrapper > .container > p:last-of-type {
   margin-bottom: 2.5rem;
   margin-top: 0;
@@ -55,6 +24,7 @@
 .services-title {
   padding: 0 1rem;
   padding-bottom: 2rem;
+  font-weight: 900;
   text-align: center;
   color: var(--lightBlue);
 }
@@ -87,7 +57,7 @@
   font-size: 18px;
 }
 .service-card > p {
-  font-size: 12px;
+  font-size: 0.875rem;
   font-weight: 500;
   padding-top: 0.5rem;
   text-align: center;
@@ -103,7 +73,7 @@
   padding: 2rem 0;
   background-image: url(../images/connectwork.png);
   background-repeat: repeat;
-  background-size: 70vw;
+  background-size: 30%;
   background-position: right top;
   color: white;
 }
@@ -205,24 +175,6 @@
   }
 }
 @media screen and (min-width: 992px) {
-  /* capabilities items */
-  .capabilities-items-wrapper {
-    flex-direction: row;
-    padding: 5rem 0;
-  }
-  .capabilities-items-wrapper:nth-child(4) {
-    flex-direction: row-reverse;
-  }
-  .capabilities-items-wrapper:nth-child(3) {
-    flex-direction: row-reverse;
-  }
-  .item-img {
-    width: 45%;
-  }
-  #item-img-2 {
-    margin-left: -4rem;
-  }
-
   .management-systems-desktop {
     display: block;
   }
