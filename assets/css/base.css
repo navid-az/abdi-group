@@ -25,20 +25,18 @@ h3 {
 .md-none {
   display: none;
 }
-
 html {
   font-family: "Varela Round", sans-serif;
   font-family: "Roboto", sans-serif;
   /* font-family: "Merriweather Sans", sans-serif; */
   background: #f9f9fa;
+  background: white;
   overflow-x: hidden;
   overflow-y: auto;
   width: 100%;
-  height: 6000px;
-  margin-bottom: 5rem;
 }
 .container {
-  width: 94%;
+  width: 92%;
   margin: 0 auto;
 }
 .d-flex {
@@ -54,11 +52,11 @@ a {
   color: white;
 }
 p {
-  color: #5a5a5a;
+  color: #626161;
 }
 p,
 a {
-  font-size: 14px;
+  font-size: 1rem;
   letter-spacing: 0.02rem;
   line-height: 1.5rem;
   font-weight: 400;
@@ -191,7 +189,8 @@ nav {
   background: white;
   margin-top: 1rem;
   border-radius: 0.75rem;
-  box-shadow: 0px 4px 20px 20px rgba(66, 66, 66, 0.23);
+  /* box-shadow: 0px 4px 20px 20px rgba(66, 66, 66, 0.23); */
+  box-shadow: 0px 10px 20px 8px rgba(2, 2, 2, 0.2);
 }
 
 /* company name  */
@@ -234,6 +233,7 @@ nav > .img__btns {
   margin-top: -2.5rem;
   width: 100%;
   background: #f9f9fa;
+  background: white;
   border-radius: 18px;
 }
 
@@ -289,6 +289,38 @@ nav > .img__btns {
   width: 93%;
 }
 
+/* capabilities items */
+.item-wrapper {
+  /* background: red; */
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+.item-img {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-img > img {
+  width: 300px;
+}
+#item-img-2 {
+  width: 370px;
+}
+#item-img-3 {
+  width: 370px;
+}
+#item-img-4 {
+  width: 370px;
+}
+.item-text > div {
+  line-height: 1.5rem;
+}
+
 /* media  */
 
 @media screen and (max-width: 576px) {
@@ -320,6 +352,23 @@ nav > .img__btns {
   }
 }
 @media screen and (min-width: 992px) {
+  .item-wrapper {
+    flex-direction: row;
+    padding: 5rem 0;
+  }
+  .item-wrapper:nth-child(4) {
+    flex-direction: row-reverse;
+  }
+  .item-wrapper:nth-child(3) {
+    flex-direction: row-reverse;
+  }
+  .item-img {
+    width: 45%;
+  }
+  #item-img-2 {
+    margin-left: -4rem;
+  }
+
   .md-none {
     display: block;
   }
@@ -328,7 +377,7 @@ nav > .img__btns {
   }
   p,
   a {
-    font-size: 17px;
+    font-size: 1.125rem;
   }
   #mobile-menu-btn {
     display: none;
@@ -359,10 +408,18 @@ nav > .img__btns {
     display: flex;
   } */
   .title > h2 {
-    font-size: 30px !important;
+    font-size: 32px !important;
   }
   .item-text {
     width: 50%;
+  }
+
+  /* .item-text > p,
+  .item-text > div > p {
+    margin-left: 2rem;
+  } */
+  .item-text .title {
+    margin-left: -2rem;
   }
 
   /* advantages & disadvantages  */
@@ -375,7 +432,10 @@ nav > .img__btns {
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 75%;
+    width: 80%;
+  }
+  #item-img-2 {
+    margin-left: -8rem;
   }
 }
 @media screen and (min-width: 1400px) {

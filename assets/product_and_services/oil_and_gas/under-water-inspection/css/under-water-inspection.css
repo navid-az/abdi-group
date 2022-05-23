@@ -45,6 +45,8 @@
   gap: 0.5rem;
 }
 .stage-body > h3 {
+  font-size: 1.5rem;
+  color: var(--green);
   padding-bottom: 1rem;
 }
 
@@ -80,8 +82,8 @@
     top: 82%;
     left: 50%;
     margin-left: -50px;
-    margin-top: -50px;
-    font-size: 16px;
+    margin-top: -53px;
+    font-size: 1.2rem;
   }
   .stage-body {
     width: 80%;
@@ -90,6 +92,13 @@
 @media screen and (min-width: 992px) {
   .inspection-stage {
     margin: 4rem 0;
+  }
+  .stage-title > h3 {
+    top: 82%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -58px;
+    font-size: 1.3rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -105,13 +114,7 @@
   .stage-title {
     width: 100px;
   }
-  .stage-title > h3 {
-    top: 79%;
-    left: 50%;
-    margin-left: -50px;
-    margin-top: -50px;
-    font-size: 16px;
-  }
+
   .stage-body {
     width: 75%;
   }

@@ -5,17 +5,23 @@
   background: #ffffff;
   border: 5px solid #00006a;
   border-radius: 20px;
+  margin-top: 5rem;
 }
+
 .input-wrapper {
   width: 100%;
   margin: 1rem;
 }
+
 .input-title {
   margin-bottom: 0.5rem;
 }
+
 .input-wrapper .question-box {
   height: 300px;
 }
+
+
 .card-title {
   display: flex;
   justify-content: flex-start;
@@ -23,42 +29,51 @@
   width: 100%;
   margin: 2rem 0;
 }
-.card-title > h2 {
+
+.card-title>h2 {
   padding-left: 0.5rem;
 }
-.card-title > img {
+
+.card-title>img {
   width: 1rem;
   margin-left: -0.2rem;
 }
-.input-wrapper > input {
+
+.input-wrapper>input {
   width: 100%;
   background: #f8f8f8;
   border: 2px solid rgba(0, 0, 106, 0.29);
   border-radius: 8px;
-  padding: 0.8rem 0.3rem;
+  padding: 0.5rem;
   transition: 0.25s ease-in-out;
 }
-.input-wrapper > textarea {
+
+.input-wrapper>textarea {
   resize: none;
   width: 100%;
-  height: 350px;
+  height: 290px;
   border: 2px solid rgba(0, 0, 106, 0.29);
   border-radius: 8px;
-  padding: 0.8rem 0.3rem;
+  padding: 0.5rem;
   transition: 0.25s ease-in-out;
+  background: #f8f8f8;
 }
-.input-wrapper > input:focus,
+
+.input-wrapper>input:focus,
 textarea:focus {
   border: 2px solid rgb(0, 0, 106);
   outline: none;
 }
-.input-wrapper > input:hover,
+
+.input-wrapper>input:hover,
 textarea:hover {
   border: 2px solid rgb(0, 0, 106);
 }
+
 .input-title {
   font-weight: 400;
 }
+
 #submit-btn {
   background: var(--darkBlue);
   color: white;
@@ -75,6 +90,7 @@ textarea:hover {
   font-size: 18px;
   transition: 0.2s ease-in-out;
 }
+
 #submit-btn:hover {
   background: #01013e;
 }
@@ -85,6 +101,7 @@ textarea:hover {
   flex-direction: column;
   gap: 1rem;
 }
+
 .question,
 .answer {
   display: flex;
@@ -92,24 +109,28 @@ textarea:hover {
   min-height: 200px;
   height: auto;
   background: #ffffff;
-  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 4px 20px rgba(92, 92, 92, 0.27);
   border-radius: 20px;
   padding: 0 1rem 2rem;
 }
+
 .question {
   margin-top: 6rem;
 }
+
 .answer {
   position: relative;
   margin-top: 3rem;
   min-height: 200px;
   border: 6px solid rgb(0, 0, 106);
 }
-.answer > img {
+
+.answer>img {
   margin-top: 1rem;
   min-height: 200px;
   border: 6px solid rgb(0, 0, 106);
 }
+
 .questioner-name,
 .abdi-group-name {
   display: flex;
@@ -118,32 +139,38 @@ textarea:hover {
   justify-content: center;
   margin-bottom: 2rem;
 }
-.questioner-name > img,
-.abdi-group-name > img {
+
+.questioner-name>img,
+.abdi-group-name>img {
   margin-top: -3rem;
   width: 120px;
 }
+
 .name {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .name {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.name > h4 {
+
+.name>h4 {
   font-size: 14px;
   margin-top: 0.2rem;
   color: #777676;
   font-weight: 300;
 }
-.question-body > h2 {
+
+.question-body>h2 {
   margin-bottom: 1rem;
   font-size: 20px;
 }
+
 .line {
   background: #00006a33;
   right: 1rem;
@@ -152,55 +179,66 @@ textarea:hover {
   height: 4.1rem;
   position: absolute;
 }
+
 /* media  */
 
-@media screen and (max-width: 576px) {
-}
-@media screen and (min-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
 @media screen and (min-width: 768px) {
   form {
     padding: 1rem;
     justify-content: space-between;
   }
-  form > .input-wrapper:nth-child(3),
+
+  form>.input-wrapper:nth-child(3),
   .input-wrapper:nth-child(4) {
     width: 49%;
   }
+
   .input-wrapper {
     margin: 0;
     margin-top: 2rem;
   }
+
   .question,
   .answer {
     padding: 0 2rem 2rem;
   }
-  .card-title > img {
+
+  .card-title>img {
     margin-left: -1.2rem;
   }
+
   .questioner-name,
   .abdi-group-name {
     flex-direction: row-reverse;
     justify-content: flex-start;
     margin-bottom: 0rem;
   }
-  .questioner-name > img,
-  .abdi-group-name > img {
+
+  .questioner-name>img,
+  .abdi-group-name>img {
     width: 140px;
     flex-direction: row-reverse;
     margin-top: -1.5rem;
     margin-right: -4rem;
   }
+
   .name {
     margin-bottom: 2rem;
   }
-  .name > h4 {
+
+  .name>h4 {
     text-align: start;
     margin-top: 0;
   }
+
   .question-body {
     margin-right: 4.5rem;
   }
+
   .line {
     background: #00006a33;
     right: 2.1rem;
@@ -209,6 +247,7 @@ textarea:hover {
     height: 3.3rem;
     position: absolute;
   }
+
   #submit-btn {
     position: absolute;
     width: 150px;
@@ -216,9 +255,9 @@ textarea:hover {
     bottom: 1rem;
   }
 }
-@media screen and (min-width: 992px) {
-}
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

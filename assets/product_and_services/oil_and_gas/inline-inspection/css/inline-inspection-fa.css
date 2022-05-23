@@ -9,6 +9,9 @@
 .title > h2 {
   font-size: 24px;
 }
+.magnetization-card p {
+  text-align: left;
+}
 
 /* media  */
 

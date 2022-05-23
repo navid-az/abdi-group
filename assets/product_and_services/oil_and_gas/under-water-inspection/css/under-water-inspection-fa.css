@@ -1,13 +1,7 @@
-/* p,
-h4,
-h3,
-h2,
-h1,
-li,
-a,
-span {
-  direction: ltr;
+.stage-title > h3 {
+  text-align: center;
 }
+
 /* media  */
 
 @media screen and (min-width: 576px) {

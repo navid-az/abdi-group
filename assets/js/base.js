@@ -237,7 +237,4 @@ function goBackBtnF() {
     });
     goTo = "go to mainMenu";
   }
-
-  console.log(goBack);
-  console.log(goTo);
 }

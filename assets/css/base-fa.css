@@ -82,6 +82,7 @@ li,
 a,
 span {
   direction: rtl;
+  text-align: start;
   font-family: Vmedium, sans-serif;
   letter-spacing: normal;
 }
@@ -129,6 +130,13 @@ p {
   .company-fa-name,
   #company-name {
     display: block;
+  }
+  /* .item-text > p,
+  .item-text > div > p {
+    margin-right: 2rem;
+  } */
+  .item-text .title {
+    margin-left: 2rem;
   }
 }
 @media screen and (min-width: 1200px) {

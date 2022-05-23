@@ -4,6 +4,7 @@
   top: 15px;
   transition: 0.5s ease-in-out;
 }
+
 #navbar {
   position: absolute;
   background: var(--darkBlue);
@@ -19,28 +20,32 @@
   margin: 0 auto;
   border-radius: 0.75rem;
   z-index: 100;
+  box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.146);
 }
-#navbar > ul {
+
+#navbar>ul {
   display: flex;
   width: 60%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
 }
-#navbar > ul > li {
+
+#navbar>ul>li {
   position: relative;
   list-style: none;
   font-size: 1.25rem;
   font-weight: bold;
 }
-#navbar > ul > li > p {
+
+#navbar>ul>li>a,
+#navbar>ul>li>p {
+  transition: 0.25s ease-in-out;
   color: white;
   cursor: pointer;
 }
-#navbar > ul > li > a {
-  transition: 0.25s ease-in-out;
-}
-#navbar > ul > li > img {
+
+#navbar>ul>li>img {
   position: absolute;
   left: -1.5rem;
   top: 0.2rem;
@@ -48,10 +53,13 @@
   transform: scale(0);
   transition: 0.25s ease-in-out;
 }
+
 #navlist {
+  opacity: 0;
   position: absolute;
   background: var(--darkBlue);
-  display: flex;
+  /* display: flex; */
+  display: none;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -65,7 +73,9 @@
   border-radius: 0.75rem;
   transition: 0.25s ease-in-out;
   z-index: -1;
+  box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.2);
 }
+
 /* ~~~~~DESKTOP NAV LIST~~~~~ */
 #desktop-nav-list-hexa {
   position: absolute;
@@ -76,9 +86,11 @@
   opacity: 0;
   border-radius: 0.75rem;
 }
+
 .desktop-nav-list-hexa-fa {
   left: 0;
 }
+
 #nav-list-cross-btn {
   position: absolute;
   right: 1rem;
@@ -86,6 +98,7 @@
   opacity: 0;
   transform: translateX(50%);
 }
+
 #desktop-nav-list-ul {
   opacity: 0;
   width: 30%;
@@ -95,22 +108,40 @@
   gap: 0.5rem;
   margin-bottom: 2rem;
 }
+
 .desktop-nav-list-li {
   display: flex;
   align-items: center;
   cursor: pointer;
 }
-.desktop-nav-list-li > h2 {
+
+.desktop-nav-list-li>h2,
+.desktop-nav-list-li>a>h2 {
   transition: 0.25s ease-in-out;
   width: 100%;
   padding-top: 1.5rem;
 }
-.desktop-nav-list-li > h2:hover {
+
+.desktop-nav-list-li>a {
+  width: 100%;
+}
+
+.desktop-nav-list-li>h2:hover {
   transform: translateX(3%) !important;
 }
-.desktop-nav-list-li > img {
+
+.desktop-nav-list-li>a>h2:hover {
+  transform: translateX(-3%) !important;
+}
+
+.desktop-nav-list-li>a>h2 {
+  font-size: 1.5rem;
+}
+
+.desktop-nav-list-li>img {
   opacity: 0;
 }
+
 .desktop-nav-list-options-wrapper {
   background: #05053e;
   justify-content: flex-start;
@@ -125,6 +156,7 @@
   gap: 0.5rem;
   opacity: 0;
 }
+
 .desktop-nav-list-options {
   display: flex;
   flex-direction: column;
@@ -137,11 +169,13 @@
   height: 23%;
   transition: 0.25s ease-in-out;
 }
+
 .desktop-nav-list-options:hover {
   background: var(--lightBlue);
   transform: scale(1.05);
 }
-.desktop-nav-list-options > a {
+
+.desktop-nav-list-options>a {
   width: 100%;
   height: 100%;
   padding: 1rem 0.5rem;
@@ -150,48 +184,64 @@
   align-items: center;
   justify-content: center;
 }
-.desktop-nav-list-options > a > span {
+
+.desktop-nav-list-options>a>span {
   font-size: 10px;
 }
+
 /* media  */
 
-@media screen and (max-width: 576px) {
-}
-@media screen and (min-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
 @media screen and (min-width: 768px) {
   #mobile-menu {
     display: none;
   }
-  p,
+
+  /* p,
   a {
     font-size: 16px;
-  }
+  } */
 }
+
 @media screen and (min-width: 992px) {
-  p,
-  a {
-    font-size: 17px;
+
+  #navbar>ul>li>p,
+  #navbar>ul>li>a {
+    font-size: 1rem;
+    font-weight: 500;
   }
+
+  .desktop-nav-list-options a {
+    font-size: 17px;
+    text-align: center;
+  }
+
   #mobile-menu-btn {
     display: none;
   }
+
   header {
     height: 110px;
   }
+
   nav {
     width: 94%;
     height: 176px;
     margin-top: 3rem;
   }
+
   #navbar {
     display: flex;
   }
-  .img__btns > #logo {
+
+  .img__btns>#logo {
     display: none;
   }
 }
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}
