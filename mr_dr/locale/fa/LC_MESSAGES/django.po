@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:56+0430\n"
+"POT-Creation-Date: 2022-05-23 18:15+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: .\mr_dr\templates\mr_dr\mr_dr.html:21
-msgid "Cleaning Pigs"
-msgstr ""
+msgid "Mr Dr"
+msgstr "آقای دکتر"
 
 #: .\mr_dr\templates\mr_dr\mr_dr.html:30
 msgid "Inline Inspection"

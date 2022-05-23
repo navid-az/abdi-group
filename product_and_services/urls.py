@@ -1,7 +1,7 @@
 import imp
 from os import name
 from django.urls import path
-from .views import ffs_ftp, inline_inspections, cathodic_protection, under_water_inspection, cleaning_pigs, unpigable_pipelines, repairing, ffs_ftp, leak_detection, valve_clinic, inspection
+from .views import civil_projects, ffs_ftp, inline_inspections, cathodic_protection, under_water_inspection, cleaning_pigs, unpigable_pipelines, repairing, ffs_ftp, leak_detection, valve_clinic, inspection
 
 app_name = 'product-and-services'
 
@@ -16,4 +16,6 @@ urlpatterns = [
     path('oil-and-gas-pipelines/leak-detection/', leak_detection, name='leak-detection'),
     path('oil-and-gas-pipelines/valve-clinic/', valve_clinic, name='valve-clinic'),
     path('oil-and-gas-pipelines/inspection/', inspection, name='inspection'),
+
+    path('civil-projects/', civil_projects, name='civil-projects'),
 ]

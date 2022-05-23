@@ -1,36 +1,41 @@
 .card-title {
   direction: rtl;
 }
-.card-title > h2 {
+
+.card-title>h2 {
   padding-left: unset;
   padding-right: 0.5rem;
 }
-.card-title > img {
+
+.card-title>img {
   transform: rotate(180deg);
   margin-left: unset;
   margin-right: -0.2rem;
 }
+
 input,
 textarea {
   direction: rtl;
+  font-family: Vbold;
+  font-size: 1rem;
 }
 
 /* media  */
 
-@media screen and (max-width: 576px) {
-}
-@media screen and (min-width: 576px) {
-}
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
 @media screen and (min-width: 768px) {
-  .card-title > img {
+  .card-title>img {
     transform: rotate(180deg);
     margin-left: unset;
     margin-right: -1.2rem;
   }
 }
-@media screen and (min-width: 992px) {
-}
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 992px) {}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

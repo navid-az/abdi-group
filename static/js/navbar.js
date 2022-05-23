@@ -18,7 +18,7 @@ function openDesktopNavList(navListNum) {
     i.style.color = "#FFFFFF";
   });
   navListBtns[navListNum].style.color = "#89c958";
-  navListBtns[navListNum].style.transform = "translateX(3%)";
+  navListBtns[navListNum].style.transform = "translateX(-3%)";
   desktopNavListOptionsWrapper.forEach((i) => {
     gsap.to(i, {
       opacity: 0,

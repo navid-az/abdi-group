@@ -1,0 +1,44 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa%}{% url 'product-and-services:civil-projects' %}{% endblock translateFa %}
+{% block translateEn %}{% url 'product-and-services:civil-projects' %}{% endblock translateEn %}
+{% block translateEnMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateEnMobile %}
+{% block translateFaMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateFaMobile %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Civil Projects{% endblock title %}</title>
+</head>
+<body>
+    {% block content %}
+        <!-- hero  -->
+        {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+        <div class="mobile-curved-bg">
+            <div class="container">
+                <div class="item-wrapper">
+            <div class="item-text">
+            <div class="title">
+              <img
+                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+                alt="3hexaIcon"
+              />
+              <h2>{% trans "Civil Projects" %}</h2>
+            </div>
+            <p>
+              {% trans "ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management." %}
+            </p>
+          </div>
+          <div class="item-img">
+            <img
+              id="item-img-3"
+              src=" {% static 'capabilities/images/civil-projects.webp' %} "
+              alt="civil projects images"
+            />
+          </div>
+            </div>
+        </div>
+    {% endblock content %}
+</body>
+</html>

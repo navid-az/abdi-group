@@ -5,7 +5,6 @@ from django.shortcuts import render
 def inline_inspections(request):
     return render(request, 'product_and_services/oil_and_gas/inline_inspection.html')
 
-
 def cathodic_protection(request):
     return render(request, 'product_and_services/oil_and_gas/cathodic_protection.html')
 
@@ -32,3 +31,6 @@ def valve_clinic(request):
 
 def inspection(request):
     return render(request, 'product_and_services/oil_and_gas/inspection.html')
+
+def civil_projects(request):
+    return render(request, 'product_and_services/civil_projects.html')

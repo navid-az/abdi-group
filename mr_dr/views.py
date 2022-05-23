@@ -21,7 +21,7 @@ def mr_dr(request):
             )
             # send email to questioner
             send_mail(
-                'پیام جدید',
+                'گروه خدمات مهندسی نفت گاز پتروشیمی عبدی',
                 cd['name'],
                 'mr.dr@abdi-group.com',
                 [cd['email']],

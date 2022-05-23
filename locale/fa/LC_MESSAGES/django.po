@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:56+0430\n"
+"POT-Creation-Date: 2022-05-23 18:15+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,86 +26,96 @@ msgstr ""
 msgid "English"
 msgstr ""
 
+#: .\templates\base.html:24
+msgid "Abdi Group"
+msgstr "گروه عبدی"
+
 #: .\templates\base.html:30
 msgid "Mr.Dr"
 msgstr "آقای دکتر"
 
-#: .\templates\inc\footer.html:25
+#: .\templates\inc\footer.html:30
 msgid "Useful Links"
 msgstr "لینک های مفید"
 
-#: .\templates\inc\footer.html:29 .\templates\inc\mobile-navbar.html:34
+#: .\templates\inc\footer.html:34 .\templates\inc\mobile-navbar.html:34
 #: .\templates\inc\navbar.html:27
 msgid "Capabilities"
 msgstr "توانمندی ها"
 
-#: .\templates\inc\footer.html:33 .\templates\inc\mobile-navbar.html:65
+#: .\templates\inc\footer.html:38 .\templates\inc\mobile-navbar.html:65
 #: .\templates\inc\navbar.html:68
 msgid "Process Units"
 msgstr "واحدهای فرآیندی"
 
-#: .\templates\inc\footer.html:37 .\templates\inc\mobile-navbar.html:61
+#: .\templates\inc\footer.html:42 .\templates\inc\mobile-navbar.html:61
 #: .\templates\inc\navbar.html:75
 msgid "Civil Projects"
 msgstr "پروژه های ساختمانی"
 
-#: .\templates\inc\footer.html:41 .\templates\inc\mobile-navbar.html:69
+#: .\templates\inc\footer.html:46 .\templates\inc\mobile-navbar.html:69
 #: .\templates\inc\navbar.html:82
 msgid "Industrial Technology"
 msgstr "تکنولوژیهای صنعتی"
 
-#: .\templates\inc\footer.html:45 .\templates\inc\mobile-navbar.html:73
+#: .\templates\inc\footer.html:50 .\templates\inc\mobile-navbar.html:73
 #: .\templates\inc\navbar.html:89
 msgid "Management Systems"
 msgstr "پیاده سازی سیستمهای مدیریتی"
 
-#: .\templates\inc\footer.html:51 .\templates\inc\mobile-navbar.html:39
+#: .\templates\inc\footer.html:56 .\templates\inc\mobile-navbar.html:39
 #: .\templates\inc\navbar.html:31
 msgid "Products and Services"
 msgstr "محصولات و خدمات"
 
-#: .\templates\inc\footer.html:55 .\templates\inc\mobile-navbar.html:86
+#: .\templates\inc\footer.html:60 .\templates\inc\mobile-navbar.html:86
 #: .\templates\inc\navbar.html:93
 msgid "Inline Inspection"
 msgstr "پیگرانی هوشمند"
 
-#: .\templates\inc\footer.html:59 .\templates\inc\mobile-navbar.html:134
-#: .\templates\inc\navbar.html:99
-msgid "Coating and Cathodic Protection"
-msgstr "پوشش و حفاظت کاتدی"
-
-#: .\templates\inc\footer.html:63 .\templates\inc\mobile-navbar.html:94
+#: .\templates\inc\footer.html:64 .\templates\inc\mobile-navbar.html:94
 #: .\templates\inc\navbar.html:94
 msgid "Unpigable Pipelines"
 msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
 
-#: .\templates\inc\footer.html:67 .\templates\inc\mobile-navbar.html:110
-#: .\templates\inc\navbar.html:96
-msgid "Cleaning Pigs"
-msgstr "پیگرانی تمییز کننده"
-
-#: .\templates\inc\footer.html:71 .\templates\inc\mobile-navbar.html:102
+#: .\templates\inc\footer.html:68 .\templates\inc\mobile-navbar.html:102
 #: .\templates\inc\navbar.html:95
 msgid "Under Water Inspection-ROV"
 msgstr "بازرسی خطوط لوله زیر دریایی "
 
-#: .\templates\inc\footer.html:77
+#: .\templates\inc\footer.html:72 .\templates\inc\mobile-navbar.html:110
+#: .\templates\inc\navbar.html:96
+msgid "Cleaning Pigs"
+msgstr "پیگرانی تمییز کننده"
+
+#: .\templates\inc\footer.html:76 .\templates\inc\mobile-navbar.html:134
+#: .\templates\inc\navbar.html:99
+msgid "Coating and Cathodic Protection"
+msgstr "پوشش و حفاظت کاتدی"
+
+#: .\templates\inc\footer.html:82
 msgid "Contact Us"
 msgstr "تماس با ما"
 
-#: .\templates\inc\footer.html:81
-msgid "021-22006761"
+#: .\templates\inc\footer.html:86
+msgid "+98-021-22006761"
 msgstr ""
 
-#: .\templates\inc\footer.html:85
-msgid "021-22638734"
+#: .\templates\inc\footer.html:90
+msgid "+98-021-22638734"
 msgstr ""
 
-#: .\templates\inc\footer.html:106
+#: .\templates\inc\footer.html:98
+msgid ""
+"Un.5 No-1 Rokni Dead End, Khorosh St, Varaste St, Dolat <br> St, Pasdaran, "
+"Tehran"
+msgstr ""
+
+#: .\templates\inc\footer.html:114
 msgid "Programmed and designed by"
 msgstr "طراحی و برنامه نویسی سایت توسط"
 
-#: .\templates\inc\footer.html:106
+#: .\templates\inc\footer.html:114
 msgid "Navid Azimi"
 msgstr "نوید عظیمی"
 

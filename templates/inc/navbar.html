@@ -72,7 +72,7 @@
               src="{% static 'svgs/settings-icon.svg' %}"
               alt="settings icon"
             />
-            <h2 onclick="openDesktopNavList(2)">{% trans "Civil Projects" %}</h2>
+            <a href="{% url 'product-and-services:civil-projects' %}"><h2 onclick="openDesktopNavList(2)">{% trans "Civil Projects" %}</h2></a>
           </li>
           <li class="desktop-nav-list-li">
             <img

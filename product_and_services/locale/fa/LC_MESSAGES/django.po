@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:56+0430\n"
+"POT-Creation-Date: 2022-05-23 18:15+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,17 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\product_and_services\templates\product_and_services\civil_projects.html:27
+msgid "Civil Projects"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\civil_projects.html:30
+msgid ""
+"ABDI-GROUP, relying on more than half a century of experience in "
+"construction projects, Provides design and construction services for civil "
+"projects as well as construction project management."
+msgstr ""
 
 #: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:20
 msgid "Coating and Cathodic Protection"
