@@ -180,6 +180,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'mr.dr@abdi-group.com'
 EMAIL_HOST_PASSWORD = 'VM?FV#E(gBD&'
-DEFAULT_FROM_USER = 'گروه عبدی'
 
 
