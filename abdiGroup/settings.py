@@ -1,5 +1,3 @@
-from tkinter.tix import Tree
-from django.conf import settings
 from django.utils.translation import gettext_lazy as _
 from pathlib import Path
 import os
@@ -19,7 +17,7 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
+ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir','127.0.0.1']
 # ,'127.0.0.1'
 
 # Application definition
