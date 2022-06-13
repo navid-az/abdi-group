@@ -1,7 +1,6 @@
-import imp
-from os import name
+from concurrent.futures import process
 from django.urls import path
-from .views import civil_projects, ffs_ftp, inline_inspections, cathodic_protection, under_water_inspection, cleaning_pigs, unpigable_pipelines, repairing, ffs_ftp, leak_detection, valve_clinic, inspection
+from .views import civil_projects, ffs_ftp, inline_inspections, cathodic_protection, under_water_inspection, cleaning_pigs, unpigable_pipelines, repairing, ffs_ftp, leak_detection, valve_clinic, inspection, process_units
 
 app_name = 'product-and-services'
 
@@ -18,4 +17,5 @@ urlpatterns = [
     path('oil-and-gas-pipelines/inspection/', inspection, name='inspection'),
 
     path('civil-projects/', civil_projects, name='civil-projects'),
+    path('process-units/', process_units, name='process-units'),
 ]

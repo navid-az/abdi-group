@@ -16,12 +16,12 @@
 <body>
     <footer>
       {% if LANGUAGE_CODE == 'fa' %}
-        <img src="{% static 'svgs/footer-hexa-fa.svg' %}">
+        <img src="{% static 'svgs/footer-hexa-fa.svg' %}" alt='alt="footer hexagons svg"'>
       {% else %}
-        <img src="{% static 'svgs/footer-hexa.svg' %}" alt="">
+        <img src="{% static 'svgs/footer-hexa.svg' %}" alt="footer hexagons svg">
       {% endif %}
       <div class="container">
-        <img class='footer-top-icon' src="{% static 'svgs/footer-top-icon.svg' %}" alt="footer icon">
+        <img class='footer-top-icon' src="{% static 'svgs/footer-top-icon.svg' %}" alt="footer top svg">
         <img onclick='goUpFunction()' id='go-up-btn' src="{% static 'svgs/go-up-btn.svg' %}" alt="go up button">
         <div class="lists-wrapper">
           <ul class="footer-list">

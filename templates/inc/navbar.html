@@ -65,7 +65,7 @@
               src="{% static 'svgs/settings-icon.svg' %}"
               alt="settings icon"
             />
-            <h2 onclick="openDesktopNavList(1)">{% trans "Process Units" %}</h2>
+            <a href="{% url 'product-and-services:process-units' %}"><h2 onclick="openDesktopNavList(1)">{% trans "Process Units" %}</h2></a>
           </li>
           <li class="desktop-nav-list-li">
             <img

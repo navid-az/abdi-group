@@ -5,13 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% block more_css %}
-        <link rel="stylesheet" href="{% static 'css/mobile-navbar.css' %}" />
-      {% if LANGUAGE_CODE == 'fa' %}
-        <link rel="stylesheet" href="{% static 'css/mobile-navbar-fa.css' %}">
-      {% endif %}
-    {% endblock more_css %}
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/mobile-navbar.css' %}" />
+    {% if LANGUAGE_CODE == 'fa' %}
+      <link rel="stylesheet" href="{% static 'css/mobile-navbar-fa.css' %}">
+    {% endif %}
 </head>
 <body>
      <div id="mobile-menu">
@@ -20,58 +17,58 @@
             onclick="goBackBtnF()"
             id="go-back-btn"
             src="{% static 'svgs/go-back-btn.svg' %}"
-            alt="cross"
+            alt="go back button"
           />
           <img
             id="close-menu-btn"
             src="{% static 'svgs/menu-X.svg' %}"
-            alt="cross"
+            alt="close navbar button"
           />
         </div>
         <ul id="menu-list">
           <li>
             <a href="{% url 'capabilities:capabilities' %}">
               <p>{% trans "Capabilities" %}</p>
-              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
             </a>
           </li>
           <li id="products">
               <p>{% trans "Products and Services" %}</p>
-              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li>
             <a href="{% url 'company:company' %}">
               <p>{% trans "About Us" %}</p>
-              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt=""
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon"
             /></a>
           </li>
           <li>
             <a href="{% url 'capabilities:capabilities' %}">
               <p>{% trans "Oil And Gas News" %}</p>
-              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+              <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
             </a>
           </li>
         </ul>
         <ul id="menu-sub-list">
           <li onclick="openSubMenuSub(0)">
             <p>{% trans "Oil and Gas Pipelines" %}</p>
-            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(1)">
-            <p>{% trans "Civil Projects" %}</p>
-            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            <a href='{% url 'product-and-services:civil-projects' %}'>{% trans "Civil Projects" %}</a>
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(2)">
             <p>{% trans "Process Units" %}</p>
-            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(3)">
             <p>{% trans "Industrial Technology" %}</p>
-            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(4)">
             <p>{% trans "Management Systems" %}</p>
-            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+            <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
         </ul>
         <ul id="menu-sub-list-sub">
@@ -173,7 +170,7 @@
           </ul>
         </ul>
         <div onclick="changeSubMenu()" id="sub-menu-btn">
-          <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="" />
+          <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
         </div>
       </div>
   {% block more_js %}

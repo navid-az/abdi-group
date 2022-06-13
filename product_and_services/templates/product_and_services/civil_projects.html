@@ -1,44 +1,67 @@
 {% extends 'base.html' %} {% load i18n %} {% load static %} 
-{% block translateFa%}{% url 'product-and-services:civil-projects' %}{% endblock translateFa %}
-{% block translateEn %}{% url 'product-and-services:civil-projects' %}{% endblock translateEn %}
-{% block translateEnMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateEnMobile %}
+{% block translateFa%}{% url 'product-and-services:civil-projects' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'product-and-services:civil-projects' %}{% endblock translateEn %} 
+{% block translateEnMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateEnMobile %} 
 {% block translateFaMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateFaMobile %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Civil Projects{% endblock title %}</title>
-</head>
-<body>
-    {% block content %}
-        <!-- hero  -->
-        {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
-        <div class="mobile-curved-bg">
-            <div class="container">
-                <div class="item-wrapper">
-            <div class="item-text">
-            <div class="title">
-              <img
-                src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
-                alt="3hexaIcon"
-              />
-              <h2>{% trans "Civil Projects" %}</h2>
-            </div>
-            <p>
-              {% trans "ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management." %}
-            </p>
-          </div>
-          <div class="item-img">
-            <img
-              id="item-img-3"
-              src=" {% static 'capabilities/images/civil-projects.webp' %} "
-              alt="civil projects images"
-            />
-          </div>
-            </div>
+{% block more_css %}
+  <link rel="stylesheet" href="{% static 'product_and_services/civil-projects/css/civil-projects.css' %}">
+  {% if LANGUAGE_CODE == 'fa' %}
+    <link rel="stylesheet" href="{% static 'product_and_services/civil-projects/css/civil-projects-fa.css' %}">
+  {% endif %}
+{% endblock more_css %}
+{% block title %}{% trans "Civil Projects" %}{% endblock title %}
+
+{% block content %}
+<!-- hero  -->
+{% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="page-title">
+      <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+      <h4> {% trans "Civil Projects" %} </h4>
+    </div>
+    <div class="item-wrapper">
+      <div class="item-text">
+        <div class="title">
+          <img
+            src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+            alt="3hexaIcon"
+          />
+          <h2>{% trans "Civil Projects" %}</h2>
         </div>
-    {% endblock content %}
-</body>
-</html>
+        <p>
+          {% trans "ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management." %}
+        </p>
+      </div>
+      <div class="item-img">
+        <img
+          id="item-img-3"
+          src=" {% static 'capabilities/images/civil-projects.webp' %} "
+          alt="civil projects images"
+        />
+      </div>
+    </div>
+    <ul class="civil-projects-list">
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Design, construction and supervision of tower buildings" %}</li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Design, construction and supervision of bridge and underpass" %}</li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Design, construction and supervision of multipurpose tunnels" %}</li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Design of space frame" %}</li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Design and construction of Concrete and stone retaining walls for soil stability" %}</li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        {% trans "Improving and increasing soil bearing capacity by Deep Soil Mixing-DSM  and micropiles" %}</li>
+    </ul>
+  </div>
+</div>
+{% endblock content %}

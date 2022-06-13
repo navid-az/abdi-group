@@ -34,3 +34,6 @@ def inspection(request):
 
 def civil_projects(request):
     return render(request, 'product_and_services/civil_projects.html')
+
+def process_units(request):
+    return render(request, 'product_and_services/process_units.html')
