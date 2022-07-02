@@ -1,0 +1,81 @@
+#civil-projects-list {
+  padding-bottom: 2rem;
+}
+
+#courses {
+  background: var(--darkBlue);
+  color: #ffff;
+  border-radius: 0.5rem;
+  margin: 3rem 0;
+  padding: 1rem;
+}
+
+#courses-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: -5rem;
+  align-items: center;
+}
+
+#courses-title>h2 {
+  color: #ffff;
+  margin-top: 1rem;
+}
+
+#courses-body {
+  margin: 2rem 0;
+}
+
+#civil-projects-list>li,
+#courses-body>li {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.8rem;
+}
+
+#civil-projects-list>li>img,
+#courses-body>li>img {
+  margin-top: 0.4rem;
+}
+
+#civil-projects-list>li>p {
+  margin-left: 0.3rem;
+}
+
+#courses-body>li>p {
+  color: #FFFF;
+  margin-left: 0.3rem;
+}
+
+/* media  */
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {
+  #courses-title {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: -4.3rem;
+    align-items: center;
+  }
+
+  #courses-title>h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    padding-left: 0.5rem;
+  }
+
+  #courses-body {
+    margin: 1.5rem 2.06rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

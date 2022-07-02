@@ -4,44 +4,52 @@
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: Vthin;
   src: url(../fonts/Vazir-Thin.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: Vlight;
   src: url(../fonts/Vazir-Light.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: Vmedium;
   src: url(../fonts/Vazir-Medium.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: Vbold;
   src: url(../fonts/Vazir-Bold.woff) format("woff");
   font-weight: normal;
   font-style: normal;
 }
+
 @font-face {
   font-family: nastaliq;
   src: url(../fonts/IranNastaliq.ttf);
   font-weight: normal;
   font-style: normal;
 }
+
 .title {
   flex-direction: row-reverse;
 }
+
 /* title with three hexagon icons  */
-.title > h2 {
+.title>h2 {
   padding-left: 0;
   padding-right: 0.5rem;
 }
+
 #company-name {
   position: absolute;
   right: -0.8rem;
@@ -49,22 +57,26 @@
   bottom: 3.5rem;
   display: none;
 }
+
 .company-fa-name {
   font-family: nastaliq;
   position: absolute;
   color: black;
   display: none;
 }
+
 .company-fa-name:nth-child(1) {
   right: 9rem;
   top: 2.5rem;
   font-size: 26px;
 }
+
 .company-fa-name:nth-child(2) {
   right: 9rem;
   top: 5.5rem;
   font-size: 16px;
 }
+
 #logo {
   position: absolute;
   left: 4rem;
@@ -86,10 +98,12 @@ span {
   font-family: Vmedium, sans-serif;
   letter-spacing: normal;
 }
+
 h2 {
   font-family: Vmedium, sans-serif;
   font-weight: 700;
 }
+
 p {
   font-family: Vlight;
 }
@@ -100,46 +114,86 @@ p {
   flex-direction: row-reverse;
   direction: ltr;
 }
+
 .advantages-disadvantages-wrapper,
 .dis-advantages-body-option {
   flex-direction: row-reverse;
 }
-.dis-advantages-title > h3 {
+
+.dis-advantages-title>h3 {
   padding-left: 0;
   padding-right: 0.5rem;
 }
-.title > img {
+
+.title>img {
   width: 25px !important;
 }
+
+/* header buttons  */
+.header-btns>li {
+  padding: 0 4px 0 8px;
+}
+
+.header-btns>li>a {
+  gap: 0.3rem;
+}
+
 @supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */
+
+  /* CSS specific to IOS devices */
   h2 {
     font-family: Vbold, sans-serif;
     font-weight: 900;
   }
 }
+
 /* media  */
 
-@media screen and (max-width: 576px) {
-}
-@media screen and (min-width: 576px) {
-}
-@media screen and (min-width: 768px) {
-}
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width: 768px) {}
+
 @media screen and (min-width: 992px) {
+
   .company-fa-name,
   #company-name {
     display: block;
   }
-  /* .item-text > p,
-  .item-text > div > p {
-    margin-right: 2rem;
-  } */
+
+  .item-wrapper {
+    flex-direction: row-reverse;
+  }
+
+  .item-wrapper>.item-img {
+    justify-content: flex-start;
+  }
+
+
+
   .item-text .title {
     margin-left: 2rem;
   }
+
+  .reverse {
+    flex-direction: row;
+  }
+
+  .reverse>.item-text {
+    margin-right: 2rem;
+  }
+
+  .reverse>.item-img {
+    justify-content: flex-end;
+  }
+
+  /* list */
+  .list>li {
+    margin-right: -1.125rem;
+  }
 }
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

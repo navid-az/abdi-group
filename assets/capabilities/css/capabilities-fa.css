@@ -2,10 +2,16 @@
 .oil-gas-services {
   flex-direction: row-reverse;
 }
-.industrial-tech-opt {
-  flex-direction: row-reverse;
+
+.industrial-tech-wrapper>.container>.list>li {
+  margin-right: 0;
 }
-.industrial-tech-opt > p {
-  padding-left: 0;
-  padding-right: 0.5rem;
+
+/* media  */
+
+@media screen and (min-width: 992px) {
+  .industrial-tech-wrapper>.container>.title {
+    margin-right: 0;
+    margin-left: 2rem;
+  }
 }

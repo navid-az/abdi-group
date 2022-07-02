@@ -1,5 +1,18 @@
-#menu-list > li > a > img,
-#menu-list > li > img,
-#menu-sub-list > li > img {
+#menu-list>li>a>img,
+#menu-list>li>img,
+#menu-sub-list>li>img {
   transform: rotate(180deg);
+}
+
+#menu-list li a p,
+#menu-list li p,
+#menu-sub-list li p,
+#menu-sub-list-sub ul li a {
+  font-family: Vbold;
+}
+
+#menu-list p,
+#menu-sub-list p,
+#menu-sub-list a {
+  font-family: Vbold;
 }

@@ -1,0 +1,32 @@
+#civil-projects-list>li>p,
+#courses-body>li>p {
+  margin-left: 0;
+  margin-right: 0.3rem;
+  line-height: 1.8rem;
+}
+
+/* media  */
+
+@media screen and (max-width: 576px) {}
+
+@media screen and (min-width: 576px) {}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 992px) {
+  #courses-title {
+    margin-left: 0;
+    margin-right: -4.3rem;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+  }
+
+  #courses-title>h2 {
+    padding-left: 0;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}
