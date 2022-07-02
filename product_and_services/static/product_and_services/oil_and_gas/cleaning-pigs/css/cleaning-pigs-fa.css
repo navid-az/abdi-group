@@ -1,0 +1,9 @@
+@media screen and (min-width: 992px) {
+  .list>li {
+    margin-right: 0;
+  }
+
+  .title {
+    margin-left: 2rem;
+  }
+}

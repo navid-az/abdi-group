@@ -1,12 +1,6 @@
 {% extends 'base.html' %} {% load i18n %} {% load static %}
 {% block translateFa %}{% url 'product-and-services:cathodic-protection' %}{% endblock translateFa %} 
 {% block translateEn %}{% url 'product-and-services:cathodic-protection' %}{% endblock translateEn %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block more_css %}
     <link
       rel="stylesheet"
@@ -19,9 +13,12 @@
     <title>
       {% block title %} {% trans "Coating and Cathodic Protection" %} {% endblock title %}
     </title>
-  </head>
-  <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cathodic-protection/images/cathodic-protection-hero.jpg' %}
+    {% block content %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cathodic-protection/images/cathodic-protection-hero.jpg' page_image='svgs/coating-and-cathodic-protection-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cathodic-protection/images/cathodic-protection-hero.jpg' page_image='svgs/coating-and-cathodic-protection-hexa.svg' %}
+    {% endif %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -390,5 +387,3 @@
       </div>
     </div>
     {% endblock content %}
-  </body>
-</html>

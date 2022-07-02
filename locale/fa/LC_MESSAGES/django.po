@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 18:15+0430\n"
+"POT-Creation-Date: 2022-07-02 19:56+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\abdiGroup\settings.py:141
+#: .\abdiGroup\settings.py:138
 msgid "Persian"
 msgstr ""
 
-#: .\abdiGroup\settings.py:142
+#: .\abdiGroup\settings.py:139
 msgid "English"
 msgstr ""
 
@@ -34,62 +34,66 @@ msgstr "گروه عبدی"
 msgid "Mr.Dr"
 msgstr "آقای دکتر"
 
+#: .\templates\base.html:31
+msgid "News"
+msgstr "اخبار"
+
 #: .\templates\inc\footer.html:30
 msgid "Useful Links"
 msgstr "لینک های مفید"
 
-#: .\templates\inc\footer.html:34 .\templates\inc\mobile-navbar.html:34
+#: .\templates\inc\footer.html:34 .\templates\inc\mobile-navbar.html:31
 #: .\templates\inc\navbar.html:27
 msgid "Capabilities"
 msgstr "توانمندی ها"
 
-#: .\templates\inc\footer.html:38 .\templates\inc\mobile-navbar.html:65
-#: .\templates\inc\navbar.html:68
+#: .\templates\inc\footer.html:38 .\templates\inc\mobile-navbar.html:62
+#: .\templates\inc\navbar.html:60
 msgid "Process Units"
 msgstr "واحدهای فرآیندی"
 
-#: .\templates\inc\footer.html:42 .\templates\inc\mobile-navbar.html:61
-#: .\templates\inc\navbar.html:75
+#: .\templates\inc\footer.html:42 .\templates\inc\mobile-navbar.html:58
+#: .\templates\inc\navbar.html:63
 msgid "Civil Projects"
 msgstr "پروژه های ساختمانی"
 
-#: .\templates\inc\footer.html:46 .\templates\inc\mobile-navbar.html:69
-#: .\templates\inc\navbar.html:82
+#: .\templates\inc\footer.html:46 .\templates\inc\mobile-navbar.html:66
+#: .\templates\inc\navbar.html:66
 msgid "Industrial Technology"
 msgstr "تکنولوژیهای صنعتی"
 
-#: .\templates\inc\footer.html:50 .\templates\inc\mobile-navbar.html:73
-#: .\templates\inc\navbar.html:89
+#: .\templates\inc\footer.html:50 .\templates\inc\mobile-navbar.html:70
+#: .\templates\inc\navbar.html:69
 msgid "Management Systems"
 msgstr "پیاده سازی سیستمهای مدیریتی"
 
-#: .\templates\inc\footer.html:56 .\templates\inc\mobile-navbar.html:39
+#: .\templates\inc\footer.html:56 .\templates\inc\mobile-navbar.html:36
 #: .\templates\inc\navbar.html:31
 msgid "Products and Services"
 msgstr "محصولات و خدمات"
 
-#: .\templates\inc\footer.html:60 .\templates\inc\mobile-navbar.html:86
-#: .\templates\inc\navbar.html:93
+#: .\templates\inc\footer.html:60 .\templates\inc\mobile-navbar.html:83
+#: .\templates\inc\navbar.html:73
 msgid "Inline Inspection"
 msgstr "پیگرانی هوشمند"
 
-#: .\templates\inc\footer.html:64 .\templates\inc\mobile-navbar.html:94
-#: .\templates\inc\navbar.html:94
+#: .\templates\inc\footer.html:64 .\templates\inc\mobile-navbar.html:91
+#: .\templates\inc\navbar.html:74
 msgid "Unpigable Pipelines"
 msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
 
-#: .\templates\inc\footer.html:68 .\templates\inc\mobile-navbar.html:102
-#: .\templates\inc\navbar.html:95
+#: .\templates\inc\footer.html:68 .\templates\inc\mobile-navbar.html:99
+#: .\templates\inc\navbar.html:75
 msgid "Under Water Inspection-ROV"
 msgstr "بازرسی خطوط لوله زیر دریایی "
 
-#: .\templates\inc\footer.html:72 .\templates\inc\mobile-navbar.html:110
-#: .\templates\inc\navbar.html:96
+#: .\templates\inc\footer.html:72 .\templates\inc\mobile-navbar.html:107
+#: .\templates\inc\navbar.html:76
 msgid "Cleaning Pigs"
 msgstr "پیگرانی تمییز کننده"
 
-#: .\templates\inc\footer.html:76 .\templates\inc\mobile-navbar.html:134
-#: .\templates\inc\navbar.html:99
+#: .\templates\inc\footer.html:76 .\templates\inc\mobile-navbar.html:131
+#: .\templates\inc\navbar.html:79
 msgid "Coating and Cathodic Protection"
 msgstr "پوشش و حفاظت کاتدی"
 
@@ -109,7 +113,7 @@ msgstr ""
 msgid ""
 "Un.5 No-1 Rokni Dead End, Khorosh St, Varaste St, Dolat <br> St, Pasdaran, "
 "Tehran"
-msgstr ""
+msgstr "محله مجیدیه، خیابان کرمان، بن بست کریمان پلاک 30 واحد 11"
 
 #: .\templates\inc\footer.html:114
 msgid "Programmed and designed by"
@@ -119,85 +123,85 @@ msgstr "طراحی و برنامه نویسی سایت توسط"
 msgid "Navid Azimi"
 msgstr "نوید عظیمی"
 
-#: .\templates\inc\mobile-navbar.html:44 .\templates\inc\navbar.html:35
+#: .\templates\inc\mobile-navbar.html:41 .\templates\inc\navbar.html:35
 msgid "About Us"
 msgstr "درباره ما"
 
-#: .\templates\inc\mobile-navbar.html:50
+#: .\templates\inc\mobile-navbar.html:47
 msgid "Oil And Gas News"
 msgstr "خطوط انتقال نفت و گاز"
 
-#: .\templates\inc\mobile-navbar.html:57 .\templates\inc\navbar.html:61
+#: .\templates\inc\mobile-navbar.html:54 .\templates\inc\navbar.html:57
 msgid "Oil and Gas Pipelines"
 msgstr "خطوط انتقال نفت و گاز"
 
-#: .\templates\inc\mobile-navbar.html:118 .\templates\inc\navbar.html:97
+#: .\templates\inc\mobile-navbar.html:115 .\templates\inc\navbar.html:77
 msgid "Repairing"
 msgstr "تعمیرات"
 
-#: .\templates\inc\mobile-navbar.html:126 .\templates\inc\navbar.html:98
+#: .\templates\inc\mobile-navbar.html:123 .\templates\inc\navbar.html:78
 msgid "Valve Clinic"
 msgstr "کلینیک تخصصی ولو"
 
-#: .\templates\inc\mobile-navbar.html:142
+#: .\templates\inc\mobile-navbar.html:139
 msgid "Inspection(Fixed Equipment and Instruments)"
 msgstr "بازرسی (مکانیک، برق و ابزاردقیق)"
 
-#: .\templates\inc\mobile-navbar.html:150 .\templates\inc\navbar.html:101
+#: .\templates\inc\mobile-navbar.html:147 .\templates\inc\navbar.html:81
 msgid "Fitness For Services(FFS) and Fitness For Purpose(FFP)"
 msgstr "ارزیابی عیوب"
 
-#: .\templates\inc\mobile-navbar.html:158 .\templates\inc\navbar.html:102
+#: .\templates\inc\mobile-navbar.html:155 .\templates\inc\navbar.html:82
 msgid "Leak Detection"
 msgstr "نشت یابی"
 
-#: .\templates\inc\mobile-navbar.html:166 .\templates\inc\navbar.html:103
+#: .\templates\inc\mobile-navbar.html:163 .\templates\inc\navbar.html:83
 msgid "Consultant and Project Management"
 msgstr "مشاور و مدیریت پروژه"
 
-#: .\templates\inc\navbar.html:100
+#: .\templates\inc\navbar.html:80
 msgid "Inspection"
 msgstr "بازرسی"
 
-#: .\templates\inc\navbar.html:100
+#: .\templates\inc\navbar.html:80
 msgid "(Fixed Equipment and Instruments)"
 msgstr "(مکانیک، برق و ابزاردقیق)"
 
-#: .\templates\inc\navbar.html:102
+#: .\templates\inc\navbar.html:82
 msgid "(FID, Laser, Mobile/Vehicle , Satellite Images)"
 msgstr "(دستی، خودرویی، تصاویر ماهواره)"
 
-#: .\templates\inc\navbar.html:106
+#: .\templates\inc\navbar.html:86
 msgid "Remediation of Polluted Soil by oil or industrial waste"
 msgstr "فرآوری خاکهای آلوده به مواد نفتی و فاضلابهای صنعتی"
 
-#: .\templates\inc\navbar.html:107
+#: .\templates\inc\navbar.html:87
 msgid "Pipeline Chemical Cleaning"
 msgstr "تامین حلالهای صنعتی برای شستشوی خطوط لوله و تجهیزات فرآیندی"
 
-#: .\templates\inc\navbar.html:108
+#: .\templates\inc\navbar.html:88
 msgid "Special Tools"
 msgstr ""
 "ساخت و تامین تجهیزات ( پیگ سیگنالر غیر تماسی، مارکر هوشمند برای ثبت سوابق "
 "تعمیرات و نگهداری، سنسورهای شرایط عملیاتی و حفاظت کاتدی، ...) "
 
-#: .\templates\inc\navbar.html:109
+#: .\templates\inc\navbar.html:89
 msgid "Leak Detection by Satellite Images"
 msgstr "نشت یابی خطوط لوله نفت و گاز با استفاده از تصاویر ماهواره ای"
 
-#: .\templates\inc\navbar.html:110
+#: .\templates\inc\navbar.html:90
 msgid "Technology Transfer"
 msgstr "توسعه و انتقال تکنولوژی"
 
-#: .\templates\inc\navbar.html:113
+#: .\templates\inc\navbar.html:93
 msgid "Pipeline Integrity Management System"
 msgstr "مدیریت یکپارچه سلامت خطوط لوله"
 
-#: .\templates\inc\navbar.html:114
+#: .\templates\inc\navbar.html:94
 msgid "Asset Integrity Management"
 msgstr "مدیریت داراییهای فیزیکی"
 
-#: .\templates\inc\navbar.html:115
+#: .\templates\inc\navbar.html:95
 msgid "Risk Management"
 msgstr "سیستمهای مدیریت ریسک"
 

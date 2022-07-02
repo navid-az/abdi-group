@@ -1,0 +1,98 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa %}{% url 'product-and-services:management-systems' %}{% endblock translateFa %}
+{% block translateEn %}{% url 'product-and-services:management-systems' %}{% endblock translateEn %} 
+{% block translateEnMobile %}{% url 'product-and-services:management-systems' %}{% endblock translateEnMobile %}
+{% block translateFaMobile %}{% url 'product-and-services:management-systems' %}{% endblock translateFaMobile %}
+{% block more_css %}
+  <link
+    rel="stylesheet"
+    href="{% static 'product_and_services/management_systems/css/management-systems.css' %}"
+  />
+  {% if LANGUAGE_CODE == 'fa' %}
+    <link
+      rel="stylesheet"
+      href="{% static 'product_and_services/management_systems/css/management-systems-fa.css' %}"
+    />
+  {% endif %} 
+{% endblock more_css %}
+{% block meta-descriptions %}
+<meta
+  name="description"
+  content="Managing a wide network of pipelines to ensure maximum safety at the reasonable cost is impossible without the use of an integrated management system and in the form of various organizational departments."
+/>
+{% endblock meta-descriptions %}
+{% block title %}{% trans "Management Systems"%}{% endblock title %} 
+{% block content %}
+<!-- hero  -->
+{% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/management-systems-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/management-systems-hexa.svg' %}
+{% endif %}
+
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="page-title">
+      <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+      <h4>{% trans "Management Systems" %}</h4>
+    </div>
+    <div class="item-wrapper">
+      <div class="item-text">
+        <div class="title">
+          <img
+            src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+            alt="3hexaIcon"
+          />
+          <h2>{% trans "Management Systems" %}</h2>
+        </div>
+        <div>
+          <p>
+            {% trans "Managing a wide network of pipelines to ensure maximum safety at the reasonable cost is impossible without the use of an integrated management system and in the form of various organizational departments." %}
+          </p>
+        </div>
+      </div>
+      <div class="item-img">
+        <img
+          id="item-img-4"
+          src=" {% static 'capabilities/images/management-systems.webp' %} "
+          alt="management systems images"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="management-systems-mobile">
+      <p>
+        {% trans "Today, various standards have been developed to implement a system of physical asset management and integrated management and address the operators’ issues." %}
+      </p>
+      <p>
+        {% trans "On the other hand, development of information technology has facilitated operators' job, In such a way that the world's major operators have implemented management systems in the form of software." %}
+      </p>
+      <br>
+      <p>
+        {% trans "oil and gas industries will face a large number of long-lived facilities over the next few years." %}
+      </p>
+      <p>
+        {% trans "Of course, optimal economic management of this volume of depreciated facilities is impossible without the use of management system, and operators are forced to implement a system of physical asset management and integrated management in order to maintain these assets." %}
+      </p>
+      <br>
+      <p>{% trans "Implementation of data model in accordance with the requirements of operators based on physical asset management systems and integrated health management system by Iranian experts. The development of these softwares has been done by comparing internationally well-known software based on more than 20 years experience in the oil and gas industry. " %}</p>
+      <br>
+      <ul class="list">
+        <li>
+          <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+          <p>{% trans "Integrated pipeline integrity management" %}</p>
+        </li>
+        <li>
+          <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+          <p>{% trans "Management of physical assets" %}</p>
+        </li>
+        <li>
+          <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+          <p>{% trans "Risk management and inspection systems" %}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

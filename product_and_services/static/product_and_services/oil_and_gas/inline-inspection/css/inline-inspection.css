@@ -2,6 +2,7 @@
   position: absolute;
   object-fit: cover;
 }
+
 .page-title {
   position: relative;
   display: flex;
@@ -10,18 +11,20 @@
   align-items: center;
 }
 
+/* 
 .pig-wrapper {
-  /* width: 100%; */
-  /* height: 300px; */
   display: flex;
   flex-direction: column;
 }
+
 .title {
   margin-top: 0;
 }
-.title > h2 {
+
+.title>h2 {
   font-size: 20px;
-}
+} */
+
 /* .pig-wrapper > .title {
   align-self: flex-start;
   align-items: center;
@@ -34,7 +37,7 @@
   font-size: 12px;
   padding-left: 0.2rem;
 } */
-.item-img {
+/* .item-img {
   height: 250px;
   display: flex;
   justify-content: center;
@@ -43,12 +46,13 @@
 .item-img > img {
   width: 100%;
   max-width: 500px;
-}
+} */
 .pig-info {
   display: flex;
   flex-direction: column;
 }
-.pig-info > img {
+
+.pig-info>img {
   margin: 2.5rem auto;
   width: 90%;
 }
@@ -61,19 +65,23 @@
   border: 4px solid #2fa3ee;
   margin: 2.5rem 0;
 }
+
 .card-title {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-top: 2rem;
 }
-.card-title > h2 {
+
+.card-title>h2 {
   color: white;
   padding-left: 0.5rem;
 }
-.card-text > p {
+
+.card-text>p {
   color: white;
 }
+
 .card-body {
   padding: 1.5rem;
   display: flex;
@@ -81,11 +89,13 @@
   justify-content: space-between;
   align-items: center;
 }
-.card-body > p {
+
+.card-body>p {
   margin-top: -1rem;
   color: white;
 }
-.card-body > img {
+
+.card-body>img {
   margin-bottom: 1.5rem;
   width: 100%;
 }
@@ -95,15 +105,18 @@
   width: 100%;
   height: 600px;
 }
-.tfi-mfl-comparison > img {
+
+.tfi-mfl-comparison>img {
   width: 100%;
   height: 100%;
 }
+
 .fade-layer {
   position: absolute;
   height: 100%;
   /* background: rgba(21, 21, 21, 0.86); */
 }
+
 .pig-blue-print-wrapper {
   position: absolute;
   top: 0;
@@ -111,17 +124,21 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .pig-blue-print {
   width: 50%;
 }
+
 .flux {
   width: 100%;
 }
+
 .mfl-tfi-comparison {
   position: relative;
   background-image: url(../images/connectwork.png);
   margin: 2.5rem 0;
 }
+
 .mfl-tfi-comparison-images {
   width: 100%;
   position: relative;
@@ -132,33 +149,39 @@
   z-index: 1;
   padding: 4rem 0;
 }
-.mfl-tfi-comparison-images > div {
+
+.mfl-tfi-comparison-images>div {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 70%;
 }
-.mfl-tfi-comparison-images > div > p {
+
+.mfl-tfi-comparison-images>div>p {
   color: white;
   padding-right: 1rem;
 }
-.mfl-tfi-comparison-images > div img:nth-child(1) {
+
+.mfl-tfi-comparison-images>div img:nth-child(1) {
   padding-right: 0.5rem;
 }
 
-.mfl-tfi-comparison-images > div > img {
+.mfl-tfi-comparison-images>div>img {
   width: 100%;
 }
+
 .chart-wrapper {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 2rem 0;
 }
+
 .defect-chart-img {
   width: 100%;
   margin: 2.5rem 0;
 }
+
 .chart-options-wrapper {
   width: 100%;
   display: flex;
@@ -166,6 +189,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .chart-options {
   width: 46%;
   display: flex;
@@ -173,35 +197,42 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-.chart-options > h3 {
+
+.chart-options>h3 {
   font-size: 14px;
 }
+
 .chart-options-title {
   display: flex;
   align-items: center;
 }
-.chart-options-title > p {
+
+.chart-options-title>p {
   font-size: 10px;
   font-weight: 700;
   color: #313132;
 }
-.chart-options-title > img {
+
+.chart-options-title>img {
   margin-right: 0.5rem;
 }
 
 @media screen and (min-width: 576px) {
-  .chart-options-title > p {
+  .chart-options-title>p {
     font-size: 12px;
   }
-  .item-img > img {
+
+  .item-img>img {
     width: auto;
   }
 }
+
 @media screen and (min-width: 768px) {
-  .title img {
+  /* .title img {
     width: 20px;
-  }
-  .pig-info > img {
+  } */
+
+  .pig-info>img {
     width: 50%;
   }
 
@@ -209,74 +240,91 @@
   .magnetization-card {
     width: 100%;
   }
-  .magnetization-card .card-body > img {
+
+  .magnetization-card .card-body>img {
     width: 50%;
   }
+
   .card-body {
     flex-direction: row-reverse;
   }
-  .card-title > h3 {
+
+  .card-title>h3 {
     padding-left: 0.8rem;
   }
-  .card-body > img {
+
+  .card-body>img {
     margin-bottom: 0;
   }
+
   .card-text {
     width: 50%;
   }
 
   /* chart */
-  .chart-options-title > p {
+  .chart-options-title>p {
     font-size: 14px;
   }
+
   .defect-chart-img {
     width: 70%;
     margin: 2.5rem auto;
   }
-  .chart-options > h3 {
+
+  .chart-options>h3 {
     font-size: 16px;
   }
 }
+
 @media screen and (min-width: 992px) {
+
   /* magnetization */
   .magnetization-wrapper {
     display: flex;
     justify-content: space-around;
     gap: 2rem;
   }
+
   .magnetization-card {
     /* width: 50%; */
     width: 31.25rem;
   }
+
   .mobile-magnetization-card {
     display: none;
   }
+
   .card-body {
     flex-direction: column;
   }
-  .magnetization-card .card-body > img {
+
+  .magnetization-card .card-body>img {
     width: 100%;
   }
+
   .card-text {
     width: 100%;
   }
-  .card-text > p {
+
+  .card-text>p {
     color: white;
   }
 
-  .title > h2 {
+  .title>h2 {
     font-size: 30px !important;
   }
 
   /* chart  */
   .chart-wrapper,
-  .chart-wrapper > p {
+  .chart-wrapper>p {
     margin-bottom: 2.5rem;
   }
+
   .defect-chart-img {
     width: 50%;
     margin: 0;
   }
+
   .chart-options-wrapper {
     margin: 1rem 0;
     flex-direction: column;
@@ -284,6 +332,7 @@
     align-items: center;
     width: 50%;
   }
+
   .chart-options {
     margin-bottom: 0;
     width: 50%;
@@ -296,27 +345,32 @@
     align-items: center;
     margin: 2rem 0;
   }
+
   .pig-wrapper:last-of-type {
     flex-direction: column;
   }
+
   .pig-info {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
   }
-  .pig-info > img {
+
+  .pig-info>img {
     width: 30%;
     margin: 2.5rem 0;
   }
-  .pig-info > p {
+
+  .pig-info>p {
     width: 50%;
     align-self: center;
   }
-  .pig-info > p:not(:nth-child(1)) {
+
+  .pig-info>p:not(:nth-child(1)) {
     width: 100%;
   }
 }
-@media screen and (min-width: 1200px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (min-width: 1400px) {}

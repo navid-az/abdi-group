@@ -59,15 +59,15 @@
             <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(2)">
-            <p>{% trans "Process Units" %}</p>
+            <a href='{% url 'product-and-services:process-units' %}'>{% trans "Process Units" %}</a>
             <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(3)">
-            <p>{% trans "Industrial Technology" %}</p>
+            <a href='{% url 'product-and-services:industrial-technology' %}'>{% trans "Industrial Technology" %}</a>
             <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
           <li onclick="openSubMenuSub(4)">
-            <p>{% trans "Management Systems" %}</p>
+            <a href='{% url 'product-and-services:management-systems' %}'>{% trans "Management Systems" %}</a>
             <img src="{% static 'svgs/menu-opt-arrow.svg' %}" alt="arrow icon" />
           </li>
         </ul>

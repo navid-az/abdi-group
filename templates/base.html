@@ -28,15 +28,15 @@
     <header>
       <ul class="header-btns .md-none">
         <li><a href="{% url 'mr-dr:mr-dr' %}"><img src="{% static 'svgs/help-circle.svg' %}" alt="globe icon"><h4>{% trans "Mr.Dr" %}</h4></a></li>
-        {% comment %} <li><a href="{% url 'mr-dr:mr-dr' %}"><h4>News</h4><img src="{% static 'svgs/bell.svg' %}" alt="globe icon"></a></li> {% endcomment %}
+        {% comment %} <li><a href="{% url 'mr-dr:mr-dr' %}"><img src="{% static 'svgs/bell.svg' %}" alt="globe icon"><h4>{% trans "News" %}</h4></a></li> {% endcomment %}
         <li>
           {% if LANGUAGE_CODE == 'fa' %}
             {% language 'en' %}
-              <a class='lan-changer' href="{% block translateFa %}{% endblock translateFa %}"><h3>FA</h3><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
+              <a href="{% block translateFa %}{% endblock translateFa %}"><h4>FA</h4><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"></a>
             {% endlanguage %}
           {% else %}
             {% language 'fa' %}
-              <a class='lan-changer' href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h3>EN</h3></a>
+              <a href="{% block translateEn %}{% endblock translateEn %}"><img src="{% static 'svgs/globe.svg' %}" alt="globe icon"><h4>EN</h4></a>
             {% endlanguage %}
           {% endif %}
         </li>

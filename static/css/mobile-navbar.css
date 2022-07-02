@@ -35,7 +35,6 @@
 #menu-list p,
 #menu-sub-list p,
 #menu-sub-list a {
-  font-family: Vbold;
   font-size: 1.125rem;
   font-weight: 600 !important;
 }
@@ -59,7 +58,6 @@
 #menu-list li p,
 #menu-sub-list li p,
 #menu-sub-list-sub ul li a {
-  font-family: Vbold;
   font-size: 18px !important;
   color: white;
 }

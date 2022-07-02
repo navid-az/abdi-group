@@ -3,12 +3,6 @@
 {% block translateEn %}{% url 'capabilities:capabilities' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'capabilities:capabilities' %}{% endblock translateEnMobile %}
 {% block translateFaMobile %}{% url 'capabilities:capabilities' %}{% endblock translateFaMobile %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block meta-descriptions %}<meta name="description" content="In order to accompany and cooperate with the pipeline operators in providing safe and reliable energy, ABDI-GROUP provides various services in the field of repair, maintenance and inspection of pipelines.">{% endblock meta-descriptions %}
     {% block more_css %}
     <link
@@ -24,7 +18,11 @@
   <body>
     {% block content %}
     <!-- hero  -->
-    {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/capabilities-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/capabilities-hexa.svg' %}
+    {% endif %}
     <!-- capabilities items -->
     <div class="mobile-curved-bg">
       <div class="container">
@@ -47,14 +45,13 @@
           </div>
           <div class="item-img">
             <img
-              id="item-img-1"
-              src=" {% static 'capabilities/images/pipelines.webp' %} "
+              src=" {% static 'capabilities/images/chad.webp' %} "
               alt="oil and pipelines images"
             />
           </div>
         </div>
+        
         <!-- various services -->
-
         <div class="oil-gas-services">
           <h1 class="services-title">{% trans "These various services include" %}</h1>
 
@@ -97,8 +94,8 @@
             </p>
           </div>
         </div>
-        <!-- various services END -->
-        <div class="item-wrapper">
+
+        <div class="item-wrapper reverse">
           <div class="item-text">
             <div class="title">
               <img
@@ -116,8 +113,7 @@
           </div>
           <div class="item-img">
             <img
-              id="item-img-2"
-              src=" {% static 'capabilities/images/process.webp' %} "
+              src=" {% static 'capabilities/images/chad2.webp' %} "
               alt="process images"
             />
           </div>
@@ -137,8 +133,7 @@
           </div>
           <div class="item-img">
             <img
-              id="item-img-3"
-              src=" {% static 'capabilities/images/civil-projects.webp' %} "
+              src=" {% static 'capabilities/images/chad4.webp' %} "
               alt="civil projects images"
             />
           </div>
@@ -158,22 +153,23 @@
           <p>
             {% trans "ABDI-GROUP, relying on the knowledge, experience and expertise of partner groups, offers specific solutions to any industrial problem. At present, this company provides the following services, using the services of Iranian knowledge-based and also foreign companies:" %}
           </p>
-          <div class="industrial-tech-opt-wrapper">
-            <div class="industrial-tech-opt">
+          <br>
+          <ul class="list">
+            <li>
               <img
                 src=" {% static 'svgs/s-green-hexa.svg' %} "
                 alt="3hexaIcon"
               />
               <p>{% trans "Remediation of polluted soil" %}</p>
-            </div>
-            <div class="industrial-tech-opt">
+            </li>
+            <li>
               <img
                 src=" {% static 'svgs/s-green-hexa.svg' %} "
                 alt="3hexaIcon"
               />
               <p>{% trans "Pipeline chemical cleaning" %}</p>
-            </div>
-            <div class="industrial-tech-opt">
+            </li>
+            <li>
               <img
                 src=" {% static 'svgs/s-green-hexa.svg' %} "
                 alt="3hexaIcon"
@@ -181,15 +177,27 @@
               <p>
                 {% trans "Manufacturing and supplying equipment (non-intrusive pig-signaler, Repairing Intelligent marker, sensors for monitoring operating conditions, Cathodic protection sensors…)" %}
               </p>
-            </div>
-            <div class="industrial-tech-opt">
+            </li>
+            <li>
               <img
                 src=" {% static 'svgs/s-green-hexa.svg' %} "
                 alt="3hexaIcon"
               />
               <p>{% trans "Leak detection by satellite images" %}</p>
-            </div>
-          </div>
+            </li>
+            {% if LANGUAGE_CODE == 'fa' %}
+              <li class="industrial-tech-opt">
+                <img
+                  src=" {% static 'svgs/s-green-hexa.svg' %} "
+                  alt="3hexaIcon"
+                />
+                <p>
+                  توسعه و انتقال تکنولوژی
+                </p>
+              </li>
+            {% endif %}
+          </ul>
+          <br>
           <p>
             {% trans "The company is also ready to cooperate in identifying technology owner companies, conducting negotiations, making contracts and supervising technology transfer, in the relevant field. Meanwhile, the company identifies knowledge-based companies in the field of oil and gas and uses the maximum local capacity for the development of new technologies, at the request of investors." %}
           </p>
@@ -231,8 +239,7 @@
           </div>
           <div class="item-img">
             <img
-              id="item-img-4"
-              src=" {% static 'capabilities/images/management-systems.webp' %} "
+              src=" {% static 'capabilities/images/chad3.webp' %} "
               alt="management systems images"
             />
           </div>
@@ -240,10 +247,6 @@
       </div>
       <div class="container">
         <div class="management-systems-desktop">
-          <p>
-            {% trans "Managing a wide network of pipelines to ensure maximum safety at the reasonable cost is impossible without the use of an integrated management system and in the form of various organizational departments." %}
-          </p>
-          <br>
           <p>
             {% trans "Today, various standards have been developed to implement a system of physical asset management and integrated management and address the operators’ issues." %}
           </p>

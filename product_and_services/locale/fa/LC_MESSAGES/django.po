@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-12 19:31+0430\n"
+"POT-Creation-Date: 2022-07-02 19:56+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\templates\product_and_services\civil_projects.html:24
+#: .\product_and_services\templates\product_and_services\civil_projects.html:18
+#: .\product_and_services\templates\product_and_services\civil_projects.html:30
+#: .\product_and_services\templates\product_and_services\civil_projects.html:39
 msgid "Civil Projects"
 msgstr "پروژه های ساختمانی"
 
-#: .\templates\product_and_services\civil_projects.html:27
+#: .\product_and_services\templates\product_and_services\civil_projects.html:42
 msgid ""
 "ABDI-GROUP, relying on more than half a century of experience in "
 "construction projects, Provides design and construction services for civil "
@@ -32,29 +34,29 @@ msgstr ""
 "و ساخت پروژه های ساختمانی و همچنین مدیریت پروژه های ساختمانی را ارایه می "
 "نماید."
 
-#: .\templates\product_and_services\civil_projects.html:41
+#: .\product_and_services\templates\product_and_services\civil_projects.html:56
 msgid "Design, construction and supervision of tower buildings"
 msgstr "طراحی, ساخت و نظارت بر اجرای ساختمانهای بلند"
 
-#: .\templates\product_and_services\civil_projects.html:44
+#: .\product_and_services\templates\product_and_services\civil_projects.html:60
 msgid "Design, construction and supervision of bridge and underpass"
 msgstr "طراحی, ساخت و نظارت بر اجرای پلها و زیر گذرها"
 
-#: .\templates\product_and_services\civil_projects.html:47
+#: .\product_and_services\templates\product_and_services\civil_projects.html:64
 msgid "Design, construction and supervision of multipurpose tunnels"
 msgstr "طراحی, ساخت و نظارت بر اجرای تونلهای چند منظوره"
 
-#: .\templates\product_and_services\civil_projects.html:50
+#: .\product_and_services\templates\product_and_services\civil_projects.html:68
 msgid "Design of space frame"
 msgstr "طراحی سازه های فضایی"
 
-#: .\templates\product_and_services\civil_projects.html:53
+#: .\product_and_services\templates\product_and_services\civil_projects.html:72
 msgid ""
 "Design and construction of Concrete and stone retaining walls for soil "
 "stability"
 msgstr "طراحی و اجرای دیوار حایل بتنی و سنگی جهت پایداری خاک"
 
-#: .\templates\product_and_services\civil_projects.html:56
+#: .\product_and_services\templates\product_and_services\civil_projects.html:82
 msgid ""
 "Improving and increasing soil bearing capacity by Deep Soil Mixing-DSM  and "
 "micropiles"
@@ -62,29 +64,140 @@ msgstr ""
 "بهسازی و افزایش ظرفیت باربری خاک به روش اختلاط عمیق خاک (Deep Soil Mixing - "
 "DMS) و روش های میکروپایل"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:20
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:18
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:32
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:41
+msgid "Industrial Technology"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:44
+msgid ""
+"ABDI-GROUP, relying on the knowledge, experience and expertise of partner "
+"groups, offers specific solutions to any industrial problem. At present, "
+"this company provides the following services, using the services of Iranian "
+"knowledge-based and also foreign companies:"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:58
+msgid "Remediation of polluted soil"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:62
+msgid "Pipeline chemical cleaning"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:66
+msgid ""
+"Manufacturing and supplying equipment (non-intrusive pig-signaler, Repairing "
+"Intelligent marker, sensors for monitoring operating conditions, Cathodic "
+"protection sensors…)"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:70
+#, fuzzy
+#| msgid "Leak detection of oil and gas pipelines using satellite images"
+msgid "Leak detection by satellite images"
+msgstr "نشت یابی خطوط لوله نفت و گاز با استفاده از تصاویر ماهواره ای"
+
+#: .\product_and_services\templates\product_and_services\industrial_technology.html:80
+msgid ""
+"The company is also ready to cooperate in identifying technology owner "
+"companies, conducting negotiations, making contracts and supervising "
+"technology transfer, in the relevant field. Meanwhile, the company "
+"identifies knowledge-based companies in the field of oil and gas and uses "
+"the maximum local capacity for the development of new technologies, at the "
+"request of investors."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:24
+#: .\product_and_services\templates\product_and_services\management_systems.html:37
+#: .\product_and_services\templates\product_and_services\management_systems.html:46
+msgid "Management Systems"
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:50
+msgid ""
+"Managing a wide network of pipelines to ensure maximum safety at the "
+"reasonable cost is impossible without the use of an integrated management "
+"system and in the form of various organizational departments."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:66
+msgid ""
+"Today, various standards have been developed to implement a system of "
+"physical asset management and integrated management and address the "
+"operators’ issues."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:69
+msgid ""
+"On the other hand, development of information technology has facilitated "
+"operators' job, In such a way that the world's major operators have "
+"implemented management systems in the form of software."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:73
+msgid ""
+"oil and gas industries will face a large number of long-lived facilities "
+"over the next few years."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:76
+msgid ""
+"Of course, optimal economic management of this volume of depreciated "
+"facilities is impossible without the use of management system, and operators "
+"are forced to implement a system of physical asset management and integrated "
+"management in order to maintain these assets."
+msgstr ""
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:79
+msgid ""
+"Implementation of data model in accordance with the requirements of "
+"operators based on physical asset management systems and integrated health "
+"management system by Iranian experts. The development of these softwares has "
+"been done by comparing internationally well-known software based on more "
+"than 20 years experience in the oil and gas industry. "
+msgstr ""
+"پیاده سازی دیتا مدل منطبق بر نیاز بهره برداران بر اساس سیستمهای مدیریت "
+"دارایی فیزیکی و مدیریت یکپارچه سلامت توسط متخصصین ایرانی.توسعه این نرم "
+"افزارها با مقایسه نرم افزارهای شناخته شده بین المللی مبتنی بر بیش از 20 سال "
+"سابقه بهره برداری در صنعت نفت و گاز صورت گرفته است."
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:84
+msgid "Integrated pipeline integrity management"
+msgstr "مدیریت یکپارچه سلامت خطوط لوله"
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:88
+msgid "Management of physical assets"
+msgstr "مدیریت داراییهای فیزیکی"
+
+#: .\product_and_services\templates\product_and_services\management_systems.html:92
+msgid "Risk management and inspection systems"
+msgstr "5-4\tسیستمهای  مدیریت ریسک و بازرسی"
+
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:14
 msgid "Coating and Cathodic Protection"
 msgstr "پوشش و حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:33
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:30
 msgid "Coating and Cathodic"
 msgstr "پوشش و حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:33
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:30
 msgid "Protection"
 msgstr "."
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:42
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:127
-#: .\templates\product_and_services\oil_and_gas\inspection.html:58
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:39
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:124
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:63
 msgid "1"
 msgstr "۱"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:44
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:41
 msgid "Design of cathodic protection systems:"
 msgstr "طراحی سیستم های حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:51
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:48
 msgid ""
 "Design of cathodic protection systems of buried structures (oil, gas, "
 "petrochemical and water pipelines, power lines and metal gas supply "
@@ -100,17 +213,17 @@ msgstr ""
 "طراحی نهایی(Detail Design Documents)، بر اساس مفاد مندرج در مراجع و "
 "استاندارد های معتبر"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:62
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:176
-#: .\templates\product_and_services\oil_and_gas\inspection.html:68
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:59
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:173
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:75
 msgid "2"
 msgstr "۲"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:65
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:62
 msgid "Supply of cathodic protection items (procurement):"
 msgstr "تامین و تهیه اقلام حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:73
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:70
 msgid ""
 "Supply of all equipment required for cathodic protection systems from "
 "reliable internal and external supplier."
@@ -118,17 +231,17 @@ msgstr ""
 "تامین اقلام و تجهیزات مورد نیاز سیستم های حفاظت کاتدی از منابع معتبر داخلی و "
 "خارجی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:89
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:247
-#: .\templates\product_and_services\oil_and_gas\inspection.html:78
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:86
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:244
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:87
 msgid "3"
 msgstr "۳"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:91
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:88
 msgid "Construction of cathodic protection systems:"
 msgstr "اجرا و احداث سیستم های حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:98
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:95
 msgid ""
 "Construction of cathodic protection stations in accordance with  IPS "
 "standard drawings and relevant design documents"
@@ -136,7 +249,7 @@ msgstr ""
 "احداث ایستگاه های حفاظت کاتدی مطابق نقشه های استاندارد IPS و مدارک طراحی "
 "مربوطه"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:111
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:108
 msgid ""
 "Construction control and monitoring equipment of cathodic  protection "
 "systems on pipelines and stations (potential test  points, connection "
@@ -147,16 +260,16 @@ msgstr ""
 "تاسیسات( نقاط اندازه گیری پتانسیل، نقاط اتصال، کوپن های اندازه گیری، ...) ، "
 "مطابق نقشه های استاندارد IPS و مدارک طراحی مربوطه"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:129
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:126
 msgid "Inspection of cathodic protection systems equipment"
 msgstr "بازرسی از اقلام و تجهیزات سیستم های حفاظت کاتدی:"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:136
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:133
 msgid ""
 "Preparation of inspection Test Plan (ITP) for cathodic protection equipment"
 msgstr "تهیه دستورالعمل های بازرسی( ITP ) اقلام حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:154
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:151
 msgid ""
 "Inspection of cathodic protection equipment in accordance with inspection "
 "procedures (ITP) and relevant standards (sampling, making samples, "
@@ -166,7 +279,7 @@ msgstr ""
 "استاندارد های مربوطه( نمونه گیری، نمونه سازی، نظارت بر انجام آزمایشات مطابق "
 "روش ها و اخذ نتایج حاصله)"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:162
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:159
 msgid ""
 "Preparation of inspection report in accordance with EN 10204 and analysis of "
 "results based on the criteria characterized in the relevant standards"
@@ -174,17 +287,17 @@ msgstr ""
 "تهیه گزارش بازرسی مطابق EN 10204 و تحلیل نتایج حاصله در تطابق با معیار های "
 "مندرج در استاندارد های مربوطه"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:178
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:175
 msgid "Inspection and supervision of coating rehabilitation projects:"
 msgstr "بازرسی و نظارت بر پروژه های احداث سیستم های حفاظت کاتدی:"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:188
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:185
 msgid ""
 "Inspection and supervision of the process of coating rehabilitation projects "
 "in accordance with the provisions of the contract documents"
 msgstr "بازرسی و نظارت بر فرآیند تعویض پوشش مطابق مفاد مندرج در شرح پیمان"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:199
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:196
 msgid ""
 "Inspection of coating material, in accordance with the Coating Inspection "
 "procedure (ITP) and relevant standards (sampling, making sample, supervision "
@@ -195,19 +308,19 @@ msgstr ""
 "استاندارد های مربوطه( نمونه گیری، نمونه سازی، نظارت بر انجام آزمایشات مطابق "
 "روش ها و تهیه گزارش بازرسی مطابق EN 10204 و تحلیل نتایج حاصله) "
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:210
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:207
 msgid ""
 "Performing all quality control tests at the site and preparing inspection "
 "report"
 msgstr "انجام کلیه آزمایشات کنترل کیفی در محل سایت و تهیه گزارش بازرسی "
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:250
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:247
 msgid ""
 "Inspection and supervision of construction projects of cathodic protection "
 "systems"
 msgstr "بازرسی و نظارت بر پروژه های احداث سیستم های حفاظت کاتدی:"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:258
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:255
 msgid ""
 "Inspection and supervision of the construction of cathodic protection "
 "stations and equipment for control and monitoring of cathodic protection "
@@ -218,7 +331,7 @@ msgstr ""
 "پایش سیستم های حفاظت کاتدی در خطوط لوله و تاسیسات مطابق نقشه های استاندارد "
 "IPS و مدارک طراحی مربوطه"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:276
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:273
 msgid ""
 "Analyzing the results of pipe to soil potential readings and cathodic "
 "protection stations data"
@@ -226,7 +339,7 @@ msgstr ""
 "تحلیل و بررسی نتایج ارقام پتانسیل لوله نسبت به خاک و ارقام ایستگاههای حفاظت "
 "کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:284
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:281
 msgid ""
 "Inspection of factory coatings and under construction weld coatings of "
 "pipelines and stations and preparing inspection report"
@@ -234,32 +347,32 @@ msgstr ""
 "بازرسی پوشش کارخانه ای و پوشش سرجوش های خطوط لوله و تاسیسات در حال احداث و "
 "تهیه گزارش"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:291
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:288
 msgid "Inspection of painting of above ground piping"
 msgstr "- بازرسی از رنگ آمیزی لوله های رو زمینی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:307
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:304
 msgid ""
 "inspecting of corrosion defects reported by ILI and preparing inspection "
 "report (pit gauge and 3D scan)"
 msgstr "بازرسی از نقاط خوردگی حاصل از نتایج پیگرانی هوشمند و ارائه گزارش"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:315
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:312
 msgid "Operation, maintenance and repair of cathodic protection systems"
 msgstr "بهره برداری و نگهداری و تعمیرات سیستم های حفاظت کاتدی"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:326
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:323
 msgid ""
 "Measurement and adjustment of drain point potential, voltage and current of "
 "transformer rectifiers"
 msgstr ""
 "اندازه گیری و تنظیم پتانسیل نقطه تزریق، ولتاژ و جریان ترانس های رکتیفایر "
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:337
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:334
 msgid "Measurement of pipe to soil potential of pipelines and piping"
 msgstr "اندازه گیری پتانسیل لوله نسبت به خاک در خطوط لوله و تاسیسات"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:348
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:345
 msgid ""
 "Repair and Maintenance of cathodic protection systems( cathodic protection "
 "systems and control and monitoring of cathodic protection systems on "
@@ -268,21 +381,21 @@ msgstr ""
 "نگهداری و تعمیرات سیستم های حفاظت کاتدی( ایستگاه های حفاظت کاتدی و تجهیزات "
 "کنترل و پایش در خطوط لوله و تاسیسات)"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:359
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:356
 msgid "Supplying all parts of transformer rectifiers and repairing."
 msgstr "تامین قطعات و تعمیر ترانس های رکتیفایر"
 
-#: .\templates\product_and_services\oil_and_gas\cathodic_protection.html:369
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cathodic_protection.html:366
 msgid "Rehabilitate of Anode ground beds"
 msgstr "احیا بستر های آندی"
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:21
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:29
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:37
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:21
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:32
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:37
 msgid "Cleaning Pigs"
 msgstr "پیگرانی تمییز کننده "
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:40
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:40
 msgid ""
 "One of the essential needs in the maintenance of pipelines is the cleaning "
 "of pipelines in specific intervals, especially before the intelligent "
@@ -299,11 +412,11 @@ msgstr ""
 "اين نوع توپك ها كه با نامهاي مختلف توسط اين شركت ها ارائه شده است، قدرت "
 "پاكسازي بسيار بيشتري نسبت به توپك هاي پاكسازي قديمي و متداول دارد. "
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:48
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:55
 msgid "They also use magnetic cleaning pigs for cleaning."
 msgstr "همچنین برای پاکسازی از پیگهای تمییز کننده مغناطیس استفاده می کنند."
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:50
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:57
 msgid ""
 "The concern of operators in this field is to ensure documented performance "
 "of these pigs."
@@ -311,7 +424,7 @@ msgstr ""
 "دغدغه بهره برداران در این زمینه حصول اطمینان بصورت مستند از عملکرد این پیگها "
 "می باشد."
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:53
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:60
 msgid ""
 "The company uses the ability of local knowledge-based companies and the "
 "transfer of technology to meet all the needs of operators in this regard."
@@ -319,7 +432,7 @@ msgstr ""
 "این شرکت با استفاده از توان شرکتهای دانش بنیان داخلی و انتقال تکنولوژی خارجی "
 "تمامی نیازهای بهره برداران در این خصوص را تامین می نماید."
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:57
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:65
 msgid ""
 "In addition to providing cleaning services, this company is able to supply "
 "local and international companies’ tool in this field, while also providing "
@@ -328,17 +441,17 @@ msgstr ""
 "این شرکت علاوه بر ارایه خدمات پیگرانی تمییز کننده قادر به تامین تجهیزات "
 "داخلی و خارجی در این حوزه می باشد ضمن اینکه خدمات ذیل را نیز ارایه می نماید:"
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:66
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:73
 msgid ""
 "Development of appropriate specifications and features for the cleaning pigs "
 "to make the appropriate pigs"
 msgstr "تدوين مشخصات و ويژگيهاي مناسب براي توپك پاكسازي جهت ساخت توپك مناسب"
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:75
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:82
 msgid "Testing and supervising the manufacture of cleaning pigs"
 msgstr "تست و نظارت بر ساخت توپك هاي پاكسازي "
 
-#: .\templates\product_and_services\oil_and_gas\cleaning_pigs.html:84
+#: .\product_and_services\templates\product_and_services\oil_and_gas\cleaning_pigs.html:91
 msgid ""
 "Providing appropriate technology to evaluate the performance of cleaning "
 "pigs and measure their effectiveness and efficiency"
@@ -346,19 +459,19 @@ msgstr ""
 "ارایه تکنولوژی مناسب جهت ارزيابي عملكرد توپك هاي پاكسازي و سنجش ميزان "
 "اثرپذيري و كارايي آنها"
 
-#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:21
+#: .\product_and_services\templates\product_and_services\oil_and_gas\ffs_ftp.html:19
 msgid "Fitness for Service & Fitness for Purpose"
-msgstr ""
+msgstr "ارزیابی عیوب"
 
-#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:29
+#: .\product_and_services\templates\product_and_services\oil_and_gas\ffs_ftp.html:31
 msgid "FFS and FTP"
-msgstr ""
+msgstr "ارزیابی عیوب"
 
-#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:39
+#: .\product_and_services\templates\product_and_services\oil_and_gas\ffs_ftp.html:41
 msgid "Fitness For Services(FFS) and Fitness For Purpose(FFP)"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:41
+#: .\product_and_services\templates\product_and_services\oil_and_gas\ffs_ftp.html:45
 msgid ""
 "Performing fitness for service assessment of pipelines using laser scan "
 "dimensions. Defect assessment software has been developed by Iranian experts."
@@ -366,16 +479,16 @@ msgstr ""
 "انجام ارزیابی فشار پذیری خطوط لوله با استفاده از ابعاد برداری لیزر اسکن. نرم "
 "افزار ارزیابی عیوب توسط متخصصین ایرانی توسعه یافته است."
 
-#: .\templates\product_and_services\oil_and_gas\ffs_ftp.html:43
+#: .\product_and_services\templates\product_and_services\oil_and_gas\ffs_ftp.html:49
 msgid "In addition, it is possible to feed information to external software."
 msgstr "ضمن اینکه امکان تغذیه اطلاعات به نرم افزارهای خارجی نیز وجود دارد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:21
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:29
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:15
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:26
 msgid "Inline Inspection"
 msgstr "پیگرانی هوشمند "
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:33
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:30
 msgid ""
 "There are various methods to identify defects in oil and gas pipelines. "
 "Pipeline operators choose a method or a combination of the according to the "
@@ -384,19 +497,19 @@ msgstr ""
 "برای شناسایی عیوب خطوط لوله نفت و گاز روشهای متنوعی موجود است بهره برداران "
 "خطوط لوله با توجه به : "
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:38
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:35
 msgid "capabilities of these methods"
 msgstr "قابلیتهای این روشها"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:42
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:39
 msgid "pipeline conditions"
 msgstr "شرایط خط لوله "
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:46
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:43
 msgid "costs"
 msgstr "هزینه های اجرایی"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:54
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:51
 msgid ""
 "According to the experiences of large pipeline operators, various criteria "
 "for selecting these methods can be enumerated. Each smart pig has the "
@@ -406,16 +519,16 @@ msgstr ""
 "این روشها می توان برشمرد.هر پیگ هوشمند قابلیت شناسایی رنج وسیعی از عیوب را "
 "دارا می باشد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:57
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:54
 msgid "Types of smart pigs are:"
 msgstr "انواع پیگهای هوشمند عبارتند از :"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:66
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:63
 msgid "EGP (Electronic Geometry Pig)"
 msgstr "پیگ هوشمند (EGP):"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:69
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:293
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:66
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:290
 msgid ""
 "It is used to check the roundness of the pipe cross section and is available "
 "in both mechanical and electronic forms."
@@ -423,12 +536,12 @@ msgstr ""
 "برای بررسی گرد بودن مقطع لوله بکار می رود و به دو صورت مکانیکی و الکترونیکی "
 "موجود می باشد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:87
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:84
 msgid "MFL (Magnetic Flux Leakage)"
 msgstr "پیگ هوشمند (MFL):"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:89
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:150
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:86
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:147
 msgid ""
 "This tool uses the principles of magnetic flux leakage. The magnetic flux "
 "density in a metal leak, where its thickness has decreased due to corrosion. "
@@ -440,7 +553,7 @@ msgstr ""
 "گیری این نشت مغناطیسی توسط سنسورهایHall  که مستقیماً شار مغناطیسی را اندازه "
 "گیری می کنند محل خوردگی شناسایی می گردد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:99
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:96
 msgid ""
 "Of course, this device has disadvantages, including the similar effect of "
 "different phenomena, because the sensors measure and record any kind of flux "
@@ -451,7 +564,7 @@ msgstr ""
 "زیرا سنسورها هر نوع تغییر شاری را اندازه گیری و ثبت می نمایند و بایستی تفاوت "
 "بین آنها توسط مفسرین مشخص گردد . "
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:101
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:98
 msgid ""
 "Other disadvantages of this tool include the inability to detect SCC in the "
 "early stages of its development. While using this method is more expensive "
@@ -461,26 +574,26 @@ msgstr ""
 "آن می باشد . ضمن اینکه استفاده از این روش نسبت به روشهای دیگر هزینه بسیار "
 "زیادی دارد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:117
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:114
 msgid ""
 "MFL are intended to detect, locate and size general corrosion, pitting "
 "corrosion, circumferential cracks, grith weld anomalies, pipeline "
 "construction features, other anomalies of circumferential orientation."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:134
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:172
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:131
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:169
 msgid ""
 "TFI tools are intended to detect, locate and size all anomalies of axial "
 "orientation, including stress corrosion cracking, axial cracks, longitudinal "
 "weld anomalies, pipeline construction features, etc.."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:147
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:144
 msgid "TFI (Transverse Field Inspection)"
 msgstr "پیگ هوشمند (TFI)"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:221
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:218
 #, python-format
 msgid ""
 "According to a 10-year study of smart pigging reports by Russian Gazprom, "
@@ -499,64 +612,64 @@ msgstr ""
 "می کند. از طرف دیگر افزایش هزینه افزودن پیگ TFI در مقایسه با کل پروژه قابل "
 "قبول و توجیه پذیر می باشد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:232
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:229
 msgid "General corrosion"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:239
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:236
 msgid "Grooves"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:247
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:244
 msgid "Girth weld anomalies"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:254
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:251
 msgid "Pitting"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:261
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:258
 msgid "SCC and Cracks"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:268
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:265
 msgid "Mill defects"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:275
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:272
 msgid "Dents"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:290
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:287
 msgid "UT (Ultrasonic tool)"
 msgstr "پیگ هوشمند (UT):"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:333
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:304
 msgid "Advantages"
 msgstr "مزایا"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:346
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:309
 msgid "Accurate and reliable measurement of pipe wall thickness"
 msgstr "اندازه گيري دقيق و قابل اطمينان ضخامت ديواره لوله"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:358
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:313
 msgid "No restrictions on measuring high thicknesses"
 msgstr "عدم محدوديت در اندازه گيري ضخامتهاي بالا"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:370
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:317
 msgid ""
 "In conditions which there are many defects,Ut is more sensitive than mfl"
 msgstr "در شناسايي تعداد بالاي عيوب از پيگ MFL  حساستر است."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:382
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:321
 msgid "Lamination detection"
 msgstr "عیوب لایه شدن را تشخیص می دهد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:408
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:328
 msgid "Disadvantages"
 msgstr "معایب"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:422
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:334
 msgid ""
 "Due to the need for liquid fluid to transmit and receive sound waves, this "
 "pig has only the ability to inspect the lines carrying liquid fluid and can "
@@ -566,15 +679,15 @@ msgstr ""
 "قابليت بازرسي خطوط حامل سيال مايع را دارا ميباشد و امكان استفاده در خطوط "
 "انتقال گاز وجود ندارد."
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:435
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:347
 msgid "EMAT"
 msgstr "پیگ هوشمند (EMAT):"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:435
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:347
 msgid "(Electromagnetic Acoustic Transducer)"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:438
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:350
 msgid ""
 "Whenever a conductive material conducting electricity is near the surface of "
 "a metal, and is placed in a magnetic field, electromagnetic force enters the "
@@ -592,7 +705,7 @@ msgstr ""
 "طولي و يا ورقي در فلز شود. با اين روش در واقع لزوم وجود ماده واسط براي ايجاد "
 "موج التراسونيك از بين مي رود و خطوط حاوي گاز نيز بدين روش  قابل  بازرسي هستند"
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:448
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:360
 msgid ""
 "In this method, the coil and the permanent magnet are located near the metal "
 "surface. forced by radio waves (RF) and produce eddy currents. These waves "
@@ -601,25 +714,25 @@ msgstr ""
 "در اين روش سيم پيچ و مگنت دايم در نزديكي سطح فلز قرار دارند . سيم پيچ توسط "
 "امواج راديويي(RF)تحريك ميشوند و امواج گردابي (Eddy current) توليد ميكنند "
 
-#: .\templates\product_and_services\oil_and_gas\inline_inspection.html:450
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inline_inspection.html:362
 msgid "They cause mechanical strain, so they emit sound waves in the pipe."
 msgstr ""
 "اين امواج در تماس مغناطيس دايمكرنش مكانيكي را سبب ميشوند بنابراين در لوله  "
 "امواج صوتي صادر ميگردند."
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:21
-#: .\templates\product_and_services\oil_and_gas\inspection.html:29
-#: .\templates\product_and_services\oil_and_gas\inspection.html:38
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:22
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:33
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:42
 msgid "Inspection"
 msgstr "پیگرانی هوشمند "
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:39
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:43
 #, fuzzy
 #| msgid " Fixed Equipment and Instruments "
 msgid "(Fixed Equipment and Instruments)"
 msgstr "(مکانیک، برق و ابزاردقیق)"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:41
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:46
 msgid ""
 "Our company uses experienced, qualified personnel to inspect all types of "
 "equipment in accordance with international standards and procedures."
@@ -627,145 +740,145 @@ msgstr ""
 "این شرکت با استفاده از نیروهای مجرب بازرسی انواع تجهیزات را بر اساس "
 "استانداردها و دستورالعمل های بین المللی انجام می دهد."
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:60
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:66
 msgid ""
 "Inspection of Electrical and Instrument Equipments in Accordance with ITP"
 msgstr ""
 "بازرسي سيستم زمين (بازرسي چشمي، اندازه گيري مقاومت اتصالات، اندازه گيري "
 "مقاومت زمين ، همبندي)"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:70
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:78
 msgid ""
 "Inspection of The Earthing System (Visual Inspection, Resistance Tests "
 "Across Joints, Measurement of Electrode System Resistance to Earth, Checking "
 "The Integrity of the Bonding)"
 msgstr "بازرسي از نحوه ي همبندي بين سيستم زمين فشار قوي و سيستم زمين فشار ضعيف"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:80
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:90
 msgid ""
 "Inspection of The Bonding Between High Voltage Earthing System and Low "
 "Voltage Earthing System"
 msgstr "بازرسي سيستم حفاظت در مقابل صاعقه (حين بهره برداري و حين خريد تجهيزات)"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:88
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:99
 msgid "4"
 msgstr "۴"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:90
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:102
 msgid ""
 "Inspection of The Lightning Protection System During Purchase and Operation"
 msgstr "بازرسی از اقلام و تجهیزات سیستم های حفاظت کاتدی:"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:98
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:111
 msgid "5"
 msgstr "۵"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:100
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:114
 msgid "Inspection of The Power Transformer during purchase and operation"
 msgstr ""
 "بازرسي از ترانسفورماتورهاي يكسوساز سيستم حفاظت كاتدي حين خريد و بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:108
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:123
 msgid "6"
 msgstr "۶"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:110
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:126
 msgid ""
 "Inspection of The Rectifier Transformer for Cathodic Protection System "
 "During Purchase and Operation"
 msgstr "بازرسي از كفپوش عايق الكتريكي حين خريد و بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:118
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:135
 msgid "7"
 msgstr "۷"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:120
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:138
 msgid ""
 "Inspection of The Electrical Insulating Matting During Purchase and Operation"
 msgstr "بازرسي از رله هاي حفاظتي تك حفاظته و چند حفاظته"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:128
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:147
 msgid "8"
 msgstr "۸"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:130
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:150
 msgid "Inspection of The Single Function and Multi-Function Protection Relays"
 msgstr "بازرسي از موتورهاي الكتريكي حين خريد و بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:138
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:159
 msgid "9"
 msgstr "۹"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:140
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:162
 msgid "Inspection of The Electrical Motors During Purchase and Operation"
 msgstr "بازرسي از موتورهاي الكتريكي ضد انفجار حين خريد"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:148
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:171
 msgid "10"
 msgstr "۱۰"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:150
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:174
 msgid "Inspection of The Explosion Proof Electric Motors During Purchase"
 msgstr "بازرسي از باطري حين خريد و بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:158
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:183
 msgid "11"
 msgstr "۱۱"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:160
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:186
 msgid "Inspection of The Battery During Purchase and Operation"
 msgstr "ازرسي از كابل ولتاژ پايين و ولتاژ متوسط حين خريد و بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:168
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:195
 msgid "12"
 msgstr "۱۲"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:170
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:198
 msgid ""
 "Inspection of The High and Low Voltage Cables During Purchase and Operation"
 msgstr "بازرسي از مواد كاهنده مقاومت الكتريكي سيستم زمين"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:178
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:207
 msgid "13"
 msgstr "۱۳"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:180
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:210
 msgid ""
 "Inspection of The Enhancing Compounds for Reducing the Electrical Resistance "
 "of Earthing System"
 msgstr "بازرسي از رله هاي الكتريكي  كليدهاي هوايي"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:188
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:219
 msgid "14"
 msgstr "۱۴"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:190
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:222
 msgid "Inspection of The Air Circuit Breakers Protection Relays"
 msgstr "بازرسي از برقگيرهاي ولتاژ متوسط خطوط تغذيه"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:198
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:231
 msgid "15"
 msgstr "۱۵"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:200
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:234
 msgid ""
 "Inspection of The Metal – Oxide Surge Arresters Without Gaps for Ac System"
 msgstr "بازرسي از دكل هاي مخابراتي حين بهره برداري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:208
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:243
 msgid "16"
 msgstr "۱۶"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:210
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:246
 msgid "Inspection of The Telecommunication Towers During Operation"
 msgstr ""
 "بازرسي از روغن ترانسفورماتورهاي قدرت حين خريد و بهره برداري (آزمون كيفي)"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:218
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:255
 msgid "17"
 msgstr "۱۷"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:220
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:258
 msgid ""
 "Inspection of the Mineral insulating oils in electrical equipment During "
 "Purchase and Operation"
@@ -773,93 +886,93 @@ msgstr ""
 "پايش وضعيت و عيب يابي ترانسفورماتورهاي قدرت حين بهره برداري با استفاده از  "
 "آزمون گازكروماتوگرافي روغن"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:228
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:267
 msgid "18"
 msgstr "۱۸"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:230
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:270
 msgid ""
 "Inspection of The Mineral Oil-Filled Electrical Equipment in Service – "
 "Guidance On the Interpretation of Dissolved and Free Gases Analysis"
 msgstr ""
 "بازرسي از نحوه ي نمونه برداري روغن براي آزمون كنترل كيفي و گازكروماتوگرافي"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:238
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:279
 msgid "19"
 msgstr "۱۹"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:240
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:282
 msgid ""
 "Inspection of The Method of Sampling Insulating Liquids for Quality Control "
 "and Gas Chromatography Testes"
 msgstr "بازرسي حين خريد از مولدهاي برق اضطراري"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:248
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:291
 msgid "20"
 msgstr "۲۰"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:250
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:294
 msgid "Inspection of The Emergency Power Generators During Purchase"
 msgstr "بازرسي حين خريد از منابع تغذيه بدون وقفه "
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:258
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:303
 msgid "21"
 msgstr "۲۱"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:260
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:306
 msgid "Inspection of The Uninterruptible Power Supply During Purchase"
 msgstr "بازرسي از تابلوهاي فشار ضعيف و فشار قوي حين خريد"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:268
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:315
 msgid "22"
 msgstr "۲۲"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:270
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:318
 msgid ""
 "Inspection of The Low Voltage and High Voltage Switchgear During Purchase "
 msgstr "بازرسي از منابع تغذيه سوئيچينگ سيستم حفاظت كاتدي"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:278
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:327
 msgid "23"
 msgstr "۲۳"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:280
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:330
 msgid "Inspection of the Switching Power Supplies for Cathodic Protection"
 msgstr "بازرسي از منابع تغذيه سوئيچينگ سيستم حفاظت كاتدي"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:288
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:339
 msgid "24"
 msgstr "۲۴"
 
-#: .\templates\product_and_services\oil_and_gas\inspection.html:290
+#: .\product_and_services\templates\product_and_services\oil_and_gas\inspection.html:342
 msgid "Inspection of the Polarization Cell Replacement During Purchase"
 msgstr "بازرسي ازدستگاه سل پلاريزه كننده ( PCR )حين خريد"
 
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:21
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:29
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:38
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:21
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:32
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:41
 msgid "Leak Detection"
 msgstr "نشت یابی"
 
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:43
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:46
 msgid "FID and laser leak detection with ATEX certification"
 msgstr "انجام نشت یابی دستی FID و لیزری دارای گواهی نامه ATEX "
 
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:47
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:50
 msgid "Car/vehicle leak detection"
 msgstr "انجام نشت یابی خودرویی"
 
-#: .\templates\product_and_services\oil_and_gas\leak_detection.html:51
+#: .\product_and_services\templates\product_and_services\oil_and_gas\leak_detection.html:54
 msgid "Leak detection of oil and gas pipelines using satellite images"
 msgstr "نشت یابی خطوط لوله نفت و گاز با استفاده از تصاویر ماهواره ای"
 
-#: .\templates\product_and_services\oil_and_gas\repairing.html:12
-#: .\templates\product_and_services\oil_and_gas\repairing.html:29
-#: .\templates\product_and_services\oil_and_gas\repairing.html:38
+#: .\product_and_services\templates\product_and_services\oil_and_gas\repairing.html:13
+#: .\product_and_services\templates\product_and_services\oil_and_gas\repairing.html:25
+#: .\product_and_services\templates\product_and_services\oil_and_gas\repairing.html:34
 msgid "Repairing"
 msgstr "تعمیرات"
 
-#: .\templates\product_and_services\oil_and_gas\repairing.html:40
+#: .\product_and_services\templates\product_and_services\oil_and_gas\repairing.html:37
 msgid ""
 "Metal and non-Metal(Composite) repairing of pipelines and vessels and "
 "reservoirs"
@@ -868,11 +981,11 @@ msgstr ""
 "تعمیرات مورد نیاز بر روی ولوهای از رده خارج شده با انجام تستهای عملکردی و "
 "بازگشت به سرویس اقدام می نماید."
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:28
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:26
 msgid "Under Water Inspection-ROV"
 msgstr "پیگرانی هوشمند "
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:33
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:31
 msgid ""
 "Offshore pipeline inspection can be operated by scuba diver or mounted on a "
 "ROV."
@@ -881,102 +994,102 @@ msgstr ""
 "بدست آمده در بازرسی خطوط لوله زیر دریایی، از نظر بهره برداران رضایتبخش بوده "
 "است. این بازرسی توسط تیم غواصی و یا دستگاه ROV صورت می گیرد."
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:43
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:60
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:81
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:94
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:109
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:124
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:41
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:58
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:79
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:92
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:107
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:122
 msgid "STAGE"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:44
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:42
 msgid "I"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:52
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:50
 msgid "Preparation :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:54
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:52
 msgid ""
 "Collecting and analysis of all necessary information about the pipeline and "
 "preparing the equipment."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:60
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:58
 msgid "II"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:67
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:65
 msgid "Field :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:70
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:68
 msgid "Visual survey of trace with photo-video-recording"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:75
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:73
 msgid "Contactless magnetometric inspection with KMD-02R."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:81
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:79
 msgid "III"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:88
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:86
 msgid "Express-Analysis :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:89
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:87
 msgid "Express analysis of the magnetometric."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:94
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:124
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:92
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:122
 msgid "VI"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:101
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:99
 msgid "AFDT :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:103
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:101
 msgid ""
 "By the request of the Customer Additional Flaw Detect Tests by non-"
 "destructive(NDT) contact methods can be executed - measuring of the "
 "thickness and hardness etc."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:109
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:107
 msgid "V"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:116
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:114
 msgid "Data Processing :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:118
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:116
 msgid ""
 "The processing and interpretation of the received data is held in the "
 "Analytic Center."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:131
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:129
 msgid "Report :"
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\under_water_inspection.html:133
+#: .\product_and_services\templates\product_and_services\oil_and_gas\under_water_inspection.html:131
 msgid ""
 "The report and the final condition conclusion on the technical state of the "
 "pipeline including the digital maps of the detected anomalies is made."
 msgstr ""
 
-#: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:25
+#: .\product_and_services\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:18
 msgid "Unpigable Pipelines"
 msgstr "بازرسی خطوط لوله و پایپینگ غیر قابل پیگرانی"
 
-#: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:40
+#: .\product_and_services\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:36
 msgid ""
 "About 40 to 60 percent of pipelines are non-pigable, while the problems of "
 "inline inspection and its high cost have limited the use of this method. As "
@@ -995,11 +1108,11 @@ msgstr ""
 "شرکت با بررسی روشهای موجود، دو روش HATs(Hybrid Acoustic Technology System) و "
 "روش اندازه گیری اعوجاجهای مغناطیسی اطراف عیوب را توصیه می کند."
 
-#: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:282
+#: .\product_and_services\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:278
 msgid "Buried Pipeline Inspection"
 msgstr "بازرسی خط لوله مدفون"
 
-#: .\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:285
+#: .\product_and_services\templates\product_and_services\oil_and_gas\unpigable_pipelines.html:281
 msgid ""
 "Measurement of magnetic distortion of buried lines up to 10 times the "
 "diameter of the pipe is possible. obtained results in the inspection of "
@@ -1009,13 +1122,13 @@ msgstr ""
 "می باشد و نتایج بدست آمده در بازرسی خطوط لوله مدفون، از نظر بهره برداران "
 "رضایتبخش بوده است."
 
-#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:12
-#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:29
-#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:38
+#: .\product_and_services\templates\product_and_services\oil_and_gas\valve_clinic.html:13
+#: .\product_and_services\templates\product_and_services\oil_and_gas\valve_clinic.html:25
+#: .\product_and_services\templates\product_and_services\oil_and_gas\valve_clinic.html:34
 msgid "Valve Clinic"
 msgstr "کلینیک تخصصی ولو"
 
-#: .\templates\product_and_services\oil_and_gas\valve_clinic.html:40
+#: .\product_and_services\templates\product_and_services\oil_and_gas\valve_clinic.html:37
 msgid ""
 "This company uses the ability of Iranian specialists and local companies to "
 "perform the required repairs on valves by executing performance tests and "
@@ -1024,6 +1137,105 @@ msgstr ""
 "این شرکت با استفاده از توان متخصصین ایرانی و شرکتهای داخلی نسبت  انجام "
 "تعمیرات مورد نیاز بر روی ولوهای از رده خارج شده با انجام تستهای عملکردی و "
 "بازگشت به سرویس اقدام می نماید."
+
+#: .\product_and_services\templates\product_and_services\process_units.html:24
+#: .\product_and_services\templates\product_and_services\process_units.html:36
+#: .\product_and_services\templates\product_and_services\process_units.html:45
+msgid "Process Units"
+msgstr "واحد های فرایندی"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:48
+msgid ""
+"ABDI-GROUP Relying on the knowledge of its founders in the field of oil, gas "
+"and petrochemical processes, conducting feasibility studies for Mini-Plants, "
+"also provides design, construction and commissioning services for these "
+"units."
+msgstr ""
+"گروه عبدی با تکیه بر دانش متولیان خود در حوزه فرآیندهای نفت، گاز و پتروشیمی، "
+"ضمن انجام مطالعات امکان سنجی واحدهای کوچک ، خدمات طراحی، ساخت و راه اندازی "
+"این واحدها را نیز انجام می دهد."
+
+#: .\product_and_services\templates\product_and_services\process_units.html:51
+msgid ""
+"The company is also providing project executive managing by highly skilled "
+"experts in this field"
+msgstr ""
+"این شرکت با استفاده از کارشناسان توانمند در این حوزه مدیریت پروژه های اجرایی "
+"را نیز عهده دار می گردد."
+
+#: .\product_and_services\templates\product_and_services\process_units.html:65
+msgid "Basic Design"
+msgstr "طراحی پایه (Basic Design)"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:69
+msgid "Detail Design"
+msgstr "طراحی تفصیلی (Detail Design)"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:73
+msgid ""
+"Procurment services & Procurement  of Chemical , Desicants , Adsorbants & "
+"Catalysts"
+msgstr "خدمات مهندسی خرید و خرید موادشیمیایی و جاذبهای شیمیایی و کاتالیست"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:77
+msgid "( Precommissiong / Commissioning & Start up of Process & Utility units)"
+msgstr "پیش راه اندازی و راه اندازی واحدهای فرایندی و یوتیلیتی"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:81
+msgid "(Production operation of Process & Utility Units)"
+msgstr "عملیات بهره برداری واحدهای فرایندی و یوتیلیتی"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:85
+msgid ""
+"(Training of engineering  and operation personnel of chemical , "
+"petrochemical & Utility Units and plants)"
+msgstr "آموزش کارکنان مهندسی و بهره برداری واحد های شیمیایی"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:91
+msgid "Training Courses"
+msgstr "برگزاری دوره های آموزشی شامل"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:96
+msgid "Process Engineer Courses"
+msgstr ""
+"تربیت مهندس فرایند شامل آشنایی با مدارک فرایندی . تهیه نقشه های فرایندی "
+"سایزینگ تجهیزات. تهیه دیتاشیت تجهیزات. سایزینگ خطوط. تهیه لیست تجهیزات و "
+"خطوط. انجام محاسبات فرایندی."
+
+#: .\product_and_services\templates\product_and_services\process_units.html:100
+msgid "Providing ESD, UDD, P&ID, PFD Maps"
+msgstr "نقشه های PFD ,P&ID ,UDD ,ESD"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:104
+msgid "Chemical plants simulation : AspenHysis, PRO II"
+msgstr "نرم افزارهای شبیه سازی فرایند های شیمیایی AspenHysys, PRO ll"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:108
+msgid "Heat Exchanger and Air cooler Simulation: EDR, HTRI"
+msgstr "نرم افزارهای طراحی مبدلهای حرارتی و خنک کنهای هوایی HTRI, EDR"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:112
+msgid "Fluid Distribution simulation: OLGA, Pipesim, Pipephase, OLGA"
+msgstr ""
+"نرم افزارهای های انجام مطالعات هیدرولیکی و شبکه های توزیع و انتقال سیال "
+"Pipenet, pipesim, Pipephase, OLGA"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:116
+msgid "Surge Study  AFT Impulse"
+msgstr "نرم افزارهای انجام مطالعات ضربه قوچ Surge Study, AFT Impulse"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:120
+msgid "Steam & Condensate Network  , Cooling Water Network"
+msgstr "آشنایی با تجهیزات و سیکلها و شبکه های آب و بخار و آب خنک کننده"
+
+#: .\product_and_services\templates\product_and_services\process_units.html:124
+msgid ""
+"Pressure Safety & Relief Valves (PSVs & PRVs), Blow Down Valves (BDVs) ,"
+"Flare Network"
+msgstr ""
+"آشنایی با شیر های ایمینی شیر های تخلیه و فلر استانداردهای مرتبط API "
+"520/521/526 IPS 450/460/470, Flare Tip & Accessories, Flare Network, Blow "
+"Down Valves(BVDs), Pressure Safety & Relief Valves(PSVs & PRVs)"
 
 #~ msgid "Leak detection"
 #~ msgstr "عیوب لایه شدن را تشخیص می دهد."

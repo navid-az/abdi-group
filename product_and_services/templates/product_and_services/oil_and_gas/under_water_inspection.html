@@ -1,12 +1,7 @@
 {% extends 'base.html' %} {% load i18n %} {% load static %}
 {% block translateFa %}{% url 'product-and-services:under-water-inspection' %}{% endblock translateFa %} 
 {% block translateEn %}{% url 'product-and-services:under-water-inspection' %}{% endblock translateEn %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>{% block title %} Under Water Inspection {% endblock title %}</title>
     {% block more_css %}
 
@@ -18,9 +13,12 @@
         <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/under-water-inspection/css/under-water-inspection-fa.css' %}">
   {% endif %}
     {% endblock more_css %}
-  </head>
-  <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/under-water-inspection/images/under-water-inspection-hero.jpg' %}
+    {% block content %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/under-water-inspection/images/under-water-inspection-hero.jpg' page_image='svgs/under-water-inspection-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/under-water-inspection/images/under-water-inspection-hero.jpg' page_image='svgs/under-water-inspection-hexa.svg' %}
+    {% endif %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -139,5 +137,3 @@
       </div>
     </div>
     {% endblock content %}
-  </body>
-</html>

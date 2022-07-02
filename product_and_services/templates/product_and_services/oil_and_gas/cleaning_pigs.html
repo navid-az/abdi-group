@@ -1,93 +1,98 @@
-{% extends 'base.html' %} {% load i18n %}  {% load static %}
-{% block translateFa %}{% url 'product-and-services:cleaning-pigs' %}{% endblock translateFa %} 
+{% extends 'base.html' %} {% load i18n %} {% load static %} {% block translateFa %}
+{% url 'product-and-services:cleaning-pigs' %}{% endblock translateFa %}
 {% block translateEn %}{% url 'product-and-services:cleaning-pigs' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'product-and-services:cleaning-pigs' %}{% endblock translateEnMobile %}
 {% block translateFaMobile %}{% url 'product-and-services:cleaning-pigs' %}{% endblock translateFaMobile %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% block more_css %}
-    <link
-    rel="stylesheet"
-    href="{% static 'product_and_services/oil_and_gas/cleaning-pigs/css/cleaning-pigs.css' %}"
-    />
-    {% if LANGUAGE_CODE == 'fa' %}
-    <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/inline-inspection/css/cleaning-pigs-fa.css' %}">
-    {% endif %}
-    {% endblock more_css %}
-    <title>{% block title %}{% trans "Cleaning Pigs" %}{% endblock title %}</title>
-  </head>
-  <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pigs-hero.jpg' %}
-    <div class="mobile-curved-bg">
-      <div class="container">
-        <div class="page-title">
-          <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
-          <h4>{% trans "Cleaning Pigs" %}</h4>
-        </div>
-        <div class="inline-inspect-intro">
-          <div class="title">
-            <img
-              src=" /static/capabilities/svgs/3hexaIcon.svg "
-              alt="3hexaIcon"
-            />
-            <h2>{% trans "Cleaning Pigs" %}:</h2>
-          </div>
-          <p>
-            {% trans "One of the essential needs in the maintenance of pipelines is the cleaning of pipelines in specific intervals, especially before the intelligent inspection. Today in order to clean the pipelines, leading international companies in the field of pipeline inspection, design and manufacture High-efficiency cleaning pigs. These types of pigs, which are offered by different companies under different names, have much more cleaning effectivness than the old and common cleaning pigs." %}
-          </p>
-          <div class='cleaning-pig-img'>
-            <img src="{% static 'product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pig-1.jpg' %}" alt="cleaning pig 1">
-            <img class='md-none' src="{% static 'product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pig-3.png' %}" alt="cleaning pig 1">
-          </div>
-        </div>
-        <div class="cleaning-sevices-wrapper">
-          <p>{% trans "They also use magnetic cleaning pigs for cleaning." %}</p>
-          <p>
-            {% trans "The concern of operators in this field is to ensure documented performance of these pigs." %}
-          </p>
-          <p>
-            {% trans "The company uses the ability of local knowledge-based companies and the transfer of technology to meet all the needs of operators in this regard." %}
-          </p>
-          <ul class="cleaning-services-list">
-            <p>
-              {% trans "In addition to providing cleaning services, this company is able to supply local and international companies’ tool in this field, while also providing the following services :" %}
-            </p>
-            <br>
-            <li>
-              <img
-                src="{% static 'svgs/s-green-hexa.svg' %}"
-                alt="small green hexa"
-              />
-              <p>
-                {% trans "Development of appropriate specifications and features for the cleaning pigs to make the appropriate pigs" %}
-              </p>
-            </li>
-            <li>
-              <img
-                src="{% static 'svgs/s-green-hexa.svg' %}"
-                alt="small green hexa"
-              />
-              <p>
-                {% trans "Testing and supervising the manufacture of cleaning pigs" %}
-              </p>
-            </li>
-            <li>
-              <img
-                src="{% static 'svgs/s-green-hexa.svg' %}"
-                alt="small green hexa"
-              />
-              <p>
-                {% trans "Providing appropriate technology to evaluate the performance of cleaning pigs and measure their effectiveness and efficiency" %}
-              </p>
-            </li>
-          </ul>
-        </div>
+{% block more_css %}
+<link
+  rel="stylesheet"
+  href=" {% static 'product_and_services/oil_and_gas/cleaning-pigs/css/cleaning-pigs.css' %} "
+  />
+{% if LANGUAGE_CODE == 'fa' %}
+  <link rel="stylesheet" href="{% static 'product_and_services/oil_and_gas/cleaning-pigs/css/cleaning-pigs-fa.css' %}" />
+{% endif %}
+{% endblock more_css %}
+{% block meta-descriptions %}
+<meta
+  name="description"
+  content="This company uses the ability of Iranian specialists and local companies to perform the required repairs on valves by executing performance tests and returning to service."
+/>
+{% endblock meta-descriptions %}
+<title>{% block title %}{% trans "Cleaning Pigs" %}{% endblock title %}</title>
+{% block content %}
+{% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pigs-hero.webp' page_image='svgs/cleaning-pigs-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pigs-hero.webp' page_image='svgs/cleaning-pigs-hexa.svg' %}
+{% endif %}
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="page-title">
+      <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+      <h4>{% trans "Cleaning Pigs" %}</h4>
+    </div>
+    <div class="inline-inspect-intro">
+      <div class="title">
+        <img src=" /static/capabilities/svgs/3hexaIcon.svg " alt="3hexaIcon" />
+        <h2>{% trans "Cleaning Pigs" %}:</h2>
+      </div>
+      <p>
+        {% trans "One of the essential needs in the maintenance of pipelines is the cleaning of pipelines in specific intervals, especially before the intelligent inspection. Today in order to clean the pipelines, leading international companies in the field of pipeline inspection, design and manufacture High-efficiency cleaning pigs. These types of pigs, which are offered by different companies under different names, have much more cleaning effectivness than the old and common cleaning pigs." %}
+      </p>
+      <div class="cleaning-pig-img">
+        <img
+          src="{% static 'product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pig-1.webp' %}"
+          alt="cleaning pig 1"
+        />
+        <img
+          class="md-none"
+          src="{% static 'product_and_services/oil_and_gas/cleaning-pigs/images/cleaning-pig-3.webp' %}"
+          alt="cleaning pig 1"
+        />
       </div>
     </div>
-    {% endblock content %}
-  </body>
-</html>
+    <div class="cleaning-sevices-wrapper">
+      <p>{% trans "They also use magnetic cleaning pigs for cleaning." %}</p>
+      <p>
+        {% trans "The concern of operators in this field is to ensure documented performance of these pigs." %}
+      </p>
+      <p>
+        {% trans "The company uses the ability of local knowledge-based companies and the transfer of technology to meet all the needs of operators in this regard." %}
+      </p>
+      <br />
+      <ul class="list">
+        <p>
+          {% trans "In addition to providing cleaning services, this company is able to supply local and international companies’ tool in this field, while also providing the following services :" %}
+        </p>
+        <li>
+          <img
+            src="{% static 'svgs/s-green-hexa.svg' %}"
+            alt="small green hexa"
+          />
+          <p>
+            {% trans "Development of appropriate specifications and features for the cleaning pigs to make the appropriate pigs" %}
+          </p>
+        </li>
+        <li>
+          <img
+            src="{% static 'svgs/s-green-hexa.svg' %}"
+            alt="small green hexa"
+          />
+          <p>
+            {% trans "Testing and supervising the manufacture of cleaning pigs" %}
+          </p>
+        </li>
+        <li>
+          <img
+            src="{% static 'svgs/s-green-hexa.svg' %}"
+            alt="small green hexa"
+          />
+          <p>
+            {% trans "Providing appropriate technology to evaluate the performance of cleaning pigs and measure their effectiveness and efficiency" %}
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

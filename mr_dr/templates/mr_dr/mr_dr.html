@@ -3,12 +3,6 @@
 {% block translateEn %}{% url 'mr-dr:mr-dr' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'mr-dr:mr-dr' %}{% endblock translateEnMobile %}
 {% block translateFaMobile %}{% url 'mr-dr:mr-dr' %}{% endblock translateFaMobile %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block more_css %}
         <link
         rel="stylesheet"
@@ -19,10 +13,12 @@
         {% endif %}
     {% endblock more_css %}
     <title>{% block title %}{% trans "Mr Dr" %}{% endblock title %}</title>
-</head>
-<body>
     {% block content %}
-    {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/mr-dr-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/mr-dr-hexa.svg' %}
+    {% endif %}
     <div class="mobile-curved-bg">
         <div class="container">
             <div class="page-title">
@@ -95,5 +91,3 @@
         </div>
     </div>
     {% endblock content %}
-</body>
-</html>

@@ -15,9 +15,9 @@ with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
     SECRET_KEY = f.read().strip()
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
+ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir','127.0.0.1']
 # ,'127.0.0.1'
 
 # Application definition
@@ -90,26 +90,26 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 # }
 
 # mySQL database
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'abdiGroup',
-#         'HOST': '127.0.0.1',
-#         'PORT': '3306',
-#         'USER': 'root',
-#         'PASSWORD': 'MySQL_1380',
-#     }
-# }
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abdigrou_db',
+        'NAME': 'abdiGroup',
         'HOST': '127.0.0.1',
         'PORT': '3306',
-        'USER': 'abdigrou_navid',
+        'USER': 'root',
         'PASSWORD': 'MySQL_1380',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'abdigrou_db',
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#         'USER': 'abdigrou_navid',
+#         'PASSWORD': 'MySQL_1380',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators

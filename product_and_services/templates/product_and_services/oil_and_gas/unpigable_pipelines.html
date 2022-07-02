@@ -3,13 +3,6 @@
 {% block translateEn %}{% url 'product-and-services:unpigable-pipelines' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'product-and-services:unpigable-pipelines' %}{% endblock translateEnMobile %} 
 {% block translateFaMobile %}{% url 'product-and-services:unpigable-pipelines' %}{% endblock translateFaMobile %}
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block more_css %}
       <link
         rel="stylesheet"
@@ -23,9 +16,12 @@
       {% endif %} 
     {% endblock more_css %}
     <title>{% block title %}{% trans "Unpigable Pipelines" %}{% endblock title %}</title>
-  </head>
-  <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg'%}
+    {% block content %}
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' page_image='svgs/unpigable-pipelines-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' page_image='svgs/unpigable-pipelines-hexa.svg' %}
+    {% endif %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -293,5 +289,3 @@
       </div>
     </div>
     {% endblock %}
-  </body>
-</html>

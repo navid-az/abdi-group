@@ -1,0 +1,83 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa %}{% url 'product-and-services:industrial-technology' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'product-and-services:industrial-technology' %}{% endblock translateEn %} 
+{% block translateEnMobile %}{% url 'product-and-services:industrial-technology' %}{% endblock translateEnMobile %} 
+{% block translateFaMobile %}{% url 'product-and-services:industrial-technology' %}{% endblock translateFaMobile %}
+{% block more_css %}
+  <link rel="stylesheet" href="{% static 'product_and_services/civil_projects/css/civil-projects.css' %}">
+  {% if LANGUAGE_CODE == 'fa' %}
+    <link rel="stylesheet" href="{% static 'product_and_services/civil_projects/css/civil-projects-fa.css' %}">
+  {% endif %}
+{% endblock more_css %}
+{% block meta-descriptions %}
+<meta
+  name="description"
+  content="ABDI-GROUP, relying on the knowledge, experience and expertise of partner groups, offers specific solutions to any industrial problem. At present, this company provides the following services, using the services of Iranian knowledge-based and also foreign companies:"
+/>
+{% endblock meta-descriptions %}
+{% block title %}{% trans "Industrial Technology" %}{% endblock title %}
+
+{% block content %}
+<!-- hero  -->
+{% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/industrial-technology-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/industrial-technology-hexa.svg' %}
+{% endif %}
+
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="page-title">
+      <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+      <h4> {% trans "Industrial Technology" %} </h4>
+    </div>
+    <div class="item-wrapper">
+      <div class="item-text">
+        <div class="title">
+          <img
+            src=" {% static 'capabilities/svgs/3hexaIcon.svg' %} "
+            alt="3hexaIcon"
+          />
+          <h2>{% trans "Industrial Technology" %}</h2>
+        </div>
+        <p>
+          {% trans "ABDI-GROUP, relying on the knowledge, experience and expertise of partner groups, offers specific solutions to any industrial problem. At present, this company provides the following services, using the services of Iranian knowledge-based and also foreign companies:" %}
+        </p>
+      </div>
+      <div class="item-img">
+        <img
+          id="item-img-3"
+          src=" {% static 'capabilities/images/civil-projects.webp' %} "
+          alt="civil projects images"
+        />
+      </div>
+    </div>
+    <ul class="list">
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        <p>{% trans "Remediation of polluted soil" %}</p>
+      </li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        <p>{% trans "Pipeline chemical cleaning" %}</p>
+      </li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        <p>{% trans "Manufacturing and supplying equipment (non-intrusive pig-signaler, Repairing Intelligent marker, sensors for monitoring operating conditions, Cathodic protection sensors…)" %}</p>
+      </li>
+      <li>
+        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+        <p>{% trans "Leak detection by satellite images" %}</p>
+      </li>
+      {% if LANGUAGE_CODE == 'fa' %}
+        <li>
+          <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
+          <p>توسعه و انتقال تکنولوژی</p>
+        </li>
+      {% endif %}
+    </ul>
+    <br><br>
+    <p>{% trans "The company is also ready to cooperate in identifying technology owner companies, conducting negotiations, making contracts and supervising technology transfer, in the relevant field. Meanwhile, the company identifies knowledge-based companies in the field of oil and gas and uses the maximum local capacity for the development of new technologies, at the request of investors." %}</p>
+  </div>
+</div>
+{% endblock content %}

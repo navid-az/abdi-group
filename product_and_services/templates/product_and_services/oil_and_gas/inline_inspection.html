@@ -3,12 +3,6 @@
 {% block translateEn %}{% url 'product-and-services:inline-inspection' %}{% endblock translateEn %}
 {% block translateEnMobile %}{% url 'product-and-services:inline-inspection' %}{% endblock translateEnMobile %}
 {% block translateFaMobile %}{% url 'product-and-services:inline-inspection' %}{% endblock translateFaMobile %}
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% block more_css %}
       <link
         rel="stylesheet"
@@ -19,9 +13,12 @@
         {% endif %}
     {% endblock more_css %}
     <title>{% block title %}{% trans "Inline Inspection" %}{% endblock title %}</title>
-  </head>
-  <body>
-    {% block content %} {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' %}
+    {% block content %} 
+    {% if LANGUAGE_CODE == 'fa' %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' page_image='svgs/inline-inspection-hexa-fa.svg' %}
+    {% else %}
+      {% include 'inc/hero.html' with img='product_and_services/oil_and_gas/inline-inspection/images/inline-inspection-hero.jpg' page_image='svgs/inline-inspection-hexa.svg' %}
+    {% endif %}
     <div class="mobile-curved-bg">
       <div class="container">
         <div class="page-title">
@@ -56,7 +53,7 @@
           <br /><br />
           <p>{% trans "Types of smart pigs are:" %}</p>
         </div>
-        <div class="pig-wrapper">
+        <div class="item-wrapper">
           <div class="item-text">
             <div class="title">
               <img
@@ -72,12 +69,12 @@
           <div class="item-img">
             <img
               style='width:85%;'
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/egp.webp' %}"
               alt="egp pig"
             />
           </div>
         </div>
-        <div class="pig-wrapper">
+        <div class="item-wrapper">
           <div class="item-text">
             <div class="title">
               <img
@@ -90,7 +87,7 @@
           </div>
           <div class="item-img">
             <img
-            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-pig.png' %}"
+            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-pig.webp' %}"
             alt="mfl pig"
             />
           </div>
@@ -109,7 +106,7 @@
             </div>
             <div class="card-body">
               <img
-                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial-new.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/axial-new.webp' %}"
                 alt="axial magnetization"
               />
               <div class="card-text">
@@ -126,7 +123,7 @@
             </div>
             <div class="card-body">
               <img
-                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.webp' %}"
                 alt="card title icon"
               />
               <div class="card-text">
@@ -137,7 +134,7 @@
             </div>
           </div>
         </div>
-        <div class="pig-wrapper">
+        <div class="item-wrapper">
           <div class="item-text">
             <div class="title">
               <img
@@ -152,7 +149,7 @@
           </div>
           <div class="item-img">
             <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/tfi-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/tfi-pig.webp' %}"
               alt="tfi pig"
             />
           </div>
@@ -164,7 +161,7 @@
             </div>
             <div class="card-body">
               <img
-                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/transverse-new.webp' %}"
                 alt="card title icon"
               />
               <div class="card-text">
@@ -176,7 +173,7 @@
           </div>
         <img
           class="flux"
-          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-tfi.png' %}"
+          src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/mfl-tfi.webp' %}"
           alt=""
         />
       </div>
@@ -194,7 +191,7 @@
               <img src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>MFL</p>
               <img
-                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle.webp' %}"
                 alt=""
               />
             </div>
@@ -202,7 +199,7 @@
               <img src="{% static 'svgs/s-hexa.svg' %}" alt="small hexagon" />
               <p>TFI</p>
               <img
-                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle2.png' %}"
+                src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/blue-rectangle2.webp' %}"
                 alt=""
               />
             </div>
@@ -222,7 +219,7 @@
           </p>
           <img
             class="defect-chart-img"
-            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/chart.png' %}"
+            src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/chart.webp' %}"
             alt="defect chart"
           />
           <section class="chart-options-wrapper">
@@ -280,7 +277,7 @@
         </div>
       </div>
       <div class="container">
-        <div class="pig-wrapper">
+        <div class="item-wrapper">
           <div class="item-text">
             <div class="title">
               <img
@@ -295,7 +292,7 @@
           </div>
           <div class="item-img">
             <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/ut-pig.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/ut-pig.webp' %}"
               alt="ut pig"
             />
           </div>
@@ -303,121 +300,36 @@
         <div class="advantages-disadvantages-wrapper">
           <div class="dis-advantages-wrapper ">
             <div class="advantages-title dis-advantages-title">
-              <!--plus icon-->
-              <svg
-                width="26"
-                height="26"
-                viewBox="0 0 26 26"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 0.57735C12.6188 0.220084 13.3812 0.220085 14 0.57735L23.2583 5.92265C23.8771 6.27992 24.2583 6.94017 24.2583 7.6547V18.3453C24.2583 19.0598 23.8771 19.7201 23.2583 20.0774L14 25.4226C13.3812 25.7799 12.6188 25.7799 12 25.4226L2.74167 20.0774C2.12287 19.7201 1.74167 19.0598 1.74167 18.3453V7.6547C1.74167 6.94017 2.12287 6.27992 2.74167 5.92265L12 0.57735Z"
-                  fill="#89C958"
-                />
-                <path
-                  d="M13 8.9165V17.0832"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M8.91699 13H17.0837"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
+              <img src="{% static 'svgs/plus.svg' %}" alt="plus icon">
               <h3>{% trans "Advantages" %}</h3>
             </div>
             <div class="dis-advantages-body">
               <div class="dis-advantages-body-option">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="13" cy="13" r="3" fill="#89C958" />
-                </svg>
+                <img src="{% static 'svgs/s-green-circle.svg' %}" alt="small circle">
                 <p>{% trans "Accurate and reliable measurement of pipe wall thickness" %}</p>
               </div>
               <div class="dis-advantages-body-option">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="13" cy="13" r="3" fill="#89C958" />
-                </svg>
+                <img src="{% static 'svgs/s-green-circle.svg' %}" alt="small circle">
                 <p>{% trans "No restrictions on measuring high thicknesses" %}</p>
               </div>
               <div class="dis-advantages-body-option">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="13" cy="13" r="3" fill="#89C958" />
-                </svg>
+                <img src="{% static 'svgs/s-green-circle.svg' %}" alt="small circle">
                 <p>{% trans "In conditions which there are many defects,Ut is more sensitive than mfl" %}</p>
               </div>
               <div class="dis-advantages-body-option">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="13" cy="13" r="3" fill="#89C958" />
-                </svg>
+                <img src="{% static 'svgs/s-green-circle.svg' %}" alt="small circle">
                 <p>{% trans "Lamination detection" %}</p>
               </div>
             </div>
           </div>
           <div class="dis-advantages-wrapper ">
             <div class="dis-advantages-title">
-              <svg
-                width="26"
-                height="26"
-                viewBox="0 0 26 26"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M12 0.57735C12.6188 0.220084 13.3812 0.220085 14 0.57735L23.2583 5.92265C23.8771 6.27992 24.2583 6.94017 24.2583 7.6547V18.3453C24.2583 19.0598 23.8771 19.7201 23.2583 20.0774L14 25.4226C13.3812 25.7799 12.6188 25.7799 12 25.4226L2.74167 20.0774C2.12287 19.7201 1.74167 19.0598 1.74167 18.3453V7.6547C1.74167 6.94017 2.12287 6.27992 2.74167 5.92265L12 0.57735Z"
-                  fill="#CF5048"
-                />
-                <path
-                  d="M8.91699 13H17.0837"
-                  stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-
+              <img src="{% static 'svgs/minus.svg' %}" alt="minus icon">
               <h3>{% trans "Disadvantages" %}</h3>
             </div>
             <div class="dis-advantages-body">
               <div class="dis-advantages-body-option">
-                <svg
-                  width="26"
-                  height="26"
-                  viewBox="0 0 26 26"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="13" cy="13" r="3" fill="#CF5048" />
-                </svg>
+               <img src="{% static 'svgs/s-red-circle.svg' %}" alt="small circle">
                 <p>
                   {% trans "Due to the need for liquid fluid to transmit and receive sound waves, this pig has only the ability to inspect the lines carrying liquid fluid and can not be used in gas transmission lines." %}
                 </p>
@@ -425,7 +337,7 @@
             </div>
           </div>
         </div>
-        <div class="pig-wrapper">
+        <div class="item-wrapper">
           <div class="item-text" style='width:100%;'>
             <div class="title">
               <img
@@ -440,7 +352,7 @@
           </div>
           <div class="item-img">
             <img
-              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/emat.png' %}"
+              src="{% static 'product_and_services/oil_and_gas/inline-inspection/images/emat.webp' %}"
               alt="emat"
             />
           </div>
@@ -452,5 +364,3 @@
         </div>
       </div>
     {% endblock content %}
-  </body>
-</html>

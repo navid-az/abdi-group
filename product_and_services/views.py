@@ -37,3 +37,9 @@ def civil_projects(request):
 
 def process_units(request):
     return render(request, 'product_and_services/process_units.html')
+
+def industrial_technology(request):
+    return render(request, 'product_and_services/industrial_technology.html')
+
+def management_systems(request):
+    return render(request, 'product_and_services/management_systems.html')

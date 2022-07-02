@@ -8,6 +8,7 @@ var navListBtns = document.querySelectorAll(".desktop-nav-list-li h2");
 var desktopNavListOptionsWrapper = document.querySelectorAll(
   ".desktop-nav-list-options-wrapper"
 );
+var productAndServices = document.getElementById("product-and-services");
 
 var url = window.location.toString();
 
@@ -38,6 +39,7 @@ function openDesktopNavList(navListNum) {
 }
 function NavListClickHandler() {
   if (desktopNavListStatus == "close") {
+    productAndServices.style.color = "red";
     openDesktopNavList(0);
     desktopNavListHexa.style.display = "block";
     gsap.to("#nav-list-cross-btn, #desktop-nav-list-hexa", {

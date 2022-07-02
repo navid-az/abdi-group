@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-23 18:15+0430\n"
+"POT-Creation-Date: 2022-07-02 19:56+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,34 +18,30 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:21
+#: .\mr_dr\templates\mr_dr\mr_dr.html:15 .\mr_dr\templates\mr_dr\mr_dr.html:26
 msgid "Mr Dr"
 msgstr "آقای دکتر"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:30
-msgid "Inline Inspection"
-msgstr ""
-
-#: .\mr_dr\templates\mr_dr\mr_dr.html:36
+#: .\mr_dr\templates\mr_dr\mr_dr.html:32
 msgid "Ask your questions here:"
 msgstr "سوال خود را اینجا بپرسید"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:39
+#: .\mr_dr\templates\mr_dr\mr_dr.html:35
 msgid "Your name:"
 msgstr "نام:"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:43
+#: .\mr_dr\templates\mr_dr\mr_dr.html:39
 msgid "Email:"
 msgstr "ایمیل:"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:47
+#: .\mr_dr\templates\mr_dr\mr_dr.html:43
 msgid "Title:"
 msgstr "تیتر سوال:"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:51
+#: .\mr_dr\templates\mr_dr\mr_dr.html:47
 msgid "Your Question:"
 msgstr "سوال:"
 
-#: .\mr_dr\templates\mr_dr\mr_dr.html:79
+#: .\mr_dr\templates\mr_dr\mr_dr.html:76
 msgid "Abdi Group"
 msgstr "گروه عبدی"

@@ -1,19 +1,27 @@
 {% extends 'base.html' %} {% load i18n %} {% load static %} 
-{% block translateFa%}{% url 'product-and-services:civil-projects' %}{% endblock translateFa %} 
+{% block translateFa %}{% url 'product-and-services:civil-projects' %}{% endblock translateFa %} 
 {% block translateEn %}{% url 'product-and-services:civil-projects' %}{% endblock translateEn %} 
 {% block translateEnMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateEnMobile %} 
 {% block translateFaMobile %}{% url 'product-and-services:civil-projects' %}{% endblock translateFaMobile %}
 {% block more_css %}
-  <link rel="stylesheet" href="{% static 'product_and_services/civil-projects/css/civil-projects.css' %}">
+  <link rel="stylesheet" href="{% static 'product_and_services/civil_projects/css/civil-projects.css' %}">
   {% if LANGUAGE_CODE == 'fa' %}
-    <link rel="stylesheet" href="{% static 'product_and_services/civil-projects/css/civil-projects-fa.css' %}">
+    <link rel="stylesheet" href="{% static 'product_and_services/civil_projects/css/civil-projects-fa.css' %}">
   {% endif %}
 {% endblock more_css %}
+{% block meta-descriptions %}
+<meta
+  name="description"
+  content="ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management."
+/>
+{% endblock meta-descriptions %}
 {% block title %}{% trans "Civil Projects" %}{% endblock title %}
-
 {% block content %}
-<!-- hero  -->
-{% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' %}
+{% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa.svg' %}
+{% endif %}
 
 <div class="mobile-curved-bg">
   <div class="container">
@@ -42,25 +50,37 @@
         />
       </div>
     </div>
-    <ul class="civil-projects-list">
+    <ul class="list">
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Design, construction and supervision of tower buildings" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Design, construction and supervision of tower buildings" %}</p>
+      </li>
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Design, construction and supervision of bridge and underpass" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Design, construction and supervision of bridge and underpass" %}</p>
+      </li>
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Design, construction and supervision of multipurpose tunnels" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Design, construction and supervision of multipurpose tunnels" %}</p>
+      </li>
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Design of space frame" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Design of space frame" %}</p>
+      </li>
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Design and construction of Concrete and stone retaining walls for soil stability" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Design and construction of Concrete and stone retaining walls for soil stability" %}</p>
+      </li>
+      {% if LANGUAGE_CODE == 'fa' %}
+        <li>
+          <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+          <p>طراحی شمع بتنی درجا بعنوان سیستم بار بر ثقلی و جانبی</p>
+        </li>
+      {% endif %}
       <li>
-        <img src=" /static/svgs/s-green-hexa.svg " alt="3hexaIcon">
-        {% trans "Improving and increasing soil bearing capacity by Deep Soil Mixing-DSM  and micropiles" %}</li>
+        <img src=" /static/svgs/s-green-hexa.svg" alt="3hexaIcon">
+        <p>{% trans "Improving and increasing soil bearing capacity by Deep Soil Mixing-DSM  and micropiles" %}</p>
+      </li>
     </ul>
   </div>
 </div>
