@@ -7,7 +7,7 @@ class News(models.Model):
   summery = models.TextField()
   # main_image = models.ImageField(upload_to='news-images/')
   body = models.TextField()
-  created = models.DateTimeField(auto_now=True)
+  # created = models.DateTimeField(auto_now=True)
 
   def __str__(self):
     return self.title
