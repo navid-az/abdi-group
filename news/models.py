@@ -5,7 +5,7 @@ from jalali_date import datetime2jalali, date2jalali
 class News(models.Model):
   title = models.CharField(max_length=250, default='hello')
   summery = RichTextField()
-  image = models.ImageField(upload_to='news-images/')
+  main_image = models.ImageField(upload_to='news-images/')
   body = RichTextField()
   created = models.DateTimeField(auto_now=True)
 
