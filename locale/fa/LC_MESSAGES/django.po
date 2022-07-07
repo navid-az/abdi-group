@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-02 19:56+0430\n"
+"POT-Creation-Date: 2022-07-07 15:13+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,18 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\abdiGroup\settings.py:138
+#: .\abdiGroup\settings.py:128
 msgid "Persian"
 msgstr ""
 
-#: .\abdiGroup\settings.py:139
+#: .\abdiGroup\settings.py:129
 msgid "English"
 msgstr ""
+
+#: .\news\templates\news-page.html:16 .\news\templates\news-page.html:28
+#: .\news\templates\news.html:9 .\templates\inc\mobile-navbar.html:47
+msgid "Oil And Gas News"
+msgstr "اخبار نفت و گاز"
 
 #: .\templates\base.html:24
 msgid "Abdi Group"
@@ -126,10 +131,6 @@ msgstr "نوید عظیمی"
 #: .\templates\inc\mobile-navbar.html:41 .\templates\inc\navbar.html:35
 msgid "About Us"
 msgstr "درباره ما"
-
-#: .\templates\inc\mobile-navbar.html:47
-msgid "Oil And Gas News"
-msgstr "خطوط انتقال نفت و گاز"
 
 #: .\templates\inc\mobile-navbar.html:54 .\templates\inc\navbar.html:57
 msgid "Oil and Gas Pipelines"

@@ -1,0 +1,59 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} {% load jalali_tags %}
+{% block translateFa %}{% url 'news:news-page' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'news:news-page' %}{% endblock translateEn %} 
+{% block translateEnMobile %}{% url 'news:news-page' %}{% endblock translateEnMobile %} 
+{% block translateFaMobile %}{% url 'news:news-page' %}{% endblock translateFaMobile %}
+{% block more_css %}
+  <link rel="stylesheet" href="{% static 'news/css/news-page.css' %}">
+{% endblock more_css %}
+{% comment %} {% block meta-descriptions %}
+<meta
+  name="description"
+  content="ABDI-GROUP, relying on more than half a century of experience in construction projects, Provides design and construction services for civil projects as well as construction project management."
+/>
+{% endblock meta-descriptions %} {% endcomment %}
+{% block title %}{% trans "Oil And Gas News" %}{% endblock title %}
+{% block content %}
+{% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/oil-and-gas-news-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/oil-and-gas-news-hexa.svg' %}
+{% endif %}
+
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="page-title">
+      <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
+      <h4>{% trans "Oil And Gas News" %}</h4>
+    </div>
+    <h1>تازه ترین ها</h1>
+    <br>
+    <div class="news-wrapper">
+      {% for i in news %}
+      <a class='go-to-details' href="{% url 'news:news-detail' i.id %}">
+      <div class="news-card">
+        <div class="news-img">
+          <div class='news-date'>
+            <p>{{i.jalali_date|date:'Y/m/d'}}</p>
+          </div>
+          <img src="{{i.image.url}}" alt="news image">
+        </div>
+        <h2 class="news-title">
+          {{i.title}}
+        </h2>
+        <p class="news-summery">
+          {{i.summery|safe}}
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+    </a>
+  </div>
+</div>
+{% endblock content %}
+{% comment %} {% block more_js %}
+  <script>
+    console.log("{{data.navid.0|escapejs}}");
+  </script>
+{% endblock more_js %} {% endcomment %}
+

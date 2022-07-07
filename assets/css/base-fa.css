@@ -93,7 +93,7 @@ h1,
 li,
 a,
 span {
-  direction: rtl;
+  direction: rtl; 
   text-align: start;
   font-family: Vmedium, sans-serif;
   letter-spacing: normal;

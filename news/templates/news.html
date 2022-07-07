@@ -1,0 +1,33 @@
+{% extends 'base.html' %} {% load i18n %} {% load static %} 
+{% block translateFa %}{% url 'news:news-page' %}{% endblock translateFa %} 
+{% block translateEn %}{% url 'news:news-page' %}{% endblock translateEn %} 
+{% block translateEnMobile %}{% url 'news:news-page' %}{% endblock translateEnMobile %} 
+{% block translateFaMobile %}{% url 'news:news-page' %}{% endblock translateFaMobile %}
+{% block more_css %}
+  <link rel="stylesheet" href="{% static 'news/css/news.css' %}">
+{% endblock more_css %}
+{% block title %}{% trans "Oil And Gas News" %}{% endblock title %}
+{% block content %}
+{% comment %} {% if LANGUAGE_CODE == 'fa' %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa-fa.svg' %}
+{% else %}
+  {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa.svg' %}
+{% endif %} {% endcomment %}
+
+<div class="mobile-curved-bg">
+  <div class="container">
+    <div class="title">
+      <h2>{{news.title}}</h2>
+      <div class="news-date">
+        <p>{{news.jalali_date|date:'Y/m/d'}}</p>
+      </div>
+    </div>
+    <br>
+    <div class="news-img">
+      <img src="{{news.image.url}}" alt="news main image">
+    </div>
+    <br>
+    <p>{{news.body|safe}}</p>
+  </div>
+</div>
+{% endblock content %}
