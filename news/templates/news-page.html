@@ -36,7 +36,7 @@
           <div class='news-date'>
             <p>{{i.jalali_date|date:'Y/m/d'}}</p>
           </div>
-          <img src="{{i.main_image.url}}" alt="news image">
+          {% comment %} <img src="{{i.main_image.url}}" alt="news image"> {% endcomment %}
         </div>
         <h2 class="news-title">
           {{i.title}}
