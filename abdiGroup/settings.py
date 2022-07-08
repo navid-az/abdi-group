@@ -100,7 +100,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'abdigrou_db',
-        'HOST': '5.9.116.157',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'abdigrou_root',
         'PASSWORD': ']DI1+Qv{dxkB',
