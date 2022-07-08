@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'abdiGroup',
+#         'NAME': 'abdi',
 #         'HOST': '127.0.0.1',
 #         'PORT': '3306',
 #         'USER': 'root',
-#         'PASSWORD': 'MySQL_1380',
+#         'PASSWORD': 'ds@51>_3iB#24',
 #     }
 # }
 
@@ -99,11 +99,11 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abdigrou_database',
-        'HOST': '127.0.0.1',
+        'NAME': 'abdigrou_db',
+        'HOST': '5.9.116.157',
         'PORT': '3306',
-        'USER': 'abdigrou_navid',
-        'PASSWORD': 'MySQL_1380',
+        'USER': 'abdigrou_root',
+        'PASSWORD': ']DI1+Qv{dxkB',
     }
 }
 
