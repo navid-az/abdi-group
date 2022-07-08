@@ -15,19 +15,19 @@
 {% endif %} {% endcomment %}
 
 <div class="mobile-curved-bg">
-  <div class="container">
+  {% comment %} <div class="container">
     <div class="title">
       <h2>{{news.title}}</h2>
       <div class="news-date">
-        {% comment %} <p>{{news.jalali_date|date:'Y/m/d'}}</p> {% endcomment %}
+        <p>{{news.jalali_date|date:'Y/m/d'}}</p>
       </div>
     </div>
     <br>
     <div class="news-img">
-      {% comment %} <img src="{{news.main_image.url}}" alt="news main image"> {% endcomment %}
+      <img src="{{news.main_image.url}}" alt="news main image">
     </div>
     <br>
     <p>{{news.body|safe}}</p>
-  </div>
+  </div> {% endcomment %}
 </div>
 {% endblock content %}

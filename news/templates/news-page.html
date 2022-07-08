@@ -28,15 +28,15 @@
     </div>
     <h1>تازه ترین ها</h1>
     <br>
-    <div class="news-wrapper">
+    {% comment %} <div class="news-wrapper">
       {% for i in news %}
       <a class='go-to-details' href="{% url 'news:news-detail' i.id %}">
       <div class="news-card">
         <div class="news-img">
           <div class='news-date'>
-            {% comment %} <p>{{i.jalali_date|date:'Y/m/d'}}</p> {% endcomment %}
+            <p>{{i.jalali_date|date:'Y/m/d'}}</p>
           </div>
-          {% comment %} <img src="{{i.main_image.url}}" alt="news image"> {% endcomment %}
+          <img src="{{i.main_image.url}}" alt="news image">
         </div>
         <h2 class="news-title">
           {{i.title}}
@@ -46,7 +46,7 @@
         </p>
       </div>
       {% endfor %}
-    </div>
+    </div> {% endcomment %}
     </a>
   </div>
 </div>
