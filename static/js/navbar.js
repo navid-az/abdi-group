@@ -115,3 +115,18 @@ function stickyNavBar() {
     navlist.style.background = "#00006A";
   }
 }
+
+// coming soon options
+let comingSoonOptions = document.querySelectorAll(".coming-soon");
+let desktopNavListOptions = document.querySelectorAll(
+  ".desktop-nav-list-options"
+);
+
+desktopNavListOptions.forEach((i) => {
+  if (i.classList.contains("coming-soon")) {
+    i.addEventListener("mouseover", () => {
+      i.style.transform = "scale(1)";
+      i.style.background = "rgba(47, 163, 238, 0.14)";
+    });
+  }
+});
