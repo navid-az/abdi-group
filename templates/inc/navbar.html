@@ -15,12 +15,20 @@
   </head>
   <body>
     <div id="navbar">
-      <img
-        onclick="NavListClickHandler()"
-        id="nav-list-cross-btn"
-        src="{% static 'svgs/menu-X.svg' %}"
-        alt="cross"
-      />
+      <div class="navbar-btns">
+        <img
+          onclick="ChangeLan()"
+          id="nav-list-lang-btn"
+          src="{% static 'svgs/navbar-globe.svg' %}"
+          alt="language changer"
+        />
+        <img
+          onclick="NavListClickHandler()"
+          id="nav-list-cross-btn"
+          src="{% static 'svgs/menu-X.svg' %}"
+          alt="cross"
+        />
+      </div>
       <ul>
         <li>
           <img src="{% static 'svgs/navbar-hexa.svg' %}" alt="navbar hexagon icon" />

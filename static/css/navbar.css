@@ -97,13 +97,25 @@
   left: 0;
 }
 
-#nav-list-cross-btn {
+.navbar-btns {
   position: absolute;
-  right: 1rem;
-  top: 1rem;
-  opacity: 0;
-  transform: translateX(50%);
+  right: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+#nav-list-cross-btn,
+#nav-list-lang-btn {
+  opacity: 0;
+  cursor: pointer;
+}
+
+#nav-list-lang-btn {
+  margin-right: 8px;
+}
+
+
 
 #desktop-nav-list-ul {
   opacity: 0;
