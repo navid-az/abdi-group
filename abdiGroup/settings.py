@@ -69,7 +69,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'abdiGroup.wsgi.application'
-
+ 
 # postgres database (development)
 
 # DATABASES = {
