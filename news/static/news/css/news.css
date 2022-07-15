@@ -1,7 +1,3 @@
-.mobile-curved-bg>.container {
-  margin-top: 10rem;
-}
-
 .news-img {
   width: 100%;
   height: 250px;
@@ -75,15 +71,11 @@
 
 @media screen and (min-width: 992px) {
   .container>.title {
-    flex-direction: row-reverse;
+    flex-direction: row;
   }
 
   .news-img {
     height: 500px;
-  }
-
-  .mobile-curved-bg>.container {
-    margin-top: 20rem;
   }
 
   .news-date {

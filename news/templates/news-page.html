@@ -5,6 +5,9 @@
 {% block translateFaMobile %}{% url 'news:news-page' %}{% endblock translateFaMobile %}
 {% block more_css %}
   <link rel="stylesheet" href="{% static 'news/css/news-page.css' %}">
+  {% if LANGUAGE_CODE == 'fa' %}
+    <link rel="stylesheet" href="{% static 'news/css/news-page-fa.css' %}">
+  {% endif %}
 {% endblock more_css %}
 {% comment %} {% block meta-descriptions %}
 <meta
@@ -26,7 +29,7 @@
       <img src="/static/svgs/mobile-page-title.svg" alt="page title" />
       <h4>{% trans "Oil And Gas News" %}</h4>
     </div>
-    <h1>تازه ترین ها</h1>
+    <h1>{% trans "Latest News" %}</h1>
     <br>
     <div class="news-wrapper">
       {% for i in news %}
@@ -34,7 +37,11 @@
       <div class="news-card">
         <div class="news-img">
           <div class='news-date'>
-            <p>{{i.jalali_date|date:'Y/m/d'}}</p>
+            {% if LANGUAGE_CODE == 'fa' %}
+              <p>{{i.jalali_date|date:'Y/m/d'}}</p>
+            {% else %}
+              <p>{{i.created|date:'Y/m/d'}}</p>
+            {% endif %}
           </div>
           <img src="{{i.image.url}}" alt="news image">
         </div>

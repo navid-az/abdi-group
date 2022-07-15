@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'jalali_date',
     'storages',
+    'modeltranslation',
 ]
 
 MIDDLEWARE = [
