@@ -100,7 +100,7 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abdigrou_db',
+        'NAME': 'abdigrou_database',
         'HOST': '127.0.0.1',
         'PORT': '3306',
         'USER': 'abdigrou_root',
