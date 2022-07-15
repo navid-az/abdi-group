@@ -7,9 +7,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 with open(os.path.join(BASE_DIR, 'secret_key.txt')) as f:
     SECRET_KEY = f.read().strip()
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir','127.0.0.1']
+ALLOWED_HOSTS = ['abdi-group.com','www.abdi-group.com','www.abdi-group.ir','abdi-group.ir']
 # ,'127.0.0.1'
 
 INSTALLED_APPS = [
@@ -84,28 +84,28 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 # mySQL database
 
 # development db
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'abdi',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': 'ds@51>_3iB#24',
-    }
-}
-
-# main db
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'abdigrou_db',
+#         'NAME': 'abdi',
 #         'HOST': '127.0.0.1',
 #         'PORT': '3306',
-#         'USER': 'abdigrou_root',
-#         'PASSWORD': ']DI1+Qv{dxkB',
+#         'USER': 'root',
+#         'PASSWORD': 'ds@51>_3iB#24',
 #     }
 # }
+
+# main db
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'abdigrou_db',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'abdigrou_root',
+        'PASSWORD': ']DI1+Qv{dxkB',
+    }
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     {

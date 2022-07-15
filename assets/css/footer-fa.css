@@ -1,22 +1,26 @@
 #go-up-btn {
   right: 0;
 }
-footer > img {
+
+footer>img {
   position: absolute;
   right: unset;
   left: 0;
 }
+
 .lists-wrapper {
   flex-direction: row-reverse;
 }
+
 .footer-list {
   align-items: flex-end;
 }
-.footer-list > .title > img {
+
+.footer-list>.title>img {
   margin-left: 0.5rem;
 }
 
-.footer-list > li > img {
+.footer-list>li>img {
   margin-left: 0.8rem;
 }
 
@@ -30,10 +34,17 @@ footer > img {
   left: 0;
   margin-left: 0.5rem;
 }
-#navid > a > p {
+
+#navid>a>p {
   padding-right: 1.2rem;
+  padding-left: 0;
 }
-#navid > a > img {
+
+#navid>a>img {
   right: -1.2rem;
   left: unset;
+}
+
+.policy-wrapper>.container {
+  flex-direction: row-reverse;
 }

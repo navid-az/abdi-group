@@ -39,10 +39,9 @@ function openDesktopNavList(navListNum) {
 }
 function NavListClickHandler() {
   if (desktopNavListStatus == "close") {
-    productAndServices.style.color = "red";
     openDesktopNavList(0);
     desktopNavListHexa.style.display = "block";
-    gsap.to("#nav-list-cross-btn, #desktop-nav-list-hexa", {
+    gsap.to("#nav-list-cross-btn, #nav-list-lang-btn, #desktop-nav-list-hexa", {
       opacity: 1,
       x: "0%",
       delay: 0.3,
@@ -77,7 +76,6 @@ function NavListClickHandler() {
 
     desktopNavListStatus = "open";
   } else if (desktopNavListStatus == "open") {
-    navListCrossBtn.style.opacity = "0";
     desktopNavListHexa.style.display = "none";
     gsap.to(
       "#desktop-nav-list-ul, #desktop-nav-list-hexa, .desktop-nav-list-options-wrapper",
@@ -86,6 +84,10 @@ function NavListClickHandler() {
         x: "0%",
       }
     );
+    gsap.to("#nav-list-cross-btn, #nav-list-lang-btn", {
+      opacity: 0,
+      x: "20%",
+    });
     setTimeout(() => {
       navList.style.height = "0rem";
     }, 500);
@@ -115,3 +117,25 @@ function stickyNavBar() {
     navlist.style.background = "#00006A";
   }
 }
+
+// coming soon options
+let comingSoonOptions = document.querySelectorAll(".coming-soon");
+let desktopNavListOptions = document.querySelectorAll(
+  ".desktop-nav-list-options"
+);
+
+desktopNavListOptions.forEach((i) => {
+  if (i.classList.contains("coming-soon")) {
+    i.addEventListener("mouseover", () => {
+      i.style.transform = "scale(1)";
+      i.style.background = "rgba(47, 163, 238, 0.14)";
+    });
+  }
+});
+
+//change language
+let languageChanger = document.getElementById("language-changer");
+
+const ChangeLan = () => {
+  window.location.replace(languageChanger.href);
+};
