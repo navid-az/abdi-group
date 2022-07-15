@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader',
     'jalali_date',
+    'storages',
 ]
 
 MIDDLEWARE = [
@@ -87,7 +88,7 @@ WSGI_APPLICATION = 'abdiGroup.wsgi.application'
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'abdi',
+#         'NAME': 'abdi_test',
 #         'HOST': '127.0.0.1',
 #         'PORT': '3306',
 #         'USER': 'root',
@@ -145,8 +146,8 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 # Media files 
-MEDIA_URL = 'media/'
-MEDIA_ROOT = BASE_DIR / 'media'
+# MEDIA_URL = 'media/'
+# MEDIA_ROOT = BASE_DIR / 'media'
 
 # ckeditor settings 
 CKEDITOR_UPLOAD_PATH = "news-images/"
@@ -188,3 +189,12 @@ JALALI_DATE_DEFAULTS = {
         }
     },
 }
+
+#ARVAN CLOUD storages(MEDIA FILES)
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_ACCESS_KEY_ID = 'c9523f91-170f-4ceb-a60d-26fe2808b6eb'
+AWS_SECRET_ACCESS_KEY = '50b6d4c78585b15bb6f1824fcd846b20abd19887c6964f5821402a0195089c09'
+AWS_S3_ENDPOINT_URL = 'https://s3.ir-thr-at1.arvanstorage.com'
+AWS_STORAGE_BUCKET_NAME = 'abdimedia'
+AWS_SERVICE_NAME = 's3'
+AWS_S3_FILE_OVERWRITE = False

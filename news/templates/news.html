@@ -8,14 +8,14 @@
 {% endblock more_css %}
 {% block title %}{% trans "Oil And Gas News" %}{% endblock title %}
 {% block content %}
-{% comment %} {% if LANGUAGE_CODE == 'fa' %}
+{% if LANGUAGE_CODE == 'fa' %}
   {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa-fa.svg' %}
 {% else %}
   {% include 'inc/hero.html' with img='capabilities/images/gas-pipeline-ai.webp' page_image='svgs/civil-projects-hexa.svg' page_image='svgs/civil-projects-hexa.svg' %}
-{% endif %} {% endcomment %}
+{% endif %}
 
 <div class="mobile-curved-bg">
-  {% comment %} <div class="container">
+  <div class="container">
     <div class="title">
       <h2>{{news.title}}</h2>
       <div class="news-date">
@@ -24,10 +24,10 @@
     </div>
     <br>
     <div class="news-img">
-      <img src="{{news.main_image.url}}" alt="news main image">
+      <img src="{{news.image.url}}" alt="news main image">
     </div>
     <br>
     <p>{{news.body|safe}}</p>
-  </div> {% endcomment %}
+  </div>
 </div>
 {% endblock content %}
